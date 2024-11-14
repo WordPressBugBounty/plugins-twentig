@@ -244,3 +244,113 @@ function twentig_filter_compat_gallery_block( $block_content, $block ) {
 	return $block_content;
 }
 add_filter( 'render_block_core/gallery', 'twentig_filter_compat_gallery_block', 0, 2 );
+
+
+/**
+ * Gets spacing sizes.
+ */
+function twentig_get_spacing_sizes() {
+
+	$sizes = array(
+		array(
+			'slug' => '0',
+			'name' => '0px',
+			'size' => '0px',
+		),
+		array(
+			'slug' => '1',
+			'name' => '5px',
+			'size' => '5px',
+		),
+		array(
+			'slug' => '2',
+			'name' => '10px',
+			'size' => '10px',
+		),
+		array(
+			'slug' => '3',
+			'name' => '15px',
+			'size' => '15px',
+		),
+		array(
+			'slug' => '4',
+			'name' => '20px',
+			'size' => '20px',
+		),
+		array(
+			'slug' => '5',
+			'name' => '30px',
+			'size' => '30px',
+		),
+		array(
+			'slug' => '6',
+			'name' => '40px',
+			'size' => '40px',
+		),
+		array(
+			'slug' => '7',
+			'name' => '50px',
+			'size' => '50px',
+		),
+		array(
+			'slug' => '8',
+			'name' => '60px',
+			'size' => '60px',
+		),
+		array(
+			'slug' => '9',
+			'name' => '80px',
+			'size' => '80px',
+		),
+		array(
+			'slug' => '10',
+			'name' => '100px',
+			'size' => '100px',
+		),
+		array(
+			'slug' => 'auto',
+			'name' => 'auto',
+			'size' => 'auto',
+		),
+	);
+	return $sizes;
+}
+
+/**
+ * Adds margin classes to the global styles.
+ */
+function twentig_enqueue_compat_class_styles() {
+
+	$spacing_sizes = twentig_get_spacing_sizes();
+	$css_spacing   = '';
+
+	if ( empty( $spacing_sizes ) ) {	
+		return;
+	}
+	
+	foreach ( $spacing_sizes as $preset ) {
+		$css_spacing .= '.tw-mt-' . esc_attr( $preset['slug'] ) . '{margin-top:' . esc_attr( $preset['size'] ) . '!important;}';
+		$css_spacing .= '.tw-mb-' . esc_attr( $preset['slug'] ) . '{margin-bottom:' . esc_attr( $preset['size'] ) . '!important;}';
+	}
+	wp_add_inline_style( 'global-styles', $css_spacing );
+}
+add_action( 'wp_enqueue_scripts', 'twentig_enqueue_compat_class_styles' );
+
+/**
+ * Enqueue spacing styles inside the editor.
+ */
+function twentig_compat_block_editor_spacing_styles() {
+	$spacing_sizes = twentig_get_spacing_sizes();
+	if ( empty( $spacing_sizes ) ) {
+		return;
+	}
+
+	$css_spacing = '';
+	foreach ( $spacing_sizes as $preset ) {
+		$css_spacing .= '.tw-mt-' . esc_attr( $preset['slug'] ) . '{margin-top:' . esc_attr( $preset['size'] ) . '!important;}';
+		$css_spacing .= '.tw-mb-' . esc_attr( $preset['slug'] ) . '{margin-bottom:' . esc_attr( $preset['size'] ) . '!important;}';
+	}
+
+	wp_add_inline_style( 'wp-block-library', $css_spacing );
+}
+add_action( 'admin_init', 'twentig_compat_block_editor_spacing_styles' );

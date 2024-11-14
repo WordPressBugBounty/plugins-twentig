@@ -106,7 +106,6 @@ class TwentigWebsiteImporter {
 			add_filter( 'wp_import_tags', '__return_empty_array' );
 		}
 
-		
 		if ( $this->has_content && $this->has_portfolio ) {
 			$options              = twentig_get_options();
 			$options['portfolio'] = true;
@@ -127,7 +126,7 @@ class TwentigWebsiteImporter {
 		}
 
 		$transient_name = 'global_styles_' . get_stylesheet();
-		delete_transient( $transient_name );		
+		delete_transient( $transient_name );
 	}
 
 	/**
@@ -163,7 +162,7 @@ class TwentigWebsiteImporter {
 	 * Modifies the post data before it is inserted into the database.
 	 */
 	public function import_post_data_processed( $postdata, $post ) {
-		if ( in_array( $postdata['post_type'], array( 'page', 'wp_template', 'wp_template_part' ), true ) ) {
+		if ( in_array( $postdata['post_type'], array( 'page', 'wp_template', 'wp_template_part', 'wp_navigation' ), true ) ) {
 			$postdata['post_content'] = str_replace( 'SITE_URL', get_site_url(), $postdata['post_content'] );
 			$postdata['post_content'] = str_replace( 'THEME_URL', get_template_directory_uri(), $postdata['post_content'] );
 			
@@ -194,6 +193,11 @@ class TwentigWebsiteImporter {
 				if ( isset( $theme_parts[ $postdata['post_name'] ] ) ) {
 					$postdata['post_title'] = $theme_parts[ $postdata['post_name'] ]['title'];
 				}
+			}
+		} elseif ( 'wp_global_styles' === $postdata['post_type'] ) {
+			$user_cpt = WP_Theme_JSON_Resolver::get_user_data_from_wp_global_styles( wp_get_theme(), true );
+			if ( isset( $user_cpt['ID'] ) ) {
+				$postdata['ID'] = $user_cpt['ID'];
 			}
 		}
 
@@ -253,12 +257,21 @@ class TwentigWebsiteImporter {
 	 */
 	public function delete_custom_files() {
 
-		$post_types = array();
-
-		if ( $this->has_styles ) {
-			$post_types[] = 'wp_global_styles';
+		if ( get_option( 'fresh_site' ) && $this->has_content ) {
+			$first_post_slug = _x( 'hello-world', 'Default post slug' );
+			$first_post      = get_page_by_path( $first_post_slug, OBJECT, 'post' );
+			if ( $first_post ) {
+				wp_delete_post( $first_post->ID, true );
+			}
+			$first_page = get_page_by_path( 'sample-page', OBJECT, 'page' );
+			if ( $first_page ) {
+				wp_delete_post( $first_page->ID, true );
+			}
 		}
 
+		$post_types = array();
+
+		
 		if ( $this->has_templates ) {
 			$post_types[] = 'wp_template';
 			$post_types[] = 'wp_template_part';
@@ -487,7 +500,6 @@ class TwentigWebsiteImporter {
 	 */
 	public function get_website_templates() {
 		$theme_support = get_theme_support( 'twentig-starter-website-templates' );
-
 		if ( is_array( $theme_support ) && ! empty( $theme_support[0] ) ) {
 			return $theme_support[0];
 		}

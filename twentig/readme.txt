@@ -1,15 +1,15 @@
 === Toolkit for Block Theme (Starter Templates, Portfolio, Gutenberg Blocks, Patterns) – Twentig ===
 Contributors: twentig
 Donate link: https://www.paypal.com/donate?hosted_button_id=JTBTPQAFEA94E
-Tags: portfolio, gutenberg, gutenberg blocks, templates, twenty twenty four
-Requires at least: 6.4
-Tested up to: 6.6
+Tags: portfolio, gutenberg, gutenberg blocks, templates, website templates
+Requires at least: 6.5
+Tested up to: 6.7
 Requires PHP: 7.3
-Stable tag: 1.8.3
+Stable tag: 1.9
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Create your website with starter templates, portfolio features, enhanced Gutenberg blocks & patterns. Boost Twenty Twenty-Four or any block theme. 
+Create your website with starter templates, portfolio features, enhanced Gutenberg blocks & patterns. Boost Twenty Twenty-Five or any block theme. 
 
 == Description ==
 
@@ -17,20 +17,27 @@ Create your website with starter templates, portfolio features, enhanced Gutenbe
 
 With its powerful tools, the Twentig plugin helps you create a stunning website easily. Customize your block theme and build beautiful pages — no coding or design skills needed.
 
-With starter templates, portfolio features, enhanced Gutenberg blocks, block patterns, and Google Fonts, you’ve got everything you need to build a beautiful website that looks great on any device.
+With starter templates, portfolio features, enhanced Gutenberg blocks, and block patterns, you’ve got everything you need to build a beautiful website that looks great on any device.
 
-### Customize Twenty Twenty-Four or any block theme.
+### Customize Twenty Twenty-Five or any block theme.
 
-With its essential tools, Twentig helps you customize the Twenty Twenty-Four theme or any block theme built for full site editing.
+With its essential tools, Twentig helps you customize the Twenty Twenty-Five theme or any block theme built for full site editing.
 
-**Starter templates.** No need to design your website from scratch. To save you time and effort, import a ready-made [website template](https://twentig.com/starter-sites/?utm_source=wp-repo&utm_medium=link&utm_campaign=starter) from our ever-growing library. Explore the available templates, currently exclusive to the Twenty Twenty-Four theme:
+**Starter templates.** No need to design your website from scratch. To save you time and effort, import a ready-made [website template](https://twentig.com/starter-sites/?utm_source=wp-repo&utm_medium=link&utm_campaign=starter) from our ever-growing library. 
 
-* [Business Starter Template](https://demo.twentig.com/tt4-default/)
-* [Blog Starter Template](https://demo.twentig.com/tt4-blog/)
-* [Personal Starter Template](https://demo.twentig.com/tt4-personal/)
-* [Portfolio Starter Template](https://demo.twentig.com/tt4-portfolio/)
+Website starter templates for the Twenty Twenty-Five theme:
 
-**Google Fonts.** Easily change the look and feel of your website with the Google Fonts of your choice that you can host locally on your server.
+* [Business](https://demo.twentig.com/tt5-business/)
+* [News Blog](https://demo.twentig.com/tt5-news/)
+* [Photo Blog](https://demo.twentig.com/tt5-photo/)
+* [Personal Blog](https://demo.twentig.com/tt5-personal/)
+
+Website starter templates for the Twenty Twenty-Four theme:
+
+* [Business](https://demo.twentig.com/tt4-default/)
+* [Blog](https://demo.twentig.com/tt4-blog/)
+* [Personal](https://demo.twentig.com/tt4-personal/)
+* [Portfolio](https://demo.twentig.com/tt4-portfolio/)
 
 **Enhanced theme blocks.** Twentig extends the Gutenberg blocks that structure your entire site with advanced settings like navigation breakpoint, responsive logo width, menu hover style, and many more.
 
@@ -76,21 +83,13 @@ If you prefer to use the Customizer instead of full site editing, Twentig offers
 
 Check out the screenshots to see how Twentig can transform your theme and the Gutenberg blocks.
 
-#### ADDITIONAL THEME GLOBAL STYLES
-
-Inside the Twentig dashboard (Twentig > Settings), you can find additional style options:
-
-* Font options to let you select additional font families from the Google Fonts catalog
-* Option to host Google Fonts locally
-* Predefined spacing styles for easy page building
-
 #### ADDITIONAL SETTINGS FOR GUTENBERG THEME BLOCKS
 
 * **Navigation:** responsive breakpoint, menu icon size, hover style, active style
 * **Site Logo:** image width on mobile
 * **Query Loop:** vertical alignment, responsive column width
 * **Post Title:** typography options
-* **Post Featured Image:** styles (rounded, shadow, frame), shapes, hover effect
+* **Post Featured Image:** shapes, hover effect
 * **Post Tags and Post Categories:** styles (outline, pill, hashtag, plain)
 * **Post Author:** inline layout, avatar shape
 * **Pagination:** page numbers styles (circle, square, plain), previous page and next page styles (pill, square)
@@ -99,17 +98,17 @@ Inside the Twentig dashboard (Twentig > Settings), you can find additional style
 #### ADDITIONAL GUTENBERG BLOCK SETTINGS
 
 * **Gutenberg core blocks:** scroll animation, responsive visibility
-* **Group:** shadow, shape divider
+* **Group:** shape divider
 * **Columns:** responsive layout
-* **Column:** styles (shadow, hard shadow), stretched link
+* **Column:** stretched link
 * **Media & Text:** styles (shadow, overlap), responsive layout, reverse stack order, stretched link, full height
-* **Cover:** styles (shadow, inner border, rounded), aspect ratio, shapes, stretched link, hover effect
+* **Cover:** shapes, stretched link, hover effect
 * **Heading:** typography options, decoration
 * **Paragraph:** typography options
 * **List:** styles (dash, checkmark, arrow, border, no bullet, inline), spacing
 * **Details:** icon, icon position
 * **Separator:** styles (asterisks, dotted, dashed), width, height
-* **Image:** styles (rounded, shadow, frame, border), shapes, black & white filter
+* **Image:** shapes
 * **Gallery:** fixed width columns, image aspect ratio, vertical alignment, responsive layout, caption size, border, black & white filter
 * **YouTube, Vimeo, SoundCloud, and Video blocks:** style (frame)
 * **Social Icons:** styles (square, rounded), hover effect
@@ -172,22 +171,21 @@ Once the installation has finished, click on Activate.
 
 #### Install the default WordPress theme
 
-To take full advantage of Twentig and the Gutenberg block editor, we recommend that you use the Twenty Twenty-Four theme (or Twenty Twenty-One if you prefer to use a classic theme with the Customizer).
+To take full advantage of Twentig and the Gutenberg block editor, we recommend that you use the Twenty Twenty-Five or Twenty Twenty-Four theme (or Twenty Twenty-One if you prefer to use a classic theme with the Customizer).
 
-To install and activate the Twenty Twenty-Four theme:
+To install and activate the Twenty Twenty-Five theme:
 
 1. Log in to your WordPress dashboard.
 2. Click Appearance > Themes.
-3. Search for the Twenty Twenty-Four theme and click on Activate.
+3. Search for the Twenty Twenty-Five theme and click on Activate.
 
 #### After installation
 
-For the Twenty Twenty-Four theme, you can import a pre-made website template to get you started. To do so, open the Twentig dashboard, click the Website templates tab and import the template of your choice.
+For the Twenty Twenty-Five theme, you can import a pre-made website template to get you started. To do so, open the Twentig dashboard, click the Website templates tab and import the template of your choice.
 
 Inside the Settings tab of the Twentig dashboard you can:
 
 * Activate the Portfolio features.
-* Add Google Fonts (for block themes such as Twenty Twenty-Four).
 
 The other Twentig features appear inside the Gutenberg block editor (or inside the Customizer for classic themes).
 
@@ -209,7 +207,7 @@ With Twentig, no coding or design skills are needed. Instead of designing from s
 
 = How to import a starter website template? =
 
-With the Twenty Twenty-Four theme, you can use a pre-built website template to jumpstart the design of your website. Just open the Twentig dashboard, click the Website templates tab, and import the template you like. It only takes a few seconds.
+With the Twenty Twenty-Five or Twenty Twenty-Four themes, you can use a pre-built website template to jumpstart the design of your website. Just open the Twentig dashboard, click the Website templates tab, and import the template you like. It only takes a few seconds.
 
 = How to create a WordPress portfolio? =
 
@@ -225,10 +223,6 @@ To insert a block pattern or a page layout:
 2. Click the + icon to add a new block.
 3. Click on the Patterns tab.
 4. Browse the categories and click on the pattern you want to insert.
-
-= Can I self-host my Google Fonts? =
-
-Yes! With Twentig, you can host your Google Fonts locally on your own server. Google Fonts are hosted locally by default for block themes. 
 
 = How to customize the Twenty Twenty-One & Twenty Twenty themes with Twentig? =
 
@@ -257,14 +251,24 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 
 1. **Get started easily.** Import a responsive website template that instantly gives your website a professional look.
 2. **Create your online portfolio.** Twentig has all the portfolio features you need to showcase your work in the best light.
-3. **Customize your website with Google Fonts.** Easily change your theme’s fonts with the Google Fonts of your choice. 
-4. **Build with Gutenberg block patterns.** Choose from hundreds of ready-to-use patterns to create beautiful pages in no time.
-5. **Customize the Gutenberg blocks.** Transform the existing Gutenberg blocks with additional settings and styles.
-6. **Create a beautiful blog.** Customize the design of your blog any way you like.
-7. **Customize your header.** Change the layout and style, display social icons or a call-to-action button.
-8. **Customize your footer.** Change the layout and style, edit the copyright, remove "Powered by WordPress", and more.
+3. **Build with Gutenberg block patterns.** Choose from hundreds of ready-to-use patterns to create beautiful pages in no time.
+4. **Customize the Gutenberg blocks.** Transform the existing Gutenberg blocks with additional settings and styles.
+5. **Create a beautiful blog.** Customize the design of your blog any way you like.
+6. **Customize your header.** Change the layout and style, display social icons or a call-to-action button.
+7. **Customize your footer.** Change the layout and style, edit the copyright, remove "Powered by WordPress", and more.
 
 == Changelog ==
+
+= 1.9 =
+Release date: November 14, 2024
+
+Twentig 1.9 introduces powerful features to supercharge Twenty Twenty-Five, the new default WordPress theme. Now, instead of designing from scratch, you can easily import a customizable website template. Choose from [Business](https://demo.twentig.com/tt5-business/), [News Blog](https://demo.twentig.com/tt5-news/), [Photo Blog](https://demo.twentig.com/tt5-photo/), or [Personal Blog](https://demo.twentig.com/tt5-personal/) templates to jumpstart your site.
+ 
+* New: Adds four starter website templates for Twenty Twenty-Five.
+* Enhancement: Makes patterns compatible with Twenty Twenty-Five.
+* Enhancement: Adjusts code for compatibility with WordPress 6.7.
+* Code Quality: Deprecates Twentig's Group shadow setting.
+
 
 = 1.8.3 =
 Release date: July 17, 2024
@@ -315,7 +319,7 @@ Release date: November 28, 2023
 = 1.7 =
 Release date: November 27, 2023
 
-Twentig 1.7 brings powerful features to supercharge Twenty Twenty-Four, the new default WordPress theme. Instead of designing from scratch, now you can easily import a stunning and customizable website template. You can either start with the [business template](https://demo.twentig.com/tt4-default/) (default) or the [blog template](https://demo.twentig.com/tt4-blog/).  
+Twentig 1.7 brings powerful features to supercharge the Twenty Twenty-Four theme. Instead of designing from scratch, now you can easily import a stunning and customizable website template. You can either start with the [business template](https://demo.twentig.com/tt4-default/) (default) or the [blog template](https://demo.twentig.com/tt4-blog/).  
 
 * New: Introduces a website template importer in the Twentig dashboard for Twenty Twenty-Four.
 * New: Adds two starter website templates for Twenty Twenty-Four.

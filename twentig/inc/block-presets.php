@@ -18,7 +18,6 @@ function twentig_get_block_css_classes() {
 	$classes = array(
 
 		'core/paragraph'             => array(
-			'tw-eyebrow'              => __( 'Make the text small and uppercase.', 'twentig' ),
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
 			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),
@@ -72,25 +71,21 @@ function twentig_get_block_css_classes() {
 			'tw-row-valign-top' => __( 'Vertically align top the text in the cells.', 'twentig' ),
 		),
 		'core/group'                 => array(
-			'tw-height-full'          => __( 'Make the block full height.', 'twentig' ),
-			'tw-height-100'           => __( 'Make the block height 100%.', 'twentig' ),
-			'tw-width-100'            => __( 'Make the block width 100%.', 'twentig' ),
-			'tw-layout-inline'        => __( 'Arrange blocks inline.', 'twentig' ),
-			'tw-group-overlap-bottom' => __( 'Make the last block of the group overlap the group just below.', 'twentig' ),
-			'tw-rounded'              => __( 'Make the corners of the block rounded.', 'twentig' ),
-			'tw-backdrop-blur'        => __( 'Apply backdrop blur filter.', 'twentig' ),
-			'tw-md-justify-start'     => __( 'Justify items from the start on tablet and mobile.', 'twentig' ),
-			'tw-md-justify-center'    => __( 'Justify items center on tablet and mobile.', 'twentig' ),
-			'tw-md-justify-end'       => __( 'Justify items from the end on tablet and mobile.', 'twentig' ),
-			'tw-sm-justify-start'     => __( 'Justify items from the start on mobile.', 'twentig' ),
-			'tw-sm-justify-center'    => __( 'Justify items center on mobile.', 'twentig' ),
-			'tw-sm-justify-end'       => __( 'Justify items from the end on mobile.', 'twentig' ),
-			'tw-align-baseline'       => __( 'Align items baseline.', 'twentig' ),
+			'tw-height-100'        => __( 'Make the block height 100%.', 'twentig' ),
+			'tw-width-100'         => __( 'Make the block width 100%.', 'twentig' ),
+			'tw-layout-inline'     => __( 'Arrange blocks inline.', 'twentig' ),
+			'tw-backdrop-blur'     => __( 'Apply backdrop blur filter.', 'twentig' ),
+			'tw-md-justify-start'  => __( 'Justify items from the start on tablet and mobile.', 'twentig' ),
+			'tw-md-justify-center' => __( 'Justify items center on tablet and mobile.', 'twentig' ),
+			'tw-md-justify-end'    => __( 'Justify items from the end on tablet and mobile.', 'twentig' ),
+			'tw-sm-justify-start'  => __( 'Justify items from the start on mobile.', 'twentig' ),
+			'tw-sm-justify-center' => __( 'Justify items center on mobile.', 'twentig' ),
+			'tw-sm-justify-end'    => __( 'Justify items from the end on mobile.', 'twentig' ),
+			'tw-align-baseline'    => __( 'Align items baseline.', 'twentig' ),
 		),
 		'core/columns'               => array(
-			'tw-stretched-blocks'   => __( 'Make the blocks inside the columns (Image, Group, Cover) the same height.', 'twentig' ),
-			'tw-justify-center'     => __( 'Center the columns horizontally.', 'twentig' ),
-			'has-text-align-center' => __( 'Align text center.', 'twentig' ),
+			'tw-stretched-blocks' => __( 'Make the blocks inside the columns (Image, Group, Cover) the same height.', 'twentig' ),
+			'tw-justify-center'   => __( 'Center the columns horizontally.', 'twentig' ),
 		),
 		'core/column'                => array(
 			'tw-rounded'        => __( 'Make the corners of the block rounded.', 'twentig' ),
@@ -105,10 +100,8 @@ function twentig_get_block_css_classes() {
 			'tw-img-bw'            => __( 'Add a black & white filter to the image.', 'twentig' ),
 		),
 		'core/media-text'            => array(
-			'tw-media-narrow'   => __( 'Limit the media width when the media and the text are stacked.', 'twentig' ),
-			'tw-height-full'    => __( 'Make the block full height. You must enable the “Crop image to fill entire column” setting.', 'twentig' ),
-			'tw-rounded'        => __( 'Make the corners of the block rounded.', 'twentig' ),
-			'tw-img-rounded'    => __( 'Make the corners of the image rounded.', 'twentig' ),
+			'tw-height-full' => __( 'Make the block full height. You must enable the “Crop image to fill entire column” setting.', 'twentig' ),
+			'tw-rounded'     => __( 'Make the corners of the block rounded.', 'twentig' ),
 		),
 		'core/image'                 => array(
 			'tw-img-bw'        => __( 'Add a black & white filter to the image.', 'twentig' ),
@@ -147,11 +140,6 @@ function twentig_get_block_css_classes() {
 			'tw-sm-justify-start'  => __( 'Justify items from the start on mobile.', 'twentig' ),
 			'tw-sm-justify-center' => __( 'Justify items center on mobile.', 'twentig' ),
 			'tw-sm-justify-end'    => __( 'Justify items from the end on mobile.', 'twentig' ),
-		),
-		'core/latest-posts'          => array(
-			'tw-posts-rounded'      => __( 'Make the corners of the cards rounded.', 'twentig' ),
-			'tw-img-rounded'        => __( 'Make the corners of the image rounded.', 'twentig' ),
-			'has-text-align-center' => __( 'Align text center.', 'twentig' ),
 		),
 		'core/post-date'             => array(
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
@@ -222,15 +210,6 @@ function twentig_get_block_css_classes() {
 			'tw-form-rounded' => __( 'Make the corners of the input and textarea rounded.', 'twentig' ),
 		),
 	);
-
-	if ( wp_is_block_theme() ) {
-		unset( $classes['core/paragraph']['tw-eyebrow'] );
-		unset( $classes['core/heading']['tw-eyebrow'] );
-		unset( $classes['core/group']['tw-height-full'] );
-		unset( $classes['core/media-text']['tw-media-narrow'] );
-	} else {
-		unset( $classes['core/group']['tw-layout-inline'] );
-	}
 
 	return apply_filters( 'twentig_block_classes', $classes );
 }

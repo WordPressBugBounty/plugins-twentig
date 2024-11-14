@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function twentig_register_block_styles() {
-	
+
 	/* Media & Text */
 	register_block_style(
 		'core/media-text',
@@ -36,157 +36,6 @@ function twentig_register_block_styles() {
 		array(
 			'name'  => 'tw-hard-shadow',
 			'label' => esc_html__( 'Hard shadow', 'twentig' ),
-		)
-	);
-	
-	/* Cover */
-
-	register_block_style(
-		'core/cover',
-		array(
-			'name'  => 'rounded',
-			'label' => esc_html__( 'Rounded', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/cover',
-		array(
-			'name'  => 'tw-rounded-corners',
-			'label' => esc_html__( 'Small rounded', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/cover',
-		array(
-			'name'  => 'tw-border-inner',
-			'label' => esc_html__( 'Inner border', 'twentig' ),
-		)
-	);
-	
-	register_block_style(
-		'core/cover',
-		array(
-			'name'  => 'tw-shadow',
-			'label' => esc_html__( 'Shadow', 'twentig' ),
-		)
-	);
-	
-	register_block_style(
-		'core/cover',
-		array(
-			'name'  => 'tw-hard-shadow',
-			'label' => esc_html__( 'Hard shadow', 'twentig' ),
-		)
-	);
-
-	/* Image */
-	register_block_style(
-		'core/image',
-		array(
-			'name'  => 'tw-rounded-corners',
-			'label' => esc_html__( 'Small rounded', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/image',
-		array(
-			'name'  => 'tw-shadow',
-			'label' => esc_html__( 'Shadow', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/image',
-		array(
-			'name'  => 'tw-hard-shadow',
-			'label' => esc_html__( 'Hard shadow', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/image',
-		array(
-			'name'  => 'tw-frame',
-			'label' => esc_html__( 'White frame', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/image',
-		array(
-			'name'  => 'tw-border',
-			'label' => esc_html__( 'Subtle border', 'twentig' ),
-		)
-	);
-
-	/* Post Featured Image */
-
-	register_block_style(
-		'core/post-featured-image',
-		array(
-			'name'  => 'rounded',
-			'label' => esc_html__( 'Rounded', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/post-featured-image',
-		array(
-			'name'  => 'tw-rounded-corners',
-			'label' => esc_html__( 'Small rounded', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/post-featured-image',
-		array(
-			'name'  => 'tw-shadow',
-			'label' => esc_html__( 'Shadow', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/post-featured-image',
-		array(
-			'name'  => 'tw-hard-shadow',
-			'label' => esc_html__( 'Hard shadow', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/post-featured-image',
-		array(
-			'name'  => 'tw-frame',
-			'label' => esc_html__( 'White frame', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/post-featured-image',
-		array(
-			'name'  => 'tw-border',
-			'label' => esc_html__( 'Subtle Border', 'twentig' ),
-		)
-	);
-
-	/* Gallery */
-	
-	register_block_style(
-		'core/gallery',
-		array(
-			'name'  => 'tw-img-rounded',
-			'label' => esc_html__( 'Small rounded', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/gallery',
-		array(
-			'name'  => 'tw-img-frame',
-			'label' => esc_html__( 'White frame', 'twentig' ),
 		)
 	);
 
@@ -272,23 +121,6 @@ function twentig_register_block_styles() {
 		)
 	);
 
-	/* Latest Posts */
-	register_block_style(
-		'core/latest-posts',
-		array(
-			'name'  => 'tw-posts-card',
-			'label' => esc_html__( 'Card', 'twentig' ),
-		)
-	);
-
-	register_block_style(
-		'core/latest-posts',
-		array(
-			'name'  => 'tw-posts-border',
-			'label' => esc_html__( 'Border', 'twentig' ),
-		)
-	);
-
 	/* Quote */
 	register_block_style(
 		'core/quote',
@@ -299,13 +131,6 @@ function twentig_register_block_styles() {
 	);
 
 	/* Pullquote */
-	register_block_style(
-		'core/pullquote',
-		array(
-			'name'  => 'plain',
-			'label' => esc_html_x( 'Plain', 'block style', 'twentig' ),
-		)
-	);
 
 	register_block_style(
 		'core/pullquote',
@@ -442,163 +267,106 @@ function twentig_register_block_styles() {
 		)
 	);
 	
-	/* Block Theme */
-	if ( wp_is_block_theme() ) {
-		unregister_block_style( 'core/gallery', 'tw-img-frame' );
+	/* Search */
+	register_block_style(
+		'core/search',
+		array(
+			'name'  => 'tw-underline',
+			'label' => __( 'Underline', 'twentig' ),
+		)
+	);
 
-		/* Search */
-		register_block_style(
-			'core/search',
-			array(
-				'name'  => 'tw-underline',
-				'label' => __( 'Underline', 'twentig' ),
-			)
-		);
-
-		/* Post Navigation Link */
-		register_block_style(
-			'core/post-navigation-link',
-			array(
-				'name'  => 'tw-nav-stack',
-				'label' => __( 'Stack', 'twentig' ),
-			)
-		);
+	/* Post Navigation Link */
+	register_block_style(
+		'core/post-navigation-link',
+		array(
+			'name'  => 'tw-nav-stack',
+			'label' => __( 'Stack', 'twentig' ),
+		)
+	);
 
 
-		/* Pagination */
+	/* Pagination */
 
-		register_block_style(
-			'core/query-pagination-numbers',
-			array(
-				'name'  => 'tw-square',
-				'label' => __( 'Square', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-numbers',
+		array(
+			'name'  => 'tw-square',
+			'label' => __( 'Square', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-numbers',
-			array(
-				'name'  => 'tw-rounded',
-				'label' => __( 'Rounded', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-numbers',
+		array(
+			'name'  => 'tw-rounded',
+			'label' => __( 'Rounded', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-numbers',
-			array(
-				'name'  => 'tw-circle',
-				'label' => __( 'Circle', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-numbers',
+		array(
+			'name'  => 'tw-circle',
+			'label' => __( 'Circle', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-numbers',
-			array(
-				'name'  => 'tw-plain',
-				'label' => __( 'Plain', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-numbers',
+		array(
+			'name'  => 'tw-plain',
+			'label' => __( 'Plain', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-previous',
-			array(
-				'name'  => 'tw-btn-square',
-				'label' => __( 'Square', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-previous',
+		array(
+			'name'  => 'tw-btn-square',
+			'label' => __( 'Square', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-previous',
-			array(
-				'name'  => 'tw-btn-rounded',
-				'label' => __( 'Rounded', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-previous',
+		array(
+			'name'  => 'tw-btn-rounded',
+			'label' => __( 'Rounded', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-previous',
-			array(
-				'name'  => 'tw-btn-pill',
-				'label' => __( 'Pill', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-previous',
+		array(
+			'name'  => 'tw-btn-pill',
+			'label' => __( 'Pill', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-next',
-			array(
-				'name'  => 'tw-btn-square',
-				'label' => __( 'Square', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-next',
+		array(
+			'name'  => 'tw-btn-square',
+			'label' => __( 'Square', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-next',
-			array(
-				'name'  => 'tw-btn-rounded',
-				'label' => __( 'Rounded', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-next',
+		array(
+			'name'  => 'tw-btn-rounded',
+			'label' => __( 'Rounded', 'twentig' ),
+		)
+	);
 
-		register_block_style(
-			'core/query-pagination-next',
-			array(
-				'name'  => 'tw-btn-pill',
-				'label' => __( 'Pill', 'twentig' ),
-			)
-		);
+	register_block_style(
+		'core/query-pagination-next',
+		array(
+			'name'  => 'tw-btn-pill',
+			'label' => __( 'Pill', 'twentig' ),
+		)
+	);
 
-		/* Column */
-		
-		register_block_style(
-			'core/column',
-			array(
-				'name'  => 'tw-col-shadow',
-				'label' => __( 'Shadow', 'twentig' ),
-			)
-		);
-
-		register_block_style(
-			'core/column',
-			array(
-				'name'  => 'tw-col-hard-shadow',
-				'label' => __( 'Hard shadow', 'twentig' ),
-			)
-		);
-
-		register_block_style(
-			'core/column',
-			array(
-				'name'  => 'tw-col-border-top',
-				'label' => __( 'Top border', 'twentig' ),
-			)
-		);
-		
-	}
-
-	if ( current_theme_supports( 'twentig-theme' ) || 'twentytwentyfour' === get_template() ) {
-		unregister_block_style( 'core/pullquote', 'plain' );
-		unregister_block_style( 'core/post-featured-image', 'rounded' );
-		unregister_block_style( 'core/post-featured-image', 'tw-rounded-corners' );
-		unregister_block_style( 'core/post-featured-image', 'tw-border' );
-		unregister_block_style( 'core/column', 'tw-col-border-top' );
-		unregister_block_style( 'core/column', 'tw-col-shadow' );
-		unregister_block_style( 'core/column', 'tw-col-hard-shadow' );		
-		
-		register_block_style(
-			'core/column',
-			array(
-				'name'  => 'tw-shadow',
-				'label' => __( 'Shadow', 'twentig' ),
-			)
-		);
-
-		register_block_style(
-			'core/column',
-			array(
-				'name'  => 'tw-hard-shadow',
-				'label' => __( 'Hard shadow', 'twentig' ),
-			)
-		);
-	}
 }
 add_action( 'init', 'twentig_register_block_styles' );

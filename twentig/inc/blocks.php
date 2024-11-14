@@ -56,14 +56,15 @@ function twentig_block_assets() {
 		$asset_file['version'],
 		false
 	);
-	
+
 	$config = array(
-		'theme'         => get_template(),
-		'isBlockTheme'  => wp_is_block_theme(),
-		'cssClasses'    => twentig_get_block_css_classes(),
-		'spacingSizes'  => twentig_get_spacing_sizes(),
-		'portfolioType' => post_type_exists( 'portfolio' ) ? 'portfolio' : '',
-		'env'           => $env,
+		'theme'          => get_template(),
+		'isBlockTheme'   => wp_is_block_theme(),
+		'isTwentigTheme' => current_theme_supports( 'twentig-theme' ),
+		'cssClasses'     => twentig_get_block_css_classes(),
+		'spacingSizes'   => function_exists( 'twentig_get_spacing_sizes' ) ? twentig_get_spacing_sizes() : array(),
+		'portfolioType'  => post_type_exists( 'portfolio' ) ? 'portfolio' : '',
+		'env'            => $env,
 	);
 
 	wp_localize_script( 'twentig-blocks-editor', 'twentigEditorConfig', $config );
@@ -80,22 +81,6 @@ function twentig_block_assets() {
 	);
 }
 add_action( 'enqueue_block_assets', 'twentig_block_assets' );
-
-/**
- * Enqueue spacing styles inside the editor.
- */
-function twentig_block_editor_spacing_styles() {
-	$spacing_sizes = twentig_get_spacing_sizes();
-	$css_spacing   = '';
-
-	foreach ( $spacing_sizes as $preset ) {
-		$css_spacing .= '.tw-mt-' . esc_attr( $preset['slug'] ) . '{margin-top:' . esc_attr( $preset['size'] ) . '!important;}';
-		$css_spacing .= '.tw-mb-' . esc_attr( $preset['slug'] ) . '{margin-bottom:' . esc_attr( $preset['size'] ) . '!important;}';
-	}
-
-	wp_add_inline_style( 'wp-block-library', $css_spacing );
-}
-add_action( 'admin_init', 'twentig_block_editor_spacing_styles' );
 
 /**
  * Override block styles.
@@ -157,101 +142,19 @@ function twentig_enqueue_block_styles() {
 add_action( 'after_setup_theme', 'twentig_enqueue_block_styles' );
 
 /**
- * Adds margin and visibility classes to the global styles.
+ * Adds visibility classes to the global styles.
  */
 function twentig_enqueue_class_styles() {
-
-	$spacing_sizes = twentig_get_spacing_sizes();
-	$css_spacing   = '';
-
-	foreach ( $spacing_sizes as $preset ) {
-		$css_spacing .= '.tw-mt-' . esc_attr( $preset['slug'] ) . '{margin-top:' . esc_attr( $preset['size'] ) . '!important;}';
-		$css_spacing .= '.tw-mb-' . esc_attr( $preset['slug'] ) . '{margin-bottom:' . esc_attr( $preset['size'] ) . '!important;}';
-	}
 
 	$breakpoints       = apply_filters( 'twentig_breakpoints', array( 'mobile' => 768, 'tablet' => 1024 ) );
 	$mobile_breakpoint = $breakpoints['mobile'] ?? 768;
 
 	$css_visibility  = '@media (max-width: '. esc_attr( (int) $mobile_breakpoint - 1 ) . 'px){.tw-sm-hidden{display:none !important;}}';
-	$css_visibility .= '@media (min-width: '. esc_attr( (int) $mobile_breakpoint ) . 'px) and (max-width: 1023px){.tw-md-hidden{display:none !important;}}';	
+	$css_visibility .= '@media (min-width: '. esc_attr( (int) $mobile_breakpoint ) . 'px) and (max-width: 1023px){.tw-md-hidden{display:none !important;}}';
 	$css_visibility .= '@media (min-width: 1024px){.tw-lg-hidden {display:none !important;}}';
-
-	$css_global = $css_spacing . $css_visibility;
-
-	wp_add_inline_style( 'global-styles', $css_global );
+	wp_add_inline_style( 'global-styles', $css_visibility );
 }
 add_action( 'wp_enqueue_scripts', 'twentig_enqueue_class_styles' );
-
-/**
- * Gets spacing sizes.
- */
-function twentig_get_spacing_sizes() {
-
-	$sizes = array(
-		array(
-			'slug' => '0',
-			'name' => '0px',
-			'size' => '0px',
-		),
-		array(
-			'slug' => '1',
-			'name' => '5px',
-			'size' => '5px',
-		),
-		array(
-			'slug' => '2',
-			'name' => '10px',
-			'size' => '10px',
-		),
-		array(
-			'slug' => '3',
-			'name' => '15px',
-			'size' => '15px',
-		),
-		array(
-			'slug' => '4',
-			'name' => '20px',
-			'size' => '20px',
-		),
-		array(
-			'slug' => '5',
-			'name' => '30px',
-			'size' => '30px',
-		),
-		array(
-			'slug' => '6',
-			'name' => '40px',
-			'size' => '40px',
-		),
-		array(
-			'slug' => '7',
-			'name' => '50px',
-			'size' => '50px',
-		),
-		array(
-			'slug' => '8',
-			'name' => '60px',
-			'size' => '60px',
-		),
-		array(
-			'slug' => '9',
-			'name' => '80px',
-			'size' => '80px',
-		),
-		array(
-			'slug' => '10',
-			'name' => '100px',
-			'size' => '100px',
-		),
-		array(
-			'slug' => 'auto',
-			'name' => 'auto',
-			'size' => 'auto',
-		),
-	);
-
-	return apply_filters( 'twentig_spacing_sizes', $sizes );
-}
 
 /**
  * Filters the post template block output.
@@ -315,7 +218,7 @@ function twentig_filter_cover_block( $block_content, $block ) {
 			if ( $width ) {
 				//cf wp_image_add_srcset_and_sizes()
 				$sizes = sprintf( '(max-width: 799px) 200vw,(max-width: %1$dpx) 100vw,%1$dpx', $width );
-				if ( isset( $attributes['twRatio'] ) ) {
+				if ( ! empty( $attributes['style']['dimensions']['aspectRatio'] ) ) {
 					$sizes = sprintf( '(max-width: 799px) 125vw,(max-width: %1$dpx) 100vw,%1$dpx', $width );
 				}
 				$tag_processor = new WP_HTML_Tag_Processor( $block_content );
@@ -343,7 +246,6 @@ function twentig_filter_navigation_block( $block_content, $block ) {
 		$hover_style  = $attributes['twHoverStyle'] ?? '';
 		$active_style = $attributes['twActiveStyle'] ?? $hover_style;
 		$overlay_menu = $attributes['overlayMenu'] ?? 'mobile';
-
 		$class_names  = array();
 
 		if ( $hover_style ) {
@@ -414,7 +316,6 @@ function twentig_filter_site_logo_block( $block_content, $block ) {
 				echo "<style>$style</style>";
 			}
 		);
-
 	}
 	return $block_content;
 }
@@ -465,7 +366,6 @@ add_filter( 'render_block_core/separator', 'twentig_filter_separator_block', 10,
  * @param array  $block         The full block, including name and attributes.
  */
 function twentig_filter_post_terms_block( $block_content, $block ) {
-
 	if ( ! empty( $block['attrs']['twUnlink'] ) ) {
 		$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 		$tag_processor->next_tag();
@@ -527,7 +427,6 @@ function twentig_filter_details_block( $block_content, $block ) {
 	} elseif ( 'plus-circle' === $icon_type ) {
 		$icon = '<svg class="details-plus" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1" aria-hidden="true" focusable="false"><path d="M12 3.75c4.55 0 8.25 3.7 8.25 8.25s-3.7 8.25-8.25 8.25-8.25-3.7-8.25-8.25S7.45 3.75 12 3.75M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2Z" /><path d="M11.125 7.5h1.75v9h-1.75z" class="plus-vertical" /><path d="M7.5 11.125h9v1.75h-9z" /></svg>';
 	}
-
 	return str_replace( '</summary>', $icon . '</summary>', $block_content );
 }
 add_filter( 'render_block_core/details', 'twentig_filter_details_block', 10, 2 );
@@ -552,6 +451,7 @@ function twentig_add_block_animation( $block_content, $block ) {
 				'strategy'  => 'defer',
 			)
 		);
+
 		$attributes = $block['attrs'];
 		$animation  = $attributes['twAnimation'];
 		$duration   = $attributes['twAnimationDuration'] ?? '';

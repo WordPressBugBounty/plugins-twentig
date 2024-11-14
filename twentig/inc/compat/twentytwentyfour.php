@@ -25,6 +25,18 @@ function twentig_twentyfour_filter_theme_json( $theme_json ) {
 			),
 		),
 	);
+
+	if ( twentig_theme_supports_spacing() ) {
+		$new_data['styles'] = array(
+			'blocks' => array(
+				'core/columns' => array(
+					'spacing' => array(
+						'blockGap' => '48px 32px'
+					)
+				)
+			)
+		);
+	}
 	return $theme_json->update_with( $new_data );
 }
 add_filter( 'wp_theme_json_data_theme', 'twentig_twentyfour_filter_theme_json' );
@@ -90,3 +102,22 @@ function twentig_twentyfour_theme_support() {
 	add_theme_support( 'twentig-starter-website-templates', $website_templates );
 }
 add_action( 'after_setup_theme', 'twentig_twentyfour_theme_support' );
+
+/**
+ * Enqueue styles for the theme.
+ */
+function twentig_twentyfour_enqueue_scripts() {
+	$css = ':root {	--wp--custom--spacing--tw-large: clamp(56px,7.25vw,60px);--wp--custom--spacing--tw-x-large: clamp(60px,8.125vw,104px);}';
+	wp_add_inline_style( 'twentig-global-spacing', $css );
+}
+add_action( 'wp_enqueue_scripts', 'twentig_twentyfour_enqueue_scripts', 12 );
+
+
+/**
+ * Enqueue spacing styles inside the editor.
+ */
+function twentig_twentyfour_block_editor_spacing_styles() {
+	$css = ':root .editor-styles-wrapper { --wp--custom--spacing--tw-large: clamp(56px,7.25vw,60px);--wp--custom--spacing--tw-x-large: clamp(60px,8.125vw,104px);}';
+	wp_add_inline_style( 'wp-block-library', $css );
+}
+add_action( 'admin_init', 'twentig_twentyfour_block_editor_spacing_styles' );

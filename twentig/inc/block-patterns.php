@@ -102,6 +102,24 @@ function twentig_register_block_pattern( $pattern_name, $pattern_properties ) {
 	static $theme         = null;
 	static $block_theme   = null;
 	static $twentig_theme = null;
+	static $twentig_v2    = null;
+
+	
+	if ( ! isset( $pattern_properties['viewportWidth'] ) ) {
+		$pattern_properties['viewportWidth'] = 1366;
+	}
+
+	if ( is_null( $twentig_theme ) ) {
+		$twentig_theme = current_theme_supports( 'twentig-theme' );
+	}	
+
+	if ( $twentig_theme ) {
+		register_block_pattern(
+			$pattern_name,
+			$pattern_properties
+		);
+		return;
+	}
 
 	if ( is_null( $theme ) ) {
 		$theme = get_template();
@@ -111,22 +129,14 @@ function twentig_register_block_pattern( $pattern_name, $pattern_properties ) {
 		$block_theme = wp_is_block_theme();
 	}
 
-	if ( is_null( $twentig_theme ) ) {
-		$twentig_theme = current_theme_supports( 'twentig-theme' );
-	}
-
-	if ( ! isset( $pattern_properties['viewportWidth'] ) ) {
-		$pattern_properties['viewportWidth'] = 1366;
+	if ( is_null( $twentig_v2 ) ) {
+		$twentig_v2 = current_theme_supports( 'twentig-v2' );
 	}
 	
-	if ( $block_theme && ! $twentig_theme ) {
+	if ( ! $twentig_v2 && $block_theme ) {
 		$pattern_properties['content'] = twentig_replace_pattern_preset_to_values( $pattern_properties['content'] );
 	}
 	
-	if ( ! $twentig_theme && ! in_array( $theme, array( 'twentytwentyfour', 'twentytwentythree', 'twentytwentytwo', 'twentytwentyone', 'twentytwenty' ), true ) ) {
-		$theme = 'third-party';
-	}
-
 	$pattern_properties['content'] = twentig_replace_theme_patterns_strings( $pattern_properties['content'], $theme );
 
 	register_block_pattern(
@@ -139,209 +149,144 @@ function twentig_register_block_pattern( $pattern_name, $pattern_properties ) {
  * Replaces pattern styles for non Twentig theme.
  */
 function twentig_replace_theme_patterns_strings( $content, $theme ) {
-	
-	$strings_replace = array();
 
 	switch( $theme ) {
-		case 'twentytwentythree':
-			$strings_replace = array(
-				array(
-					'old' => '"backgroundColor":"base-2"',
-					'new' => '"backgroundColor":"tertiary"',
-				),
-				array(
-					'old' => 'has-base-2-background-color',
-					'new' => 'has-tertiary-background-color',
-				),	
-				array(
-					'old' => '"textColor":"contrast-2"',
-					'new' => '"textColor":"contrast"',
-				),
-				array(
-					'old' => 'has-contrast-2-background-color',
-					'new' => 'has-contrast-background-color',
-				),
+		case 'twentytwentyfive':
+
+			$colors = array(
+				'base-2'    => 'accent-5',
+				'secondary' => 'contrast',
+				'tertiary'  => 'accent-6',
 			);
+
+			$font_sizes = array(
+				'4-x-large' => 'xx-large',
+				'3-x-large' => 'x-large',
+				'xx-large'  => 'x-large',
+				'medium'    => 'large',
+				'normal'    => 'medium',
+				'x-small'   => 'small'
+			);
+
+			$spacing_sizes = array(
+				'65'   => '60',
+				'60'   => '50',
+				'55'   => '60',
+				'45'   => '50',
+				'40'   => '50',
+				'35'   => '40',
+				'30'   => '40',
+				'25'   => '40',
+				'20'   => '30',
+				'15'   => '16px',
+				'10'   => '20',
+				'5'    => '4px',
+			);
+
+			$content = twentig_replace_pattern_color_values( $colors, $content );
+			$content = twentig_replace_pattern_font_size_values( $font_sizes, $content );
+			$content = twentig_replace_pattern_spacing_size_values( $spacing_sizes, $content );
+
+			break;
+		case 'twentytwentythree':
+			$colors = array(
+				'base-2'    => 'tertiary',
+				'secondary' => 'contrast',
+			);
+			$content = twentig_replace_pattern_color_values( $colors, $content );
+			
 			break;
 		case 'twentytwentytwo':
-			$strings_replace = array(
-				array(
-					'old' => '"backgroundColor":"base"',
-					'new' => '"backgroundColor":"background"',
-				),
-				array(
-					'old' => '"textColor":"base"',
-					'new' => '"textColor":"background"',
-				),
-				array(
-					'old' => 'has-base-background-color',
-					'new' => 'has-background-background-color',
-				),
-				array(
-					'old' => 'has-base-color',
-					'new' => 'has-background-color',
-				),
-				array(
-					'old' => '"backgroundColor":"contrast"',
-					'new' => '"backgroundColor":"foreground"',
-				),
-				array(
-					'old' => '"textColor":"contrast"',
-					'new' => '"textColor":"foreground"',
-				),
-				array(
-					'old' => 'has-contrast-background-color',
-					'new' => 'has-foreground-background-color',
-				),
-				array(
-					'old' => 'has-contrast-color',
-					'new' => 'has-foreground-color',
-				),
-				array(
-					'old' => '"iconColor":"contrast"',
-					'new' => '"iconColor":"foreground"',
-				),
-				array(
-					'old' => '"iconColorValue":"var(--wp--preset--color--contrast)"',
-					'new' => '"iconColorValue":"var(--wp--preset--color--foreground)"',
-				),
-				array(
-					'old' => '"backgroundColor":"base-2"',
-					'new' => '"backgroundColor":"tertiary"',
-				),
-				array(
-					'old' => 'has-base-2-background-color',
-					'new' => 'has-tertiary-background-color',
-				),
-				array(
-					'old' => '"textColor":"contrast-2"',
-					'new' => '"textColor":"foreground"',
-				),
-				array(
-					'old' => 'has-contrast-2-background-color',
-					'new' => 'has-foreground-background-color',
-				),
+			$colors = array(
+				'base'      => 'background',
+				'contrast'  => 'foreground',
+				'base-2'    => 'tertiary',
+				'secondary' => 'foreground',
 			);
+			$content = twentig_replace_pattern_color_values( $colors, $content );
+
 			break;
 		case 'twentytwenty':
-			$strings_replace = array(
-				array(
-					'old' => '<!-- wp:heading {"level":3,"fontSize":"large"',
-					'new' => '<!-- wp:heading {"level":3,"fontSize":"h5"',
-				),
-				array(
-					'old' => '<h3 class="has-large-font-size',
-					'new' => '<h3 class="has-h-5-font-size',
-				),
-				array(
-					'old' => '<!-- wp:heading {"fontSize":"large"} --><h2 class="has-large-font-size">',
-					'new' => '<!-- wp:heading {"fontSize":"large"} --><h2 class="has-h-5-font-size">',
-				),
-				array(
-					'old' => '<!-- wp:paragraph {"fontSize":"medium"',
-					'new' => '<!-- wp:paragraph {"fontSize":"large"',
-				),
-				array(
-					'old' => '<p class="has-medium-font-size',
-					'new' => '<p class="has-large-font-size',
-				),
-				array(
-					'old' => '"backgroundColor":"subtle"',
-					'new' => '"backgroundColor":"subtle-background"',
-				),
-				array(
-					'old' => 'has-subtle-background-color',
-					'new' => 'has-subtle-background-background-color',
-				),
-				array(
-					'old' => '<!-- wp:heading {"fontSize":"h3"} --><h2 class="has-h-3-font-size">',
-					'new' => '<!-- wp:heading {"fontSize":"h4"} --><h2 class="has-h-4-font-size">',
-				),
-				array(
-					'old' => '<!-- wp:heading {"fontSize":"extra-large"',
-					'new' => '<!-- wp:heading {"fontSize":"h3"',
-				),
-				array(
-					'old' => '<h2 class="has-extra-large-font-size',
-					'new' => '<h2 class="has-h-3-font-size',
-				),
-				array(
-					'old' => '"fontSize":"huge"',
-					'new' => '"fontSize":"h1"',
-				),
-				array(
-					'old' => 'has-huge-font-size',
-					'new' => 'has-h-1-font-size',
-				),
-				array(
-					'old' => 'tw-hide-more-link',
-					'new' => '',
-				),
-				array(
-					'old' => '<!-- wp:heading {"level":1,"fontSize":"extra-large"',
-					'new' => '<!-- wp:heading {"level":1,"fontSize":"h3"',
-				),
-				array(
-					'old' => '<h1 class="has-extra-large-font-size',
-					'new' => '<h1 class="has-h-3-font-size',
-				),
-				array(
-					'old' => '<!-- wp:media-text {"align":"full"',
-					'new' => '<!-- wp:media-text {"align":"full","className":"tw-content-narrow"',
-				),
-				array(
-					'old' => '<div class="wp-block-media-text alignfull',
-					'new' => '<div class="wp-block-media-text alignfull tw-content-narrow',
-				),
+			$colors = array(
+				'subtle' => 'subtle-background',
 			);
-			break;
-		case 'third-party':
-			$strings_replace = array(
-				array(
-					'old' => '<!-- wp:heading {"level":3,"fontSize":"large"} --><h3 class="has-large-font-size">',
-					'new' => '<!-- wp:heading {"level":3} --><h3>',
-				),
-				array(
-					'old' => '<!-- wp:heading {"level":3,"fontSize":"large",',
-					'new' => '<!-- wp:heading {"level":3,',
-				),
-				array(
-					'old' => '<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} --><h3 style="font-size:1.5rem">',
-					'new' => '<!-- wp:heading {"level":3} --><h3>',
-				),
-				array(
-					'old' => '<!-- wp:heading {"level":3,"fontSize":"x-large",',
-					'new' => '<!-- wp:heading {"level":3,',
-				),
-				array(
-					'old' => '<!-- wp:heading {"fontSize":"large"} --><h2 class="has-large-font-size">',
-					'new' => '<!-- wp:heading --><h2>',
-				),
-				array(
-					'old' => '<!-- wp:heading {"fontSize":"extra-large"} --><h2 class="has-extra-large-font-size">',
-					'new' => '<!-- wp:heading --><h2>',
-				),		
-				array(
-					'old' => '"textColor":"contrast-2",',
-					'new' => '',
-				),
-				array(
-					'old' => '{"textColor":"contrast-2"}',
-					'new' => '',
-				),
-				array(
-					'old' => 'has-contrast-2-color has-text-color ',
-					'new' => '',
-				),
-				array(
-					'old' => ' class="has-contrast-2-color has-text-color"',
-					'new' => '',
-				),
+
+			$content = twentig_replace_pattern_color_values( $colors, $content );
+
+			$font_sizes = array(
+				'large'       => 'h5',
+				'medium'      => 'large',
+				'h3'          => 'h4',
+				'extra-large' => 'h3',
+				'huge'	      => 'h1',
 			);
+
+			foreach ( $font_sizes as $old_size => $new_size ) {
+				$content = str_replace( "\"fontSize\":\"$old_size\"", "\"fontSize\":\"$new_size\"", $content );
+				$formatted_old_size = preg_replace('/([a-zA-Z])(\d)/', '$1-$2', $old_size);
+				$formatted_new_size = preg_replace('/([a-zA-Z])(\d)/', '$1-$2', $new_size);
+				$content = str_replace("has-$formatted_old_size-font-size", "has-$formatted_new_size-font-size", $content);
+			}
 			break;
 	}
 
-	return twentig_replace_pattern_array_strings( $content, $strings_replace );
+	return $content;
+}
+
+/**
+ * Replaces color preset values.
+ */
+function twentig_replace_pattern_color_values( $colors, $content ) {
+	foreach ( $colors as $old_color => $new_color ) {
+		$content = str_replace( "\"textColor\":\"$old_color\"", "\"textColor\":\"$new_color\"", $content );
+		$content = str_replace( "\"backgroundColor\":\"$old_color\"", "\"backgroundColor\":\"$new_color\"", $content );
+		$content = str_replace( "\"borderColor\":\"$old_color\"", "\"borderColor\":\"$new_color\"", $content );
+		$content = str_replace( "\"iconColor\":\"$old_color\"", "\"iconColor\":\"$new_color\"", $content );
+		$content = str_replace( "\"iconColorValue\":\"var(--wp--preset--color--$old_color)\"", "\"iconColorValue\":\"var(--wp--preset--color--$new_color)\"", $content );
+		$content = str_replace( "has-$old_color-color", "has-$new_color-color", $content );
+		$content = str_replace( "has-$old_color-background-color", "has-$new_color-background-color", $content );
+		$content = str_replace( "has-$old_color-border-color", "has-$new_color-border-color", $content );
+	}
+	return $content;	
+}
+
+/**
+ * Replaces font size preset values.
+ */
+function twentig_replace_pattern_font_size_values( $font_sizes, $content ) {
+	foreach ( $font_sizes as $old_size => $new_size ) { // Replace using a temporary wrapper to avoid re-replacement
+		$content = str_replace( "\"fontSize\":\"$old_size\"", "\"fontSize\":\"TEMP_$new_size\"", $content );
+		$content = str_replace( "has-$old_size-font-size", "has-TEMP_$new_size-font-size", $content );
+	}
+	foreach ( $font_sizes as $old_size => $new_size ) { // Replace all temporary placeholders with the actual new values
+		$content = str_replace( "\"fontSize\":\"TEMP_$new_size\"", "\"fontSize\":\"$new_size\"", $content );
+		$content = str_replace( "has-TEMP_$new_size-font-size", "has-$new_size-font-size", $content );
+	}	
+	return $content;
+}
+
+/**
+ * Replaces spacing preset values.
+ */
+function twentig_replace_pattern_spacing_size_values( $spacing_sizes, $content ) {
+
+	foreach ( $spacing_sizes as $old_size => $new_value ) {
+		if ( str_contains( $new_value, 'px' ) ) {
+			$content = str_replace( "\"var:preset|spacing|$old_size\"", "\"$new_value\"", $content ); 
+			$content = str_replace( "var(--wp--preset--spacing--$old_size)", $new_value, $content );
+		} else {
+			$content = str_replace( "\"var:preset|spacing|$old_size\"", "\"var:preset|spacing|TEMP_$new_value\"", $content );
+			$content = str_replace( "var(--wp--preset--spacing--$old_size)", "var(--wp--preset--spacing--TEMP_$new_value)", $content );
+		}
+	}			
+	foreach ( $spacing_sizes as $old_size => $new_value ) {
+		if ( ! str_contains( $new_value, 'px' ) ) {
+			$content = str_replace( "\"var:preset|spacing|TEMP_$new_value\"", "\"var:preset|spacing|$new_value\"", $content );
+			$content = str_replace( "var(--wp--preset--spacing--TEMP_$new_value)", "var(--wp--preset--spacing--$new_value)", $content );
+		}
+	}	
+
+	return $content;
 }
 
 /**
@@ -351,74 +296,96 @@ function twentig_replace_pattern_preset_to_values( $content ) {
 
 	$strings_replace = array(
 		array(
-			'old' => '<!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">',
-			'new' => '<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} --><h3 style="font-size:1.5rem">',
+			'old' => ',"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}',
+			'new' => '',
 		),
 		array(
-			'old' => '<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} --><h3 class="has-text-align-center has-medium-font-size">',
-			'new' => '<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"1.5rem"}}} --><h3 class="has-text-align-center" style="font-size:1.5rem">',
+			'old' => ',"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap"',
+			'new' => ',"style":{"spacing":{"blockGap"',
 		),
 		array(
-			'old' => '<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|35"}}},"fontSize":"medium"} --><h3 class="has-medium-font-size" style="margin-top:var(--wp--preset--spacing--35)">',
-			'new' => '<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"},"spacing":{"margin":{"top":"var:preset|spacing|35"}}}} --><h3 style="font-size:1.5rem;margin-top:var(--wp--preset--spacing--35)">',
+			'old' => ' style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"',
+			'new' => '',
 		),
 		array(
-			'old' => '<!-- wp:heading {"fontSize":"xx-large"} --><h2 class="has-xx-large-font-size">',
-			'new' => '<!-- wp:heading --><h2>',
+			'old' => '<!-- wp:paragraph {"fontSize":"large","align":"center","style":{"typography":{"lineHeight":"1.35"}}} --><p class="has-text-align-center has-large-font-size" style="line-height:1.35">',
+			'new' => '<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.35","fontSize":"1.25em"}}} --><p class="has-text-align-center" style="font-size:1.25em;line-height:1.35">',
 		),
 		array(
-			'old' => '"fontSize":"xx-large"',
-			'new' => '"fontSize":"x-large"',
+			'old' => '<!-- wp:paragraph {"fontSize":"large","style":{"typography":{"lineHeight":"1.35"}}} --><p class="has-large-font-size" style="line-height:1.35">',
+			'new' => '<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.35","fontSize":"1.25em"}}} --><p style="font-size:1.25em;line-height:1.35">',
 		),
 		array(
-			'old' => 'has-xx-large-font-size',
-			'new' => 'has-x-large-font-size',
+			'old' => '<!-- wp:paragraph {"fontSize":"large","align":"center","style":{"typography":{"lineHeight":"1.35"},"spacing":{"margin"',
+			'new' => '<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.25em","lineHeight":"1.35"},"spacing":{"margin"',
 		),
 		array(
-			'old' => '"fontSize":"x-small"',
-			'new' => '"fontSize":"small"',
-		),
-		array(
-			'old' => 'has-x-small-font-size',
-			'new' => 'has-small-font-size',
-		),
-		array(
-			'old' => '<!-- wp:paragraph {"fontSize":"large","align":"center","style":{"typography":{"lineHeight":1.4}}} --><p class="has-text-align-center has-large-font-size" style="line-height:1.4">',
-			'new' => '<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.5rem","lineHeight":1.4}}} --><p class="has-text-align-center" style="font-size:1.5rem;line-height:1.4">',
-		),
-		array(
-			'old' => '<!-- wp:paragraph {"fontSize":"large","style":{"typography":{"lineHeight":1.4}}} --><p class="has-large-font-size" style="line-height:1.4">',
-			'new' => '<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","lineHeight":1.4}}} --><p style="font-size:1.5rem;line-height:1.4">',
-		),
+			'old' => '<p class="has-text-align-center has-large-font-size" style="line-height:1.35;margin',
+			'new' => '<p class="has-text-align-center" style="font-size:1.25em;line-height:1.35;margin',
+		),		
 		array(
 			'old' => '<!-- wp:paragraph {"align":"center","fontSize":"medium"} --><p class="has-text-align-center has-medium-font-size">',
 			'new' => '<!-- wp:paragraph {"align":"center"} --><p class="has-text-align-center">',
+		),	
+		array(
+			'old' => '<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} --><h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--60)">',
+			'new' => '<!-- wp:heading {"textAlign":"center"} --><h2 class="wp-block-heading has-text-align-center">',
 		),
 		array(
-			'old' => '<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.1"}},"fontSize":"4-x-large"} --><p class="has-4-x-large-font-size has-text-align-center" style="line-height:1.1">',
-			'new' => '<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.1","fontSize":"3.5rem"}}} --><p class="has-text-align-center" style="font-size:3.5rem;line-height:1.1">',
+			'old' => '<!-- wp:heading {"level":3,"fontSize":"large"} --><h3 class="wp-block-heading has-large-font-size">',
+			'new' => '<!-- wp:heading {"level":3} --><h3 class="wp-block-heading">',
 		),
 		array(
-			'old' => '<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1"}},"fontSize":"4-x-large"} --><p class="has-4-x-large-font-size" style="line-height:1.1">',
-			'new' => '<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontSize":"3.5rem"}}} --><p style="font-size:3.5rem;line-height:1.1">',
+			'old' => '<!-- wp:heading {"level":3,"fontSize":"large","textAlign":"center"} --><h3 class="has-large-font-size has-text-align-center">',
+			'new' => '<!-- wp:heading {"level":3,"textAlign":"center"} --><h3 class="wp-block-heading has-text-align-center">',
 		),
+		array(
+			'old' => '<!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="wp-block-heading has-medium-font-size">',
+			'new' => '<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.25em"}}} --><h3 class="wp-block-heading" style="font-size:1.25em">',
+		),
+		array(
+			'old' => '<!-- wp:heading {"level":3,"fontSize":"medium","textAlign":"center"} --><h3 class="wp-block-heading has-medium-font-size has-text-align-center">',
+			'new' => '<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"1.25em"}}} --><h3 class="wp-block-heading has-text-align-center" style="font-size:1.25em">',
+		),
+		array(
+			'old' => '<!-- wp:heading {"level":3,"fontSize":"medium","style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} --><h3 class="wp-block-heading has-medium-font-size" style="margin-top:var(--wp--preset--spacing--30)">',
+			'new' => '<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"32px"}},"typography":{"fontSize":"1.25em"}}} --><h3 class="wp-block-heading" style="margin-top:32px;font-size:1.25em">',
+		),		
+		array(
+			'old' => '<!-- wp:separator {',
+			'new' => '<!-- wp:separator {"className":"is-style-wide",'
+		),
+		array(
+			'old' => '<hr class="wp-block-separator ',
+			'new' => '<hr class="wp-block-separator is-style-wide '
+		),	
 	);
 	
 	$content = twentig_replace_pattern_array_strings( $content, $strings_replace );
 
+	$font_sizes = array(
+		'4-x-large' => 'xx-large',
+		'3-x-large' => 'xx-large',
+		'xx-large'  => 'x-large',
+		'x-small'   => 'small'
+	);
+
+	$content = twentig_replace_pattern_font_size_values( $font_sizes, $content );
+
 	$spacing_sizes = array(
-		'60'   => '80px',
-		'50'   => '60px',
+		'65'   => '64px',
+		'60'   => '64px',
+		'55'   => '48px',
+		'50'   => '48px',
 		'45'   => '48px',
 		'40'   => '40px',
 		'35'   => '32px',
-		'30'   => '24px',
-		'25'   => '20px',
-		'20'   => '16px',
-		'15'   => '12px',
+		'30'   => '32px',
+		'25'   => '32px',
+		'20'   => '24px',
+		'15'   => '16px',
 		'10'   => '8px',
 		'5'    => '4px',
-		'auto' => 'auto'
 	);
 
 	foreach ( $spacing_sizes as $size => $value ) {

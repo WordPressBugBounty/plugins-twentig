@@ -150,7 +150,7 @@ class TwentigDashboard {
 			$blog_template = $home_template ? 'home' : 'index';
 
 			$typography_settings = get_option('twentig_typography', array( 'local' => true ) );
-			$google_fonts        = empty( $typography_settings['font1'] ) && empty( $typography_settings['font2'] ) && class_exists( 'WP_Font_Library' ) ? array() : twentig_get_fonts_data();
+			$google_fonts        = current_theme_supports( 'twentig-v2' ) || ( empty( $typography_settings['font1'] ) && empty( $typography_settings['font2'] ) ) ? array() : twentig_get_fonts_data();
 		
 			wp_localize_script(
 				'twentig-homescreen',
@@ -163,6 +163,7 @@ class TwentigDashboard {
 					'theme'              => get_template(),
 					'isBlockTheme'       => wp_is_block_theme(),
 					'isTwentigTheme'     => current_theme_supports( 'twentig-theme' ),
+					'supportsTwentigV2'  => current_theme_supports( 'twentig-v2' ),
 					'blogTemplate'       => $blog_template,
 					'wpVersion'          => $wp_version,
 					'updateWordPressUrl' => current_user_can( 'update_core' ) ? network_admin_url( 'update-core.php' ) : '',
@@ -173,7 +174,6 @@ class TwentigDashboard {
 					'twentigOptions'     => twentig_get_options(),
 					'typographyOptions'  => get_option( 'twentig_typography', array( 'local' => true ) ),
 					'googleFontsData'    => $google_fonts,
-					'fontLibraryEnabled' => class_exists( 'WP_Font_Library' ),
 					'starterTemplates'   => $this->website_importer->get_website_templates(),
 				)
 			);

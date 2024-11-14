@@ -10,17 +10,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-require TWENTIG_PATH . 'inc/compat/custom-fonts.php';
-
 /**
  * Enqueue styles for block themes: spacing, layout.
  */
 function twentig_block_theme_enqueue_scripts() {
 	if ( twentig_theme_supports_spacing() ) {
-		$file = 'twentytwentyfour' === get_template() ? 'tw-spacing-default' : 'tw-spacing';
 		wp_enqueue_style(
 			'twentig-global-spacing',
-			TWENTIG_ASSETS_URI . "/blocks/{$file}.css",
+			TWENTIG_ASSETS_URI . "/blocks/tw-spacing.css",
 			array(),
 			TWENTIG_VERSION
 		);
@@ -43,8 +40,8 @@ function twentig_block_theme_editor_styles() {
 	}
 
 	if ( twentig_theme_supports_spacing() ) {
-		$file = 'twentytwentyfour' === get_template() ? 'tw-spacing-editor-default' : 'tw-spacing-editor';
-		add_editor_style( TWENTIG_ASSETS_URI . "/blocks/{$file}.css" );
+		add_editor_style( TWENTIG_ASSETS_URI . "/blocks/tw-spacing.css" );
+		add_editor_style( TWENTIG_ASSETS_URI . "/blocks/tw-spacing-editor.css" );
 	}
 }
 add_action( 'admin_init', 'twentig_block_theme_editor_styles' );
@@ -55,7 +52,7 @@ add_action( 'admin_init', 'twentig_block_theme_editor_styles' );
  * @see https://github.com/WordPress/gutenberg/issues/45277
  * 
  */
-function twentig_fix_columns_gap( $metadata ) {
+function twentig_fix_columns_default_gap( $metadata ) {
 	if ( isset( $metadata['name'] ) && $metadata['name'] === 'core/columns' ) {
 		if ( isset( $metadata['supports']['spacing']['blockGap']) && is_array( $metadata['supports']['spacing']['blockGap'] ) ) {
 			$metadata['supports']['spacing']['blockGap']['__experimentalDefault'] = 'var(--wp--style--columns-gap-default,2em)';
@@ -63,26 +60,30 @@ function twentig_fix_columns_gap( $metadata ) {
 	}
 	return $metadata;
 }
-add_filter( 'block_type_metadata', 'twentig_fix_columns_gap' );
+add_filter( 'block_type_metadata', 'twentig_fix_columns_default_gap' );
 
 /**
  * Adds support for Twentig features.
  */
 function twentig_block_theme_support() {
 
-	if ( ! current_theme_supports( 'twentig-theme' ) ) {
-		$theme = get_template();
-
-		add_theme_support( 'tw-spacing' );
+	if ( current_theme_supports( 'twentig-v2' ) ) {
+		return;
+	}
 	
-		if ( strpos( $theme, 'twentytwenty' ) !== 0 && 'unset' === get_option( 'twentig_curated_fonts', 'unset' ) ) {
-			$has_curated = twentig_find_curated_fonts() ? 'enabled' : 'disabled';
-			update_option( 'twentig_curated_fonts', $has_curated );
-		}
+	add_theme_support( 'tw-spacing' );
 
-		if ( in_array( $theme, ['twentytwentythree', 'twentytwentytwo' ], true ) || ( 'enabled' === get_option( 'twentig_curated_fonts', 'unset' ) && 'twentytwentyfour' !== $theme ) ) {
-			add_filter( 'twentig_show_curated_fonts', '__return_true' );
-		}
+	require TWENTIG_PATH . 'inc/compat/custom-fonts.php';
+
+	$theme = get_template();
+	
+	if ( ! str_starts_with( $theme, 'twentytwenty' ) && 'unset' === get_option( 'twentig_curated_fonts', 'unset' ) ) {
+		$has_curated = twentig_find_curated_fonts() ? 'enabled' : 'disabled';
+		update_option( 'twentig_curated_fonts', $has_curated );
+	}
+
+	if ( ( 'twentytwentythree' === $theme || 'twentytwentytwo' === $theme ) || 'enabled' === get_option( 'twentig_curated_fonts', 'unset' ) ) {
+		add_filter( 'twentig_show_curated_fonts', '__return_true' );
 	}
 }
 add_action( 'after_setup_theme', 'twentig_block_theme_support', 11 );

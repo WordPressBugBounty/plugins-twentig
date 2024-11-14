@@ -21,6 +21,32 @@ function twentig_twentytwo_enqueue_scripts() {
 		array(),
 		TWENTIG_VERSION
 	);
+
+	if ( ! twentig_theme_supports_spacing() ) {
+		return;
+	}
+
+	$css = '
+	:where(.wp-block-post-content) .wp-block-group.alignfull:not(.has-background) {
+		margin-block: var(--wp--custom--spacing--tw-x-large);
+	}
+
+	:where(.wp-block-post-content) .alignwide:where(.wp-block-cover,.wp-block-group,.wp-block-media-text),
+	:where(.wp-block-post-content) .alignwide:where(.wp-block-cover,.wp-block-group,.wp-block-media-text) + * {
+		margin-top: var(--wp--custom--spacing--tw-medium);
+	}
+
+	.wp-site-blocks .wp-block-spacer.wp-block-spacer,
+	.wp-site-blocks .wp-block-spacer.wp-block-spacer + *,
+	.wp-block-post-content > :is(*,.wp-block-group):first-child {
+		margin-top: 0;
+	}
+		
+	.wp-block-post-content .wp-block-group.alignfull:last-child {
+		margin-bottom: 0;
+	}';
+
+	wp_add_inline_style( 'twentig-global-spacing', twentig_minify_css( $css ) );
 }
 add_action( 'wp_enqueue_scripts', 'twentig_twentytwo_enqueue_scripts', 12 );
 
