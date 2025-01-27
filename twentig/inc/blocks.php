@@ -147,11 +147,19 @@ add_action( 'after_setup_theme', 'twentig_enqueue_block_styles' );
 function twentig_enqueue_class_styles() {
 
 	$breakpoints       = apply_filters( 'twentig_breakpoints', array( 'mobile' => 768, 'tablet' => 1024 ) );
-	$mobile_breakpoint = $breakpoints['mobile'] ?? 768;
+	$mobile_breakpoint = isset( $breakpoints['mobile'] ) ? (int) $breakpoints['mobile'] : 768;
+	$tablet_breakpoint = isset( $breakpoints['tablet'] ) ? (int) $breakpoints['tablet'] : 1024;
 
-	$css_visibility  = '@media (max-width: '. esc_attr( (int) $mobile_breakpoint - 1 ) . 'px){.tw-sm-hidden{display:none !important;}}';
-	$css_visibility .= '@media (min-width: '. esc_attr( (int) $mobile_breakpoint ) . 'px) and (max-width: 1023px){.tw-md-hidden{display:none !important;}}';
-	$css_visibility .= '@media (min-width: 1024px){.tw-lg-hidden {display:none !important;}}';
+	// Traditional Media Queries
+	$css_visibility  = '@media (max-width: '. esc_attr( $mobile_breakpoint - 1 ) . 'px) { .tw-sm-hidden { display: none !important; }}';
+	$css_visibility .= '@media (min-width: '. esc_attr( $mobile_breakpoint ) . 'px) and (max-width: '. esc_attr( $tablet_breakpoint - 1 ) . 'px) { .tw-md-hidden { display: none !important; }}';
+	$css_visibility .= '@media (min-width: '. esc_attr( $tablet_breakpoint ) . 'px) { .tw-lg-hidden { display: none !important; }}';
+	
+	// Modern Media Queries Level 4
+	$css_visibility .= '@media (width < ' . esc_attr( $mobile_breakpoint ) . 'px) { .tw-sm-hidden { display: none !important; }}'; 
+	$css_visibility .= '@media (' . esc_attr( $mobile_breakpoint ) . 'px <= width < ' . esc_attr( $tablet_breakpoint ) . 'px) { .tw-md-hidden { display: none !important; }}';
+	$css_visibility .= '@media (width >= ' . esc_attr( $tablet_breakpoint ) . 'px) { .tw-lg-hidden { display: none !important; }}';
+	
 	wp_add_inline_style( 'global-styles', $css_visibility );
 }
 add_action( 'wp_enqueue_scripts', 'twentig_enqueue_class_styles' );

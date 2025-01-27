@@ -20,10 +20,8 @@ function twentig_twentytwenty_register_control_types( $wp_customize ) {
 	require $tools_path . 'class-twentig-customize-title-control.php';
 	require $tools_path . 'class-twentig-customize-range-control.php';
 	require $tools_path . 'class-twentig-customize-starter-control.php';
-	require $tools_path . 'class-twentig-customize-more-section.php';
 	$wp_customize->register_section_type( 'Twentig_Customize_Range_Control' );
 	$wp_customize->register_section_type( 'Twentig_Customize_Title_Control' );
-	$wp_customize->register_section_type( 'Twentig_Customize_More_Section' );
 }
 add_action( 'customize_register', 'twentig_twentytwenty_register_control_types' );
 
@@ -2233,20 +2231,6 @@ function twentig_twentytwenty_customize_register( $wp_customize ) {
 		)
 	);
 
-	$wp_customize->add_section(
-		new Twentig_Customize_More_Section(
-			$wp_customize,
-			'twentig_more',
-			array(
-				'title'       => esc_html__( 'Get more for free', 'twentig' ),
-				'panel'       => 'twentig_twentytwenty_panel',
-				'button_text' => esc_html__( 'Subscribe', 'twentig' ),
-				'button_url'  => 'https://twentig.com/newsletter?utm_source=wp-dash&utm_medium=customizer&utm_campaign=newsletter',
-				'priority'    => 50,
-			)
-		)
-	);
-
 	$starter_description  = '<p>' . esc_html__( 'When loading a starter website, you can preview it in the Customizer. No changes appear on your live site until you click "Publish".', 'twentig' );
 	$starter_description .= '<p>' . esc_html__( 'When clicking "Publish", your existing posts and pages are preserved, and depending on the selected Import Type:', 'twentig' ) . '</p>';
 	$starter_description .= '<ul>';
@@ -2545,61 +2529,61 @@ function twentig_twentytwenty_get_starter_websites() {
 		array(
 			'id'         => 'default',
 			'title'      => __( 'Default' ),
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/twentytwenty.png',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/twentytwenty.png',
 		),
 		array(
 			'id'         => 'brooklyn',
 			'title'      => 'Brooklyn',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/brooklyn.jpg',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/brooklyn.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/brooklyn.jpg',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/brooklyn.json',
 		),
 		array(
 			'id'         => 'dakar',
 			'title'      => 'Dakar',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/dakar.png',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/dakar.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/dakar.png',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/dakar.json',
 		),
 		array(
 			'id'         => 'kingston',
 			'title'      => 'Kingston',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/kingston.jpg',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/kingston.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/kingston.jpg',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/kingston.json',
 		),
 		array(
 			'id'         => 'kyoto',
 			'title'      => 'Kyoto',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/kyoto.jpg',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/kyoto.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/kyoto.jpg',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/kyoto.json',
 		),
 		array(
 			'id'         => 'lutece',
 			'title'      => 'Lutece',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/lutece.jpg',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/lutece.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/lutece.jpg',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/lutece.json',
 		),
 		array(
 			'id'         => 'orlando',
 			'title'      => 'Orlando',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/orlando.png',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/orlando.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/orlando.png',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/orlando.json',
 		),
 		array(
 			'id'         => 'oslo',
 			'title'      => 'Oslo',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/oslo.jpg',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/oslo.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/oslo.jpg',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/oslo.json',
 		),
 		array(
 			'id'         => 'santiago',
 			'title'      => 'Santiago',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/santiago.png',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/santiago.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/santiago.png',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/santiago.json',
 		),
 		array(
 			'id'         => 'valencia',
 			'title'      => 'Valencia',
-			'screenshot' => 'https://blocks.static-twentig.com/screenshots/2020/valencia.jpg',
-			'content'    => 'https://blocks.static-twentig.com/content/2020/valencia.json',
+			'screenshot' => 'https://demo.twentig.com/static/classic/2020/valencia.jpg',
+			'content'    => 'https://demo.twentig.com/static/classic/2020/valencia.json',
 		),
 	);
 

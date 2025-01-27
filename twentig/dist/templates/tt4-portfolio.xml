@@ -685,7 +685,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"},"margin":{"top":"var:preset|spacing|50"},"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50);padding-top:40px;padding-bottom:40px"><!-- wp:paragraph {"style":{"spacing":{"margin":{"right":"12px"}}},"textColor":"contrast-2","fontSize":"medium"} -->
-<p class="has-contrast-2-color has-text-color has-medium-font-size" style="margin-right:12px">© 2024. Made with Twentig.</p>
+<p class="has-contrast-2-color has-text-color has-medium-font-size" style="margin-right:12px">© 2025. Made with Twentig.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:navigation {"ref":16,"overlayMenu":"never","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"medium"} /--></div>

@@ -369,7 +369,7 @@
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:navigation {"ref":7,"overlayMenu":"never","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"24px"},"typography":{"fontStyle":"normal","fontWeight":"400"}}} /-->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-2"}}},"spacing":{"margin":{"bottom":"var:preset|spacing|10"}}},"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-text-align-center has-contrast-2-color has-text-color has-link-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--10)">© 2024. Designed with <a href="https://wordpress.org" rel="nofollow">WordPress</a>.</p>
+<p class="has-text-align-center has-contrast-2-color has-text-color has-link-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--10)">© 2025. Designed with <a href="https://wordpress.org" rel="nofollow">WordPress</a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>

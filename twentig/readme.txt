@@ -5,7 +5,7 @@ Tags: portfolio, gutenberg, gutenberg blocks, templates, website templates
 Requires at least: 6.5
 Tested up to: 6.7
 Requires PHP: 7.3
-Stable tag: 1.9
+Stable tag: 1.9.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -258,6 +258,16 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 7. **Customize your footer.** Change the layout and style, edit the copyright, remove "Powered by WordPress", and more.
 
 == Changelog ==
+
+= 1.9.1 =
+Release date: January 27, 2025
+
+* Enhancement: Uses media queries range syntax for visibility classes (props @sebastjava).
+* Enhancement: Adjusts CSS selector to apply overflow hidden more selectively to groups with border-radius.
+* Enhancement: Adds Bluesky and X icons for the Twenty Twenty-One and Twenty Twenty themes.
+* Enhancement: Updates content and site icon link in the Twentig dashboard (props @pmmueller).
+* Fix: Updates starter site URLs and content.
+* Fix: Updates animation range control.
 
 = 1.9 =
 Release date: November 14, 2024

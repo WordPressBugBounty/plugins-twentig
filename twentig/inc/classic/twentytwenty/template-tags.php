@@ -896,6 +896,8 @@ function twentig_get_footer_credits() {
  */
 function twentig_twentytwenty_social_svg( $icons ) {
 	$icons['patreon'] = '<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M21 9.847a6.471 6.471 0 1 1-6.46-6.487A6.472 6.472 0 0 1 21 9.847ZM3 20.64h3.164V3.36H3Z"></path></svg>';
+	$icons['x']       = '<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M13.982 10.622 20.54 3h-1.554l-5.693 6.618L8.745 3H3.5l6.876 10.007L3.5 21h1.554l6.012-6.989L15.868 21h5.245l-7.131-10.378Zm-2.128 2.474-.697-.997-5.543-7.93H8l4.474 6.4.697.996 5.815 8.318h-2.387l-4.745-6.787Z"></path></svg>';
+	$icons['bluesky'] = '<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M6.3,4.2c2.3,1.7,4.8,5.3,5.7,7.2.9-1.9,3.4-5.4,5.7-7.2,1.7-1.3,4.3-2.2,4.3.9s-.4,5.2-.6,5.9c-.7,2.6-3.3,3.2-5.6,2.8,4,.7,5.1,3,2.9,5.3-5,5.2-6.7-2.8-6.7-2.8,0,0-1.7,8-6.7,2.8-2.2-2.3-1.2-4.6,2.9-5.3-2.3.4-4.9-.3-5.6-2.8-.2-.7-.6-5.3-.6-5.9,0-3.1,2.7-2.1,4.3-.9h0Z"></path></svg>';
 	return $icons;
 }
 add_filter( 'twentytwenty_svg_icons_social', 'twentig_twentytwenty_social_svg' );
@@ -914,6 +916,9 @@ function twentig_twentytwenty_social_map( $icons ) {
 	$icons['whatsapp'] = array(
 		'wa.me',
 		'whatsapp.com',
+	);
+	$icons['bluesky'] = array(
+		'bsky.app',
 	);
 	return $icons;
 }
