@@ -5,7 +5,7 @@ Tags: portfolio, gutenberg, gutenberg blocks, templates, website templates
 Requires at least: 6.5
 Tested up to: 6.7
 Requires PHP: 7.3
-Stable tag: 1.9.1
+Stable tag: 1.9.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -258,6 +258,11 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 7. **Customize your footer.** Change the layout and style, edit the copyright, remove "Powered by WordPress", and more.
 
 == Changelog ==
+
+= 1.9.2 =
+Release date: February 11, 2025
+
+* Fix: Restores the Posts per Page, Max Pages, and Offset controls for the Portfolio block (props @fgiband).
 
 = 1.9.1 =
 Release date: January 27, 2025
