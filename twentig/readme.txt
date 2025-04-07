@@ -3,9 +3,9 @@ Contributors: twentig
 Donate link: https://www.paypal.com/donate?hosted_button_id=JTBTPQAFEA94E
 Tags: portfolio, gutenberg, gutenberg blocks, templates, website templates
 Requires at least: 6.5
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.3
-Stable tag: 1.9.2
+Stable tag: 1.9.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -20,6 +20,8 @@ With its powerful tools, the Twentig plugin helps you create a stunning website 
 With starter templates, portfolio features, enhanced Gutenberg blocks, and block patterns, you’ve got everything you need to build a beautiful website that looks great on any device.
 
 ### Customize Twenty Twenty-Five or any block theme.
+
+https://www.youtube.com/watch?v=nGGX3TKnFH4
 
 With its essential tools, Twentig helps you customize the Twenty Twenty-Five theme or any block theme built for full site editing.
 
@@ -150,6 +152,7 @@ Hundreds of Gutenberg block patterns and pre-designed page templates grouped by 
 * [See our quickstart guide](https://twentig.com/quickstart-guide/?utm_source=wp-repo&utm_medium=link&utm_campaign=guide) to learn the basics of using Twentig.
 * [Subscribe to our newsletter](https://twentig.com/newsletter?utm_source=wp-repo&utm_medium=link&utm_campaign=newsletter) to receive exclusive content, tips and updates.
 * [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCHZglgs5eTxkpRFl2r5RsGA?sub_confirmation=1) for upcoming tutorials.
+* [Explore the best WordPress websites](https://wp.gallery) built with the block editor for inspiration.
 
 ### Enjoying Twentig?
 * [Rate it on WordPress](https://wordpress.org/support/plugin/twentig/reviews/).
@@ -258,6 +261,14 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 7. **Customize your footer.** Change the layout and style, edit the copyright, remove "Powered by WordPress", and more.
 
 == Changelog ==
+
+= 1.9.3 =
+Release date: April 7, 2025
+
+* Enhancement: Marks compatibility with WordPress 6.8.
+* Fix: Adjusts CSS for the Cover block’s stretched link.
+* Fix: Adjusts CSS for the Navigation block’s accent color style.
+* Fix: Adjusts CSS for the Navigation block’s thick border style (props @sebastjava).
 
 = 1.9.2 =
 Release date: February 11, 2025
