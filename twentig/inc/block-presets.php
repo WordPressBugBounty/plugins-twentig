@@ -17,11 +17,13 @@ function twentig_get_block_css_classes() {
 
 	$classes = array(
 
-		'core/paragraph'             => array(
-			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
-			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
+		'core/paragraph'             => array(			
+			'tw-text-balance'         => __( 'Apply balanced text wrapping.', 'twentig' ),
+			'tw-text-pretty'          => __( 'Apply pretty text wrapping.', 'twentig' ),
 			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),
 			'tw-text-gradient'        => __( 'Apply background gradient to text.', 'twentig' ),
+			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
+			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
 			'tw-highlight-padding'    => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
 			'tw-rounded'              => __( 'Make the corners of the block rounded if a background color is set.', 'twentig' ),
 			'tw-md-text-left'         => __( 'Align text left on tablet and mobile.', 'twentig' ),
@@ -32,12 +34,14 @@ function twentig_get_block_css_classes() {
 			'tw-sm-text-right'        => __( 'Align text right on mobile.', 'twentig' ),
 		),
 		'core/heading'               => array(
+			'tw-text-balance'          => __( 'Apply balanced text wrapping.', 'twentig' ),
+			'tw-text-pretty'           => __( 'Apply pretty text wrapping.', 'twentig' ),
+			'tw-text-shadow'           => __( 'Add shadow to text.', 'twentig' ),
+			'tw-text-gradient'         => __( 'Apply background gradient to text.', 'twentig' ),			
 			'tw-link-hover-underline'  => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'     => __( 'Remove underline from link.', 'twentig' ),
 			'tw-heading-border-bottom' => __( 'Add a border below the heading.', 'twentig' ),
 			'tw-heading-dash-bottom'   => __( 'Add a short line below the heading.', 'twentig' ),
-			'tw-text-shadow'           => __( 'Add shadow to text.', 'twentig' ),
-			'tw-text-gradient'         => __( 'Apply background gradient to text.', 'twentig' ),
 			'tw-highlight-padding'     => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
 			'tw-eyebrow'               => __( 'Make the text small and uppercase.', 'twentig' ),
 			'tw-rounded'               => __( 'Make the corners of the block rounded if a background color is set.', 'twentig' ),
@@ -49,6 +53,8 @@ function twentig_get_block_css_classes() {
 			'tw-sm-text-right'         => __( 'Align text right on mobile.', 'twentig' ),
 		),
 		'core/post-title'            => array(
+			'tw-text-balance'         => __( 'Apply balanced text wrapping.', 'twentig' ),
+			'tw-text-pretty'          => __( 'Apply pretty text wrapping.', 'twentig' ),
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
 			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),

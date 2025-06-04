@@ -118,11 +118,11 @@ function twentig_filter_compat_query_block( $block_content, $block ) {
 	}
 
 	if ( isset( $attributes['twVerticalAlignment'] ) ) {
-		$class_names[] = sanitize_title( 'tw-valign-' . $attributes['twVerticalAlignment'] );
+		$class_names[] = 'tw-valign-' . $attributes['twVerticalAlignment'];
 	}
 
 	if ( isset( $attributes['twColumnWidth'] ) && ( 'flex' === $layout || str_contains( $block_content, 'wp-block-post-template-is-layout-grid' ) ) ) {
-		$class_names[] = sanitize_title( 'tw-cols-' . $attributes['twColumnWidth'] );
+		$class_names[] = 'tw-cols-' . $attributes['twColumnWidth'];
 	}
 
 	if ( $style || $class_names ) {
@@ -136,7 +136,7 @@ function twentig_filter_compat_query_block( $block_content, $block ) {
 
 		if ( $class_names ) {
 			foreach ( $class_names as $class_name ) {
-				$tag_processor->add_class( $class_name );
+				$tag_processor->add_class( sanitize_html_class( $class_name ) );
 			}
 		}
 

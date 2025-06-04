@@ -176,24 +176,26 @@ function twentig_filter_post_template_block( $block_content, $block ) {
 	$layout      = $attributes['layout']['type'] ?? null;
 	$class_names = array();
 
-	if ( 'grid' === $layout ) {
-		$columns_count = $attributes['layout']['columnCount'] ?? 3;
-		if ( $columns_count !== 1 ) {
-			if ( isset( $attributes['twVerticalAlignment'] ) ) {
-				$class_names[] = sanitize_title( 'tw-valign-' . $attributes['twVerticalAlignment'] );
-			}
-			if ( isset( $attributes['twColumnWidth'] ) ) {
-				$class_names[] = sanitize_title( 'tw-cols-' . $attributes['twColumnWidth'] );
-			}
-		}
+	if ( 'grid' !== $layout ) {
+		return $block_content;
 	}
 
+	$columns_count = $attributes['layout']['columnCount'] ?? 3;
+	if ( $columns_count !== 1 ) {
+		if ( isset( $attributes['twVerticalAlignment'] ) ) {
+			$class_names[] = 'tw-valign-' . $attributes['twVerticalAlignment'];
+		}
+		if ( isset( $attributes['twColumnWidth'] ) ) {
+			$class_names[] = 'tw-cols-' . $attributes['twColumnWidth'];
+		}
+	}
+	
 	if ( $class_names ) {
 		$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 		$tag_processor->next_tag();
 
 		foreach ( $class_names as $class_name ) {
-			$tag_processor->add_class( $class_name );
+			$tag_processor->add_class( sanitize_html_class( $class_name ) );
 		}
 		$block_content = $tag_processor->get_updated_html();
 	}
@@ -257,31 +259,31 @@ function twentig_filter_navigation_block( $block_content, $block ) {
 		$class_names  = array();
 
 		if ( $hover_style ) {
-			$class_names[] = sanitize_title( 'tw-nav-hover-' . $hover_style );
+			$class_names[] = 'tw-nav-hover-' . $hover_style;
 		}
 
 		if ( $active_style ) {
-			$class_names[] = sanitize_title( 'tw-nav-active-' . $active_style );
+			$class_names[] = 'tw-nav-active-' . $active_style;
 		}
 
 		if ( in_array( $overlay_menu, array( 'mobile', 'always' ), true ) ) {
 			if ( isset( $attributes['twBreakpoint'] ) && 'mobile' === $overlay_menu ) {
-				$class_names[] = sanitize_title( 'tw-break-' . $attributes['twBreakpoint'] );
+				$class_names[] = 'tw-break-' . $attributes['twBreakpoint'];
 			}
 			if ( isset( $attributes['twMenuIconSize'] ) ) {
-				$class_names[] = sanitize_title( 'tw-icon-' . $attributes['twMenuIconSize'] );
+				$class_names[] =  'tw-icon-' . $attributes['twMenuIconSize'];
 			}
 		}
 
 		if ( isset( $attributes['twGap'] ) ) {
-			$class_names[] = sanitize_title( 'tw-gap-' . $attributes['twGap'] );
+			$class_names[] = 'tw-gap-' . $attributes['twGap'];
 		}
 
 		if ( $class_names ) {
 			$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 			$tag_processor->next_tag();
 			foreach ( $class_names as $class_name ) {
-				$tag_processor->add_class( $class_name );
+				$tag_processor->add_class( sanitize_html_class( $class_name ) );
 			}
 			$block_content = $tag_processor->get_updated_html();
 		}
@@ -398,8 +400,23 @@ function twentig_filter_post_featured_image_block( $block_content, $block ) {
 	if ( ! empty( $block['attrs']['twHover'] ) ) {
 		$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 		$tag_processor->next_tag();
-		$tag_processor->add_class( 'tw-hover-' . $block['attrs']['twHover'] );
+		$tag_processor->add_class( sanitize_html_class( 'tw-hover-' . $block['attrs']['twHover'] ) );
 		$block_content = $tag_processor->get_updated_html();
+	}
+	if ( ! empty( $block['attrs']['twDisplayCaption'] ) ) {
+		$caption = get_the_post_thumbnail_caption();
+		if ( $caption ) {
+			$caption_html = wp_kses( $caption, array(
+				'a'      => array(
+					'href'   => true,
+					'target' => true,
+				),
+				'br'     => true,
+				'em'     => true,
+				'strong' => true,
+			) );
+			$block_content = str_replace( '</figure>', '<figcaption class="wp-element-caption">' . $caption_html . '</figcaption></figure>', $block_content );
+		}
 	}
 	return $block_content;
 }
@@ -424,7 +441,7 @@ function twentig_filter_details_block( $block_content, $block ) {
 	$tag_processor->add_class( 'tw-has-icon' );
 
 	if ( 'left' === $icon_position ) {
-		$tag_processor->add_class( 'tw-has-icon-' . esc_html( $icon_position ) );
+		$tag_processor->add_class( 'tw-has-icon-left' );
 	}
 
 	$block_content = $tag_processor->get_updated_html();
@@ -468,10 +485,10 @@ function twentig_add_block_animation( $block_content, $block ) {
 		$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 		$tag_processor->next_tag();
 		$tag_processor->add_class( 'tw-block-animation' );
-		$tag_processor->add_class( 'tw-animation-' . $animation );
+		$tag_processor->add_class( sanitize_html_class( 'tw-animation-' . $animation ) );
 
 		if ( $duration ) {
-			$tag_processor->add_class( 'tw-duration-' . $duration );
+			$tag_processor->add_class( sanitize_html_class( 'tw-duration-' . $duration ) );
 		}
 
 		if ( $delay ) {

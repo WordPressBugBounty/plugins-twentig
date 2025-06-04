@@ -2,10 +2,10 @@
 Contributors: twentig
 Donate link: https://www.paypal.com/donate?hosted_button_id=JTBTPQAFEA94E
 Tags: portfolio, gutenberg, gutenberg blocks, templates, website templates
-Requires at least: 6.5
+Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.3
-Stable tag: 1.9.3
+Stable tag: 1.9.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -261,6 +261,12 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 7. **Customize your footer.** Change the layout and style, edit the copyright, remove "Powered by WordPress", and more.
 
 == Changelog ==
+
+= 1.9.4 =
+Release date: June 4, 2025
+
+* New: Adds an option to display captions for the Featured Image block.
+* New: Adds CSS classes for balanced text wrapping (tw-text-balance) and pretty text wrapping (tw-text-pretty).
 
 = 1.9.3 =
 Release date: April 7, 2025
