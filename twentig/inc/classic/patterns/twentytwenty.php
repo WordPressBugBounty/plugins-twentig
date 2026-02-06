@@ -1,4 +1,11 @@
-<?php 
+<?php
+/**
+ * Block patterns for Twenty Twenty.
+ *
+ * @package twentig
+ */
+
+defined( 'ABSPATH' ) || exit;
 
 twentig_register_block_pattern(
 	'twentig/text-columns-and-image-at-the-bottom',

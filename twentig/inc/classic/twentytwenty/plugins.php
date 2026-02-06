@@ -1,4 +1,11 @@
 <?php
+/**
+ * Plugin compatibility for Twenty Twenty.
+ *
+ * @package twentig
+ */
+
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Add compatibility for various plugins.
@@ -25,7 +32,7 @@ function twentig_twentytwenty_plugins_setup() {
 	if ( class_exists( 'C_NextGEN_Bootstrap' ) ) {
 		// Disable NextGen resource manager that breaks custom footer.
 		if ( ! defined( 'NGG_DISABLE_RESOURCE_MANAGER' ) ) {
-			define( 'NGG_DISABLE_RESOURCE_MANAGER', true );
+			define( 'NGG_DISABLE_RESOURCE_MANAGER', true ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedConstantFound
 		}
 	}
 

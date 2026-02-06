@@ -4,7 +4,11 @@
  *
  * Based on https://gist.github.com/westonruter/5e8fc5b2a972392d85af4d7befcbb8da (by Weston Ruter, XWP).
  *
+ * @package twentig
  */
+
+defined( 'ABSPATH' ) || exit;
+
 class Twentig_Starter_Loop_Posts {
 
 	/**

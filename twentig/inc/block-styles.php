@@ -1,16 +1,11 @@
 <?php
-
 /**
- * Block Styles
+ * Block styles registration.
  *
- * @link https://developer.wordpress.org/reference/functions/register_block_style/
- *
+ * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 function twentig_register_block_styles() {
 
@@ -182,7 +177,7 @@ function twentig_register_block_styles() {
 			'label' => __( 'Dashed', 'twentig' ),
 		)
 	);
-	
+
 	/* Post Terms */
 
 	register_block_style(
@@ -250,7 +245,7 @@ function twentig_register_block_styles() {
 			'label' => __( 'Hashtag', 'twentig' ),
 		)
 	);
-	
+
 	register_block_style(
 		'core/post-terms',
 		array(
@@ -258,7 +253,7 @@ function twentig_register_block_styles() {
 			'label' => __( 'Plain', 'twentig' ),
 		)
 	);
-	
+
 	register_block_style(
 		'core/post-terms',
 		array(
@@ -266,7 +261,7 @@ function twentig_register_block_styles() {
 			'label' => __( 'List', 'twentig' ),
 		)
 	);
-	
+
 	/* Search */
 	register_block_style(
 		'core/search',

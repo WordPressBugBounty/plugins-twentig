@@ -5,13 +5,12 @@
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Retrieves additional CSS classes for blocks.
+ *
+ * @return array Array of block types with their available CSS class options.
  */
 function twentig_get_block_css_classes() {
 
@@ -25,7 +24,6 @@ function twentig_get_block_css_classes() {
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
 			'tw-highlight-padding'    => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
-			'tw-rounded'              => __( 'Make the corners of the block rounded if a background color is set.', 'twentig' ),
 			'tw-md-text-left'         => __( 'Align text left on tablet and mobile.', 'twentig' ),
 			'tw-md-text-center'       => __( 'Align text center on tablet and mobile.', 'twentig' ),
 			'tw-md-text-right'        => __( 'Align text right on tablet and mobile.', 'twentig' ),
@@ -40,11 +38,7 @@ function twentig_get_block_css_classes() {
 			'tw-text-gradient'         => __( 'Apply background gradient to text.', 'twentig' ),			
 			'tw-link-hover-underline'  => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'     => __( 'Remove underline from link.', 'twentig' ),
-			'tw-heading-border-bottom' => __( 'Add a border below the heading.', 'twentig' ),
-			'tw-heading-dash-bottom'   => __( 'Add a short line below the heading.', 'twentig' ),
 			'tw-highlight-padding'     => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
-			'tw-eyebrow'               => __( 'Make the text small and uppercase.', 'twentig' ),
-			'tw-rounded'               => __( 'Make the corners of the block rounded if a background color is set.', 'twentig' ),
 			'tw-md-text-left'          => __( 'Align text left on tablet and mobile.', 'twentig' ),
 			'tw-md-text-center'        => __( 'Align text center on tablet and mobile.', 'twentig' ),
 			'tw-md-text-right'         => __( 'Align text right on tablet and mobile.', 'twentig' ),
@@ -71,7 +65,6 @@ function twentig_get_block_css_classes() {
 			'tw-list-spacing-medium'  => __( 'Set a medium spacing between the list items.', 'twentig' ),
 			'tw-list-spacing-loose'   => __( 'Set a loose spacing between the list items.', 'twentig' ),
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
-			'tw-highlight-padding'    => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
 		),
 		'core/table'                 => array(
 			'tw-row-valign-top' => __( 'Vertically align top the text in the cells.', 'twentig' ),
@@ -94,7 +87,6 @@ function twentig_get_block_css_classes() {
 			'tw-justify-center'   => __( 'Center the columns horizontally.', 'twentig' ),
 		),
 		'core/column'                => array(
-			'tw-rounded'        => __( 'Make the corners of the block rounded.', 'twentig' ),
 			'tw-md-order-first' => __( 'Order first on tablet and mobile.', 'twentig' ),
 			'tw-md-order-last'  => __( 'Order last on tablet and mobile.', 'twentig' ),
 			'tw-sm-order-first' => __( 'Order first on mobile.', 'twentig' ),
@@ -102,7 +94,7 @@ function twentig_get_block_css_classes() {
 			'tw-empty-hidden'   => __( 'Hide column if empty.', 'twentig' ),
 		),
 		'core/cover'                 => array(
-			'tw-content-width-100' => __( 'Make the inner content width 100%.', 'twentig' ), 
+			'tw-content-width-100' => __( 'Make the inner content width 100%.', 'twentig' ),
 			'tw-img-bw'            => __( 'Add a black & white filter to the image.', 'twentig' ),
 		),
 		'core/media-text'            => array(
@@ -119,11 +111,9 @@ function twentig_get_block_css_classes() {
 		'core/gallery'               => array(
 			'tw-caption-large'      => __( 'Make the font size of the caption larger.', 'twentig' ),
 			'tw-hover-show-caption' => __( 'Reveal the caption on hover.', 'twentig' ),
-			'tw-img-border'         => __( 'Add a border around the images (useful for logos and illustrations).', 'twentig' ),
 			'tw-img-border-inner'   => __( 'Add an inner border between the images (useful for logos).', 'twentig' ),
 			'tw-img-bw'             => __( 'Add a black & white filter to the images.', 'twentig' ),
 			'tw-img-center'         => __( 'Center the images of the last row. You must enable the “Fixed width columns” setting.', 'twentig' ),
-			'tw-text-shadow'        => __( 'Add shadow to text.', 'twentig' ),
 		),
 		'core/embed'                 => array(
 			'is-style-tw-frame' => __( 'Add a frame around the block.', 'twentig' ),

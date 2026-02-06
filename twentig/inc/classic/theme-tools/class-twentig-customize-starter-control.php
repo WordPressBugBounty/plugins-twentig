@@ -27,10 +27,20 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 			<p class="twentig-customizer-starter-description">
 			<?php
 				printf(
-					/* translators: link to external demos site */
-					__( 'Choose a starting point to set up your site. <br><a href="%1$s" %2$s>Preview demos</a>', 'twentig' ),
-					'https://twentig.com/starter-sites/#previous-themes',
-					'class="external-link" target="_blank" rel="noopener noreferrer"'
+					wp_kses(
+						/* translators: link to external demos site */
+						__( 'Choose a starting point to set up your site. <br><a href="%s" class="external-link" target="_blank" rel="noopener noreferrer">Preview demos</a>', 'twentig' ),
+						array(
+							'br' => array(),
+							'a'  => array(
+								'href'   => array(),
+								'class'  => array(),
+								'target' => array(),
+								'rel'    => array(),
+							),
+						)
+					),
+					esc_url( 'https://twentig.com/starter-sites/#previous-themes' )
 				);
 			?>
 			</p>
@@ -62,11 +72,23 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 			<p class="twentig-customize-starter-terms hidden">
 			<?php
 				printf(
-					/* translators: links to Unsplash site */
-					__( 'The photos are provided by Unsplash. By loading a starter website, you are agreeing to Unsplash’s <a href="%1$s" %2$s>Terms</a> and <a href="%3$s" %4$s>Privacy Policy</a>.', 'twentig' ),
-					'https://unsplash.com/terms',
+					wp_kses(
+						/* translators: links to Unsplash site */
+						__( 
+							'The photos are provided by Unsplash. By loading a starter website, you are agreeing to Unsplash’s <a href="%1$s" %2$s>Terms</a> and <a href="%3$s" %4$s>Privacy Policy</a>.',
+							'twentig'
+						),
+						array(
+							'a' => array(
+								'href'   => true,
+								'target' => true,
+								'rel'    => true,
+							),
+						)
+					),
+					esc_url( 'https://unsplash.com/terms' ),
 					'target="_blank" rel="noopener noreferrer"',
-					'https://unsplash.com/privacy',
+					esc_url( 'https://unsplash.com/privacy' ),
 					'target="_blank" rel="noopener noreferrer"'
 				);
 			?>

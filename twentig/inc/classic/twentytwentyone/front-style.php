@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Enqueue scripts and styles.
  */
@@ -23,16 +25,16 @@ function twentig_twentyone_theme_scripts() {
 
 	if ( $fonts_url ) {
 		if ( get_theme_mod( 'twentig_local_fonts', false ) ) {
-			require_once TWENTIG_PATH . 'inc/compat/wptt-webfont-loader.php';
-			wp_register_style( 'twentig-webfonts', '' );
+			require_once TWENTIG_PATH . 'inc/classic/theme-tools/wptt-webfont-loader.php';
+			wp_register_style( 'twentig-webfonts', '', array(), TWENTIG_VERSION );
 			wp_enqueue_style( 'twentig-webfonts' );
 			wp_add_inline_style( 'twentig-webfonts', twentig_minify_css( wptt_get_webfont_styles( $fonts_url ) ) );
 		} else {
-			wp_enqueue_style( // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
+			wp_enqueue_style(
 				'twentig-twentyone-fonts',
 				$fonts_url,
 				array(),
-				null
+				null // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
 			);
 		}
 	}
@@ -51,21 +53,6 @@ function twentig_twentyone_theme_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'twentig_twentyone_theme_scripts', 12 );
-
-/**
- * Register minified version of the theme stylesheet.
- */
-function twentig_twentyone_load_minified_theme_stylesheet() {
-	if ( get_theme_mod( 'twentig_theme_minify_css', false ) && ! is_rtl() ) {
-		wp_register_style(
-			'twenty-twenty-one-style',
-			TWENTIG_ASSETS_URI . '/css/twentytwentyone/theme-style.css',
-			array(),
-			'1.8'
-		);
-	}
-}
-add_action( 'wp_enqueue_scripts', 'twentig_twentyone_load_minified_theme_stylesheet', 9 );
 
 /**
  * Add preconnect for Google Fonts.
@@ -795,6 +782,7 @@ function twentig_twentyone_generate_customizer_css() {
 	/* Subtle Color */
 
 	if ( $subtle_background ) {
+		$css .= ':root { --wp--preset--color--subtle:' . $subtle_background . '; }';
 		$css .= ':root .has-subtle-background-color, :root .has-subtle-background-background-color{ background-color: ' . $subtle_background . '; }';
 		$css .= ':root .has-subtle-color{ color: ' . $subtle_background . '; }';
 	}
@@ -959,7 +947,7 @@ function twentig_twentyone_generate_dynamic_css() {
 	$header_button = get_theme_mod( 'twentig_header_button', false );
 	$header_social = get_theme_mod( 'twentig_header_social_icons', false );
 	$footer_layout = get_theme_mod( 'twentig_footer_layout' );
-	$body_classes  = apply_filters( 'body_class', array(), array() );
+	$body_classes  = apply_filters( 'body_class', array(), array() ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 	$is_preview    = is_customize_preview();
 
 	/* Header Layout */

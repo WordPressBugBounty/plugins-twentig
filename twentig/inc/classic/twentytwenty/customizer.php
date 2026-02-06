@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Register custom control types.
  *
@@ -56,13 +58,13 @@ function twentig_twentytwenty_customize_register( $wp_customize ) {
 				'flex_height'   => isset( $custom_logo_args[0]['flex-height'] ) ? $custom_logo_args[0]['flex-height'] : null,
 				'flex_width'    => isset( $custom_logo_args[0]['flex-width'] ) ? $custom_logo_args[0]['flex-width'] : null,
 				'button_labels' => array(
-					'select'       => esc_html__( 'Select logo' ),
-					'change'       => esc_html__( 'Change logo' ),
-					'remove'       => esc_html__( 'Remove' ),
-					'default'      => esc_html__( 'Default' ),
-					'placeholder'  => esc_html__( 'No logo selected' ),
-					'frame_title'  => esc_html__( 'Select logo' ),
-					'frame_button' => esc_html__( 'Choose logo' ),
+					'select'       => esc_html__( 'Select logo', 'default' ),
+					'change'       => esc_html__( 'Change logo', 'default' ),
+					'remove'       => esc_html__( 'Remove', 'default' ),
+					'default'      => esc_html__( 'Default', 'default' ),
+					'placeholder'  => esc_html__( 'No logo selected', 'default' ),
+					'frame_title'  => esc_html__( 'Select logo', 'default' ),
+					'frame_button' => esc_html__( 'Choose logo', 'default' ),
 				),
 			)
 		)
@@ -1368,7 +1370,7 @@ function twentig_twentytwenty_customize_register( $wp_customize ) {
 				'section'     => 'twentig_footer_section',
 				'description' => sprintf(
 					/* translators: %s: URL to the Reusable Blocks admin page. */
-					__( 'Create the footer with <a href="%s" target="_blank" class="external-link">Reusable Blocks</a>.', 'twentig' ),
+					__( 'Create the footer with <a href="%s" target="_blank" class="external-link">Patterns</a>.', 'twentig' ),
 					esc_url_raw( admin_url( 'edit.php?post_type=wp_block' ) )
 				),
 			)
@@ -2528,7 +2530,7 @@ function twentig_twentytwenty_get_starter_websites() {
 	$starters = array(
 		array(
 			'id'         => 'default',
-			'title'      => __( 'Default' ),
+			'title'      => __( 'Default', 'default' ),
 			'screenshot' => 'https://demo.twentig.com/static/classic/2020/twentytwenty.png',
 		),
 		array(

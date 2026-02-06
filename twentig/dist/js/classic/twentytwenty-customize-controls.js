@@ -41,7 +41,7 @@
 				});
 
 				if ( control.setting() === '' ) {
-					$slider.val( parseFloat( $slider.attr( 'min' ) ) ) ;
+					$slider.val( parseFloat( $slider.attr( 'min' ) ) );
 				}					
 
 				$input.on('change keyup', function() {

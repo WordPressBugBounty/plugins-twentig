@@ -4,10 +4,7 @@
  * Twentig dashboard class.
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 class TwentigDashboard {
 
@@ -37,7 +34,7 @@ class TwentigDashboard {
 		add_action( 'admin_menu', array( $this, 'add_menu' ) );
 		add_action( 'admin_init', array( $this, 'redirect_dashboard' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts' ) );
-		add_action( 'rest_api_init', array( $this, 'register_routes' ), 10, 2 );
+		add_action( 'rest_api_init', array( $this, 'register_routes' ) );
 	}
 
 	/**
@@ -69,7 +66,7 @@ class TwentigDashboard {
 	 * Renders the Twentig dashboard page.
 	 */
 	public function render_menu_page() {
-		if ( isset( $_GET['setting-updated'] ) ) {
+		if ( isset( $_GET['setting-updated'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
 			flush_rewrite_rules( false );
 		}
 		?>
@@ -85,7 +82,7 @@ class TwentigDashboard {
 			$do_redirect = true;
 			delete_transient( '_twentig_activation_redirect' );
 
-			if ( is_network_admin() || isset( $_GET['activate-multi'] ) ) {
+			if ( is_network_admin() || isset( $_GET['activate-multi'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
 				$do_redirect = false;
 			}
 
@@ -107,7 +104,7 @@ class TwentigDashboard {
 	/**
 	 * Enqueues admin scripts (JS and CSS).
 	 */
-	public function admin_enqueue_scripts() {
+	public function admin_enqueue_scripts( $hook_suffix ) {
 
 		if ( in_array( get_current_screen()->base, array( 'toplevel_page_twentig' ), true ) ) {
 			$asset_file = include plugin_dir_path( dirname( __DIR__ ) ) . 'dist/index.asset.php';
@@ -116,8 +113,20 @@ class TwentigDashboard {
 				wp_enqueue_style( $style );
 			}
 
-			wp_enqueue_style( 'twentig-editor', plugins_url( 'dist/index.css', dirname( __DIR__ ) ), array(), $asset_file['version'] );
-			wp_enqueue_script( 'twentig-homescreen', plugins_url( 'dist/index.js', dirname( __DIR__ ) ), $asset_file['dependencies'], $asset_file['version'] );
+			wp_enqueue_style(
+				'twentig-editor',
+				plugins_url( 'dist/index.css', dirname( __DIR__ ) ),
+				array(),
+				$asset_file['version'] 
+			);
+
+			wp_enqueue_script(
+				'twentig-homescreen',
+				plugins_url( 'dist/index.js', dirname( __DIR__ ) ),
+				$asset_file['dependencies'],
+				$asset_file['version'],
+				array( 'in_footer' => false )
+			);
 
 			$config = array(
 				'theme'        => get_template(),
@@ -136,29 +145,17 @@ class TwentigDashboard {
 
 			$plugin            = 'twentig/twentig.php';
 			$plugin_update_url = wp_nonce_url( self_admin_url( 'update.php?return=kit-importer&action=upgrade-plugin&plugin=' . $plugin ), 'upgrade-plugin_' . $plugin );
-
-			$default_theme_slug = 'twentytwentyfour';
-			$defaultThemeURL    = '';
-
-			if ( wp_get_theme( $default_theme_slug )->exists() ) {
-				$defaultThemeURL = wp_nonce_url( admin_url( 'themes.php?action=activate&amp;stylesheet=' . urlencode( $default_theme_slug ) ), 'switch-theme_' . $default_theme_slug );
-			} else {
-				$defaultThemeURL = self_admin_url( 'theme-install.php?search=' . $default_theme_slug );
-			}
-
+	
 			$home_template = get_block_template( get_stylesheet() . '//home', 'wp_template' );
 			$blog_template = $home_template ? 'home' : 'index';
 
-			$typography_settings = get_option('twentig_typography', array( 'local' => true ) );
-			$google_fonts        = current_theme_supports( 'twentig-v2' ) || ( empty( $typography_settings['font1'] ) && empty( $typography_settings['font2'] ) ) ? array() : twentig_get_fonts_data();
-		
 			wp_localize_script(
 				'twentig-homescreen',
 				'twentigDashboardConfig',
 				array(
 					'siteUrl'            => esc_url( get_home_url() ),
 					'editorUrl'          => esc_url( admin_url( 'site-editor.php' ) ),
-					'defaultThemeUrl'    => $defaultThemeURL,
+					'customizerUrl'      => esc_url( admin_url( 'customize.php?startersite=1' ) ),
 					'assetsUrl'          => TWENTIG_ASSETS_URI . '/images/',
 					'theme'              => get_template(),
 					'isBlockTheme'       => wp_is_block_theme(),
@@ -168,13 +165,12 @@ class TwentigDashboard {
 					'wpVersion'          => $wp_version,
 					'updateWordPressUrl' => current_user_can( 'update_core' ) ? network_admin_url( 'update-core.php' ) : '',
 					'twentigVersion'     => TWENTIG_VERSION,
-					'updateTwentigUrl'   => current_user_can( 'update_plugins' ) ? $plugin_update_url : '',
+					'updateTwentigUrl'   => current_user_can( 'update_plugins' ) ? esc_url( $plugin_update_url ) : '',
 					'deletePrevious'     => $this->website_importer->has_imported_posts(),
 					'isFreshSite'        => get_option( 'fresh_site' ) ? '1' : '0',
 					'twentigOptions'     => twentig_get_options(),
-					'typographyOptions'  => get_option( 'twentig_typography', array( 'local' => true ) ),
-					'googleFontsData'    => $google_fonts,
-					'starterTemplates'   => $this->website_importer->get_website_templates(),
+					'starterSites'       => $this->website_importer->get_starter_sites(),
+					'isImporterActive'   => is_plugin_active( 'wordpress-importer/wordpress-importer.php' ),
 				)
 			);
 		}

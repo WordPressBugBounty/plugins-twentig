@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Class used to separate menu action items from the menu navigation.
  */
@@ -126,9 +128,9 @@ class Twentig_Nav_Menu {
 		$twentytwentyone_unique_id = wp_unique_id( 'search-form-' );
 		?>
 		<form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<label for="<?php echo esc_attr( $twentytwentyone_unique_id ); ?>" class="screen-reader-text"><?php _e( 'Search&hellip;', 'twentytwentyone' ); // phpcs:ignore: WordPress.Security.EscapeOutput.UnsafePrintingFunction -- core trusts translations ?></label>
-			<input type="search" autocomplete="off" id="<?php echo esc_attr( $twentytwentyone_unique_id ); ?>" placeholder="<?php _e( 'Search&hellip;', 'twentytwentyone' ); // phpcs:ignore: WordPress.Security.EscapeOutput.UnsafePrintingFunction -- core trusts translations ?>" class="search-field" value="" name="s" />
-			<button type="submit" class="search-submit" aria-label="<?php echo esc_attr_x( 'Search', 'submit button', 'twentytwentyone' ); ?>">
+			<label for="<?php echo esc_attr( $twentytwentyone_unique_id ); ?>" class="screen-reader-text"><?php esc_html_e( 'Search&hellip;', 'twentytwentyone' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?></label>
+			<input type="search" autocomplete="off" id="<?php echo esc_attr( $twentytwentyone_unique_id ); ?>" placeholder="<?php esc_html_e( 'Search&hellip;', 'twentytwentyone' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?>" class="search-field" value="" name="s" />
+			<button type="submit" class="search-submit" aria-label="<?php echo esc_attr_x( 'Search', 'submit button', 'twentytwentyone' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?>">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M1.5 11.4a8.323 8.323 0 008.25 8.25 7.86 7.86 0 005.4-2.1l5.1 4.35 1.5-1.65-5.1-4.5a7.937 7.937 0 001.35-4.5A8.323 8.323 0 009.75 3a8.355 8.355 0 00-8.25 8.4zm2.25-.15a6 6 0 116 6 6.018 6.018 0 01-6-6z"/></svg>
 			</button>
 		</form>

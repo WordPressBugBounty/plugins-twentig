@@ -1,12 +1,16 @@
 <?php
-
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+/**
+ * Twentig utility functions.
+ *
+ * @package twentig
+ */
+ 
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Retrieves Twentig options considering its defaults values.
+ *
+ * @return array Array of Twentig options with defaults applied.
  */
 function twentig_get_options() {
 	$default_themes   = array( 'twentytwentytwo', 'twentytwentythree', 'twentytwentyfour' );
@@ -37,6 +41,7 @@ function twentig_get_options() {
  * Checks whether the Twentig option is enabled.
  *
  * @param string $name The name of the option.
+ * @return bool|mixed The option value if set, false otherwise.
  */
 function twentig_is_option_enabled( $name ) {
 	$options = twentig_get_options();
@@ -51,6 +56,7 @@ function twentig_is_option_enabled( $name ) {
  * Removes line breaks and superfluous whitespace.
  *
  * @param string $css String containing CSS.
+ * @return string Minified CSS string.
  */
 function twentig_minify_css( $css ) {
 	if ( ! defined( 'SCRIPT_DEBUG' ) || ! SCRIPT_DEBUG ) {
@@ -70,6 +76,8 @@ function twentig_minify_css( $css ) {
 
 /**
  * Determines if the theme supports Twentig spacing.
+ *
+ * @return bool True if theme supports spacing, false otherwise.
  */
 function twentig_theme_supports_spacing() {
 	if ( current_theme_supports( 'tw-spacing' ) && twentig_is_option_enabled( 'predefined_spacing' ) ) {
@@ -80,7 +88,9 @@ function twentig_theme_supports_spacing() {
 
 /**
  * Processes the fonts json file and returns an array with its contents.
+ *
  * @see read_json_file() in class-wp-theme-json-resolver.php
+ * @return array Array of font data from the JSON file.
  */
 function twentig_get_fonts_data() {
 	$file_path = TWENTIG_PATH . 'dist/js/webfonts.json';

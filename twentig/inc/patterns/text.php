@@ -4,6 +4,8 @@
  *
  * @package twentig
  */
+
+defined( 'ABSPATH' ) || exit;
  
 twentig_register_block_pattern(
 	'twentig/heading-and-text',

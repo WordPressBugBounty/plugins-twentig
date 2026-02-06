@@ -1,14 +1,11 @@
 <?php
 /**
- * Additional options for Twenty Twenty
+ * Additional options for Twenty Twenty.
  *
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Include files.

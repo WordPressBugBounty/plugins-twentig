@@ -5,34 +5,31 @@
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Registers the block pattern categories.
  */
 function twentig_register_block_pattern_categories() {
-	register_block_pattern_category( 'posts', array( 'label' => _x( 'Posts', 'Block pattern category' ) ) );
-	register_block_pattern_category( 'text', array( 'label' => esc_html_x( 'Text', 'Block pattern category' ) ) );
+	register_block_pattern_category( 'posts', array( 'label' => _x( 'Posts', 'Block pattern category', 'default' ) ) );
+	register_block_pattern_category( 'text', array( 'label' => esc_html_x( 'Text', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'text-image', array( 'label' => esc_html_x( 'Text and Image', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'hero', array( 'label' => esc_html_x( 'Hero', 'Block pattern category', 'twentig' ) ) );
-	register_block_pattern_category( 'banner', array( 'label' => esc_html_x( 'Banners', 'Block pattern category' ) ) );
-	register_block_pattern_category( 'call-to-action', array( 'label' => esc_html_x( 'Call to Action', 'Block pattern category' ) ) );
+	register_block_pattern_category( 'banner', array( 'label' => esc_html_x( 'Banners', 'Block pattern category', 'default' ) ) );
+	register_block_pattern_category( 'call-to-action', array( 'label' => esc_html_x( 'Call to Action', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'list', array( 'label' => esc_html_x( 'List', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'numbers', array( 'label' => esc_html_x( 'Numbers, Stats', 'Block pattern category', 'twentig' ) ) );
-	register_block_pattern_category( 'gallery', array( 'label' => esc_html_x( 'Gallery', 'Block pattern category' ) ) );
-	register_block_pattern_category( 'media', array( 'label' => esc_html_x( 'Media', 'Block pattern category' ) ) );
+	register_block_pattern_category( 'gallery', array( 'label' => esc_html_x( 'Gallery', 'Block pattern category', 'default' ) ) );
+	register_block_pattern_category( 'media', array( 'label' => esc_html_x( 'Media', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'latest-posts', array( 'label' => esc_html_x( 'Latest Posts', 'Block pattern category', 'twentig' ) ) );
-	register_block_pattern_category( 'contact', array( 'label' => esc_html_x( 'Contact', 'Block pattern category' ) ) );
-	register_block_pattern_category( 'team', array( 'label' => esc_html_x( 'Team', 'Block pattern category' ) ) );
-	register_block_pattern_category( 'testimonials', array( 'label' => esc_html_x( 'Testimonials', 'Block pattern category' ) ) );
+	register_block_pattern_category( 'contact', array( 'label' => esc_html_x( 'Contact', 'Block pattern category', 'default' ) ) );
+	register_block_pattern_category( 'team', array( 'label' => esc_html_x( 'Team', 'Block pattern category', 'default' ) ) );
+	register_block_pattern_category( 'testimonials', array( 'label' => esc_html_x( 'Testimonials', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'logos', array( 'label' => esc_html_x( 'Logos, Clients', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'pricing', array( 'label' => esc_html_x( 'Pricing', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'faq', array( 'label' => esc_html_x( 'FAQs', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'events', array( 'label' => esc_html_x( 'Events, Schedule', 'Block pattern category', 'twentig' ) ) );
-	register_block_pattern_category( 'page', array( 'label' => _x( 'Pages', 'Block pattern category' ) ) );
+	register_block_pattern_category( 'page', array( 'label' => _x( 'Pages', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'page-single', array( 'label' => _x( 'Single Pages', 'Block pattern category', 'twentig' ) ) );
 }
 add_action( 'init', 'twentig_register_block_pattern_categories', 9 );
@@ -150,7 +147,7 @@ function twentig_register_block_pattern( $pattern_name, $pattern_properties ) {
  */
 function twentig_replace_theme_patterns_strings( $content, $theme ) {
 
-	switch( $theme ) {
+	switch ( $theme ) {
 		case 'twentytwentyfive':
 
 			$colors = array(
@@ -218,7 +215,7 @@ function twentig_replace_theme_patterns_strings( $content, $theme ) {
 				'medium'      => 'large',
 				'h3'          => 'h4',
 				'extra-large' => 'h3',
-				'huge'	      => 'h1',
+				'huge'        => 'h1',
 			);
 
 			foreach ( $font_sizes as $old_size => $new_size ) {

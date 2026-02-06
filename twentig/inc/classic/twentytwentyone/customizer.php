@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Register custom control types.
  *
@@ -57,13 +59,13 @@ function twentig_twentyone_customize_register( $wp_customize ) {
 				'flex_height'   => isset( $custom_logo_args[0]['flex-height'] ) ? $custom_logo_args[0]['flex-height'] : null,
 				'flex_width'    => isset( $custom_logo_args[0]['flex-width'] ) ? $custom_logo_args[0]['flex-width'] : null,
 				'button_labels' => array(
-					'select'       => esc_html__( 'Select logo' ),
-					'change'       => esc_html__( 'Change logo' ),
-					'remove'       => esc_html__( 'Remove' ),
-					'default'      => esc_html__( 'Default' ),
-					'placeholder'  => esc_html__( 'No logo selected' ),
-					'frame_title'  => esc_html__( 'Select logo' ),
-					'frame_button' => esc_html__( 'Choose logo' ),
+					'select'       => esc_html__( 'Select logo', 'default' ),
+					'change'       => esc_html__( 'Change logo', 'default' ),
+					'remove'       => esc_html__( 'Remove', 'default' ),
+					'default'      => esc_html__( 'Default', 'default' ),
+					'placeholder'  => esc_html__( 'No logo selected', 'default' ),
+					'frame_title'  => esc_html__( 'Select logo', 'default' ),
+					'frame_button' => esc_html__( 'Choose logo', 'default' ),
 				),
 			)
 		)
@@ -221,7 +223,7 @@ function twentig_twentyone_customize_register( $wp_customize ) {
 					$wp_customize,
 					'twentig_colors_title_' . sanitize_title( $color['id'] ),
 					array(
-						'label'    => esc_html__( $color['label'] ),
+						'label'    => esc_html( $color['label'] ),
 						'section'  => 'colors',
 						'settings' => array(),
 					)
@@ -1291,7 +1293,7 @@ function twentig_twentyone_customize_register( $wp_customize ) {
 				'section'     => 'twentig_footer_section',
 				'description' => sprintf(
 					/* translators: %s: URL to the Reusable Blocks admin page. */
-					__( 'Create the footer with <a href="%s" target="_blank" class="external-link">Reusable Blocks</a>.', 'twentig' ),
+					__( 'Create the footer with <a href="%s" target="_blank" class="external-link">Patterns</a>.', 'twentig' ),
 					esc_url_raw( admin_url( 'edit.php?post_type=wp_block' ) )
 				),
 			)
@@ -2558,26 +2560,6 @@ function twentig_twentyone_customize_register( $wp_customize ) {
 	);
 
 	$wp_customize->add_setting(
-		'twentig_theme_minify_css',
-		array(
-			'default'           => 0,
-			'sanitize_callback' => 'absint',
-		)
-	);
-
-	$wp_customize->add_control(
-		'twentig_theme_minify_css',
-		array(
-			'section'         => 'twentig_performance_section',
-			'label'           => esc_html__( 'Minify the theme stylesheet to reduce its load time.', 'twentig' ),
-			'type'            => 'checkbox',
-			'active_callback' => static function() {
-				return ! is_rtl();
-			},
-		)
-	);
-
-	$wp_customize->add_setting(
 		'twentig_page_contact',
 		array(
 			'default'           => 0,
@@ -3102,7 +3084,7 @@ function twentig_twentyone_get_starter_websites() {
 	$starters = array(
 		array(
 			'id'         => 'default',
-			'title'      => __( 'Default' ),
+			'title'      => __( 'Default', 'default' ),
 			'screenshot' => 'https://demo.twentig.com/static/classic/2021/twentytwentyone.jpg',
 		),
 		array(

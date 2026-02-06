@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Returns font stack for a given setting.
  *

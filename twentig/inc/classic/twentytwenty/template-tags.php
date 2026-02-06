@@ -1,9 +1,11 @@
 <?php
 /**
- * Custom template tags for this theme.
+ * Custom template tags for Twenty Twenty.
  *
  * @package twentig
  */
+
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Set the excerpt more link.
@@ -23,7 +25,7 @@ add_filter( 'excerpt_more', 'twentig_excerpt_more' );
  */
 function twentig_add_more_to_excerpt( $post_excerpt, $post ) {
 	if ( 'summary' === get_theme_mod( 'blog_content', 'full' ) && get_theme_mod( 'twentig_blog_excerpt_more', false ) && 'post' === $post->post_type && ! is_singular() && ! is_search() ) {
-		return $post_excerpt . '<a href="' . get_permalink( $post->ID ) . '" class="more-link"><span>' . esc_html__( 'Continue reading', 'twentytwenty' ) . '</span><span class="screen-reader-text">' . $post->post_title . '</span></a>';
+		return $post_excerpt . '<a href="' . get_permalink( $post->ID ) . '" class="more-link"><span>' . esc_html__( 'Continue reading', 'twentytwenty' ) . '</span><span class="screen-reader-text">' . $post->post_title . '</span></a>'; // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 	}
 	return $post_excerpt;
 }
@@ -347,10 +349,10 @@ add_action( 'get_template_part_template-parts/navigation', 'twentig_filter_navig
  */
 function twentig_exclude_terms() {
 	$cat_ids = get_terms(
-		'category',
 		array(
-			'fields' => 'ids',
-			'get'    => 'all',
+			'taxonomy' => 'category',
+			'fields'   => 'ids',
+			'get'      => 'all',
 		)
 	);
 	return $cat_ids;
@@ -713,13 +715,13 @@ function twentig_get_footer( $name = null ) {
 							<span class="to-the-top-long">
 								<?php
 								/* translators: %s: HTML character for up arrow */
-								printf( __( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
+								printf( esc_html__( 'To the top %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 								?>
 							</span>
 							<span class="to-the-top-short">
 								<?php
 								/* translators: %s: HTML character for up arrow */
-								printf( __( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
+								printf( esc_html__( 'Up %s', 'twentytwenty' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 								?>
 							</span>
 						</a><!-- .to-the-top -->
@@ -749,6 +751,8 @@ function twentig_get_footer( $name = null ) {
 }
 add_action( 'get_footer', 'twentig_get_footer', 9 );
 
+add_filter( 'should_load_separate_core_block_assets', '__return_false' );
+
 /**
  * Determines whether the given footer template name exists.
  *
@@ -760,7 +764,7 @@ function twentig_twentytwenty_footer_exists( $name ) {
 	}
 
 	$template_name = "footer-{$name}.php";
-	if ( 'embed' === $name || file_exists( STYLESHEETPATH . '/' . $template_name ) || file_exists( TEMPLATEPATH . '/' . $template_name ) ) {
+	if ( 'embed' === $name || file_exists( get_stylesheet_directory() . '/' . $template_name ) || file_exists( get_template_directory() . '/' . $template_name ) ) {
 		return true;
 	}
 	return false;
@@ -792,7 +796,7 @@ function twentig_get_footer_menu() {
 	if ( twentig_footer_has_nav_menu( 'footer' ) ) {
 		?>
 
-		<nav aria-label="<?php esc_attr_e( 'Footer', 'twentytwenty' ); ?>" class="footer-menu-wrapper">
+		<nav aria-label="<?php esc_attr_e( 'Footer', 'twentytwenty' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?>" class="footer-menu-wrapper">
 
 			<ul class="footer-menu reset-list-style">
 				<?php
@@ -820,7 +824,7 @@ function twentig_get_footer_social_menu() {
 	if ( twentig_footer_has_nav_menu( 'social' ) && twentig_twentytwenty_is_socials_location( 'footer' ) ) {
 		?>
 
-		<nav aria-label="<?php esc_attr_e( 'Social links', 'twentytwenty' ); ?>" class="footer-social-wrapper">
+		<nav aria-label="<?php esc_attr_e( 'Social links', 'twentytwenty' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?>" class="footer-social-wrapper">
 
 			<ul class="social-menu footer-social reset-list-style social-icons fill-children-current-color">
 
@@ -866,12 +870,7 @@ function twentig_get_footer_credits() {
 			<?php echo do_shortcode( twentig_twentytwenty_sanitize_credit( str_replace( '[Y]', date_i18n( 'Y' ), $credit_text ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 		<?php } else { ?>
 			&copy;
-			<?php
-			echo date_i18n(
-				/* translators: Copyright date format, see https://secure.php.net/date */
-				_x( 'Y', 'copyright date format', 'twentytwenty' )
-			);
-			?>
+			<?php echo esc_html( wp_date( 'Y' ) ); ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo bloginfo( 'name' ); ?></a>			
 		<?php } ?>
 		</p>
@@ -879,7 +878,7 @@ function twentig_get_footer_credits() {
 		<?php if ( '' === $footer_credit ) { ?>
 			<p class="powered-by-wordpress">
 				<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>">
-					<?php esc_html_e( 'Powered by WordPress', 'twentytwenty' ); ?>
+					<?php esc_html_e( 'Powered by WordPress', 'twentytwenty' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?>
 				</a>
 			</p>
 		<?php } ?>

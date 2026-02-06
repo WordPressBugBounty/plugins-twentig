@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Set the excerpt more link.
  *
@@ -222,10 +224,10 @@ add_action( 'get_template_part_template-parts/post/author-bio', 'twentig_twentyo
  */
 function twentig_twentyone_exclude_terms() {
 	$cat_ids = get_terms(
-		'category',
 		array(
-			'fields' => 'ids',
-			'get'    => 'all',
+			'taxonomy' => 'category',
+			'fields'   => 'ids',
+			'get'      => 'all',
 		)
 	);
 	return $cat_ids;
@@ -428,7 +430,7 @@ function twentig_twentyone_get_footer( $name = null ) {
 				<div class="site-info">
 					<?php twentig_twentyone_get_footer_branding(); ?>
 					<?php twentig_twentyone_get_footer_credits(); ?>
-					<?php twentig_twentyone_get_footer_menu(); ?>			
+					<?php twentig_twentyone_get_footer_menu(); ?>
 				</div><!-- .site-info -->
 			<?php elseif ( 'stack' === $footer_layout ) : ?>
 				<div class="site-info">
@@ -467,6 +469,8 @@ function twentig_twentyone_get_footer( $name = null ) {
 }
 add_action( 'get_footer', 'twentig_twentyone_get_footer', 9 );
 
+add_filter( 'should_load_separate_core_block_assets', '__return_false' );
+
 /**
  * Determines whether the given footer template name exists.
  *
@@ -478,7 +482,7 @@ function twentig_twentyone_footer_exists( $name ) {
 	}
 
 	$template_name = "footer-{$name}.php";
-	if ( 'embed' === $name || file_exists( STYLESHEETPATH . '/' . $template_name ) || file_exists( TEMPLATEPATH . '/' . $template_name ) ) {
+	if ( 'embed' === $name || file_exists( get_stylesheet_directory() . '/' . $template_name ) || file_exists( get_template_directory() . '/' . $template_name ) ) {
 		return true;
 	}
 	return false;
@@ -513,7 +517,7 @@ function twentig_twentyone_get_footer_branding() {
 function twentig_twentyone_get_footer_menu() {
 	if ( has_nav_menu( 'footer' ) ) :
 		?>
-		<nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
+		<nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?>" class="footer-navigation">
 			<ul class="footer-navigation-wrapper">
 				<?php
 				wp_nav_menu(
@@ -552,8 +556,8 @@ function twentig_twentyone_get_footer_credits() {
 				<?php
 				printf(
 					/* translators: %s: WordPress. */
-					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
-					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
+					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ), // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
+					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>' // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 				);
 				?>
 			<?php endif; ?>				

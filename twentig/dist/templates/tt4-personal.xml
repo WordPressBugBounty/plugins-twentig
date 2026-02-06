@@ -1369,7 +1369,7 @@
 		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50"},"margin":{"top":"40px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:40px;padding-top:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"border":{"top":{"width":"1px"},"right":{},"bottom":{},"left":{}},"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide" style="border-top-width:1px;padding-top:40px;padding-bottom:40px"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2025. Made with Twentig.</p>
+<p class="has-small-font-size">© 2026. Made with Twentig.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"20px"}}},"className":"is-style-logos-only","twHover":"opacity-down"} -->

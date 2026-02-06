@@ -5,13 +5,13 @@
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Hooks into the data provided by the theme to change settings.
+ *
+ * @param WP_Theme_JSON_Data $theme_json Theme JSON data object.
+ * @return WP_Theme_JSON_Data Modified theme JSON data.
  */
 function twentig_twentythree_filter_theme_json( $theme_json ) {
 	if ( twentig_theme_supports_spacing() ) {

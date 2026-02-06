@@ -7,6 +7,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Class used for creating page templates.
  */
@@ -125,4 +127,4 @@ class Twentig_Page_Templater {
 	}
 
 }
-add_action( 'plugins_loaded', array( 'Twentig_Page_Templater', 'get_instance' ) );
+add_action( 'init', array( 'Twentig_Page_Templater', 'get_instance' ) );

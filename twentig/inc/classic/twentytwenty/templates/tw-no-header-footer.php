@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 ?><!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>

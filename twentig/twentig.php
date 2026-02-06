@@ -5,22 +5,19 @@
  * Description: With its powerful tools, Twentig makes it easy to create and customize your own website.
  * Author: Twentig.com
  * Author URI: https://twentig.com
- * Version: 1.9.4
+ * Version: 1.9.7
  * Text Domain: twentig
  * License: GPLv3 or later
  *
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Setup plugin constants.
  */
-define( 'TWENTIG_VERSION', '1.9.4' );
+define( 'TWENTIG_VERSION', '1.9.7' );
 define( 'TWENTIG_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'TWENTIG_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 define( 'TWENTIG_ASSETS_URI', TWENTIG_URI . 'dist' );

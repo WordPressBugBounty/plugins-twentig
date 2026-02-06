@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Set the 404 page.
  *
@@ -28,7 +30,7 @@ function twentig_set_404_template( $template ) {
 		add_filter(
 			'document_title_parts',
 			function ( $title ) {
-				$title['title'] = esc_html__( 'Page not found' );
+				$title['title'] = esc_html__( 'Page not found', 'default' );
 				return $title;
 			}
 		);

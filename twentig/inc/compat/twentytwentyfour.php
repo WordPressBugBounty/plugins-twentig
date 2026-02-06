@@ -5,13 +5,13 @@
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Hooks into the data provided by the theme to change settings.
+ *
+ * @param WP_Theme_JSON_Data $theme_json Theme JSON data object.
+ * @return WP_Theme_JSON_Data Modified theme JSON data.
  */
 function twentig_twentyfour_filter_theme_json( $theme_json ) {
 
@@ -42,7 +42,7 @@ function twentig_twentyfour_filter_theme_json( $theme_json ) {
 add_filter( 'wp_theme_json_data_theme', 'twentig_twentyfour_filter_theme_json' );
 
 /**
- * Adds support for Twentig website templates.
+ * Adds support for Twentig starter sites.
  */
 function twentig_twentyfour_theme_support() {
 
@@ -75,7 +75,7 @@ function twentig_twentyfour_theme_support() {
 		),
 		array(
 			'title'      => __( 'Personal', 'twentig' ),
-			'screenshot' => esc_url( $template_uri . 'tt4-personal.png' ),
+			'screenshot' => esc_url( $template_uri . 'tt4-personal.webp' ),
 			'file'       => $template_path . 'tt4-personal.xml',
 			'url'        => 'https://demo.twentig.com/tt4-personal/',
 			'options'    => array(
@@ -87,7 +87,7 @@ function twentig_twentyfour_theme_support() {
 		),
 		array(
 			'title'      => __( 'Portfolio', 'twentig' ),
-			'screenshot' => esc_url( $template_uri . 'tt4-portfolio.png' ),
+			'screenshot' => esc_url( $template_uri . 'tt4-portfolio.webp' ),
 			'file'       => $template_path . 'tt4-portfolio.xml',
 			'url'        => 'https://demo.twentig.com/tt4-portfolio/',
 			'options'    => array(
@@ -99,7 +99,7 @@ function twentig_twentyfour_theme_support() {
 			),
 		),
 	);
-	add_theme_support( 'twentig-starter-website-templates', $website_templates );
+	add_theme_support( 'twentig-starter-websites', $website_templates );
 }
 add_action( 'after_setup_theme', 'twentig_twentyfour_theme_support' );
 

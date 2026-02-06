@@ -3,8 +3,9 @@
  * Single Page Layouts.
  *
  * @package twentig
- * @phpcs:disable Squiz.Strings.DoubleQuoteUsage.NotRequired
  */
+
+defined( 'ABSPATH' ) || exit;
 
 twentig_register_block_pattern(
 	'twentig/link-in-bio-with-background-image',

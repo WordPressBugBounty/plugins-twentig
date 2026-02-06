@@ -36,7 +36,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 
 			<?php
 			$dropdown_name     = '_customize-dropdown-pages-' . $this->id;
-			$show_option_none  = esc_html__( '&mdash; Select &mdash;' );
+			$show_option_none  = esc_html__( '&mdash; Select &mdash;', 'default' );
 			$option_none_value = '0';
 			$dropdown          = wp_dropdown_pages(
 				array(

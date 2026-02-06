@@ -1,21 +1,20 @@
 <?php
 /**
- * Website Template Importer class.
+ * Handles WordPress XML imports for starter sites.
+ *
+ * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
+/**
+ * Twentig Website Importer class.
+ */
 class TwentigWebsiteImporter {
 
 	protected $importer;
 	private $processed_ids = array();
 	private $nav_ids       = array();
-	private $has_styles    = true;
-	private $has_content   = true;
-	private $has_templates = true;
 	private $site_options  = array();
 	private $has_portfolio = false;
 
@@ -27,7 +26,7 @@ class TwentigWebsiteImporter {
 		register_rest_route(
 			'twentig/v1',
 			'/upload-starter-file',
-				array(
+			array(
 				'methods'             => \WP_REST_Server::EDITABLE,
 				'callback'            => array( $this, 'upload_starter_website_callback' ),
 				'permission_callback' => function () {
@@ -35,22 +34,35 @@ class TwentigWebsiteImporter {
 				},
 			)
 		);
+		
+		register_rest_route(
+			'twentig/v1',
+			'/install-wordpress-importer',
+			array(
+				'methods'             => \WP_REST_Server::CREATABLE,
+				'callback'            => array( $this, 'install_wordpress_importer_callback' ),
+				'permission_callback' => function () {
+					return current_user_can( 'install_plugins' ) && current_user_can( 'activate_plugins' );
+				},
+			)
+		);
 	}
 
 	/**
 	 * Imports the selected starter website.
+	 *
 	 * @param WP_REST_Request $request The request object.
-	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
 	 */
 	public function upload_starter_website_callback( $request ) {
-		require_once( ABSPATH . 'wp-admin/includes/post.php' );
-		require_once( ABSPATH . 'wp-admin/includes/image.php' );
-		require_once( ABSPATH . 'wp-admin/includes/file.php' );
-		require_once( ABSPATH . 'wp-admin/includes/media.php' );
-		require_once( ABSPATH . 'wp-admin/includes/taxonomy.php' );
+		require_once ABSPATH . 'wp-admin/includes/post.php';
+		require_once ABSPATH . 'wp-admin/includes/image.php';
+		require_once ABSPATH . 'wp-admin/includes/file.php';
+		require_once ABSPATH . 'wp-admin/includes/media.php';
+		require_once ABSPATH . 'wp-admin/includes/taxonomy.php';
 
-		$starters                = $this->get_website_templates();
-		$starter_id              = $request->get_param( 'starter_index' );
+		$starters                = $this->get_starter_sites();
+		$starter_id              = absint( $request->get_param( 'starter_index' ) );
 		$delete_previous_content = wp_validate_boolean( $request->get_param( 'delete_previous_content' ) );
 
 		if ( ! isset( $starters[ $starter_id ] ) ) {
@@ -76,8 +88,87 @@ class TwentigWebsiteImporter {
 		);
 	}
 
+
+
+	/**
+	 * Installs and activates the WordPress Importer plugin.
+	 *
+	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
+	 */
+	public function install_wordpress_importer_callback() {
+		require_once ABSPATH . 'wp-admin/includes/file.php';
+		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+		require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+		require_once ABSPATH . 'wp-admin/includes/class-automatic-upgrader-skin.php';
+
+		$plugin_slug = 'wordpress-importer';
+		$plugin_file = 'wordpress-importer/wordpress-importer.php';
+
+		if ( is_plugin_active( $plugin_file ) ) {
+			return new WP_REST_Response( array( 'success' => true ), 200 );
+		}
+
+		if ( file_exists( WP_PLUGIN_DIR . '/' . $plugin_file ) ) {
+			$activate = activate_plugin( $plugin_file );
+
+			if ( is_wp_error( $activate ) ) {
+				return new WP_Error(
+					'plugin_activation_failed',
+					sprintf(
+						/* translators: %s: Error message */
+						__( 'Plugin activation failed: %s', 'twentig' ),
+						$activate->get_error_message()
+					),
+					array( 'status' => 500 )
+				);
+			}
+
+			return new WP_REST_Response( array( 'success' => true ), 200 );
+		}
+
+		$api = plugins_api( 'plugin_information', array( 'slug' => $plugin_slug ) );
+
+		if ( is_wp_error( $api ) ) {
+			return new WP_Error( 'api_error', $api->get_error_message(), array( 'status' => 500 ) );
+		}
+
+		ob_start();
+
+		$skin     = new \Automatic_Upgrader_Skin();
+		$upgrader = new \Plugin_Upgrader( $skin );
+		$result   = $upgrader->install( $api->download_link );
+
+		ob_end_clean();
+
+		if ( is_wp_error( $result ) ) {
+			return new WP_Error( 'install_failed', $result->get_error_message(), array( 'status' => 500 ) );
+		} elseif ( ! $result ) {
+			return new WP_Error( 'install_failed', __( 'Installation failed.', 'twentig' ), array( 'status' => 500 ) );
+		}
+
+		$activate = activate_plugin( $plugin_file );
+
+		if ( is_wp_error( $activate ) ) {
+			return new WP_Error(
+				'plugin_activation_failed',
+				sprintf(
+					/* translators: %s: Error message */
+					__( 'Plugin activation failed: %s', 'twentig' ),
+					$activate->get_error_message()
+				),
+				array( 'status' => 500 )
+			);
+		}
+
+		return new WP_REST_Response( array( 'success' => true ), 200 );
+	}
+
 	/**
 	 * Imports the website template and updates the site options.
+	 *
+	 * @param string $file Path to the XML import file.
+	 * @return bool|WP_Error True on success, WP_Error on failure.
 	 */
 	public function import_and_update_site( $file ) {
 
@@ -86,27 +177,22 @@ class TwentigWebsiteImporter {
 		add_filter( 'wp_import_existing_post', array( $this, 'import_existing_post' ), 10, 2 );
 		add_filter( 'wp_import_post_data_processed', array( $this, 'import_post_data_processed' ), 10, 2 );
 		add_filter( 'wp_import_term_meta', array( $this, 'add_starter_term_meta' ), 10, 3 );
-		add_filter( 'wp_import_posts', array( $this, 'filter_posts' ) );
 
-		// Make sure importers constant is defined
-		if ( ! defined( 'WP_LOAD_IMPORTERS' ) ) {
-			define( 'WP_LOAD_IMPORTERS', true );
-		}
-
+		// Load WordPress Importer plugin if not already loaded.
 		if ( ! class_exists( 'WP_Import' ) ) {
-			require_once TWENTIG_PATH . 'inc/dashboard/wordpress-importer.php';
+			$this->load_wordpress_importer();
 		}
 
+		// Check if WordPress Importer is available.
+		if ( ! class_exists( 'WP_Import' ) ) {
+			return new WP_Error( 'wp_import_missing', __( 'WordPress Importer plugin is required to import starter sites.', 'twentig' ) );
+		}
+
+		// Use WordPress Importer plugin class.
 		$this->importer                    = new WP_Import();
 		$this->importer->fetch_attachments = true;
 
-		if ( ! $this->has_content ) {
-			add_filter( 'wp_import_categories', '__return_empty_array' );
-			add_filter( 'wp_import_terms', '__return_empty_array' );
-			add_filter( 'wp_import_tags', '__return_empty_array' );
-		}
-
-		if ( $this->has_content && $this->has_portfolio ) {
+		if ( $this->has_portfolio ) {
 			$options              = twentig_get_options();
 			$options['portfolio'] = true;
 			update_option( 'twentig-options', $options );
@@ -116,30 +202,106 @@ class TwentigWebsiteImporter {
 		$this->importer->import( $file );
 		ob_end_clean();
 
-		if ( $this->has_content ) {
-			$this->update_site_options();
-			$this->update_nav_and_template_parts();
-			
-			if ( $this->has_portfolio ) {
-				flush_rewrite_rules( false );
-			}
+		$this->update_site_options();
+		$this->update_nav_and_template_parts();
+
+		if ( $this->has_portfolio ) {
+			flush_rewrite_rules( false );
 		}
 
 		$transient_name = 'global_styles_' . get_stylesheet();
 		delete_transient( $transient_name );
+
+		return true;
+	}
+
+	/**
+	 * Loads the WordPress Importer plugin with all its dependencies.
+	 *
+	 * The WordPress Importer plugin requires several files to be loaded in the correct order.
+	 * This method directly loads the necessary components to make the WP_Import class available.
+	 *
+	 * @return void
+	 */
+	private function load_wordpress_importer() {
+		$importer_dir = WP_PLUGIN_DIR . '/wordpress-importer/';
+
+		// Check if the WordPress Importer plugin directory exists.
+		if ( ! is_dir( $importer_dir ) ) {
+			return;
+		}
+
+		// Load WordPress import administration API if not already loaded.
+		$import_admin_file = ABSPATH . 'wp-admin/includes/import.php';
+		if ( file_exists( $import_admin_file ) && ! function_exists( 'wp_import_handle_upload' ) ) {
+			require_once $import_admin_file;
+		}
+
+		// Load base WP_Importer class if not already loaded.
+		if ( ! class_exists( 'WP_Importer' ) ) {
+			$class_wp_importer = ABSPATH . 'wp-admin/includes/class-wp-importer.php';
+			if ( file_exists( $class_wp_importer ) ) {
+				require_once $class_wp_importer;
+			}
+		}
+
+		// Load WordPress Importer plugin dependencies.
+		if ( ! class_exists( 'WP_Import' ) ) {
+
+			// Load XML Processor and php-toolkit.
+			if ( ! class_exists( 'WordPress\XML\XMLProcessor' ) ) {
+				$xml_toolkit = $importer_dir . 'php-toolkit/load.php';
+				if ( file_exists( $xml_toolkit ) ) {
+					require_once $xml_toolkit;
+				}
+			}
+
+			// Load WXR Parser classes.
+			$parser_files = array(
+				'parsers/class-wxr-parser.php',
+				'parsers/class-wxr-parser-simplexml.php',
+				'parsers/class-wxr-parser-xml.php',
+				'parsers/class-wxr-parser-xml-processor.php',
+			);
+
+			foreach ( $parser_files as $parser_file ) {
+				$file_path = $importer_dir . $parser_file;
+				if ( file_exists( $file_path ) ) {
+					require_once $file_path;
+				}
+			}
+
+			// Load WP_Import class.
+			$wp_import_class = $importer_dir . 'class-wp-import.php';
+			if ( file_exists( $wp_import_class ) ) {
+				require_once $wp_import_class;
+			}
+		}
 	}
 
 	/**
 	 * Checks if there are already imported posts.
+	 *
+	 * @return bool True if imported posts exist, false otherwise.
 	 */
 	public function has_imported_posts() {
 		global $wpdb;
-		$post_ids = $wpdb->get_col( "SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key='_twentig_website_imported_post'" );
-		return $post_ids ? true : false;
+		$post_ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+			$wpdb->prepare(
+				"SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key = %s",
+				'_twentig_website_imported_post'
+			)
+		);
+		return ! empty( $post_ids );
 	}
 
 	/**
 	 * Maps pre-import ID to local ID.
+	 *
+	 * @param int    $post_id          New post ID.
+	 * @param int    $original_post_id Original post ID from XML.
+	 * @param array  $postdata         Post data.
+	 * @param array  $post             Raw post array.
 	 */
 	public function match_post_id( $post_id, $original_post_id, $postdata, $post ) {
 		$this->processed_ids[ (int) $original_post_id ] = (int) $post_id;
@@ -150,6 +312,10 @@ class TwentigWebsiteImporter {
 
 	/**
 	 * Forces the import of existing posts.
+	 *
+	 * @param int   $post_exists Post ID if post exists, 0 otherwise.
+	 * @param array $post        The post array to be inserted.
+	 * @return int Modified post exists value.
 	 */
 	public function import_existing_post( $post_exists, $post ) {
 		if ( $post_exists && in_array( $post['post_type'], array( 'page', 'post', 'portfolio', 'wp_navigation' ), true ) ) {
@@ -160,6 +326,10 @@ class TwentigWebsiteImporter {
 
 	/**
 	 * Modifies the post data before it is inserted into the database.
+	 *
+	 * @param array $postdata Processed post data.
+	 * @param array $post     Raw post data.
+	 * @return array Modified post data.
 	 */
 	public function import_post_data_processed( $postdata, $post ) {
 		if ( in_array( $postdata['post_type'], array( 'page', 'wp_template', 'wp_template_part', 'wp_navigation' ), true ) ) {
@@ -169,23 +339,12 @@ class TwentigWebsiteImporter {
 			if ( 'wp_template' === $postdata['post_type'] ) {
 				$default_template_types = get_default_block_template_types();
 				$theme_templates        = wp_get_theme_data_custom_templates();
-				$portfolio_templates    = array(
-					'single-portfolio'            => array(
-						'title' => sprintf( __( 'Single item: %s', 'twentig' ), esc_html__( 'Project', 'twentig' ) ),
-					),
-					'taxonomy-portfolio_category' => array(
-						'title' => esc_html__( 'Project Categories', 'twentig' ),
-					),
-					'taxonomy-portfolio_tag'      => array(
-						'title' => esc_html__( 'Project Tags', 'twentig' ),
-					),
-				);
-				$all_templates          = $default_template_types + $theme_templates + $portfolio_templates;
+				$all_templates          = $default_template_types + $theme_templates;
 
 				if ( isset( $all_templates[ $postdata['post_name'] ] ) ) {
 					$postdata['post_title'] = $all_templates[ $postdata['post_name'] ]['title'];
 					if ( isset( $all_templates[ $postdata['post_name'] ]['description'] ) ) {
-						$postdata['post_excerpt'] = $default_template_types[ $postdata['post_name'] ]['description'];
+						$postdata['post_excerpt'] = $all_templates[ $postdata['post_name'] ]['description'];
 					}
 				}
 			} elseif ( 'wp_template_part' === $postdata['post_type'] ) {
@@ -213,6 +372,11 @@ class TwentigWebsiteImporter {
 
 	/**
 	 * Adds meta to identify term as an import.
+	 *
+	 * @param array  $termmeta Term meta.
+	 * @param int    $term_id  Term ID.
+	 * @param object $term     Term object.
+	 * @return array Modified term meta.
 	 */
 	public function add_starter_term_meta( $termmeta, $term_id, $term ) {
 
@@ -233,19 +397,30 @@ class TwentigWebsiteImporter {
 
 		global $wpdb;
 
-		$post_ids = $wpdb->get_col( "SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key='_twentig_website_imported_post'" );
-		$term_ids = $wpdb->get_col( "SELECT term_id FROM {$wpdb->termmeta} WHERE meta_key='_twentig_website_imported_term'" );
+		$post_ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+			$wpdb->prepare(
+				"SELECT post_id FROM {$wpdb->postmeta} WHERE meta_key = %s",
+				'_twentig_website_imported_post'
+			)
+		);
 
-		if ( isset( $post_ids ) && is_array( $post_ids ) && $post_ids ) {
+		$term_ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+			$wpdb->prepare(
+				"SELECT term_id FROM {$wpdb->termmeta} WHERE meta_key = %s",
+				'_twentig_website_imported_term'
+			)
+		);
+
+		if ( ! empty( $post_ids ) && is_array( $post_ids ) ) {
 			foreach ( $post_ids as $post_id ) {
-				$worked = wp_delete_post( $post_id, true );
+				wp_delete_post( $post_id, true );
 			}
 		}
 
-		if ( isset( $term_ids ) && is_array( $term_ids ) && $term_ids ) {
+		if ( ! empty( $term_ids ) && is_array( $term_ids ) ) {
 			foreach ( $term_ids as $term_id ) {
 				$term = get_term( $term_id );
-				if ( ! is_wp_error( $term ) ) {
+				if ( ! is_wp_error( $term ) && $term instanceof WP_Term ) {
 					wp_delete_term( $term_id, $term->taxonomy );
 				}
 			}
@@ -257,8 +432,8 @@ class TwentigWebsiteImporter {
 	 */
 	public function delete_custom_files() {
 
-		if ( get_option( 'fresh_site' ) && $this->has_content ) {
-			$first_post_slug = _x( 'hello-world', 'Default post slug' );
+		if ( get_option( 'fresh_site' ) ) {
+			$first_post_slug = _x( 'hello-world', 'Default post slug', 'default' );
 			$first_post      = get_page_by_path( $first_post_slug, OBJECT, 'post' );
 			if ( $first_post ) {
 				wp_delete_post( $first_post->ID, true );
@@ -269,69 +444,27 @@ class TwentigWebsiteImporter {
 			}
 		}
 
-		$post_types = array();
-
-		
-		if ( $this->has_templates ) {
-			$post_types[] = 'wp_template';
-			$post_types[] = 'wp_template_part';
-		}
-
-		if ( $post_types ) {
-
-			$wp_query_args = array(
-				'post_type'      => $post_types,
-				'posts_per_page' => -1,
-				'no_found_rows'  => true,
-				'post_status'    => 'publish',
-				'tax_query'      => array(
-					array(
-						'taxonomy' => 'wp_theme',
-						'field'    => 'name',
-						'terms'    => wp_get_theme()->get_stylesheet(),
-					),
+		$wp_query_args = array(
+			'post_type'      => array( 'wp_template', 'wp_template_part' ),
+			'posts_per_page' => -1,
+			'no_found_rows'  => true,
+			'post_status'    => 'publish',
+			'tax_query'      => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
+				array(
+					'taxonomy' => 'wp_theme',
+					'field'    => 'name',
+					'terms'    => wp_get_theme()->get_stylesheet(),
 				),
-			);
+			),
+		);
 
-			$template_query  = new WP_Query( $wp_query_args );
-			$posts_to_delete = $template_query->posts;
+		$template_query  = new WP_Query( $wp_query_args );
+		$posts_to_delete = $template_query->posts;
 
-			foreach ( $posts_to_delete as $post ) {
-				wp_delete_post( $post->ID, true );
-			}
+		foreach ( $posts_to_delete as $post ) {
+			wp_delete_post( $post->ID, true );
 		}
-	}
 
-	/**
-	 * Filters the posts to import.
-	 * @param array $posts The posts to import.
-	 * @return array
-	 */
-	public function filter_posts( $posts ) {
-		if ( ! $this->has_styles || ! $this->has_content || ! $this->has_templates ) {
-			$posts = array_filter(
-				$posts,
-				function( $post ) {
-					$post_type = $post['post_type'];
-
-					if ( ! $this->has_styles && 'wp_global_styles' === $post_type ) {
-						return false;
-					}
-
-					if ( ! $this->has_content && in_array( $post_type, array( 'page', 'post', 'portfolio', 'attachment', 'wp_navigation' ), true ) ) {
-						return false;
-					}
-
-					if ( ! $this->has_templates && ( 'wp_template' === $post_type || 'wp_template_part' === $post_type ) ) {
-						return false;
-					}
-
-					return true;
-				}
-			);
-			return array_values( $posts );
-		}
-		return $posts;
 	}
 
 	/**
@@ -340,7 +473,7 @@ class TwentigWebsiteImporter {
 	public function update_site_options() {
 
 		if ( isset( $this->site_options['spacing'] ) ) {
-			$options = twentig_get_options();
+			$options                       = twentig_get_options();
 			$options['predefined_spacing'] = true;
 			update_option( 'twentig-options', $options );
 		}
@@ -375,6 +508,10 @@ class TwentigWebsiteImporter {
 	 */
 	public function update_nav_and_template_parts() {
 
+		if ( empty( $this->nav_ids ) ) {
+			return;
+		}
+
 		$navigation_args = array(
 			'post_type'     => 'wp_navigation',
 			'no_found_rows' => true,
@@ -388,7 +525,7 @@ class TwentigWebsiteImporter {
 			$navigation_blocks = block_core_navigation_filter_out_empty_blocks( parse_blocks( $navigation_post->post_content ) );
 
 			foreach ( $navigation_blocks as $index => &$inner_block ) {
-				if ( in_array( $inner_block['blockName'], array('core/navigation-link', 'core/navigation-submenu' ) ) ) {
+				if ( in_array( $inner_block['blockName'], array( 'core/navigation-link', 'core/navigation-submenu' ), true ) ) {
 					if ( isset( $inner_block['attrs']['id'] ) ) {
 						$old_id                      = $inner_block['attrs']['id'];
 						$page_id                     = $this->processed_ids[ $old_id ] ?? $old_id;
@@ -399,34 +536,33 @@ class TwentigWebsiteImporter {
 			}
 
 			wp_update_post(
-				array( 
+				array(
 					'ID'           => $navigation_post->ID,
 					'post_content' => serialize_blocks( $navigation_blocks ),
 				)
 			);
 		}
 
-		if ( $this->has_templates ) {
-			// Updates the navigation ref inside template parts
-			$template_args = array(
-				'post_status'    => array( 'publish' ),
-				'post_type'      => 'wp_template_part',
-				'posts_per_page' => -1,
-				'no_found_rows'  => true,
-				'tax_query'      => array(
-					array(
-						'taxonomy' => 'wp_theme',
-						'field'    => 'name',
-						'terms'    => wp_get_theme()->get_stylesheet(),
-					),
+		// Updates the navigation ref inside template parts.
+		$template_args = array(
+			'post_status'    => array( 'publish' ),
+			'post_type'      => 'wp_template_part',
+			'posts_per_page' => -1,
+			'no_found_rows'  => true,
+			'tax_query'      => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
+				array(
+					'taxonomy' => 'wp_theme',
+					'field'    => 'name',
+					'terms'    => wp_get_theme()->get_stylesheet(),
 				),
-			);
+			),
+		);
 
-			$template_part_query = new WP_Query( $template_args );
-			foreach ( $template_part_query->posts as $post ) {
-				$this->inject_nav_attribute_in_block_template_content( $post );
-			}
+		$template_part_query = new WP_Query( $template_args );
+		foreach ( $template_part_query->posts as $post ) {
+			$this->inject_nav_attribute_in_block_template_content( $post );
 		}
+
 	}
 
 	/**
@@ -457,7 +593,7 @@ class TwentigWebsiteImporter {
 				$new_content .= serialize_block( $block );
 			}
 
-			wp_update_post( 
+			wp_update_post(
 				array(
 					'ID'           => $post->ID,
 					'post_content' => $new_content,
@@ -496,14 +632,16 @@ class TwentigWebsiteImporter {
 	}
 
 	/**
-	 * Returns the website templates defined for the theme.
+	 * Returns the starter sites defined for the theme.
+	 *
+	 * @return array List of starter sites.
 	 */
-	public function get_website_templates() {
-		$theme_support = get_theme_support( 'twentig-starter-website-templates' );
+	public function get_starter_sites() {
+		$theme_support = get_theme_support( 'twentig-starter-websites' );
 		if ( is_array( $theme_support ) && ! empty( $theme_support[0] ) ) {
 			return $theme_support[0];
 		}
-		return [];
+		return array();
 	}
-	
+
 }

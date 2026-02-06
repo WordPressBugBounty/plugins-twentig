@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 get_header();
 
 /* Start the Loop */
@@ -19,10 +21,10 @@ while ( have_posts() ) :
 
 			wp_link_pages(
 				array(
-					'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
+					'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">', // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 					'after'    => '</nav>',
 					/* translators: %: page number. */
-					'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ),
+					'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ), // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 				)
 			);
 			?>

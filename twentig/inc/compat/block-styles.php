@@ -1,17 +1,15 @@
 <?php
-
 /**
- * Block Styles
+ * Registers and unregisters block styles for classic and block theme compatibility.
  *
- * @link https://developer.wordpress.org/reference/functions/register_block_style/
- *
+ * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
+/**
+ * Registers block styles for core blocks and conditionally unregisters styles based on theme type.
+ */
 function twentig_register_compat_block_styles() {
 
 	register_block_style(

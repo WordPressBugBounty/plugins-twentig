@@ -5,6 +5,10 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+
 get_header();
 ?>
 
@@ -72,7 +76,7 @@ get_header();
 
 										<a href="#post-inner" class="to-the-content fill-children-current-color">
 											<?php twentytwenty_the_theme_svg( 'arrow-down' ); ?>
-											<div class="screen-reader-text"><?php esc_html_e( 'Scroll Down', 'twentytwenty' ); ?></div>
+											<div class="screen-reader-text"><?php esc_html_e( 'Scroll Down', 'twentytwenty' ); // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch ?></div>
 										</a>
 
 									</div>							
@@ -95,7 +99,7 @@ get_header();
 				<?php
 				wp_link_pages(
 					array(
-						'before'      => '<nav class="post-nav-links bg-light-background" aria-label="' . esc_attr__( 'Page', 'twentytwenty' ) . '"><span class="label">' . __( 'Pages:', 'twentytwenty' ) . '</span>',
+						'before'      => '<nav class="post-nav-links bg-light-background" aria-label="' . esc_attr__( 'Page', 'twentytwenty' ) . '"><span class="label">' . __( 'Pages:', 'twentytwenty' ) . '</span>', // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 						'after'       => '</nav>',
 						'link_before' => '<span class="page-number">',
 						'link_after'  => '</span>',

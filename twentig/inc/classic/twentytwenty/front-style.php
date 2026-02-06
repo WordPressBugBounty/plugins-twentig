@@ -1,4 +1,11 @@
 <?php
+/**
+ * Front-end styles and scripts for Twenty Twenty.
+ *
+ * @package twentig
+ */
+
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Enqueue scripts and styles.
@@ -18,23 +25,29 @@ function twentig_twentytwenty_theme_scripts() {
 
 	if ( $fonts_url ) {
 		if ( get_theme_mod( 'twentig_local_fonts', false ) ) {
-			require_once TWENTIG_PATH . 'inc/compat/wptt-webfont-loader.php';
-			wp_register_style( 'twentig-webfonts', '' );
+			require_once TWENTIG_PATH . 'inc/classic/theme-tools/wptt-webfont-loader.php';
+			wp_register_style( 'twentig-webfonts', '', array(), TWENTIG_VERSION );
 			wp_enqueue_style( 'twentig-webfonts' );
 			wp_add_inline_style( 'twentig-webfonts', twentig_minify_css( wptt_get_webfont_styles( $fonts_url ) ) );
 		} else {
-			wp_enqueue_style( // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
+			wp_enqueue_style(
 				'twentig-theme-fonts',
 				$fonts_url,
 				array(),
-				null
+				null // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
 			);
 		}
 	}
 
 	// Skip enqueueing JavaScript if this is an AMP response.
 	if ( ! twentig_is_amp_endpoint() ) {
-		wp_enqueue_script( 'twentig-twentytwenty', TWENTIG_ASSETS_URI . '/js/classic/twentig-twentytwenty.js', array(), '1.0' );
+		wp_enqueue_script(
+			'twentig-twentytwenty',
+			TWENTIG_ASSETS_URI . '/js/classic/twentig-twentytwenty.js',
+			array(),
+			TWENTIG_VERSION,
+			array( 'in_footer' => false )
+		);
 	}
 }
 add_action( 'wp_enqueue_scripts', 'twentig_twentytwenty_theme_scripts', 12 );
@@ -571,6 +584,7 @@ function twentig_twentytwenty_print_customizer_css() {
 
 	$subtle_background = get_theme_mod( 'twentig_subtle_background_color' );
 	if ( $subtle_background ) {
+		$css .= ':root { --wp--preset--color--subtle-background:' . $subtle_background . '; }';
 		$css .= ':root .has-subtle-background-background-color{ background-color: ' . $subtle_background . '; }';
 		$css .= ':root .has-subtle-background-color.has-text-color { color: ' . $subtle_background . '; }';
 	}
@@ -604,6 +618,17 @@ function twentig_twentytwenty_print_customizer_css() {
 				right: calc(50% - 50vw);
 				left: auto;
 			}';
+	}
+
+	if ( is_customize_preview () ) {
+		$body_background_color = get_theme_mod( 'background_color' );
+		if ( $body_background_color ) {
+			$css .= ':root { --wp--preset--color--background: #' . $body_background_color . '; }';
+		}
+		$subtle_background = get_theme_mod( 'twentig_subtle_background_color' );
+		if ( $subtle_background ) {
+			$css .= ':root { --wp--preset--color--subtle-background:' . $subtle_background . '; }';
+		}
 	}
 
 	if ( is_admin_bar_showing() ) {

@@ -5,13 +5,10 @@
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
- * Adds support for Twentig website templates.
+ * Adds support for Twentig starter sites.
  */
 function twentig_twentyfive_theme_support() {
 
@@ -51,7 +48,7 @@ function twentig_twentyfive_theme_support() {
 		),
 		array(
 			'title'      => __( 'Personal Blog', 'twentig' ),
-			'screenshot' => esc_url( $template_uri . 'tt5-personal.png' ),
+			'screenshot' => esc_url( $template_uri . 'tt5-personal.webp' ),
 			'file'       => $template_path . 'tt5-personal.xml',
 			'url'        => 'https://demo.twentig.com/tt5-personal/',
 			'options'    => array(
@@ -59,7 +56,7 @@ function twentig_twentyfive_theme_support() {
 			),
 		)
 	);
-	add_theme_support( 'twentig-starter-website-templates', $website_templates );
+	add_theme_support( 'twentig-starter-websites', $website_templates );
 
 	add_theme_support( 'twentig-v2' );
 }

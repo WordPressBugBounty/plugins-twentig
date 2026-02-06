@@ -1,9 +1,11 @@
 <?php
 /**
- * Functions for the Customizer
+ * Functions for the Customizer.
  *
  * @package twentig
  */
+
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Sanitize select.

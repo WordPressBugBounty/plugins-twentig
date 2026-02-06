@@ -1,15 +1,15 @@
-=== Toolkit for Block Theme (Starter Templates, Portfolio, Gutenberg Blocks, Patterns) – Twentig ===
+=== Twentig – Toolkit for Block Theme (Starter Sites, Portfolio, Blocks, Patterns) ===
 Contributors: twentig
-Donate link: https://www.paypal.com/donate?hosted_button_id=JTBTPQAFEA94E
+Donate link: https://twentig.com/donate/
 Tags: portfolio, gutenberg, gutenberg blocks, templates, website templates
-Requires at least: 6.6
-Tested up to: 6.8
-Requires PHP: 7.3
-Stable tag: 1.9.4
+Requires at least: 6.7
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 1.9.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Create your website with starter templates, portfolio features, enhanced Gutenberg blocks & patterns. Boost Twenty Twenty-Five or any block theme. 
+Create your website with starter sites, portfolio features, enhanced Gutenberg blocks & patterns. Boost Twenty Twenty-Five or any block theme. 
 
 == Description ==
 
@@ -17,7 +17,7 @@ Create your website with starter templates, portfolio features, enhanced Gutenbe
 
 With its powerful tools, the Twentig plugin helps you create a stunning website easily. Customize your block theme and build beautiful pages — no coding or design skills needed.
 
-With starter templates, portfolio features, enhanced Gutenberg blocks, and block patterns, you’ve got everything you need to build a beautiful website that looks great on any device.
+With starter sites, portfolio features, enhanced Gutenberg blocks, and block patterns, you’ve got everything you need to build a beautiful website that looks great on any device.
 
 ### Customize Twenty Twenty-Five or any block theme.
 
@@ -25,16 +25,16 @@ https://www.youtube.com/watch?v=nGGX3TKnFH4
 
 With its essential tools, Twentig helps you customize the Twenty Twenty-Five theme or any block theme built for full site editing.
 
-**Starter templates.** No need to design your website from scratch. To save you time and effort, import a ready-made [website template](https://twentig.com/starter-sites/?utm_source=wp-repo&utm_medium=link&utm_campaign=starter) from our ever-growing library. 
+**Starter sites.** No need to design your website from scratch. To save you time and effort, import a ready-made [starter site](https://twentig.com/starter-sites/?utm_source=wp-repo&utm_medium=link&utm_campaign=starter) from our ever-growing library. 
 
-Website starter templates for the Twenty Twenty-Five theme:
+Starter sites for the Twenty Twenty-Five theme:
 
 * [Business](https://demo.twentig.com/tt5-business/)
 * [News Blog](https://demo.twentig.com/tt5-news/)
 * [Photo Blog](https://demo.twentig.com/tt5-photo/)
 * [Personal Blog](https://demo.twentig.com/tt5-personal/)
 
-Website starter templates for the Twenty Twenty-Four theme:
+Starter sites for the Twenty Twenty-Four theme:
 
 * [Business](https://demo.twentig.com/tt4-default/)
 * [Blog](https://demo.twentig.com/tt4-blog/)
@@ -119,7 +119,7 @@ Check out the screenshots to see how Twentig can transform your theme and the Gu
 * **Tag Cloud:** style (pill)
 * **Search:** style (underline)
 
-#### GUTENBERG TEMPLATE LIBRARY
+#### PATTERN LIBRARY
 
 Hundreds of Gutenberg block patterns and pre-designed page templates grouped by following categories:
 
@@ -184,7 +184,7 @@ To install and activate the Twenty Twenty-Five theme:
 
 #### After installation
 
-For the Twenty Twenty-Five theme, you can import a pre-made website template to get you started. To do so, open the Twentig dashboard, click the Website templates tab and import the template of your choice.
+For the Twenty Twenty-Five theme, you can import a pre-made starter site to get you started. To do so, open the Twentig dashboard, click the Starter sites tab and import the site of your choice.
 
 Inside the Settings tab of the Twentig dashboard you can:
 
@@ -206,15 +206,15 @@ We recommend that you use the latest version of WordPress to take full advantage
 
 = Is Twentig easy to use? =
 
-With Twentig, no coding or design skills are needed. Instead of designing from scratch, you can easily import a pre-made website template. You can customize the WordPress block themes and the Gutenberg blocks in a few clicks. And our responsive block patterns make it easy to build professional-looking pages.
+With Twentig, no coding or design skills are needed. Instead of designing from scratch, you can easily import a pre-made starter site. You can customize the WordPress block themes and the Gutenberg blocks in a few clicks. And our responsive block patterns make it easy to build professional-looking pages.
 
-= How to import a starter website template? =
+= How to import a starter site? =
 
-With the Twenty Twenty-Five or Twenty Twenty-Four themes, you can use a pre-built website template to jumpstart the design of your website. Just open the Twentig dashboard, click the Website templates tab, and import the template you like. It only takes a few seconds.
+With the Twenty Twenty-Five or Twenty Twenty-Four themes, you can use a pre-built starter site to jumpstart the design of your website. Just open the Twentig dashboard, click the Starter sites tab, and import the site you like. It only takes a few seconds.
 
 = How to create a WordPress portfolio? =
 
-If you’re using the Twenty Twenty-Four theme, the easy way is to import our Portfolio starter website template. To do so, inside your WordPress dashboard, go to "Twentig > Website templates" and select the Portfolio template. It will import a ready-to-use and customizable portfolio website, including all the pages needed to showcase your work. Then inside the Portfolio tab, you can manage and create your projects.
+If you’re using the Twenty Twenty-Four theme, the easy way is to import our Portfolio starter site. To do so, inside your WordPress dashboard, go to "Twentig > Starter sites" and select the Portfolio site. It will import a ready-to-use and customizable portfolio website, including all the pages needed to showcase your work. Then inside the Portfolio tab, you can manage and create your projects.
 
 Otherwise you can enable the portfolio feature under "Twentig > Settings". Then inside the Portfolio tab, you can manage and create your projects. Finally, you can add a page and insert the Portfolio block to create your portfolio index. 
 
@@ -252,7 +252,7 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 
 == Screenshots ==
 
-1. **Get started easily.** Import a responsive website template that instantly gives your website a professional look.
+1. **Get started easily.** Import a responsive starter site that instantly gives your website a professional look.
 2. **Create your online portfolio.** Twentig has all the portfolio features you need to showcase your work in the best light.
 3. **Build with Gutenberg block patterns.** Choose from hundreds of ready-to-use patterns to create beautiful pages in no time.
 4. **Customize the Gutenberg blocks.** Transform the existing Gutenberg blocks with additional settings and styles.
@@ -262,10 +262,29 @@ No, using the Gutenberg plugin on a production site is not recommended because s
 
 == Changelog ==
 
+= 1.9.7 =
+Release date: January 15, 2026
+
+* New: Prompts users to install WordPress Importer plugin for starter sites instead of bundling it.
+* Code Quality: Improves code quality and WordPress coding standards compliance.
+
+= 1.9.6 =
+Release date: December 5, 2025
+
+* Fix: Reverts custom footer code for classic themes for compatibility with third-party plugins including The Events Calendar.
+
+= 1.9.5 =
+Release date: December 1, 2025
+
+* Enhancement: Adds post format support for Portfolio when supported by the theme.
+* Code Quality: Deprecates Twentig's Gallery aspect ratio setting in favor of core new option.
+* Code Quality: Organizes block PHP code into individual files.
+* Compatibility: Makes the Customizer options for the classic themes compatible with WordPress 6.9.
+
 = 1.9.4 =
 Release date: June 4, 2025
 
-* New: Adds an option to display captions for the Featured Image block.
+* New: Adds an option to display captions for the Post Featured Image block.
 * New: Adds CSS classes for balanced text wrapping (tw-text-balance) and pretty text wrapping (tw-text-pretty).
 
 = 1.9.3 =
@@ -300,7 +319,6 @@ Twentig 1.9 introduces powerful features to supercharge Twenty Twenty-Five, the 
 * Enhancement: Makes patterns compatible with Twenty Twenty-Five.
 * Enhancement: Adjusts code for compatibility with WordPress 6.7.
 * Code Quality: Deprecates Twentig's Group shadow setting.
-
 
 = 1.8.3 =
 Release date: July 17, 2024

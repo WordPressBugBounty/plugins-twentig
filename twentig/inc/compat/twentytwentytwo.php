@@ -5,13 +5,10 @@
  * @package twentig
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
- * Enqueue styles for the theme.
+ * Enqueues styles for the theme.
  */
 function twentig_twentytwo_enqueue_scripts() {
 
@@ -60,6 +57,9 @@ add_action( 'admin_init', 'twentig_twentytwo_editor_styles' );
 
 /**
  * Hooks into the data provided by the theme to add new font size options.
+ *
+ * @param WP_Theme_JSON_Data $theme_json Theme JSON data object.
+ * @return WP_Theme_JSON_Data Modified theme JSON data.
  */
 function twentig_twentytwo_filter_theme_json_theme( $theme_json ) {
 

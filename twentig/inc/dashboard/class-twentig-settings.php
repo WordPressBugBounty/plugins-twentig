@@ -1,12 +1,16 @@
 <?php
+/**
+ * Twentig Settings Class
+ *
+ * @package Twentig
+ */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Twentig Settings class.
+ *
+ * Manages plugin options and REST API endpoints.
  */
 class TwentigSettings {
 
@@ -14,7 +18,7 @@ class TwentigSettings {
 	 * Initializes the class.
 	 */
 	public function __construct() {
-		add_action( 'admin_init',  array( $this, 'register_settings' ) );
+		add_action( 'admin_init', array( $this, 'register_settings' ) );
 		add_action( 'plugins_loaded', array( $this, 'disable_core_block_features' ) );
 	}
 
@@ -32,7 +36,7 @@ class TwentigSettings {
 				'permission_callback' => function () {
 					return current_user_can( 'manage_options' );
 				},
-			) 
+			)
 		);
 	}
 
@@ -46,17 +50,7 @@ class TwentigSettings {
 			'twentig-options',
 			array(
 				'type'              => 'array',
-				'sanitize_callback' => array( $this, 'sanitize_options' )
-			)
-		);
-
-		register_setting(
-			'twentig_typography',
-			'twentig_typography',
-			array(
-				'type'              => 'object',
-				'default'           => array( 'local' => true ),
-				'sanitize_callback' => array( $this, 'sanitize_typography' ),
+				'sanitize_callback' => array( $this, 'sanitize_options' ),
 			)
 		);
 	}
@@ -82,7 +76,7 @@ class TwentigSettings {
 		);
 
 		foreach ( $settings as $key => &$value ) {
-			if ( ! in_array( $key, $allowed_settings ) ) {
+			if ( ! in_array( $key, $allowed_settings, true ) ) {
 				// Ignore any parameters not in the allowed list
 				unset( $settings[$key] );
 				continue;
@@ -110,88 +104,22 @@ class TwentigSettings {
 	}
 
 	/**
-	 * Sanitizes the typography settings.
-	 *
-	 * @param array $settings The settings to validate.
-	 * @return array The sanitized settings.
-	 */
-	public function sanitize_typography( array $settings ) {
-		$new_settings = [];
-		foreach ( $settings as $key => $setting ) {
-			if ( $key == 'local' && is_bool( $setting ) ) {
-				$new_settings[ $key ] = (bool) $setting;
-			} else if ( in_array( $key, array( 'font1', 'font2' ) ) && is_string( $setting ) ) {
-				$new_settings[ $key ] = sanitize_text_field( $setting );
-			} else if ( in_array( $key, array( 'font1_styles', 'font2_styles' ) ) && is_array( $setting ) ) {
-				$new_settings[ $key ] = array_map( function( $item ) {
-					return is_string( $item ) ? sanitize_text_field( $item ) : '';
-				}, $setting );
-			}
-		}
-		return $new_settings;
-	}
-
-	/**
 	 * Saves the settings and returns a response.
 	 *
 	 * @param WP_REST_Request $request The WP request object.
 	 * @return WP_REST_Response|WP_Error The response object.
 	 */
-	public function save_settings( WP_REST_Request $request ) {
+	public function save_settings( WP_REST_Request $request ) {		
 
-		$sanitized_settings      = $this->sanitize_options( $request->get_param( 'settings' ) );
-		$sanitized_font_settings = $this->sanitize_typography( $request->get_param( 'fontSettings' ) );
-
-		update_option( 'twentig-options', $sanitized_settings );
-		$typography_updated = update_option( 'twentig_typography', $sanitized_font_settings );
-
-		if ( ! $typography_updated || ! class_exists( 'WP_Font_Library' ) ) {
-			return new WP_REST_Response(array(
-				'success' => true,
-				'message' => __( 'Settings saved', 'twentig' ),
-			) );
-		}
+		$settings = $request->get_param( 'settings' );
+		$sanitized_settings = $this->sanitize_options( is_array( $settings ) ? $settings : array() );
 		
-		$user_cpt = WP_Theme_JSON_Resolver::get_user_data_from_wp_global_styles( wp_get_theme() );
-	
-		if ( array_key_exists( 'post_content', $user_cpt ) ) {
-			$decoded_data = json_decode( $user_cpt['post_content'], true );
-
-			if ( ! empty( $decoded_data['settings']['typography']['fontFamilies']['theme'] ) ) {
-				$font_families = $decoded_data['settings']['typography']['fontFamilies']['theme'];
-
-				foreach ( $font_families as $key => $font ) {
-					if ( isset( $font['slug'] ) ) {
-						if ( 'tw-font-1' === $font['slug'] ) {
-							if ( array_key_exists( 'font1', $sanitized_font_settings ) ) {
-								$font_families[$key]['name'] = esc_html__( 'Font 1', 'twentig' ) . ': ' . twentig_get_font_name( $sanitized_font_settings['font1'] );
-							} else {
-								unset( $font_families[$key] );
-							}
-						} elseif ( 'tw-font-2' === $font['slug'] ) {
-							if ( array_key_exists( 'font2', $sanitized_font_settings ) ) {
-								$font_families[$key]['name'] = esc_html__( 'Font 2', 'twentig' ) . ': '. twentig_get_font_name( $sanitized_font_settings['font2'] );
-							} else {
-								unset( $font_families[$key] );
-							}
-						}
-					}
-				}
-
-				$decoded_data['settings']['typography']['fontFamilies']['theme'] = array_values( $font_families );
-			
-				if ( array_key_exists( 'ID', $user_cpt ) ) {
-					$request = new WP_REST_Request( 'POST', '/wp/v2/global-styles/' . $user_cpt['ID'] );
-					$request->set_param( 'settings', $decoded_data['settings'] );
-					rest_do_request( $request );
-				}
-			}
-		}
-
+		update_option( 'twentig-options', $sanitized_settings );
+		
 		return new WP_REST_Response(array(
 			'success' => true,
 			'message' => __( 'Settings saved', 'twentig' ),
-		) );
+		) );	
 	}
 
 	/**

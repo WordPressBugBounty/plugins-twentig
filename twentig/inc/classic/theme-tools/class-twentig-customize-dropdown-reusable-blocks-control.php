@@ -31,7 +31,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 				<label for="<?php echo esc_attr( $input_id ); ?>" class="customize-control-title"><?php echo esc_html( $this->label ); ?></label>
 			<?php endif; ?>
 			<?php if ( ! empty( $this->description ) ) : ?>
-				<span id="<?php echo esc_attr( $description_id ); ?>" class="description customize-control-description"><?php echo ( $this->description ); ?></span>
+				<span id="<?php echo esc_attr( $description_id ); ?>" class="description customize-control-description"><?php echo wp_kses_post( $this->description ); ?></span>
 			<?php endif; ?>
 
 			<?php
@@ -44,7 +44,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 			);
 
 			$choices = array(
-				0 => esc_html__( '&mdash; Select &mdash;' ),
+				0 => esc_html__( '&mdash; Select &mdash;', 'default' ),
 			);
 
 			foreach ( $blocks as $block ) {

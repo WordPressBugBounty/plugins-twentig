@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 if ( ! twentig_is_option_enabled( 'portfolio' ) ) {
 	return;
 }

@@ -1,18 +1,23 @@
 <?php
-
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+/**
+ * Portfolio Post Type
+ *
+ * @package twentig
+ */
+ 
+defined( 'ABSPATH' ) || exit;
 
 /**
- * Registers a portfolio post type, its taxonomies, and customize the admin.
+ * Twentig Portfolio class.
  *
+ * Registers a portfolio post type, its taxonomies, and customizes the admin.
  */
 class Twentig_Portfolio {
 
 	/**
 	 * Initializes class.
+	 *
+	 * @return Twentig_Portfolio The single instance of the class.
 	 */
 	public static function init() {
 		static $instance = false;
@@ -54,6 +59,21 @@ class Twentig_Portfolio {
 		$category_slug = ! empty( $options['portfolio_category_slug'] ) ? $options['portfolio_category_slug'] : 'portfolio-category';
 		$tag_slug      = ! empty( $options['portfolio_tag_slug'] ) ? $options['portfolio_tag_slug'] : 'portfolio-tag';
 
+		$supports = array(
+			'title',
+			'editor',
+			'thumbnail',
+			'excerpt',
+			'comments',
+			'revisions',
+			'author',
+			'custom-fields',
+		);
+
+		if ( current_theme_supports( 'post-formats' ) ) {
+			$supports[] = 'post-formats';
+		}
+
 		register_post_type(
 			'portfolio',
 			array(
@@ -81,16 +101,7 @@ class Twentig_Portfolio {
 				'menu_icon'       => 'dashicons-portfolio',
 				'show_in_rest'    => true,
 				'taxonomies'      => array( 'portfolio_category', 'portfolio_tag' ),
-				'supports'        => array(
-					'title',
-					'editor',
-					'thumbnail',
-					'excerpt',
-					'comments',
-					'revisions',
-					'author',
-					'custom-fields',
-				),
+				'supports'        => $supports,
 				'rewrite'         => array(
 					'slug'       => sanitize_title( $project_slug ),
 					'with_front' => false,
@@ -137,6 +148,9 @@ class Twentig_Portfolio {
 
 	/**
 	 * Adds featured image column to portfolio edit screen.
+	 *
+	 * @param array $columns Existing columns.
+	 * @return array Modified columns array.
 	 */
 	function edit_columns( $columns ) {
 		$column_thumbnail = array( 'thumbnail' => esc_html__( 'Featured Image', 'twentig' ) );
@@ -145,6 +159,8 @@ class Twentig_Portfolio {
 
 	/**
 	 * Displays featured image inside thumbnail column.
+	 *
+	 * @param string $column Column name.
 	 */
 	function custom_columns( $column ) {
 		if ( 'thumbnail' === $column ) {
@@ -153,3 +169,32 @@ class Twentig_Portfolio {
 	}
 }
 add_action( 'init', array( 'Twentig_Portfolio', 'init' ), 9 );
+
+/**
+ * Filters the list of template types to add template description.
+ *
+ * @param array $default_template_types An array of template types, formatted as [ slug => [ title, description ] ].
+ * @return array Modified array of template types.
+ */
+function twentig_default_portfolio_templates_types( $default_template_types ) {
+
+	if ( post_type_exists( 'portfolio' ) ) {
+		$default_template_types[ 'single-portfolio' ] = array(
+			'title'       => esc_html_x( 'Single Projects', 'Template name', 'twentig' ),
+			'description' => esc_html__( 'Displays a single project on your website.', 'twentig' ),
+		);
+
+		$default_template_types[ 'taxonomy-portfolio_category' ] = array(
+			'title'       => esc_html_x( 'Project Categories', 'Template name', 'twentig' ),
+			'description' => esc_html__( 'Displays portfolio categories.', 'twentig' ),
+		);
+
+		$default_template_types[ 'taxonomy-portfolio_tag' ] = array(
+			'title'       => esc_html_x( 'Project Tags', 'Template name', 'twentig' ),
+			'description' => esc_html__( 'Displays portfolio tags.', 'twentig' ),
+		);
+	}
+
+	return $default_template_types;
+}
+add_filter( 'default_template_types', 'twentig_default_portfolio_templates_types' );

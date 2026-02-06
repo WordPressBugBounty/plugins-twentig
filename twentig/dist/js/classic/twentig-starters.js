@@ -13,7 +13,7 @@
 		if ( queryParams[ 'starter' ] ) {
 
 			var starter = queryParams[ 'starter' ];
-			var type = queryParams[ 'type' ] 
+			var type = queryParams[ 'type' ]; 
 			
 			delete queryParams.starter;
 			delete queryParams.type;
@@ -88,10 +88,10 @@
 
 		$( '#twentig-customize-starter-content' ).on( 'change', function( e ) {
 			var $preview = $( '#twentig-customize-starter-screenshot' );
-			
+
 			if ( $( this ).val() ) {
 				var image_url = $( this ).find( 'option:selected' ).attr( 'data-screenshot' );
-				
+
 				if ( $preview.find( 'img' ).length ) {
 					$preview.find( 'img' ).attr( 'src', image_url );
 				} else {

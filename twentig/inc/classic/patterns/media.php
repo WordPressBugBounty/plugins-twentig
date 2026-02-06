@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 twentig_register_block_pattern(
 	'twentig/hero-with-video',
 	array(
@@ -55,7 +57,7 @@ twentig_register_block_pattern(
 	array(
 		'title'      => __( 'Audio list', 'twentig' ),
 		'categories' => array( 'media' ),
-		'content'    => '<!-- wp:group {"align":"full"} --><div class="wp-block-group alignfull"><!-- wp:heading {"textAlign":"center","className":"tw-mb-8"} --><h2 class="has-text-align-center tw-mb-8">' . esc_html_x( 'All episodes', 'Block pattern content', 'twentig' ) . '</h2><!-- /wp:heading --><!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">01: Lorem ipsum dolor sit amet</h3><!-- /wp:heading --><!-- wp:audio --><figure class="wp-block-audio"><audio controls src="https://s.w.org/audio.mp3"></audio></figure><!-- /wp:audio --><!-- wp:separator {"className":"tw-mt-6 tw-mb-6"} --><hr class="wp-block-separator tw-mt-6 tw-mb-6"/><!-- /wp:separator --><!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">02: Integer enim risus suscipit eu iaculis sed</h3><!-- /wp:heading --><!-- wp:audio --><figure class="wp-block-audio"><audio controls src="https://s.w.org/audio.mp3"></audio></figure><!-- /wp:audio --><!-- wp:separator {"className":"tw-mt-6 tw-mb-6"} --><hr class="wp-block-separator tw-mt-6 tw-mb-6"/><!-- /wp:separator --><!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">03: Aliquam tempus mi eu nulla porta luctus</h3><!-- /wp:heading --><!-- wp:audio --><figure class="wp-block-audio"><audio controls src="https://s.w.org/audio.mp3"></audio></figure><!-- /wp:audio --></div><!-- /wp:group -->',
+		'content'    => '<!-- wp:group {"align":"full"} --><div class="wp-block-group alignfull"><!-- wp:heading {"textAlign":"center","className":"tw-mb-8"} --><h2 class="has-text-align-center tw-mb-8">' . esc_html_x( 'All episodes', 'Block pattern content', 'twentig' ) . '</h2><!-- /wp:heading --><!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">01: Lorem ipsum dolor sit amet</h3><!-- /wp:heading --><!-- wp:audio --><figure class="wp-block-audio"><audio controls src="'. twentig_get_pattern_asset( 'audio.mp3' ) . '"></audio></figure><!-- /wp:audio --><!-- wp:separator {"className":"tw-mt-6 tw-mb-6"} --><hr class="wp-block-separator tw-mt-6 tw-mb-6"/><!-- /wp:separator --><!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">02: Integer enim risus suscipit eu iaculis sed</h3><!-- /wp:heading --><!-- wp:audio --><figure class="wp-block-audio"><audio controls src="'. twentig_get_pattern_asset( 'audio.mp3' ) . '"></audio></figure><!-- /wp:audio --><!-- wp:separator {"className":"tw-mt-6 tw-mb-6"} --><hr class="wp-block-separator tw-mt-6 tw-mb-6"/><!-- /wp:separator --><!-- wp:heading {"level":3,"fontSize":"medium"} --><h3 class="has-medium-font-size">03: Aliquam tempus mi eu nulla porta luctus</h3><!-- /wp:heading --><!-- wp:audio --><figure class="wp-block-audio"><audio controls src="'. twentig_get_pattern_asset( 'audio.mp3' ) . '"></audio></figure><!-- /wp:audio --></div><!-- /wp:group -->',
 	)
 );
 

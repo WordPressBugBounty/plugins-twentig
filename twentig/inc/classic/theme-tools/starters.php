@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Return starter websites list.
  */
@@ -90,8 +92,8 @@ function twentig_ajax_customize_load_starter_content() {
 	}
 
 	// Get data.
-	$import_type     = isset( $_POST['type'] ) ? wp_unslash( $_POST['type'] ) : 'all';
-	$starter_id      = isset( $_POST['starter'] ) ? wp_unslash( $_POST['starter'] ) : '';
+	$import_type     = isset( $_POST['type'] ) ? sanitize_key( wp_unslash( $_POST['type'] ) ) : 'all';
+	$starter_id      = isset( $_POST['starter'] ) ? sanitize_key( wp_unslash( $_POST['starter'] ) ) : '';
 	$starter_content = twentig_get_starter_content( $starter_id );
 
 	if ( ! $starter_content ) {
@@ -186,7 +188,7 @@ function twentig_ajax_customize_load_starter_content() {
 			if ( 'page' === $post['post_type'] ) {
 				$post_slug = isset( $post['post_name'] ) ? $post['post_name'] : sanitize_title( $post['post_title'] );
 				if ( ! in_array( $post_slug, array( 'blog', 'news' ), true ) ) {
-					$content['posts'][ $post_id ]['post_name'] = twentig_unique_post_slug( $post_slug );
+					$content['posts'][ $post_id ]['post_name'] = wp_unique_post_slug( $post_slug, 0, 'publish', 'page', 0 );
 				}
 			}
 		}
@@ -194,28 +196,6 @@ function twentig_ajax_customize_load_starter_content() {
 
 	$wp_customize->import_theme_starter_content( $content );
 	wp_send_json_success( $content );
-}
-
-/**
- * Computes a unique slug for a given desired slug.
- *
- * @param string $slug Post slug.
- * Based on wp_unique_post_slug() core function.
- */
-function twentig_unique_post_slug( $slug ) {
-	global $wpdb;
-	$check_sql       = "SELECT post_name FROM $wpdb->posts WHERE post_name = %s LIMIT 1";
-	$post_name_check = $wpdb->get_var( $wpdb->prepare( $check_sql, $slug ) );
-	if ( $post_name_check ) {
-		$suffix = 2;
-		do {
-			$alt_post_name   = _truncate_post_slug( $slug, 200 - ( strlen( $suffix ) + 1 ) ) . "-$suffix";
-			$post_name_check = $wpdb->get_var( $wpdb->prepare( $check_sql, $alt_post_name ) );
-			$suffix++;
-		} while ( $post_name_check );
-		$slug = $alt_post_name;
-	}
-	return $slug;
 }
 
 require TWENTIG_PATH . 'inc/classic/theme-tools/class-twentig-starter-loop-posts.php';
