@@ -8,6 +8,7 @@
 defined( 'ABSPATH' ) || exit;
 
 require TWENTIG_PATH . 'inc/dashboard/class-twentig-dashboard.php';
+require TWENTIG_PATH . 'inc/dashboard/theme-notice.php';
 require TWENTIG_PATH . 'inc/utilities.php';
 require TWENTIG_PATH . 'inc/blocks.php';
 require TWENTIG_PATH . 'inc/block-styles.php';
@@ -26,16 +27,17 @@ function twentig_theme_support_includes() {
 	$template = get_template();
 
 	if ( wp_is_block_theme() ) {
-		require_once TWENTIG_PATH . 'inc/block-themes.php';
-		if ( str_starts_with( $template, 'twentytwenty' ) ) {
-			$file_path = TWENTIG_PATH . "inc/compat/{$template}.php";
-			if ( file_exists( $file_path ) ) {
-				require_once $file_path;
-			}
-			if ( in_array( $template, array( 'twentytwentyfour', 'twentytwentythree', 'twentytwentytwo' ), true ) ) {
-				require_once TWENTIG_PATH . 'inc/compat/blocks.php';
-				require_once TWENTIG_PATH . 'inc/compat/block-styles.php';
-			}
+		if ( ! str_starts_with( $template, 'twentytwenty' ) ) {
+			return;
+		}
+		
+		$file_path = TWENTIG_PATH . "inc/compat/{$template}.php";
+		if ( file_exists( $file_path ) ) {
+			require_once $file_path;
+		}
+		if ( in_array( $template, array( 'twentytwentyfour', 'twentytwentythree', 'twentytwentytwo' ), true ) ) {
+			require_once TWENTIG_PATH . 'inc/compat/blocks.php';
+			require_once TWENTIG_PATH . 'inc/compat/block-styles.php';
 		}
 	} else {
 		require_once TWENTIG_PATH . 'inc/compat/blocks.php';

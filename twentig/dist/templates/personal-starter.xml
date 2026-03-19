@@ -1,0 +1,2249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Emma Curtis</title>
+	<link>https:</link>
+	<description></description>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://demo.twentig.com/personal-starter</wp:base_site_url>
+	<wp:base_blog_url>https://demo.twentig.com/personal-starter</wp:base_blog_url>
+	<wp:min_wordpress_version>6.9</wp:min_wordpress_version>
+	<wp:min_twentig_version>2.0</wp:min_twentig_version>	
+	<wp:theme>twentig-one</wp:theme>
+
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[Admin]]></wp:author_login><wp:author_email><![CDATA[contact@example.com]]></wp:author_email><wp:author_display_name><![CDATA[Admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+
+		<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://demo.twentig.com/personal-starter/</link>
+		<pubDate>Fri, 09 Jan 2026 16:07:30 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|80"}}},"backgroundColor":"base-3","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-3-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"className":"tw-md-order-last"} -->
+<div class="wp-block-column tw-md-order-last"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80&amp;w=1800&amp;h=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.1&amp;fp-x=.48&amp;fp-y=1" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Designing memorable events and experiences</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tw-text-pretty","fontSize":"medium"} -->
+<p class="tw-text-pretty has-medium-font-size">From seamless corporate gatherings to breathtaking personal celebrations, I plan and produce events that people remember.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/personal-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">How I plan and produce events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I believe a great event is all about the thoughtful details. It starts with a deep understanding of your vision and what you want your guests to feel. From there, I handle all the complex logistics so you can focus on the moment. My goal is to create an experience that feels deeply personal to you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With years of experience, I have built relationships with trusted vendors and creatives. This network allows me to bring any idea to life, no matter the scale. I manage every stage of the process, ensuring everything runs smoothly from the first conversation to the final farewell.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Corporate Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Conferences &amp; Summits</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Product Launches &amp; Brand Activations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Holiday Parties &amp; Team Retreats</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Award Ceremonies &amp; Galas</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Personal Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Weddings</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Anniversary Parties</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Milestone Birthdays</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Family Reunions</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:gallery {"columns":1,"imageCrop":false,"linkTo":"none","aspectRatio":"16/9","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|80"}}},"twLayout":"carousel","twCarousel":{"transition":"slide","displayMode":"visible-overflow","markersPosition":"none","view":"adjacent-images"}} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 tw-gallery-carousel" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1561593367-66c79c2294e6?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.435" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.9" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1670880016314-7366859b9136?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.43" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1514837736096-6085b1b1f1a8?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Senior Event Producer, Pinnacle Productions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2019-2023 · New York</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I led the planning and execution of large-scale corporate events for global brands. My role involved managing budgets, leading creative teams, and overseeing all on-site logistics to deliver high-impact experiences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Manager, The Social Set</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2016-2019 · London</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">At this boutique agency, I specialized in planning luxury weddings and private parties across Europe. I worked closely with clients to design personalized events, coordinating everything from venue selection to guest management.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Coordinator, Bright Ideas Inc.</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2014-2016 · Chicago</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I started my career supporting a team of planners on a variety of events. This role taught me the fundamentals of the industry, from vendor negotiation to creating detailed event timelines.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Education</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">London School of Economics</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Summer Programme, Marketing &amp; Communications</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2018</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Leadership Institute</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Certificate, Event Design &amp; Strategy</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2015</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">New York University</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Bachelor of Science, Hospitality &amp; Tourism Management</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2014</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-columns alignwide has-base-2-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1699616041119-2728b33cf89f?q=50&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.75" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|55","right":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--55);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--55);flex-basis:50%"><!-- wp:quote {"className":"is-style-plain tw-text-pretty","style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+<blockquote class="wp-block-quote is-style-plain tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><!-- wp:paragraph -->
+<p>"Emma is simply the best. She took our vague ideas and turned them into a stunning, perfectly executed launch party. She's organized, creative, and a pleasure to work with."</p>
+<!-- /wp:paragraph --><cite>Arthur Lacroix, CEO of Nova Corp</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Latest posts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]}} -->
+<div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default","columnCount":3}} -->
+<!-- wp:group {"layout":{"type":"constrained"},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link"><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"80px","className":"tw-empty-hidden"} -->
+<div class="wp-block-column tw-empty-hidden" style="flex-basis:80px"><!-- wp:post-featured-image {"aspectRatio":"1","width":"","sizeSlug":"medium","style":{"layout":{"selfStretch":"fixed","flexSize":"80px"}}} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","fontSize":"x-small"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:07:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:07:30]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://demo.twentig.com/personal-starter/wp-global-styles-twentig-one/</link>
+		<pubDate>Fri, 09 Jan 2026 16:08:32 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-global-styles-twentig-one/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:08:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:08:32]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-twentig-one]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						</item>
+					<item>
+		<title><![CDATA[Services]]></title>
+		<link>https://demo.twentig.com/personal-starter/services/</link>
+		<pubDate>Fri, 09 Jan 2026 16:11:18 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=8</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|80"}}},"backgroundColor":"base-3","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-3-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"className":"tw-md-order-last"} -->
+<div class="wp-block-column tw-md-order-last"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1485872299829-c673f5194813?q=80&amp;w=1800&amp;h=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">My event planning and production services</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tw-text-pretty","fontSize":"medium"} -->
+<p class="tw-text-pretty has-medium-font-size">I provide end-to-end event planning and production, handling every detail to ensure your event is memorable and flawlessly executed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/personal-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">From vision to reality</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>My process is built on collaboration and clear communication. We start with a conversation to define your goals, budget, and creative vision. I then develop a detailed plan that covers every element, from the venue and vendors to the timeline and guest experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I manage all the moving parts so you do not have to. This includes contract negotiations, budget tracking, and coordinating with designers, caterers, and entertainers. On the day of the event, I am on-site to ensure everything unfolds exactly as planned, leaving you free to enjoy the occasion.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"62rem"}} -->
+<div class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.3"}},"fontSize":"xx-large"} -->
+<p class="has-text-align-center tw-text-balance has-xx-large-font-size" style="line-height:1.3">You should feel like a guest at your own event. That's my philosophy. I handle the complexity behind the scenes so you can simply experience the magic.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Full-Service Planning</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This is my most comprehensive offering. I guide you through the entire planning process, from the initial idea to the final execution. It is perfect for anyone who wants a dedicated partner to handle every single detail.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Partial Planning &amp; Design</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you have already started planning but need help with specific areas, this service is for you. I can assist with vendor selection, event design, or managing logistics to bring your vision together.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Day-Of Coordination</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For clients who have planned their event but want a professional to manage it on the day. I step in during the final weeks to finalize details and oversee the event itself, making sure everything runs smoothly.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--50)">My clients</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-inline tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-inline tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Apex Innovations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Zenith Group</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Nova</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Jasper &amp; Co.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Meridian Solutions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Quantum Ventures</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Equinox</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Silverline Industries</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ironwood Collective</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Solaris</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Crimson Global</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Atlas Partners</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Orion</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Veridian Dynamics</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Cobalt</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Terra Firma Capital</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Catalyst Creative</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Sterling</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Redwood</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:gallery {"columns":1,"imageCrop":false,"linkTo":"none","sizeSlug":"full","aspectRatio":"16/9","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}},"twLayout":"carousel","twCarousel":{"transition":"slide","displayMode":"visible-overflow","markersPosition":"none","view":"adjacent-images"}} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 tw-gallery-carousel"><!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1600320271815-fd1edc51650b?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.75&amp;fp-y=.52" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1586718520704-f7f9db04b8c0?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1576085898323-218337e3e43c?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1544928147-79a2dbc1f389?q=55&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.38" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Testimonials</h2>
+<!-- /wp:heading -->
+
+<!-- wp:quote {"className":"is-style-plain","style":{"typography":{"lineHeight":"1.3"}}} -->
+<blockquote class="wp-block-quote is-style-plain" style="line-height:1.3"><!-- wp:paragraph -->
+<p>“Emma has planned our annual company conference for three years straight. Each year, she finds new ways to make it engaging and memorable. Her attention to detail and ability to manage complex logistics are second to none.”</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|15"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"40px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100%"}}} -->
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="https://images.unsplash.com/photo-1600275669439-14e40452d20b?q=80&amp;w=120&amp;h=120&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=4.7&amp;fp-y=.362" alt="" style="border-radius:100%;aspect-ratio:1;object-fit:cover;width:40px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="font-style:normal;font-weight:500;line-height:1.3">Claire Robinson, Marketing Director at Orion</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:quote {"className":"is-style-plain","style":{"typography":{"lineHeight":"1.3"}}} -->
+<blockquote class="wp-block-quote is-style-plain" style="line-height:1.3"><!-- wp:paragraph -->
+<p>“Working with Emma was the best decision we made for our wedding. She was calm, professional, and incredibly organized. She listened to what we wanted and created a day that was more beautiful than we could have imagined.”</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|15"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"40px","height":"auto","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100%"}}} -->
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="https://images.unsplash.com/photo-1667662338228-12c5607bf43d?q=80&amp;w=120&amp;h=120&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=3.2&amp;fp-y=.36&amp;fp-x=.545" alt="" style="border-radius:100%;object-fit:cover;width:40px;height:auto"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="font-style:normal;font-weight:500;line-height:1.3">Zoe &amp; Caleb Hayes</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:quote {"className":"is-style-plain","style":{"typography":{"lineHeight":"1.3"}}} -->
+<blockquote class="wp-block-quote is-style-plain" style="line-height:1.3"><!-- wp:paragraph -->
+<p>“I hired Emma for my 40th birthday party, and she was fantastic. She took all the stress out of planning and created a fun, elegant event that my friends and family are still talking about. I highly recommend her.”</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|15"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:image {"width":"40px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100%"}}} -->
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="https://images.unsplash.com/photo-1666636743312-5ca81c616355?q=80&amp;w=120&amp;h=120&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=4&amp;fp-y=.32&amp;fp-x=.485" alt="" style="border-radius:100%;aspect-ratio:1;object-fit:cover;width:40px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="font-style:normal;font-weight:500;line-height:1.3">Jalen Grant</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:11:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:11:18]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Blog]]></title>
+		<link>https://demo.twentig.com/personal-starter/blog/</link>
+		<pubDate>Fri, 09 Jan 2026 16:12:12 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=10</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:12:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:12:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Contact]]></title>
+		<link>https://demo.twentig.com/personal-starter/contact/</link>
+		<pubDate>Fri, 09 Jan 2026 16:12:39 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|10","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-top tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top","className":"tw-sm-order-first","layout":{"type":"constrained"}} -->
+<div class="wp-block-column is-vertically-aligned-top tw-sm-order-first"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Let's connect</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","layout":{"type":"constrained"}} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:paragraph {"className":"tw-text-pretty","style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}},"fontSize":"medium"} -->
+<p class="tw-text-pretty has-medium-font-size" style="margin-top:var(--wp--preset--spacing--15)">I am now booking for the next season. Let's start the conversation about your vision and how I can help bring it to life.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size"><a href="mailto:contact@example.com">contact@example.com</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1741893043659-ca8b82a8b637?q=80&amp;w=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:12:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:12:39]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 2]]></title>
+		<link>https://demo.twentig.com/personal-starter/home-2/</link>
+		<pubDate>Fri, 09 Jan 2026 16:14:31 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=16</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80\u0026w=2400\u0026h=1000\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\u0026fp-y=1","dimRatio":50,"isUserOverlayColor":true,"minHeight":75,"minHeightUnit":"vh","contentPosition":"center center","align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="padding-bottom:var(--wp--preset--spacing--70);min-height:75vh"><img class="wp-block-cover__image-background" alt="" src="https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80&amp;w=2400&amp;h=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=1" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Designing memorable events and experiences</h1>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/personal-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">How I plan and produce events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I believe a great event is all about the thoughtful details. It starts with a deep understanding of your vision and what you want your guests to feel. From there, I handle all the complex logistics so you can focus on the moment. My goal is to create an experience that feels deeply personal to you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With years of experience, I have built relationships with trusted vendors and creatives. This network allows me to bring any idea to life, no matter the scale. I manage every stage of the process, ensuring everything runs smoothly from the first conversation to the final farewell.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Corporate Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Conferences &amp; Summits</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Product Launches &amp; Brand Activations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Holiday Parties &amp; Team Retreats</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Award Ceremonies &amp; Galas</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Personal Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Weddings</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Anniversary Parties</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Milestone Birthdays</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Family Reunions</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:gallery {"columns":1,"imageCrop":false,"linkTo":"none","aspectRatio":"16/9","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|80"}}},"twLayout":"carousel","twCarousel":{"transition":"slide","displayMode":"visible-overflow","markersPosition":"none","view":"adjacent-images"}} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 tw-gallery-carousel" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1561593367-66c79c2294e6?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.435" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.9" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1670880016314-7366859b9136?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.43" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1514837736096-6085b1b1f1a8?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Senior Event Producer, Pinnacle Productions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2019-2023 · New York</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I led the planning and execution of large-scale corporate events for global brands. My role involved managing budgets, leading creative teams, and overseeing all on-site logistics to deliver high-impact experiences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Manager, The Social Set</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2016-2019 · London</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">At this boutique agency, I specialized in planning luxury weddings and private parties across Europe. I worked closely with clients to design personalized events, coordinating everything from venue selection to guest management.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Coordinator, Bright Ideas Inc.</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2014-2016 · Chicago</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I started my career supporting a team of planners on a variety of events. This role taught me the fundamentals of the industry, from vendor negotiation to creating detailed event timelines.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Education</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">London School of Economics</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Summer Programme, Marketing &amp; Communications</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2018</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Leadership Institute</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Certificate, Event Design &amp; Strategy</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2015</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">New York University</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Bachelor of Science, Hospitality &amp; Tourism Management</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2014</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-columns alignwide has-base-2-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1699616041119-2728b33cf89f?q=50&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.75" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|55","right":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--55);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--55);flex-basis:50%"><!-- wp:quote {"className":"is-style-plain tw-text-pretty","style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+<blockquote class="wp-block-quote is-style-plain tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><!-- wp:paragraph -->
+<p>"Emma is simply the best. She took our vague ideas and turned them into a stunning, perfectly executed launch party. She's organized, creative, and a pleasure to work with."</p>
+<!-- /wp:paragraph --><cite>Arthur Lacroix, CEO of Nova Corp</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Latest posts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]}} -->
+<div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default","columnCount":3}} -->
+<!-- wp:group {"layout":{"type":"constrained"},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link"><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"80px","className":"tw-empty-hidden"} -->
+<div class="wp-block-column tw-empty-hidden" style="flex-basis:80px"><!-- wp:post-featured-image {"aspectRatio":"1","width":"","sizeSlug":"medium","style":{"layout":{"selfStretch":"fixed","flexSize":"80px"}}} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","fontSize":"x-small"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:14:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:14:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home 3]]></title>
+		<link>https://demo.twentig.com/personal-starter/home-3/</link>
+		<pubDate>Fri, 09 Jan 2026 16:15:45 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=19</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|80"}}},"backgroundColor":"base-3","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-3-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Designing memorable events and experiences</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","fontSize":"medium"} -->
+<p class="has-text-align-center tw-text-balance has-medium-font-size">From seamless corporate gatherings to breathtaking personal celebrations, I plan and produce events that people remember.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/personal-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80&amp;w=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.038&amp;fp-x=0" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">How I plan and produce events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I believe a great event is all about the thoughtful details. It starts with a deep understanding of your vision and what you want your guests to feel. From there, I handle all the complex logistics so you can focus on the moment. My goal is to create an experience that feels deeply personal to you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With years of experience, I have built relationships with trusted vendors and creatives. This network allows me to bring any idea to life, no matter the scale. I manage every stage of the process, ensuring everything runs smoothly from the first conversation to the final farewell.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Corporate Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Conferences &amp; Summits</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Product Launches &amp; Brand Activations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Holiday Parties &amp; Team Retreats</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Award Ceremonies &amp; Galas</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Personal Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Weddings</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Anniversary Parties</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Milestone Birthdays</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Family Reunions</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:gallery {"columns":1,"imageCrop":false,"linkTo":"none","aspectRatio":"16/9","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|80"}}},"twLayout":"carousel","twCarousel":{"transition":"slide","displayMode":"visible-overflow","markersPosition":"none","view":"adjacent-images"}} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 tw-gallery-carousel" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1561593367-66c79c2294e6?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.435" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.9" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1670880016314-7366859b9136?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.43" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1514837736096-6085b1b1f1a8?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Senior Event Producer, Pinnacle Productions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2019-2023 · New York</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I led the planning and execution of large-scale corporate events for global brands. My role involved managing budgets, leading creative teams, and overseeing all on-site logistics to deliver high-impact experiences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Manager, The Social Set</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2016-2019 · London</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">At this boutique agency, I specialized in planning luxury weddings and private parties across Europe. I worked closely with clients to design personalized events, coordinating everything from venue selection to guest management.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Coordinator, Bright Ideas Inc.</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2014-2016 · Chicago</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I started my career supporting a team of planners on a variety of events. This role taught me the fundamentals of the industry, from vendor negotiation to creating detailed event timelines.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Education</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">London School of Economics</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Summer Programme, Marketing &amp; Communications</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2018</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Leadership Institute</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Certificate, Event Design &amp; Strategy</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2015</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">New York University</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Bachelor of Science, Hospitality &amp; Tourism Management</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2014</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-columns alignwide has-base-2-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1699616041119-2728b33cf89f?q=50&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.75" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|55","right":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--55);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--55);flex-basis:50%"><!-- wp:quote {"className":"is-style-plain tw-text-pretty","style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+<blockquote class="wp-block-quote is-style-plain tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><!-- wp:paragraph -->
+<p>"Emma is simply the best. She took our vague ideas and turned them into a stunning, perfectly executed launch party. She's organized, creative, and a pleasure to work with."</p>
+<!-- /wp:paragraph --><cite>Arthur Lacroix, CEO of Nova Corp</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Latest posts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]}} -->
+<div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default","columnCount":3}} -->
+<!-- wp:group {"layout":{"type":"constrained"},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link"><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"80px","className":"tw-empty-hidden"} -->
+<div class="wp-block-column tw-empty-hidden" style="flex-basis:80px"><!-- wp:post-featured-image {"aspectRatio":"1","width":"","sizeSlug":"medium","style":{"layout":{"selfStretch":"fixed","flexSize":"80px"}}} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","fontSize":"x-small"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:15:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:15:45]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home 4]]></title>
+		<link>https://demo.twentig.com/personal-starter/home-4/</link>
+		<pubDate>Fri, 09 Jan 2026 16:16:44 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?page_id=21</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80\u0026w=2400\u0026h=1300\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\u0026fp-y=1\u0026crop=focalpoint\u0026fp-z=1.21","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center" style="padding-bottom:var(--wp--preset--spacing--70);min-height:100vh"><img class="wp-block-cover__image-background" alt="" src="https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80&amp;w=2400&amp;h=1300&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=1&amp;crop=focalpoint&amp;fp-z=1.21" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Designing memorable events and experiences</h1>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/personal-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">How I plan and produce events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I believe a great event is all about the thoughtful details. It starts with a deep understanding of your vision and what you want your guests to feel. From there, I handle all the complex logistics so you can focus on the moment. My goal is to create an experience that feels deeply personal to you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With years of experience, I have built relationships with trusted vendors and creatives. This network allows me to bring any idea to life, no matter the scale. I manage every stage of the process, ensuring everything runs smoothly from the first conversation to the final farewell.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Corporate Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Conferences &amp; Summits</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Product Launches &amp; Brand Activations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Holiday Parties &amp; Team Retreats</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Award Ceremonies &amp; Galas</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)">Personal Events</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Weddings</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Anniversary Parties</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Milestone Birthdays</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Family Reunions</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:gallery {"columns":1,"imageCrop":false,"linkTo":"none","aspectRatio":"16/9","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"},"margin":{"top":"var:preset|spacing|80"}}},"twLayout":"carousel","twCarousel":{"transition":"slide","displayMode":"visible-overflow","markersPosition":"none","view":"adjacent-images"}} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 tw-gallery-carousel" style="margin-top:var(--wp--preset--spacing--80)"><!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1561593367-66c79c2294e6?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.435" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.9" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1670880016314-7366859b9136?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.43" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"aspectRatio":"16/9","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1514837736096-6085b1b1f1a8?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:16/9"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Senior Event Producer, Pinnacle Productions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2019-2023 · New York</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I led the planning and execution of large-scale corporate events for global brands. My role involved managing budgets, leading creative teams, and overseeing all on-site logistics to deliver high-impact experiences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Manager, The Social Set</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2016-2019 · London</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">At this boutique agency, I specialized in planning luxury weddings and private parties across Europe. I worked closely with clients to design personalized events, coordinating everything from venue selection to guest management.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Coordinator, Bright Ideas Inc.</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--10)">2014-2016 · Chicago</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|15"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--15)">I started my career supporting a team of planners on a variety of events. This role taught me the fundamentals of the industry, from vendor negotiation to creating detailed event timelines.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Education</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">London School of Economics</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Summer Programme, Marketing &amp; Communications</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2018</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Event Leadership Institute</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Certificate, Event Design &amp; Strategy</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2015</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|25"},"border":{"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group tw-align-baseline" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">New York University</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"fontSize":"normal"} -->
+<p class="has-normal-font-size" style="margin-top:var(--wp--preset--spacing--10)">Bachelor of Science, Hospitality &amp; Tourism Management</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tw-whitespace-nowrap","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"secondary","fontSize":"small"} -->
+<p class="tw-whitespace-nowrap has-secondary-color has-text-color has-link-color has-small-font-size">2014</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-columns alignwide has-base-2-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1699616041119-2728b33cf89f?q=50&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.75" alt="" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|55","right":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--55);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--55);flex-basis:50%"><!-- wp:quote {"className":"is-style-plain tw-text-pretty","style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+<blockquote class="wp-block-quote is-style-plain tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><!-- wp:paragraph -->
+<p>"Emma is simply the best. She took our vague ideas and turned them into a stunning, perfectly executed launch party. She's organized, creative, and a pleasure to work with."</p>
+<!-- /wp:paragraph --><cite>Arthur Lacroix, CEO of Nova Corp</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60)">Latest posts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]}} -->
+<div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default","columnCount":3}} -->
+<!-- wp:group {"layout":{"type":"constrained"},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link"><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"80px","className":"tw-empty-hidden"} -->
+<div class="wp-block-column tw-empty-hidden" style="flex-basis:80px"><!-- wp:post-featured-image {"aspectRatio":"1","width":"","sizeSlug":"medium","style":{"layout":{"selfStretch":"fixed","flexSize":"80px"}}} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","fontSize":"x-small"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"></div>
+<!-- /wp:separator -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:16:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:16:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The art of creating genuine connection]]></title>
+		<link>https://demo.twentig.com/personal-starter/the-art-of-creating-genuine-connection/</link>
+		<pubDate>Thu, 01 Jan 2026 16:20:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?p=31</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>When we think back on our most cherished gatherings, what we remember is the feeling of being together. We recall the shared laughter, the easy conversations, and the simple joy of true connection. As a planner, my goal is to create the perfect conditions for these moments to happen naturally.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A gathering is much more than a schedule and a guest list; it is a unique opportunity to bring people closer. Whether it is a corporate retreat or a personal celebration, the magic lies in making everyone feel seen, comfortable, and part of something special. It is about intentionally designing an experience that fosters warmth and genuine interaction.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Make a thoughtful first impression</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The entire feeling of a gathering is established the moment your guests arrive. A warm and personal welcome can instantly make someone feel at ease. This can be as simple as having a friendly face to greet them, clear signage that guides them, or offering a welcome drink. These small gestures communicate care and set a relaxed tone right from the very beginning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Think about the initial flow of your gathering. Instead of having guests walk into a large, empty room, you should create a more intimate starting point. A designated welcome area with soft music and comfortable seating encourages people to settle in and begin mingling naturally. This gentle start helps ease any social anxiety and promotes a more relaxed atmosphere.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Encourage organic interaction</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The best connections are never forced. Instead of relying on structured icebreakers, I prefer to build opportunities for interaction directly into the design of the gathering. This can be as simple as setting up a few lawn games for an outdoor party or placing a collaborative art piece in a central location for guests to contribute to.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Shared experiences are also powerful tools for building connection. Consider interactive food or drink stations, like a make-your-own cocktail bar or a dessert decorating table. These elements provide a fun, shared activity that sparks conversation and gives guests a natural reason to engage with one another. They create small moments of discovery that can lead to more meaningful connections.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-01 16:20:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-01 16:20:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-art-of-creating-genuine-connection]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[32]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[connection]]></title>
+		<link>https://demo.twentig.com/personal-starter/the-art-of-creating-genuine-connection/connection/</link>
+		<pubDate>Fri, 09 Jan 2026 16:21:09 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/connection.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>32</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:21:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:21:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[connection]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>31</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/connection.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/connection.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:23:"2026/01/connection.webp";s:8:"filesize";i:120496;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:23:"connection-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:12558;}s:5:"large";a:5:{s:4:"file";s:24:"connection-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:78494;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"connection-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5826;}s:12:"medium_large";a:5:{s:4:"file";s:23:"connection-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:53222;}s:9:"1536x1536";a:5:{s:4:"file";s:25:"connection-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:138064;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[How to choose the perfect venue for your event]]></title>
+		<link>https://demo.twentig.com/personal-starter/how-to-choose-the-perfect-venue-for-your-event/</link>
+		<pubDate>Fri, 02 Jan 2026 18:43:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?p=34</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>The search for a venue is often the true beginning of the event planning process. The space you choose acts as the canvas for your entire event, making a powerful first impression on your guests. It dictates the atmosphere, influences your decor choices, and has a major impact on your budget and the overall experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Finding the right one requires a blend of clear-headed logistics and creative vision. You need a space that not only works on paper but also has a feeling that aligns with your goals for the occasion. The process can seem daunting, so this guide breaks it down into practical steps to help you find a venue that is a perfect match.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Functionality must come first</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Before you get carried away by a beautiful space, it is essential to confirm the practical details that will make or break your event. Start with the absolute non-negotiables: your budget, estimated guest count, and preferred date. A venue must meet these three criteria before you even consider a site visit, as it saves you from wasting time on options that are not viable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Next, think carefully about the guest experience from start to finish. Is the venue easy to find and get to? Does it have sufficient parking or convenient access to public transport? You should also ask for a detailed list of what is included in the rental fee. Understanding if basics like tables, chairs, security, and cleaning are covered will help you compare costs accurately and avoid hidden expenses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Let your vision guide you</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Once the practicalities are sorted, you can focus on the creative fit. The venue's style should align with the story you want to tell. A modern, minimalist gallery creates a very different mood than a warm, rustic barn or a grand, historic ballroom. The architecture and interior design should enhance your theme, not compete with it, creating a cohesive and immersive environment for your guests.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>During a walkthrough, imagine the flow of your event from a guest's perspective. Where will they arrive and check in? Are there logical, comfortable areas for them to mingle? A good layout is crucial for a comfortable and seamless experience. Finally, always ask for a complete list of rules and restrictions. Knowing the policies on outside vendors, decor, and noise levels upfront ensures the venue can truly accommodate your unique vision.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 18:43:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 18:43:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[how-to-choose-the-perfect-venue-for-your-event]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[35]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[venue]]></title>
+		<link>https://demo.twentig.com/personal-starter/how-to-choose-the-perfect-venue-for-your-event/venue/</link>
+		<pubDate>Fri, 09 Jan 2026 16:21:47 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/venue.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>35</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:21:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:21:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[venue]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>34</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/venue.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/venue.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:18:"2026/01/venue.webp";s:8:"filesize";i:78864;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:18:"venue-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7314;}s:5:"large";a:5:{s:4:"file";s:19:"venue-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:40752;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"venue-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3482;}s:12:"medium_large";a:5:{s:4:"file";s:18:"venue-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:26240;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"venue-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:75036;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[A planner's guide to hiring the right caterer]]></title>
+		<link>https://demo.twentig.com/personal-starter/a-planners-guide-to-hiring-the-right-caterer/</link>
+		<pubDate>Sun, 04 Jan 2026 08:13:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?p=37</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Choosing the right caterer is one of the most impactful decisions you will make for your event. They do much more than just provide the food. They manage a critical part of your guests' experience, from service to timing. Finding the right fit is about finding a reliable partner who can execute your vision.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>After planning countless events, I have learned that a successful catering experience comes from a clear and organized selection process. This guide is designed to walk you through the practical steps I take to find the perfect catering team, ensuring there are no surprises on the day of the event.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Do your homework first</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Before you even contact a single caterer, you need to have your event details sorted. This means knowing your budget, estimated guest count, venue, and the overall style of your event. Are you looking for a formal seated dinner, a casual buffet, or trendy food stations? This information is essential for getting an accurate and useful proposal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With these details in hand, you can begin your research. Look for caterers who have positive reviews and experience with events similar to yours. Ask your venue for their list of preferred partners, as these caterers will already be familiar with the space and its rules. Your goal is to create a shortlist of three to five promising candidates to move forward with.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">The proposal and the tasting</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you request proposals, make sure you provide each caterer with the same detailed information. This will allow you to compare their offers fairly. Do not just look at the bottom-line price; check carefully to see what is included, such as staffing, rentals, taxes, and gratuity. A cheaper quote might end up costing more if it leaves out key services.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once you have reviewed the proposals, the tasting is your next crucial step. This is your chance to assess the quality and presentation of the food firsthand. But it is also an important interview. Pay attention to their professionalism, how they answer your questions, and their willingness to accommodate dietary needs or special requests. This meeting will tell you everything you need to know about the kind of partner they will be.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-04 08:13:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-04 08:13:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[a-planners-guide-to-hiring-the-right-caterer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[38]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[caterer]]></title>
+		<link>https://demo.twentig.com/personal-starter/a-planners-guide-to-hiring-the-right-caterer/caterer/</link>
+		<pubDate>Fri, 09 Jan 2026 16:22:46 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/caterer.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>38</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:22:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:22:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[caterer]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>37</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/caterer.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/caterer.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:20:"2026/01/caterer.webp";s:8:"filesize";i:49994;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:20:"caterer-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6284;}s:5:"large";a:5:{s:4:"file";s:21:"caterer-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:28340;}s:9:"thumbnail";a:5:{s:4:"file";s:20:"caterer-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3178;}s:12:"medium_large";a:5:{s:4:"file";s:20:"caterer-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:19920;}s:9:"1536x1536";a:5:{s:4:"file";s:22:"caterer-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:47986;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The power of shared experience for team building]]></title>
+		<link>https://demo.twentig.com/personal-starter/the-power-of-shared-experience-for-team-building/</link>
+		<pubDate>Tue, 06 Jan 2026 18:57:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?p=40</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Over my years as an event planner, I have seen firsthand what brings a team together. While traditional happy hours have their place, the most memorable and effective team-building events are the ones that break the mold. Moving beyond the expected shows your team that you are invested in their experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I have found that the key is to create an environment where colleagues can interact in a new context. When people step out of their usual roles, they connect on a more personal level. This is where the real magic happens. It builds stronger relationships that carry back to the office, improving collaboration and overall morale.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">A creative workshop for a tech team</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Last year, I worked with a fast-growing tech company that wanted to do something different for their annual retreat. For this team of analytical thinkers, we decided to organize a hands-on wreath-making workshop. It was a simple, seasonal activity that encouraged everyone to get creative.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The atmosphere in the room was amazing. People who normally spent their day coding were now sharing tips on arranging foliage and helping each other with design ideas. It was a low-pressure, collaborative experience that completely shifted the team dynamic. The client later told me it was the most engaged they had ever seen their team.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">A day of volunteering for a global firm</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For another client, a large financial firm, we planned a company-wide volunteer day. We partnered with a local organization to help rebuild a community garden. Instead of sitting in a conference room, executives and new hires were working side-by-side, getting their hands dirty for a good cause.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The shared sense of purpose was powerful. It fostered a different kind of teamwork, built on encouragement and a common goal. The experience did more for team spirit than any formal training could. It reminded everyone that they were part of something bigger, both as a company and as a community.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-06 18:57:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-06 18:57:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-power-of-shared-experience-for-team-building]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[41]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[team-building]]></title>
+		<link>https://demo.twentig.com/personal-starter/the-power-of-shared-experience-for-team-building/team-building/</link>
+		<pubDate>Fri, 09 Jan 2026 16:23:51 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/team-building.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:23:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:23:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[team-building]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>40</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/team-building.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/team-building.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:26:"2026/01/team-building.webp";s:8:"filesize";i:127782;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:26:"team-building-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:16764;}s:5:"large";a:5:{s:4:"file";s:27:"team-building-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:96696;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"team-building-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8004;}s:12:"medium_large";a:5:{s:4:"file";s:26:"team-building-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:65066;}s:9:"1536x1536";a:5:{s:4:"file";s:28:"team-building-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:160858;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[How to find the best photographer for your upcoming event]]></title>
+		<link>https://demo.twentig.com/personal-starter/how-to-find-the-best-photographer-for-your-upcoming-event/</link>
+		<pubDate>Thu, 08 Jan 2026 17:36:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?p=43</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>A great event deserves to be remembered, and photos are the best way to preserve those memories. Hiring a photographer is an investment in capturing the atmosphere, emotion, and important moments of your occasion. The images they create can be used for years in marketing materials, social media posts, and company archives.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Finding the right person for the job can feel like a big task, but it does not have to be complicated. The key is to know what you are looking for and what questions to ask. With a clear plan, you can find a photographer who understands your vision and can deliver beautiful, professional images that tell the story of your event.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Look for a style that matches your vision</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Every photographer has a unique style. Some specialize in formal, posed shots, while others excel at capturing candid, in-the-moment action. Before you start your search, think about the feeling you want your event photos to have. Do you want them to be polished and professional, or relaxed and documentary-style?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once you know what you want, start looking at portfolios. A photographer’s website and social media are great places to see their work. Look for examples from events similar to yours. If their style resonates with you and aligns with your brand, they might be a good fit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Discuss experience and professionalism</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Experience is about more than just taking nice pictures. A professional event photographer knows how to navigate a live event without disrupting it. They understand how to work with different lighting situations and how to anticipate key moments before they happen. Ask them about their experience with events of a similar size and scope to yours.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Good communication is also essential. A professional photographer should be responsive, clear, and easy to work with. They should listen to your needs and be able to provide a clear contract that outlines their services, fees, and delivery timeline. This ensures there are no surprises and that you have a smooth working relationship from start to finish.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-08 17:36:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-08 17:36:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[how-to-find-the-best-photographer-for-your-upcoming-event]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[44]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[photographer]]></title>
+		<link>https://demo.twentig.com/personal-starter/how-to-find-the-best-photographer-for-your-upcoming-event/photographer/</link>
+		<pubDate>Fri, 09 Jan 2026 16:24:26 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/photographer.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:24:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:24:26]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[photographer]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>43</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/photographer.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/photographer.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:25:"2026/01/photographer.webp";s:8:"filesize";i:75312;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:25:"photographer-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:9742;}s:5:"large";a:5:{s:4:"file";s:26:"photographer-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:49058;}s:9:"thumbnail";a:5:{s:4:"file";s:25:"photographer-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5484;}s:12:"medium_large";a:5:{s:4:"file";s:25:"photographer-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:33386;}s:9:"1536x1536";a:5:{s:4:"file";s:27:"photographer-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:79134;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Why food matters at corporate events]]></title>
+		<link>https://demo.twentig.com/personal-starter/why-food-matters-at-corporate-events/</link>
+		<pubDate>Fri, 09 Jan 2026 16:25:07 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/?p=46</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>When you plan a corporate event, you focus on the big things like the guest list, speakers, and presentations. Food can sometimes feel like a minor detail. But the food you serve does more than just feed your guests. It plays a huge role in how people feel and what they remember. A great meal makes everyone feel comfortable and valued.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Choosing the right menu shows your guests that you care about their experience. It sets the tone for the entire event, whether it is a formal conference or a casual team retreat. Thoughtful food choices can turn a standard business gathering into a memorable and positive occasion for everyone involved.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Food creates connection</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Food brings people together in a natural way. At a corporate event, where networking is often a key goal, a shared meal provides a perfect opportunity for conversation. It gives attendees a reason to talk to each other in a relaxed setting. This helps build relationships that last long after the event is over.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The way you serve food also shapes the atmosphere. For example, interactive food stations encourage guests to move around and mingle. A seated dinner creates a more formal and intimate environment. The right choice depends on your event's goals, but either way, food acts as a social anchor that helps people connect.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Food reflects your brand</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The food you offer at an event says a lot about your company. A creative and high-quality menu communicates excellence and attention to detail. It shows that your brand values quality in everything it does. This small detail can leave a big impression on clients, partners, and employees.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>On the other hand, a poor food experience can reflect badly on your brand. It might suggest a lack of care or a failure to plan properly. By investing in good food, you are investing in your company’s reputation. It is a simple but powerful way to reinforce your brand’s message and ensure your event is a true success.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:25:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:25:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[why-food-matters-at-corporate-events]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[47]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[John Wapuu]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[contact@example.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[90.79.21.148]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2026-01-09 19:17:34]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2026-01-09 19:17:34]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[food]]></title>
+		<link>https://demo.twentig.com/personal-starter/why-food-matters-at-corporate-events/food/</link>
+		<pubDate>Fri, 09 Jan 2026 16:25:02 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/food.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:25:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:25:02]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[food]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/personal-starter/wp-content/uploads/sites/28/2026/01/food.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/food.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:17:"2026/01/food.webp";s:8:"filesize";i:91296;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:17:"food-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:11664;}s:5:"large";a:5:{s:4:"file";s:18:"food-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:59972;}s:9:"thumbnail";a:5:{s:4:"file";s:17:"food-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5898;}s:12:"medium_large";a:5:{s:4:"file";s:17:"food-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:42056;}s:9:"1536x1536";a:5:{s:4:"file";s:19:"food-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:101782;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://demo.twentig.com/personal-starter/navigation/</link>
+		<pubDate>Fri, 09 Jan 2026 16:08:44 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Services","type":"page","id":8,"url":"https://demo.twentig.com/personal-starter/services/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Blog","type":"page","id":10,"url":"https://demo.twentig.com/personal-starter/blog/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Contact","type":"page","id":14,"url":"https://demo.twentig.com/personal-starter/contact/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:08:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:08:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Header]]></title>
+		<link>https://demo.twentig.com/personal-starter/header/</link>
+		<pubDate>Fri, 09 Jan 2026 16:18:57 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/header/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|15","bottom":"var:preset|spacing|15"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--15);padding-bottom:var(--wp--preset--spacing--15)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
+
+<!-- wp:navigation {"ref":6,"overlayBackgroundColor":"base","overlayTextColor":"contrast","style":{"spacing":{"blockGap":"var:preset|spacing|25"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"layout":{"type":"flex","setCascadingProperties":true}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:18:57]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[header]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>https://demo.twentig.com/personal-starter/footer/</link>
+		<pubDate>Fri, 09 Jan 2026 16:19:09 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.4"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="line-height:1.4">
+		© 2026 Emma Curtis. Made with <a href="https://twentig.com">Twentig</a>.		</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"className":"is-style-logos-only footer-social"} -->
+<ul class="wp-block-social-links is-style-logos-only footer-social"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>26</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:19:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:19:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Index]]></title>
+		<link>https://demo.twentig.com/personal-starter/index/</link>
+		<pubDate>Fri, 09 Jan 2026 16:19:19 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/index/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-blog-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:19:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:19:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[index]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[All Archives]]></title>
+		<link>https://demo.twentig.com/personal-starter/archive/</link>
+		<pubDate>Fri, 09 Jan 2026 16:19:25 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/archive/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-archive-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:19:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:19:25]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[archive]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Single Posts]]></title>
+		<link>https://demo.twentig.com/personal-starter/single/</link>
+		<pubDate>Fri, 09 Jan 2026 16:19:32 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/personal-starter/single/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:pattern {"slug":"twentigone/template-single-post-default"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>29</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:19:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:19:32]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[single]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+				</channel>
+</rss>
+	

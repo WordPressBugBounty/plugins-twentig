@@ -123,8 +123,8 @@
 
 <!-- wp:navigation-link {"label":"Blog","type":"page","id":12,"url":"https://demo.twentig.com/tt4-portfolio/blog/","kind":"post-type"} /-->
 
-<!-- wp:social-links {"size":"has-small-icon-size","className":"is-style-logos-only"} -->
-<ul class="wp-block-social-links has-small-icon-size is-style-logos-only"><!-- wp:social-link {"url":"contact@example.com","service":"mail"} /--></ul>
+<!-- wp:social-links {"className":"is-style-logos-only"} -->
+<ul class="wp-block-social-links is-style-logos-only"><!-- wp:social-link {"url":"contact@example.com","service":"mail"} /--></ul>
 <!-- /wp:social-links -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4</wp:post_id>

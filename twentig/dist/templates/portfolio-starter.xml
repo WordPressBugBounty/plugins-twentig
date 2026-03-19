@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Daniel Burton</title>
+	<link>https:</link>
+	<description></description>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://demo.twentig.com/portfolio-starter</wp:base_site_url>
+	<wp:base_blog_url>https://demo.twentig.com/portfolio-starter</wp:base_blog_url>
+	<wp:min_wordpress_version>6.9</wp:min_wordpress_version>
+	<wp:min_twentig_version>2.0</wp:min_twentig_version>	
+	<wp:theme>twentig-one</wp:theme>
+
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[Admin]]></wp:author_login><wp:author_email><![CDATA[contact@example.com]]></wp:author_email><wp:author_display_name><![CDATA[Admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		
+		<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/</link>
+		<pubDate>Fri, 09 Jan 2026 15:41:12 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Independent art director and creative designer</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|65"}}}} -->
+<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:query {"query":{"perPage":24,"offset":0,"postType":"portfolio","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"twentig/portfolio-list","align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--30)"><!-- wp:post-featured-image {"aspectRatio":"4/3","sizeSlug":"large","useFirstImageFromPost":true} /-->
+
+<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","twShowManualOnly":true} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow","showLabel":false,"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers {"midSize":1} /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:41:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:41:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[About]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/about/</link>
+		<pubDate>Fri, 09 Jan 2026 15:44:03 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"position":{"type":""},"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Elevating brands through creativity and strategy</h1>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1661984271681-e70f82147453?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Based in Amsterdam, Daniel Burton creates distinct visual identities and compelling brand narratives for businesses of all sizes. His work focuses on clear communication and thoughtful design to help brands connect meaningfully with their audiences. Daniel believes great design understands people and creates resonant experiences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>His approach is collaborative and straightforward. He works closely with clients to understand their vision and translate it into visuals that are both beautiful and effective. From initial concept to final execution, Daniel focuses on delivering high-quality work that achieves business goals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Daniel is currently available for freelance projects. If you would like to discuss a potential collaboration, please reach out: <a href="mailto:contact@example.com">contact@example.com</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Capabilities</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet"} -->
+<ul class="wp-block-list is-style-tw-no-bullet"><!-- wp:list-item -->
+<li>Art Direction</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Visual Identity Design</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Brand Strategy</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Website &amp; Digital Art Direction</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Campaign Concept &amp; Visualisation</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Photography &amp; Imagery Direction</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet"} -->
+<ul class="wp-block-list is-style-tw-no-bullet"><!-- wp:list-item -->
+<li>Art Director → Freelance (2018 – Present)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Senior Designer → Studio Six (2014 – 2018)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Designer → Create Co (2011 – 2014)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Intern → Visual Lab (2010 – 2011)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:var(--wp--preset--spacing--60)">Selected Clients</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"is-style-tw-no-bullet"} -->
+<ul class="wp-block-list is-style-tw-no-bullet"><!-- wp:list-item -->
+<li>Concept EV</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Echelon</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>StudioDeck</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Lumi</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Elevate Pay</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Nordlys</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ayaro</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Castro Capital</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:44:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:44:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Blog]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/blog/</link>
+		<pubDate>Fri, 09 Jan 2026 15:44:09 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:44:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:44:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Gallery]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/gallery/</link>
+		<pubDate>Fri, 09 Jan 2026 15:44:36 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=11</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Gallery</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} -->
+<p class="has-text-align-center tw-text-balance has-large-font-size" style="line-height:1.35">A selection of personal projects, archived work, behind-the-scenes, and experimentation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":320} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1746958582395-bfd72cadf799?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1692600409678-df2024a29af1?q=80&amp;w=1800&amp;h=1175&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1585488433867-8eb24f59723c?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1733880405084-5ffd4bf9d2d1?q=80&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1736580602638-c5f157d6d6fb?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1724942462164-7c30f103d91c?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1597633125097-5a9961e1f03d?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1674864176821-3aa89b6fa9ed?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1672167107984-7d327ff4d7c0?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1730886831466-66bbc2154981?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1658836019286-2b2d869434b4?q=80&amp;w=1046&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1681412328088-0c3b41245bd8?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1726731315646-474950eeaf68?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1633276115947-8d35f394a309?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1524074309058-5204128adc83?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1547949003-9792a18a2601?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1633933037611-f26e54366832?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1621057621106-f32ea9ee7e14?q=80&amp;w=1800&amp;h=1270&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1558981420-bf351ce8e3ca?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1542838776-096d877b5aa2?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1567016530961-54fd42f2d51f?q=80&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1593642634443-44adaa06623a?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1584208124232-7919e0000ad5?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1559592894-4a86abdb2628?q=80&amp;w=1800&amp;h=1316&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1665495369317-11d47f75dc96?q=80&amp;w=1600&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1755869973597-b6154bb885e9?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:44:36]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:44:36]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 2]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/home-2/</link>
+		<pubDate>Fri, 09 Jan 2026 15:44:59 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1737111878063-1076311910f4?q=80\u0026w=2400\u0026h=1300\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\u0026bri=4\u0026fp-y=1","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="" src="https://images.unsplash.com/photo-1737111878063-1076311910f4?q=80&amp;w=2400&amp;h=1300&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;bri=4&amp;fp-y=1" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Independent art director and creative designer</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|65","top":"var:preset|spacing|70"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:query {"query":{"perPage":24,"offset":0,"postType":"portfolio","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"twentig/portfolio-list","align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--30)"><!-- wp:post-featured-image {"aspectRatio":"4/3","sizeSlug":"large","useFirstImageFromPost":true} /-->
+
+<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","twShowManualOnly":true} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow","showLabel":false,"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers {"midSize":1} /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:44:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:44:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home 3]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/home-3/</link>
+		<pubDate>Fri, 09 Jan 2026 15:45:19 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=16</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|65"}}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--65)">Independent art director and creative designer</h1>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","align":"full"} -->
+<figure class="wp-block-image alignfull size-large"><img src="https://images.unsplash.com/photo-1737111878063-1076311910f4?q=80&amp;w=2400&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;bri=4" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}},"typography":{"lineHeight":"1.35"}},"fontSize":"large"} -->
+<p class="has-text-align-center tw-text-balance has-large-font-size" style="margin-top:var(--wp--preset--spacing--70);line-height:1.35">Blending creativity and strategy to craft impactful brand identities, immersive digital experiences, and campaigns that inspire and connect worldwide.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|65","top":"var:preset|spacing|70"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:query {"query":{"perPage":24,"offset":0,"postType":"portfolio","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"twentig/portfolio-list","align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--30)"><!-- wp:post-featured-image {"aspectRatio":"4/3","sizeSlug":"large","useFirstImageFromPost":true} /-->
+
+<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","twShowManualOnly":true} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow","showLabel":false,"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers {"midSize":1} /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:45:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:45:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 4]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/home-4/</link>
+		<pubDate>Fri, 09 Jan 2026 15:46:11 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?page_id=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"textAlign":"center","level":1,"className":"screen-reader-text"} -->
+<h1 class="wp-block-heading has-text-align-center screen-reader-text">Portfolio</h1>
+<!-- /wp:heading -->
+
+<!-- wp:group {"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|65","top":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:query {"query":{"perPage":24,"offset":0,"postType":"portfolio","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"twentig/portfolio-list","align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--30)"><!-- wp:post-featured-image {"aspectRatio":"4/3","sizeSlug":"large","useFirstImageFromPost":true} /-->
+
+<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","twShowManualOnly":true} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"arrow","showLabel":false,"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers {"midSize":1} /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:46:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:46:11]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Echelon]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/echelon/</link>
+		<pubDate>Fri, 09 Jan 2026 15:49:44 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?post_type=portfolio&#038;p=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Our work with Echelon focused on presenting its premium home entertainment systems. The challenge was to create a visual narrative that clearly communicated the brand's dedication to German engineering, exceptional quality, and sophisticated design. We aimed to show how these products elevate the atmosphere of the home.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The core concept for the art direction was to present Echelon’s technology as an elegant fusion of form and function. We wanted to highlight how these devices integrate seamlessly into thoughtfully designed living spaces. The visuals needed to convey both advanced performance and timeless aesthetic appeal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1710937506534-fdf1cd392bb0?q=80&amp;w=1800&amp;h=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>We established a visual style centered on clean compositions, authentic materials, and serene settings. Natural light played a key role, accentuating the refined textures and meticulous craftsmanship of each product, from the sleek lines of the radio to the sophisticated build of the audio components. This approach created an atmosphere of understated luxury.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The imagery showcases Echelon products in modern, uncluttered interiors. For instance, the radio appears as a subtle, stylish object on a kitchen counter, while the amplifier and turntable setup becomes a focal point in a contemporary living room. These scenes demonstrate the products' ability to enhance, not dominate, the spaces they inhabit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1710937936215-4eb15ae75437?q=80&amp;w=1800&amp;h=1350&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>This art direction aimed to position Echelon beyond mere electronics. We wanted to present each piece as a carefully considered design object that enriches the user's daily life and sensory experience. The visuals communicate a sense of calm, quality, and intelligent design that appeals to a discerning audience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The art direction successfully delivered a clear and compelling visual identity for Echelon. It effectively communicates the brand's commitment to redefining home entertainment through superior design and engineering. The art direction helps position Echelon as a leader in creating sophisticated, integrated experiences for the modern home.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Redefining home entertainment]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:49:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:49:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[echelon]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[31]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[echelon]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/echelon/echelon/</link>
+		<pubDate>Fri, 09 Jan 2026 15:49:40 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/echelon.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:49:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:49:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[echelon]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>30</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/echelon.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/echelon.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:20:"2026/01/echelon.webp";s:8:"filesize";i:98782;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:20:"echelon-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5134;}s:5:"large";a:5:{s:4:"file";s:21:"echelon-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:43874;}s:9:"thumbnail";a:5:{s:4:"file";s:20:"echelon-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2706;}s:12:"medium_large";a:5:{s:4:"file";s:20:"echelon-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:25930;}s:9:"1536x1536";a:5:{s:4:"file";s:22:"echelon-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:88750;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[pathpilot]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/pathpilot/pathpilot/</link>
+		<pubDate>Fri, 09 Jan 2026 15:50:05 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/pathpilot.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:50:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:50:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pathpilot]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>33</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/pathpilot.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/pathpilot.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:22:"2026/01/pathpilot.webp";s:8:"filesize";i:104266;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:22:"pathpilot-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:10384;}s:5:"large";a:5:{s:4:"file";s:23:"pathpilot-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:50792;}s:9:"thumbnail";a:5:{s:4:"file";s:22:"pathpilot-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5350;}s:12:"medium_large";a:5:{s:4:"file";s:22:"pathpilot-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:34758;}s:9:"1536x1536";a:5:{s:4:"file";s:24:"pathpilot-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:80238;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[elevatepay]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/elevate-pay/elevatepay/</link>
+		<pubDate>Fri, 09 Jan 2026 15:51:08 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/elevatepay.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:51:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:51:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[elevatepay]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>36</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/elevatepay.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/elevatepay.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:23:"2026/01/elevatepay.webp";s:8:"filesize";i:63794;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:23:"elevatepay-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6476;}s:5:"large";a:5:{s:4:"file";s:24:"elevatepay-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:29268;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"elevatepay-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3606;}s:12:"medium_large";a:5:{s:4:"file";s:23:"elevatepay-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:20346;}s:9:"1536x1536";a:5:{s:4:"file";s:25:"elevatepay-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:47166;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[studiodeck]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/studiodeck/studiodeck/</link>
+		<pubDate>Fri, 09 Jan 2026 15:52:12 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/studiodeck.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:52:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:52:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[studiodeck]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>39</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/studiodeck.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/studiodeck.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:23:"2026/01/studiodeck.webp";s:8:"filesize";i:91714;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:23:"studiodeck-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:9862;}s:5:"large";a:5:{s:4:"file";s:24:"studiodeck-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:51950;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"studiodeck-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4652;}s:12:"medium_large";a:5:{s:4:"file";s:23:"studiodeck-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:36014;}s:9:"1536x1536";a:5:{s:4:"file";s:25:"studiodeck-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:82516;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[concept-ev]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/concept-ev/concept-ev/</link>
+		<pubDate>Fri, 09 Jan 2026 15:52:43 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/concept-ev.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:52:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:52:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[concept-ev]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>42</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/concept-ev.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/concept-ev.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:23:"2026/01/concept-ev.webp";s:8:"filesize";i:99226;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:23:"concept-ev-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5656;}s:5:"large";a:5:{s:4:"file";s:24:"concept-ev-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:39066;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"concept-ev-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2800;}s:12:"medium_large";a:5:{s:4:"file";s:23:"concept-ev-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:23802;}s:9:"1536x1536";a:5:{s:4:"file";s:25:"concept-ev-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:75344;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[castro-capital]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/castro-capital/castro-capital/</link>
+		<pubDate>Fri, 09 Jan 2026 15:53:10 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/castro-capital.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:53:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:53:10]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[castro-capital]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/castro-capital.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/castro-capital.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:27:"2026/01/castro-capital.webp";s:8:"filesize";i:98828;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:27:"castro-capital-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8460;}s:5:"large";a:5:{s:4:"file";s:28:"castro-capital-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:46970;}s:9:"thumbnail";a:5:{s:4:"file";s:27:"castro-capital-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3980;}s:12:"medium_large";a:5:{s:4:"file";s:27:"castro-capital-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:31566;}s:9:"1536x1536";a:5:{s:4:"file";s:29:"castro-capital-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:83046;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[ayaro-campaign]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/ayaro-horizon-line/ayaro-campaign/</link>
+		<pubDate>Fri, 09 Jan 2026 15:55:58 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/ayaro-campaign.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>55</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:55:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:55:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ayaro-campaign]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>54</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/ayaro-campaign.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/ayaro-campaign.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:27:"2026/01/ayaro-campaign.webp";s:8:"filesize";i:106510;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:27:"ayaro-campaign-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:11158;}s:5:"large";a:5:{s:4:"file";s:28:"ayaro-campaign-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:65928;}s:9:"thumbnail";a:5:{s:4:"file";s:27:"ayaro-campaign-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4542;}s:12:"medium_large";a:5:{s:4:"file";s:27:"ayaro-campaign-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:43776;}s:9:"1536x1536";a:5:{s:4:"file";s:29:"ayaro-campaign-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:111194;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[friend-collection]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/shooting-my-friends-collection/friend-collection/</link>
+		<pubDate>Fri, 09 Jan 2026 15:56:36 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/friend-collection.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>58</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:56:36]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:56:36]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[friend-collection]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>57</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/friend-collection.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/friend-collection.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:30:"2026/01/friend-collection.webp";s:8:"filesize";i:100428;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:30:"friend-collection-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6256;}s:5:"large";a:5:{s:4:"file";s:31:"friend-collection-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:37546;}s:9:"thumbnail";a:5:{s:4:"file";s:30:"friend-collection-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2874;}s:12:"medium_large";a:5:{s:4:"file";s:30:"friend-collection-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:23866;}s:9:"1536x1536";a:5:{s:4:"file";s:32:"friend-collection-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:71366;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[timeless-lines]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/timeless-lines/timeless-lines/</link>
+		<pubDate>Fri, 09 Jan 2026 15:57:35 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/timeless-lines.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>61</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:57:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:57:35]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[timeless-lines]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>60</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/timeless-lines.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/timeless-lines.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:27:"2026/01/timeless-lines.webp";s:8:"filesize";i:96162;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:27:"timeless-lines-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7718;}s:5:"large";a:5:{s:4:"file";s:28:"timeless-lines-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:35724;}s:9:"thumbnail";a:5:{s:4:"file";s:27:"timeless-lines-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3502;}s:12:"medium_large";a:5:{s:4:"file";s:27:"timeless-lines-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:23544;}s:9:"1536x1536";a:5:{s:4:"file";s:29:"timeless-lines-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:61212;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[burning-man]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/burning-man/burning-man/</link>
+		<pubDate>Fri, 09 Jan 2026 15:59:13 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/burning-man.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:59:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:59:13]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[burning-man]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>63</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/burning-man.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/burning-man.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:24:"2026/01/burning-man.webp";s:8:"filesize";i:70628;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:24:"burning-man-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2820;}s:5:"large";a:5:{s:4:"file";s:25:"burning-man-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:17428;}s:9:"thumbnail";a:5:{s:4:"file";s:24:"burning-man-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1368;}s:12:"medium_large";a:5:{s:4:"file";s:24:"burning-man-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:11320;}s:9:"1536x1536";a:5:{s:4:"file";s:26:"burning-man-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:32088;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[art-directors-roundtable]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/the-art-directors-roundtable/art-directors-roundtable/</link>
+		<pubDate>Fri, 09 Jan 2026 15:59:49 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/art-directors-roundtable.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>67</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:59:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:59:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[art-directors-roundtable]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>66</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/art-directors-roundtable.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/art-directors-roundtable.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:37:"2026/01/art-directors-roundtable.webp";s:8:"filesize";i:94380;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:37:"art-directors-roundtable-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8332;}s:5:"large";a:5:{s:4:"file";s:38:"art-directors-roundtable-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:37898;}s:9:"thumbnail";a:5:{s:4:"file";s:37:"art-directors-roundtable-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4070;}s:12:"medium_large";a:5:{s:4:"file";s:37:"art-directors-roundtable-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:26718;}s:9:"1536x1536";a:5:{s:4:"file";s:39:"art-directors-roundtable-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:63938;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[art-of-seeing]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/the-art-of-seeing/art-of-seeing/</link>
+		<pubDate>Fri, 09 Jan 2026 16:02:17 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/art-of-seeing.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>70</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:02:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:02:17]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[art-of-seeing]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>69</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/portfolio-starter/wp-content/uploads/sites/27/2026/01/art-of-seeing.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/art-of-seeing.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:26:"2026/01/art-of-seeing.webp";s:8:"filesize";i:92348;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:26:"art-of-seeing-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7262;}s:5:"large";a:5:{s:4:"file";s:27:"art-of-seeing-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:43210;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"art-of-seeing-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3288;}s:12:"medium_large";a:5:{s:4:"file";s:26:"art-of-seeing-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:27062;}s:9:"1536x1536";a:5:{s:4:"file";s:28:"art-of-seeing-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:74262;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/wp-global-styles-twentig-one/</link>
+		<pubDate>Fri, 09 Jan 2026 15:43:27 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/wp-global-styles-twentig-one/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:43:27]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:43:27]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-twentig-one]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/navigation/</link>
+		<pubDate>Fri, 09 Jan 2026 15:44:55 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:home-link {"label":"Work"} /-->
+
+<!-- wp:navigation-link {"label":"About","type":"page","id":7,"url":"https://demo.twentig.com/portfolio-starter/about/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Blog","type":"page","id":9,"url":"https://demo.twentig.com/portfolio-starter/blog/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Gallery","type":"page","id":11,"url":"https://demo.twentig.com/portfolio-starter/gallery/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:44:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:44:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Header]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/header/</link>
+		<pubDate>Fri, 09 Jan 2026 15:47:43 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/header/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|15","bottom":"var:preset|spacing|15"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--15);padding-bottom:var(--wp--preset--spacing--15)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
+
+<!-- wp:navigation {"ref":14,"overlayBackgroundColor":"base","overlayTextColor":"contrast","style":{"spacing":{"blockGap":"var:preset|spacing|25"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"layout":{"type":"flex","setCascadingProperties":true}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:47:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:47:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[header]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Index]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/index/</link>
+		<pubDate>Fri, 09 Jan 2026 15:48:05 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/index/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-blog-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:48:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:48:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[index]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[All Archives]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/archive/</link>
+		<pubDate>Fri, 09 Jan 2026 15:48:12 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/archive/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-archive-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>25</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:48:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:48:12]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[archive]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Single Posts]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/single/</link>
+		<pubDate>Fri, 09 Jan 2026 15:48:20 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/single/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:pattern {"slug":"twentigone/template-single-post-default"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>26</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:48:20]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:48:20]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[single]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Single Projects]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/single-portfolio/</link>
+		<pubDate>Fri, 09 Jan 2026 15:48:28 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/single-portfolio/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:pattern {"slug":"twentigone/template-single-portfolio-default"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:48:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:48:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[single-portfolio]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Project Categories]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/taxonomy-portfolio_category/</link>
+		<pubDate>Fri, 09 Jan 2026 15:48:36 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/taxonomy-portfolio_category/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">	
+	<!-- wp:pattern {"slug":"twentigone/hidden-portfolio-archive-heading"} /-->
+	<!-- wp:group {"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|65"}}}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--65)">
+		<!-- wp:pattern {"slug":"twentigone/portfolio-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:48:36]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:48:36]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[taxonomy-portfolio_category]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Project Tags]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/taxonomy-portfolio_tag/</link>
+		<pubDate>Fri, 09 Jan 2026 15:48:44 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/taxonomy-portfolio_tag/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">	
+	<!-- wp:pattern {"slug":"twentigone/hidden-portfolio-archive-heading"} /-->
+	<!-- wp:group {"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|65"}}}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--65)">
+		<!-- wp:pattern {"slug":"twentigone/portfolio-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>29</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:48:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:48:44]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[taxonomy-portfolio_tag]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[PathPilot]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/pathpilot/</link>
+		<pubDate>Fri, 09 Jan 2026 15:50:10 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?post_type=portfolio&#038;p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Our work with PathPilot began with crafting the visual introduction for its new creative controller. The main goal was to clearly show how this tool helps digital artists improve their workflow and creative output. We needed to communicate its practical benefits to a community that values precision and ease of use.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our central concept was to illustrate the seamless connection between the artist and their digital work when using PathPilot. We wanted to capture that moment where technology feels like a natural extension of the creator’s hands. This meant showing the controller as an intuitive partner in the creative process.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide","twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1744257980894-4ae32bf9448a?q=80&amp;w=1200&amp;h=1500&amp;fp-y=1&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1744686909434-fd158fca1c35?q=80&amp;w=1200&amp;h=1500&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>To bring this idea to life, we developed a series of images showing PathPilot in various creative settings. These scenes depicted different types of artists, from illustrators to photo editors, integrating the controller into their daily tasks. This approach highlighted the tool’s adaptability and its ability to fit diverse artistic needs, showcasing its versatility across different creative disciplines.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The visual style we established is clean, focused, and contemporary. We used bright, natural lighting to create an atmosphere of clarity and inspiration. The imagery emphasizes the ergonomic design of PathPilot and the focused engagement of the artists using it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide","twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1744257980582-db392a250536?q=80&amp;w=1200&amp;h=800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1744257980623-5efac8475fa6?q=80&amp;w=1200&amp;h=800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1744686910398-426ab2a0ce8d?q=80&amp;w=1200&amp;h=800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1744686909507-6d8db644a110?q=80&amp;w=1200&amp;h=800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>Our art direction focused on authenticity, showing the controller as an integral part of a working artist’s environment. We aimed for visuals that felt genuine and relatable, reflecting how PathPilot supports sustained creative work. The images portray the device as both a sophisticated and an accessible piece of technology.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The work successfully presents PathPilot as an essential instrument for modern creators. It underscores how thoughtful design can remove friction from the creative process, allowing artists to concentrate more fully on their vision. We told a story about innovation that empowers artists and refines their interaction with digital tools.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Shaping the creative flow]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:50:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:50:10]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pathpilot]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[34]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Elevate Pay]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/elevate-pay/</link>
+		<pubDate>Fri, 09 Jan 2026 15:51:52 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?post_type=portfolio&#038;p=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Elevate Pay came to us with a clear goal: to develop a visual identity for its point-of-sale system that truly speaks to small business owners. The challenge was to cut through the usual tech jargon and show how these tools genuinely support the people running local shops, cafes, and services. We needed to create a look and feel that felt approachable and empowering.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our core concept centered on clarity and the human touch. We decided to highlight the ease with which entrepreneurs could integrate Elevate Pay into their daily operations. The idea was to present the technology not as a hurdle, but as a quiet partner that helps their business run smoothly, allowing them to focus on their craft and their customers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","sizeSlug":"full","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1726138383736-3c848a2c7769?q=80&amp;w=1200&amp;h=1600&amp;fp-y=0.05&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1726137569966-a7354383e2ae?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>To bring this vision to life, our art direction focused on showcasing the Elevate Pay system within authentic business environments and through carefully composed product-focused shots. We used natural light and clean compositions to create a sense of calm, efficiency, and modern aesthetics. The visuals highlight the sleek, user-friendly design of the POS terminals and card readers, demonstrating their intuitive nature in active use and their standalone visual appeal in settings ranging from a bustling cafe to a minimalist retail space.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The visual narrative consistently emphasizes the benefits for the everyday entrepreneur. We focused on capturing moments of effortless interaction, showing how the system simplifies tasks like processing payments or managing sales. This approach helps to demystify the technology and positions Elevate Pay as a tool that gives business owners more control and less stress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1739989934321-fadbccc56265?q=80&amp;w=1800&amp;h=1200&amp;fp-y=0.74&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Elevate Pay provides a straightforward system for handling payments, streamlining daily tasks, and improving customer interactions. Our art direction aimed to communicate this comprehensive support with honesty and simplicity. We avoided overly staged or corporate imagery, opting instead for a style that feels genuine and reflects the vibrant spirit of small enterprise.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ultimately, this project established a brand presence for Elevate Pay that is both modern and deeply human. The visual identity we crafted positions it as a trusted ally for entrepreneurs, offering smart, accessible technology designed to help their businesses thrive. The work underscores a commitment to supporting the journey of independent business owners.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Empowering everyday entrepreneurs]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:51:52]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:51:52]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[elevate-pay]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[37]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[StudioDeck]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/studiodeck/</link>
+		<pubDate>Fri, 09 Jan 2026 15:52:18 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?post_type=portfolio&#038;p=39</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>StudioDeck approached us with a clear challenge: launch its new range of tools by showing how they genuinely support and enhance the creative process. The primary goal was to forge a strong connection with artists and designers, speaking to them in a way that resonated with their passion and work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our core idea was deceptively simple yet powerful. We decided to focus on that magical moment when an idea begins to take concrete shape, capturing the inherent energy of creation. To bring this to life, we envisioned showing real artists interacting with the tools naturally within their own inspiring spaces.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":1,"linkTo":"none","sizeSlug":"full","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1640622842924-3ae860f77265?q=80&amp;w=1800&amp;h=1198&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1640622841908-3a691b7b7ac9?q=80&amp;w=1800&amp;h=1177&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1648747067053-21750323c1d3?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>From this central concept, we developed a comprehensive campaign designed to highlight the liberating freedom these innovative devices offer. The campaign featured a diverse group of creative individuals, each demonstrating how the tools could be adapted to their unique workflows and artistic styles, thereby showcasing the remarkable versatility of the devices.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The visual style we established is characterized by its brightness and natural, authentic feel. We deliberately chose locations filled with abundant natural light, aiming to cultivate an atmosphere that felt open, inspiring, and conducive to creativity. Consequently, the images depict the devices as a seamless and integral part of the artist’s daily workflow, organically integrated into their studios.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Collaboration was an absolutely essential ingredient for the success of this project. We engaged in close partnerships with the featured artists, encouraging them to share their distinct processes and articulate how they envisioned these new tools fitting into their work. This collaborative approach ensured that the final visuals felt honest, authentic, and deeply true to the lived experiences of creative professionals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":1,"linkTo":"none","sizeSlug":"full","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1648747067192-790595bc6d5e?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1648747067396-431357e946a5?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The campaign effectively positioned StudioDeck not just as a provider of technology, but as a genuine partner for creators. It successfully underscored how technology can amplify and support human creativity, rather than attempting to replace it. The positive feedback we received clearly indicated that artists felt seen, understood, and valued by the campaign's message.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ultimately, this project was about humanizing technology and making it approachable. We set out to tell a compelling story of innovation that serves and elevates artistry, and through a careful combination of thoughtful imagery and a clear message, we achieved this important objective.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Where ideas take form]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:52:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:52:18]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[studiodeck]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[40]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Concept EV]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/concept-ev/</link>
+		<pubDate>Fri, 09 Jan 2026 15:52:50 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?post_type=portfolio&#038;p=42</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Concept EV presented a significant strategic opportunity: to define the visual world and atmosphere for its new generation of electric vehicles. Our directive was to look beyond current trends, establishing a distinct, forward-looking presentation style designed to connect deeply with a progressive audience. This project centered on meticulously crafting the overall aesthetic and shaping the perception of these future electric vehicles.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our approach began by forging a core creative philosophy for its presentation. We aimed to develop an innovative visual language that was both intuitive and powerfully engaging. We defined foundational principles for composition, lighting, and environmental storytelling. These principles became the unifying elements for showcasing a focused range of four distinct vehicle archetypes: a compact SUV, a versatile family SUV, a sleek, dynamic car, and a rugged pickup truck, ensuring a presentation style that was both strong and adaptable for each.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":1,"imageCrop":false,"linkTo":"none","aspectRatio":"3/2","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|15"}}},"twLayout":"carousel","twCarousel":{"view":"adjacent-images","markersPosition":"none"}} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-1 tw-gallery-carousel"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1698898824144-81544d79e290?q=80&amp;w=1800&amp;h=1117&amp;auto=format&amp;fit=crop&amp;crop=focalpoint&amp;fp-z=1.2&amp;fp-y=0.57&amp;fp-x=0.52&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1698293213976-84456dc27cd8?q=80&amp;w=1800&amp;h=1117&amp;auto=format&amp;fit=crop&amp;crop=focalpoint&amp;fp-z=1.1&amp;fp-y=0.88&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1698883157078-b7032ec657db?q=80&amp;w=1800&amp;h=1117&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The initial application of this philosophy is evident in the presentation of the featured compact SUV. For its reveal, we orchestrated environments and lighting scenarios that strategically highlighted its clean, sculptural lines and unique lighting signature. These carefully art-directed scenes established a clear, confident visual tone for Concept EV's brand communication, embodying our vision for introducing a smart, agile, and modern electric vehicle to the market.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Building on this foundation, we extended our art direction to the subsequent vehicles in the conceptual lineup. We developed distinct visual narratives for the versatile family SUV, showcased in aspirational settings, and for the sleeker, dynamic car, featured in striking architectural environments. Each vehicle's presentation, while unique, reinforced the cohesive and immersive Concept EV brand world we had established.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1733273140145-d8a12e1885e0?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Throughout this creative process, our unwavering focus was the overall sensory and emotional impact of the brand's imagery. We meticulously planned how strategic lighting could sculpt and enhance each of the four vehicles' forms, how carefully chosen environments and materials would convey premium quality and innovation, and how human interaction could be portrayed to feel genuine and relatable. Our aim was a harmonious balance, producing visuals that rendered advanced technology approachable and deeply human.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This project for Concept EV demonstrates our capability to craft a comprehensive and compelling visual narrative for a new automotive line. Exploring how this presentation style could be adapted to showcase these four distinct forms, culminating with the rugged pickup truck in scenic coastal environments, allowed us to build a holistic and impactful brand world. This endeavor went beyond creating attractive images of cars; it was about shaping an evocative experience and building a powerful brand perception, positioning Concept EV to define the road ahead.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Imagining the road ahead]]></excerpt:encoded>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:52:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:52:50]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[concept-ev]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[43]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Castro Capital]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/portfolio/castro-capital/</link>
+		<pubDate>Fri, 09 Jan 2026 15:53:20 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?post_type=portfolio&#038;p=45</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Our collaboration with Castro Capital began with a defined objective: to forge a distinct and modern visual identity. The company, active in capital investment and development, required a brand presence that communicated strength, clarity, and its forward-thinking approach. Our work on this project involved shaping how Castro Capital presents itself across all materials, covering everything from first visual impressions to sustained client interactions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our core idea for the art direction was a visual system that felt both solid and dynamic. This meant focusing on clean lines, impactful typography, and sophisticated professionalism. We aimed to translate Castro Capital’s business focus into a visual language that was immediately understandable and conveyed trust, ensuring every design choice supported this directness and quality.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","sizeSlug":"full","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1636247498840-693054bb4bcc?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1636247499180-13285c86be9b?q=80&amp;w=1200&amp;h=960&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1636247497842-81ee9c80f9df?q=80&amp;w=1200&amp;h=960&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1636247499734-893da2bcfc1c?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>We established key visual elements, including a carefully selected color palette and strong typography. The deep blues and contrasting oranges, paired with clean neutrals, create a confident and contemporary feel. The logotype itself is bold and clear, ensuring high visibility and a memorable mark. These elements work together to establish a consistent and recognizable brand.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We applied this visual identity to essential print materials. The business cards and letterheads show our meticulous attention to detail, using high-quality paper stocks and precise layouts. Our design of these items ensures that every physical touchpoint reflects Castro Capital's commitment to excellence and its professional stature in the industry.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Beyond print, we extended the visual system to Castro Capital's digital presence. Our mockups of the website on mobile devices demonstrate how the brand identity adapts effectively to online platforms. The design prioritizes clear navigation and readability, ensuring information is accessible and the user experience is seamless. This consistency across digital and physical reinforces the brand's message.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","sizeSlug":"full","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twColumnWidth":"large"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped tw-cols-large"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1646156262378-e4c0b51c89a2?q=80&amp;w=1200&amp;h=960&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1646156262375-5c235ee1abd7?q=80&amp;w=1200&amp;h=960&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The overall impact of our art direction is an image of a modern, reliable, and impactful organization. The cohesive visual identity we created helps Castro Capital stand out and clearly communicate its values and focus. It positions the company as a serious player in its field, capable of handling significant projects and investments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ultimately, we provided Castro Capital with more than just a logo or a set of colors. Our work delivered a complete visual world, ensuring that every aspect of the company's presentation is aligned and purposeful. This thoughtful and comprehensive approach to art direction successfully shaped a strong and clear brand perception for Castro Capital.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Building bold visions]]></excerpt:encoded>
+		<wp:post_id>45</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:53:20]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:53:20]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[castro-capital]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[46]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Ayaro horizon line]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/ayaro-horizon-line/</link>
+		<pubDate>Thu, 01 Jan 2026 07:55:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?p=54</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>I find real satisfaction in helping a brand show what it’s about, especially when it lines up with what people are trying to do. So, I’m pleased to give you a first look at the art direction for Ayaro’s new campaign, called "Horizon Line." For me, this campaign is about that feeling that pulls you toward something you can’t quite make out, just at the edge of what you can see. It’s about those quiet moments before you set off on an adventure, and that wide-open feeling when you look out at a new view. Ayaro is made to back you up on this kind of journey.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The "Horizon Line" idea started with Ayaro’s goal: to help people get out and explore, and to feel a real connection with nature. We wanted the pictures to feel personal but also big, like a single person’s journey happening in a huge, open space. The photos are meant to show more than just travel or a sport. They show how we change inside when we head out. You get a sense of clearness, of new chances, of really being in the moment. Ayaro isn’t just gear; it’s like a friend on these kinds of trips.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1699361207152-20f9c61c8d30?q=80&amp;w=1200&amp;h=1500&amp;fp-y=1&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>When we planned the look, we wanted to show both quiet thought and the hard work of a climb. One photo might pull you into a calm campsite in the early morning, a base for the day. Another puts you right on a sharp mountain ridge, moving toward that line where the sky meets the earth. This contrast shows what Ayaro is about: solid and reliable, but always nudging you to take that next step, to see what’s just out of sight.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>"Horizon Line" connects with that wish we all have to see what’s over the next hill, to find new views, both in the world and in our own heads. My aim with the art direction was to tell a visual story that feels both real and inspiring. It shows the quality and the heart of Ayaro. I hope it makes you want to have an adventure and see new things as you look toward your own horizons. I look forward to sharing more when the full campaign launches.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>54</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-01 07:55:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-01 07:55:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[ayaro-horizon-line]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[55]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Shooting my friend's collection]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/shooting-my-friends-collection/</link>
+		<pubDate>Fri, 02 Jan 2026 17:56:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?p=57</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>It’s always a bit different when you’re working on a project for a friend. Recently, I had the chance to photograph the new collection for a good friend who’s just starting her own clothing line. There’s a certain energy that comes with helping someone you know bring their vision to life. We spent a day out in the open, letting the landscape and the light play a part in showing off her work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For her line, we both agreed that a very natural, almost unpolished look would be best. She designs clothes that are meant to be lived in, comfortable, and easy. So, instead of stiff poses or a typical studio setup, we focused on capturing a feeling. We wanted the images to show how the clothes move and feel in a real setting, letting the mood of the moment tell more of the story than anything too perfectly arranged or overly posed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1615065591984-6800446436a1?q=80&amp;w=1200&amp;h=1500&amp;fp-y=1&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The day of the shoot was a bit windy, which actually turned out to be perfect. The movement it created, especially with the fabrics and hair, added a sense of freedom and spontaneity to the photos. We worked with the changing light towards the end of the day, and it really helped create that soft, atmospheric feel we were hoping for. It was less about directing every detail and more about finding those genuine moments as they unfolded.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This kind of shoot is a great reminder for me that often the most compelling images are the ones that feel authentic and relatable. It’s not just about showing a product; it’s about conveying a spirit or an attitude. I'm really happy with how the photos turned out, and I believe they truly reflect what my friend’s brand is all about.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>57</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 17:56:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 17:56:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[shooting-my-friends-collection]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[58]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Timeless lines]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/timeless-lines/</link>
+		<pubDate>Sun, 04 Jan 2026 11:08:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?p=60</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>There's something about classic cars that always pulls me in. It's more than just nostalgia, it's an appreciation for design that truly lasts. When I'm out with my camera, not for a client but just for myself, I often find myself drawn to these older vehicles. I think it's the way their lines tell a story of craftsmanship, of a particular era, and also of design principles that still feel relevant today.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Photographing these cars is a personal passion. It allows me to explore form and detail in a different way than my usual work. I look for the curve of a fender, the reflection in the chrome, or the way light falls across a vintage interior, like the rich red leather in some of these classics. These are the details that speak volumes, the "timeless lines" that designers back then so carefully considered.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1642034410877-22875908ddda?q=80&amp;w=1200&amp;h=960&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>What I learn from looking at these cars, and from the process of photographing them, often seeps into my professional thinking. It's a reminder that good design isn't just about what's new or trendy. It's about strong concepts, clear execution, and an understanding of form that can appeal to people across decades. The way a classic car sits on the road, its proportions, and its character are all lessons in creating lasting visual impact.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For me, these personal photo sessions are a way to reconnect with the fundamentals of design. It's a quiet pursuit, a chance to simply observe and appreciate the artistry in these machines. And sometimes, the most profound insights into what makes design truly timeless come not from a brief, but from looking closely at the enduring beauty of the past.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-04 11:08:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-04 11:08:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[timeless-lines]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[61]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Burning Man]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/burning-man/</link>
+		<pubDate>Tue, 06 Jan 2026 14:27:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?p=63</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Stepping onto the playa for the first time was unlike anything I had ever imagined. My work involves thinking about creating experiences, but Burning Man is something else entirely. It is a vast, temporary city dedicated to art and expression, appearing out of the dust. The scale of it, the sheer creativity everywhere you look, and the energy of the people there immediately made me realize this would be a unique journey.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Days were spent exploring, and I quickly learned to expect the unexpected. Around every corner, or emerging from a dust cloud, there would be another incredible installation. Some were monumental, like Michael Benisty's towering 58-foot "Liberty" statue, a mirror-polished figure that seemed to guard the horizon. Others were intricate and subtle. I saw the Temple of Together, an amazing wooden structure, and was struck by its detailed design and the quiet, reflective atmosphere it held, even in such a vibrant place. It was clear that every piece of art, big or small, had a story and a deep level of commitment behind it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1725610588095-f117c0e2a921?q=80&amp;w=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/><figcaption class="wp-element-caption">The intricate beauty of the Temple of Together.</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>What really stood out to me, beyond the individual artworks, was the spirit of the place. There is a powerful sense of communal effort and radical self-expression. My work often involves guiding teams to bring a vision to life, but Burning Man showed me a different model of creativity. It felt less directed and more organic, a collective outpouring of imagination. It made me think about how much people are willing to give and create purely for the experience itself.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Leaving Burning Man, I carried more than just memories of incredible art. It was a reminder of the power of bold ideas and the importance of making space for creative freedom. It also sparked some new thoughts about how communities can form around shared experiences and artistic expression. It is an experience that will definitely stay with me and influence how I approach creativity in my own work.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>63</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-06 14:27:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-06 14:27:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[burning-man]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The art directors roundtable]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/the-art-directors-roundtable/</link>
+		<pubDate>Thu, 08 Jan 2026 19:21:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?p=66</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>I often find that stepping away from my own projects is when the best insights arrive. A recent art directors roundtable at Studio Chroma really brought this home. It was more than just a meeting; it was a chance to connect with other creative leads, to talk openly about the work we do, and to see things from a different angle. I left feeling genuinely refreshed and with a clearer sense of direction.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The conversation around the table that day was lively and honest. We did not just present finished ideas. We talked through current challenges, shared early concepts, and even discussed things that were not working. Someone might bring up a tricky client brief, and another would jump in with a story about a similar project they handled. It was this back and forth, this willingness to be open, that made the discussion so valuable. You could almost feel the ideas in the room shifting and taking on new forms.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1741720737125-c8bbbe763f9a?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/><figcaption class="wp-element-caption">Studio Chroma entrance.</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>What I took away from that specific session was more than just a few good tips. One discussion about a new visual trend really clicked for me. It helped me rethink an approach I was stuck on for one of my own projects. Another art director shared a simple technique for team brainstorming that I started using right away. It is these concrete, practical insights, born from shared experience, that you cannot get from an article or a tutorial.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>That roundtable at Studio Chroma reminded me why these gatherings are so important. It was not just about solving problems or learning new things. It was the energy of people passionate about their craft, all sharing and learning together. You leave with more than just notes; you leave with a renewed sense of purpose and a stronger connection to the wider creative community. That is the kind of experience that truly helps you grow.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>66</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-08 19:21:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-08 19:21:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-art-directors-roundtable]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[67]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The art of seeing]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/the-art-of-seeing/</link>
+		<pubDate>Fri, 09 Jan 2026 16:02:25 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/?p=69</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>I believe good ideas often start with a simple observation. For me, learning to truly see the world around us is less a skill and more a way of being. It’s about finding the extraordinary in the ordinary, or clarity in a complex scene, much like when the sun burns through morning fog to reveal the landscape. I find these moments of clear vision are where compelling concepts begin to form.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Sometimes, I find it essential to seek out a new viewpoint. Stepping into a different environment, like an empty beach at sunrise, can shift my perspective and spark fresh thinking. The new light and open space offer a sense of possibility, a feeling that something new can take shape. In these quiet encounters, away from usual distractions, the first hints of an idea often appear to me, vivid and ready to be explored. These initial sparks are the foundation for strong concepts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728327511297-948650da8ed9?q=80&amp;w=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Once an idea sparks, it needs a place to grow. This is where my observation turns into focused intention. A quiet corner, a simple table, and a moment to reflect are the spaces where I shape and refine initial thoughts. Here, the details come together, and the story begins to build in my mind, piece by piece, until the full picture emerges with purpose and clarity.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1634906115245-4621c8ab00a0?q=80&amp;w=1200&amp;h=1500&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Ultimately, the art of seeing is about connection. It’s about understanding the essence of a message and finding the most resonant way to share it. Every project is a new opportunity for me to look deeper, to observe with fresh eyes, and to translate that vision into something meaningful and effective. This constant act of seeing, and seeing again, is what shapes the distinct and memorable work I aim to bring into the world.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>69</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 16:02:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 16:02:25]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-art-of-seeing]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[70]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[John Wapuu]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[contact@example.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[90.79.21.148]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2026-01-09 19:18:35]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2026-01-09 19:18:35]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>https://demo.twentig.com/portfolio-starter/footer/</link>
+		<pubDate>Fri, 09 Jan 2026 15:47:53 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/portfolio-starter/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.4"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="line-height:1.4">
+		© 2026 Daniel Burton. Made with <a href="https://twentig.com">Twentig</a>.		</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"className":"is-style-logos-only footer-social"} -->
+<ul class="wp-block-social-links is-style-logos-only footer-social"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 15:47:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 15:47:53]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+				</channel>
+</rss>
+	

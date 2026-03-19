@@ -35,6 +35,15 @@ function twentig_register_block_styles() {
 	);
 
 	/* List */
+
+	register_block_style(
+		'core/list',
+		array(
+			'name'  => 'tw-square',
+			'label' => esc_html__( 'Square', 'twentig' ),
+		)
+	);
+
 	register_block_style(
 		'core/list',
 		array(
@@ -158,7 +167,7 @@ function twentig_register_block_styles() {
 		'core/separator',
 		array(
 			'name'  => 'tw-asterisks',
-			'label' => __( 'Asterisks', 'twentig' ),
+			'label' => esc_html__( 'Asterisks', 'twentig' ),
 		)
 	);
 
@@ -166,7 +175,7 @@ function twentig_register_block_styles() {
 		'core/separator',
 		array(
 			'name'  => 'tw-dotted',
-			'label' => __( 'Dotted', 'twentig' ),
+			'label' => esc_html__( 'Dotted', 'twentig' ),
 		)
 	);
 
@@ -174,7 +183,7 @@ function twentig_register_block_styles() {
 		'core/separator',
 		array(
 			'name'  => 'tw-dashed',
-			'label' => __( 'Dashed', 'twentig' ),
+			'label' => esc_html__( 'Dashed', 'twentig' ),
 		)
 	);
 
@@ -184,7 +193,7 @@ function twentig_register_block_styles() {
 		'core/tag-cloud',
 		array(
 			'name'  => 'tw-outline-rounded',
-			'label' => __( 'Rounded', 'twentig' ),
+			'label' => esc_html__( 'Rounded', 'twentig' ),
 		)
 	);
 
@@ -192,7 +201,7 @@ function twentig_register_block_styles() {
 		'core/tag-cloud',
 		array(
 			'name'  => 'tw-outline-pill',
-			'label' => __( 'Pill', 'twentig' ),
+			'label' => esc_html__( 'Pill', 'twentig' ),
 		)
 	);
 
@@ -200,7 +209,7 @@ function twentig_register_block_styles() {
 		'core/tag-cloud',
 		array(
 			'name'  => 'tw-plain',
-			'label' => __( 'Plain', 'twentig' ),
+			'label' => esc_html__( 'Plain', 'twentig' ),
 		)
 	);
 
@@ -208,7 +217,7 @@ function twentig_register_block_styles() {
 		'core/tag-cloud',
 		array(
 			'name'  => 'tw-list',
-			'label' => __( 'List', 'twentig' ),
+			'label' => esc_html__( 'List', 'twentig' ),
 		)
 	);
 
@@ -218,7 +227,7 @@ function twentig_register_block_styles() {
 		'core/post-terms',
 		array(
 			'name'  => 'tw-outline',
-			'label' => __( 'Outline', 'twentig' ),
+			'label' => esc_html__( 'Outline', 'twentig' ),
 		)
 	);
 
@@ -226,7 +235,7 @@ function twentig_register_block_styles() {
 		'core/post-terms',
 		array(
 			'name'  => 'tw-outline-rounded',
-			'label' => __( 'Rounded', 'twentig' ),
+			'label' => esc_html__( 'Rounded', 'twentig' ),
 		)
 	);
 
@@ -234,7 +243,7 @@ function twentig_register_block_styles() {
 		'core/post-terms',
 		array(
 			'name'  => 'tw-outline-pill',
-			'label' => __( 'Pill', 'twentig' ),
+			'label' => esc_html__( 'Pill', 'twentig' ),
 		)
 	);
 
@@ -242,7 +251,7 @@ function twentig_register_block_styles() {
 		'core/post-terms',
 		array(
 			'name'  => 'tw-hashtag',
-			'label' => __( 'Hashtag', 'twentig' ),
+			'label' => esc_html__( 'Hashtag', 'twentig' ),
 		)
 	);
 
@@ -250,7 +259,7 @@ function twentig_register_block_styles() {
 		'core/post-terms',
 		array(
 			'name'  => 'tw-plain',
-			'label' => __( 'Plain', 'twentig' ),
+			'label' => esc_html__( 'Plain', 'twentig' ),
 		)
 	);
 
@@ -258,7 +267,7 @@ function twentig_register_block_styles() {
 		'core/post-terms',
 		array(
 			'name'  => 'tw-list',
-			'label' => __( 'List', 'twentig' ),
+			'label' => esc_html__( 'List', 'twentig' ),
 		)
 	);
 
@@ -267,7 +276,7 @@ function twentig_register_block_styles() {
 		'core/search',
 		array(
 			'name'  => 'tw-underline',
-			'label' => __( 'Underline', 'twentig' ),
+			'label' => esc_html__( 'Underline', 'twentig' ),
 		)
 	);
 
@@ -276,7 +285,7 @@ function twentig_register_block_styles() {
 		'core/post-navigation-link',
 		array(
 			'name'  => 'tw-nav-stack',
-			'label' => __( 'Stack', 'twentig' ),
+			'label' => esc_html__( 'Stack', 'twentig' ),
 		)
 	);
 
@@ -287,7 +296,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-numbers',
 		array(
 			'name'  => 'tw-square',
-			'label' => __( 'Square', 'twentig' ),
+			'label' => esc_html__( 'Square', 'twentig' ),
 		)
 	);
 
@@ -295,7 +304,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-numbers',
 		array(
 			'name'  => 'tw-rounded',
-			'label' => __( 'Rounded', 'twentig' ),
+			'label' => esc_html__( 'Rounded', 'twentig' ),
 		)
 	);
 
@@ -303,7 +312,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-numbers',
 		array(
 			'name'  => 'tw-circle',
-			'label' => __( 'Circle', 'twentig' ),
+			'label' => esc_html__( 'Circle', 'twentig' ),
 		)
 	);
 
@@ -311,7 +320,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-numbers',
 		array(
 			'name'  => 'tw-plain',
-			'label' => __( 'Plain', 'twentig' ),
+			'label' => esc_html__( 'Plain', 'twentig' ),
 		)
 	);
 
@@ -319,7 +328,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-previous',
 		array(
 			'name'  => 'tw-btn-square',
-			'label' => __( 'Square', 'twentig' ),
+			'label' => esc_html__( 'Square', 'twentig' ),
 		)
 	);
 
@@ -327,7 +336,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-previous',
 		array(
 			'name'  => 'tw-btn-rounded',
-			'label' => __( 'Rounded', 'twentig' ),
+			'label' => esc_html__( 'Rounded', 'twentig' ),
 		)
 	);
 
@@ -335,7 +344,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-previous',
 		array(
 			'name'  => 'tw-btn-pill',
-			'label' => __( 'Pill', 'twentig' ),
+			'label' => esc_html__( 'Pill', 'twentig' ),
 		)
 	);
 
@@ -343,7 +352,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-next',
 		array(
 			'name'  => 'tw-btn-square',
-			'label' => __( 'Square', 'twentig' ),
+			'label' => esc_html__( 'Square', 'twentig' ),
 		)
 	);
 
@@ -351,7 +360,7 @@ function twentig_register_block_styles() {
 		'core/query-pagination-next',
 		array(
 			'name'  => 'tw-btn-rounded',
-			'label' => __( 'Rounded', 'twentig' ),
+			'label' => esc_html__( 'Rounded', 'twentig' ),
 		)
 	);
 
@@ -359,7 +368,15 @@ function twentig_register_block_styles() {
 		'core/query-pagination-next',
 		array(
 			'name'  => 'tw-btn-pill',
-			'label' => __( 'Pill', 'twentig' ),
+			'label' => esc_html__( 'Pill', 'twentig' ),
+		)
+	);
+
+	register_block_style(
+		'core/navigation-link',
+		array(
+			'name'  => 'tw-external-link',
+			'label' => esc_html__( 'External', 'twentig' ),
 		)
 	);
 

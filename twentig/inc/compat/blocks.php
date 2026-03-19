@@ -31,17 +31,6 @@ function twentig_filter_compat_columns_block( $block_content, $block ) {
 		}
 	}
 
-	if ( str_contains( $classnames, 'tw-cols-' ) || str_contains( $classnames, 'tw-row-gap' ) ) {
-		wp_enqueue_block_style(
-			'core/columns',
-			array(
-				'handle' => 'tw-block-columns-compat',
-				'src'    => TWENTIG_ASSETS_URI . '/blocks/columns/compat.css',
-				'path'   => TWENTIG_PATH . 'dist/blocks/columns/compat.css',
-			) 
-		);
-	}
-
 	return $block_content;
 }
 add_filter( 'render_block_core/columns', 'twentig_filter_compat_columns_block', 10, 2 );
@@ -64,7 +53,7 @@ function twentig_filter_compat_column_block( $block_content, $block ) {
 		$tag_processor->next_tag();
 		
 		$style_attr = $tag_processor->get_attribute( 'style' );
-		$style      = '--col-width:' . $block['attrs']['width'] . ';' . $style_attr;
+		$style      = '--col-width:' . esc_attr( $block['attrs']['width'] ) . ';' . $style_attr;
 		
 		$tag_processor->set_attribute( 'style', $style );
 		$block_content = $tag_processor->get_updated_html();
@@ -117,11 +106,11 @@ function twentig_filter_compat_query_block( $block_content, $block ) {
 	$style       = '';
 
 	if ( isset( $attributes['twBlockGapVertical'] ) ) {
-		$style .= '--tw-gap-y:' . $attributes['twBlockGapVertical'] . ';';
+		$style .= '--tw-gap-y:' . esc_attr( $attributes['twBlockGapVertical'] ) . ';';
 	}
 
 	if ( isset( $attributes['twBlockGapHorizontal'] ) ) {
-		$style .= '--tw-gap-x:' . $attributes['twBlockGapHorizontal'] . ';';
+		$style .= '--tw-gap-x:' . esc_attr( $attributes['twBlockGapHorizontal'] ) . ';';
 	}
 
 	if ( ! empty( $style ) ) {

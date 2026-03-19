@@ -61,8 +61,8 @@ function twentig_get_starter_content( $id ) {
 		}
 	}
 
-	if ( $content_url ) {
-		$request = wp_remote_get( $content_url );
+	if ( $content_url && str_starts_with( $content_url, 'https://demo.twentig.com/' ) ) {
+		$request = wp_remote_get( esc_url_raw( $content_url ) );
 		if ( is_wp_error( $request ) ) {
 			return $starter_content;
 		}
@@ -87,7 +87,7 @@ function twentig_ajax_customize_load_starter_content() {
 		wp_send_json_error( $error );
 	}
 
-	if ( ! check_ajax_referer( 'preview-customize_' . $wp_customize->get_stylesheet(), 'nonce', false ) ) {
+	if ( ! check_ajax_referer( 'preview-customize_' . $wp_customize->get_stylesheet(), 'nonce', false ) || ! current_user_can( 'edit_theme_options' ) ) {
 		wp_send_json_error( $error );
 	}
 

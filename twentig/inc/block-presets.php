@@ -16,13 +16,14 @@ function twentig_get_block_css_classes() {
 
 	$classes = array(
 
-		'core/paragraph'             => array(			
+		'core/paragraph'             => array(
 			'tw-text-balance'         => __( 'Apply balanced text wrapping.', 'twentig' ),
 			'tw-text-pretty'          => __( 'Apply pretty text wrapping.', 'twentig' ),
-			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),
-			'tw-text-gradient'        => __( 'Apply background gradient to text.', 'twentig' ),
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
+			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),
+			'tw-text-gradient'        => __( 'Apply background gradient to text.', 'twentig' ),
+			'tw-whitespace-nowrap'    => __( 'Prevent text from wrapping.', 'twentig' ),
 			'tw-highlight-padding'    => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
 			'tw-md-text-left'         => __( 'Align text left on tablet and mobile.', 'twentig' ),
 			'tw-md-text-center'       => __( 'Align text center on tablet and mobile.', 'twentig' ),
@@ -34,10 +35,13 @@ function twentig_get_block_css_classes() {
 		'core/heading'               => array(
 			'tw-text-balance'          => __( 'Apply balanced text wrapping.', 'twentig' ),
 			'tw-text-pretty'           => __( 'Apply pretty text wrapping.', 'twentig' ),
-			'tw-text-shadow'           => __( 'Add shadow to text.', 'twentig' ),
-			'tw-text-gradient'         => __( 'Apply background gradient to text.', 'twentig' ),			
+			'tw-text-wrap'             => __( 'Reset text wrapping to default.', 'twentig' ),
 			'tw-link-hover-underline'  => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'     => __( 'Remove underline from link.', 'twentig' ),
+			'tw-link-hover-fade'       => __( 'Fade link on hover.', 'twentig' ),
+			'tw-text-shadow'           => __( 'Add shadow to text.', 'twentig' ),
+			'tw-text-gradient'         => __( 'Apply background gradient to text.', 'twentig' ),
+			'screen-reader-text'       => __( 'Visually hide the block, but make it available for screen readers.', 'twentig' ),
 			'tw-highlight-padding'     => __( 'Add padding to the highlighted text’s background.', 'twentig' ),
 			'tw-md-text-left'          => __( 'Align text left on tablet and mobile.', 'twentig' ),
 			'tw-md-text-center'        => __( 'Align text center on tablet and mobile.', 'twentig' ),
@@ -49,8 +53,10 @@ function twentig_get_block_css_classes() {
 		'core/post-title'            => array(
 			'tw-text-balance'         => __( 'Apply balanced text wrapping.', 'twentig' ),
 			'tw-text-pretty'          => __( 'Apply pretty text wrapping.', 'twentig' ),
+			'tw-text-wrap'            => __( 'Reset text wrapping to default.', 'twentig' ),
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
+			'tw-link-hover-fade'      => __( 'Fade link on hover', 'twentig' ),
 			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),
 			'tw-text-gradient'        => __( 'Apply background gradient to text.', 'twentig' ),
 			'tw-md-text-left'         => __( 'Align text left on tablet and mobile.', 'twentig' ),
@@ -59,6 +65,12 @@ function twentig_get_block_css_classes() {
 			'tw-sm-text-left'         => __( 'Align text left on mobile.', 'twentig' ),
 			'tw-sm-text-center'       => __( 'Align text center on mobile.', 'twentig' ),
 			'tw-sm-text-right'        => __( 'Align text right on mobile.', 'twentig' ),
+		),
+		'core/pullquote'            => array(
+			'tw-text-balance' => __( 'Apply balance text wrapping.', 'twentig' ),
+		),
+		'core/quote'                => array(
+			'tw-text-balance' => __( 'Apply balance text wrapping.', 'twentig' ),
 		),
 		'core/list'                  => array(
 			'has-text-align-center'   => __( 'Align text center.', 'twentig' ),
@@ -129,6 +141,10 @@ function twentig_get_block_css_classes() {
 			'tw-sm-justify-center' => __( 'Justify items center on mobile.', 'twentig' ),
 			'tw-sm-justify-end'    => __( 'Justify items from the end on mobile.', 'twentig' ),
 		),
+		'core/button'               => array(
+			'tw-lightbox-dark' => __( 'Apply a dark theme to the lightbox.', 'twentig' ),
+			'tw-lightbox-full' => __( 'Display the video in a full-screen lightbox.', 'twentig' ),
+		),
 		'core/social-links'          => array(
 			'tw-md-justify-start'  => __( 'Justify items from the start on tablet.', 'twentig' ),
 			'tw-md-justify-center' => __( 'Justify items center on tablet.', 'twentig' ),
@@ -173,10 +189,14 @@ function twentig_get_block_css_classes() {
 		'core/categories'            => array(
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-no-bullet'            => __( 'Remove bullet from list.', 'twentig' ),
+			'tw-list-spacing-medium'  => __( 'Set a medium spacing between the list items.', 'twentig' ),
+			'tw-list-spacing-loose'   => __( 'Set a loose spacing between the list items.', 'twentig' ),
 		),
 		'core/archives'              => array(
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-no-bullet'            => __( 'Remove bullet from list.', 'twentig' ),
+			'tw-list-spacing-medium'  => __( 'Set a medium spacing between the list items.', 'twentig' ),
+			'tw-list-spacing-loose'   => __( 'Set a loose spacing between the list items.', 'twentig' ),
 		),
 		'core/site-title'            => array(
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
@@ -204,6 +224,20 @@ function twentig_get_block_css_classes() {
 		),
 		'core/post-comments-form'    => array(
 			'tw-form-rounded' => __( 'Make the corners of the input and textarea rounded.', 'twentig' ),
+		),
+		'core/post-template'         => array(
+			'tw-alt-columns' => __( 'Alternate column sides on every other post.', 'twentig' ),
+			'tw-alt-spacer'  => __( 'Alternate spacer visibility on every other post to create an offset layout.', 'twentig' ),
+			'tw-alt-grid'    => __( 'Alternate between one and two grid columns.', 'twentig' ),
+		),
+		'core/navigation-submenu'    => array(
+			'tw-submenu-rounded'     => __( 'Make the corners rounded.', 'twentig' ),
+			'tw-submenu-shadow'      => __( 'Add shadow.', 'twentig' ),
+			'tw-submenu-noborder'    => __( 'Remove border.', 'twentig' ),
+			'tw-submenu-align-right' => __( 'Align submenu to the right of its parent.', 'twentig' ),
+		),
+		'core/accordion-heading'     => array(
+			'tw-no-underline' => __( 'Remove underline on hover.', 'twentig' ),
 		),
 	);
 

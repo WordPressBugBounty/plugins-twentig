@@ -72,13 +72,13 @@ class TwentigSettings {
 			'portfolio',
 			'portfolio_slug',
 			'portfolio_category_slug',
-			'portfolio_tag_slug'
+			'portfolio_tag_slug',
 		);
 
-		foreach ( $settings as $key => &$value ) {
+		$sanitized = array();
+		
+		foreach ( $settings as $key => $value ) {
 			if ( ! in_array( $key, $allowed_settings, true ) ) {
-				// Ignore any parameters not in the allowed list
-				unset( $settings[$key] );
 				continue;
 			}
 
@@ -90,17 +90,17 @@ class TwentigSettings {
 				case 'openverse':
 				case 'predefined_spacing':
 				case 'portfolio':
-					$value = filter_var( $value, FILTER_VALIDATE_BOOLEAN );
+					$sanitized[ $key ] = filter_var( $value, FILTER_VALIDATE_BOOLEAN );
 					break;
 				case 'portfolio_slug':
 				case 'portfolio_category_slug':
 				case 'portfolio_tag_slug':
-					$value = sanitize_title( $value );
+					$sanitized[ $key ] = sanitize_title( $value );
 					break;
 			}
 		}
 
-		return $settings;
+		return $sanitized;
 	}
 
 	/**
@@ -109,17 +109,34 @@ class TwentigSettings {
 	 * @param WP_REST_Request $request The WP request object.
 	 * @return WP_REST_Response|WP_Error The response object.
 	 */
-	public function save_settings( WP_REST_Request $request ) {		
+	public function save_settings( WP_REST_Request $request ) {
 
-		$settings = $request->get_param( 'settings' );
+		$settings           = $request->get_param( 'settings' );
 		$sanitized_settings = $this->sanitize_options( is_array( $settings ) ? $settings : array() );
-		
-		update_option( 'twentig-options', $sanitized_settings );
-		
-		return new WP_REST_Response(array(
-			'success' => true,
-			'message' => __( 'Settings saved', 'twentig' ),
-		) );	
+		$existing           = get_option( 'twentig-options', array() );
+
+		$portfolio_changed = false;
+		foreach ( array( 'portfolio', 'portfolio_slug', 'portfolio_category_slug', 'portfolio_tag_slug' ) as $key ) {
+			if ( array_key_exists( $key, $sanitized_settings )
+				&& ( $existing[ $key ] ?? null ) !== $sanitized_settings[ $key ] ) {
+				$portfolio_changed = true;
+				break;
+			}
+		}
+
+		update_option( 'twentig-options', array_merge( $existing, $sanitized_settings ) );
+
+		if ( $portfolio_changed ) {
+			set_transient( 'twentig_flush_rewrite_rules', 1, MINUTE_IN_SECONDS );
+		}
+
+		return new WP_REST_Response(
+			array(
+				'success'      => true,
+				'needs_reload' => $portfolio_changed,
+				'message'      => __( 'Settings saved', 'twentig' ),
+			)
+		);
 	}
 
 	/**
@@ -136,10 +153,14 @@ class TwentigSettings {
 			add_filter( 'use_widgets_block_editor', '__return_false' );
 		}
 		if ( ! twentig_is_option_enabled( 'openverse' ) ) {
-			add_filter( 'block_editor_settings_all', function( $settings ) {
-				$settings['enableOpenverseMediaCategory'] = false;
-				return $settings;
-			}, 10 );
+			add_filter(
+				'block_editor_settings_all',
+				function( $settings ) {
+					$settings['enableOpenverseMediaCategory'] = false;
+					return $settings;
+				},
+				10
+			);
 		}
 	}
 

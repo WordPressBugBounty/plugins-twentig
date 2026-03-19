@@ -11,7 +11,8 @@ defined( 'ABSPATH' ) || exit;
  * Registers the block pattern categories.
  */
 function twentig_register_block_pattern_categories() {
-	register_block_pattern_category( 'posts', array( 'label' => _x( 'Posts', 'Block pattern category', 'default' ) ) );
+	// Categories using 'default' text domain intentionally reuse WordPress core translations.
+	register_block_pattern_category( 'posts', array( 'label' => esc_html_x( 'Posts', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'text', array( 'label' => esc_html_x( 'Text', 'Block pattern category', 'default' ) ) );
 	register_block_pattern_category( 'text-image', array( 'label' => esc_html_x( 'Text and Image', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'hero', array( 'label' => esc_html_x( 'Hero', 'Block pattern category', 'twentig' ) ) );
@@ -29,8 +30,8 @@ function twentig_register_block_pattern_categories() {
 	register_block_pattern_category( 'pricing', array( 'label' => esc_html_x( 'Pricing', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'faq', array( 'label' => esc_html_x( 'FAQs', 'Block pattern category', 'twentig' ) ) );
 	register_block_pattern_category( 'events', array( 'label' => esc_html_x( 'Events, Schedule', 'Block pattern category', 'twentig' ) ) );
-	register_block_pattern_category( 'page', array( 'label' => _x( 'Pages', 'Block pattern category', 'default' ) ) );
-	register_block_pattern_category( 'page-single', array( 'label' => _x( 'Single Pages', 'Block pattern category', 'twentig' ) ) );
+	register_block_pattern_category( 'page', array( 'label' => esc_html_x( 'Pages', 'Block pattern category', 'default' ) ) );
+	register_block_pattern_category( 'page-single', array( 'label' => esc_html_x( 'Single Pages', 'Block pattern category', 'twentig' ) ) );
 }
 add_action( 'init', 'twentig_register_block_pattern_categories', 9 );
 
@@ -220,9 +221,9 @@ function twentig_replace_theme_patterns_strings( $content, $theme ) {
 
 			foreach ( $font_sizes as $old_size => $new_size ) {
 				$content = str_replace( "\"fontSize\":\"$old_size\"", "\"fontSize\":\"$new_size\"", $content );
-				$formatted_old_size = preg_replace('/([a-zA-Z])(\d)/', '$1-$2', $old_size);
-				$formatted_new_size = preg_replace('/([a-zA-Z])(\d)/', '$1-$2', $new_size);
-				$content = str_replace("has-$formatted_old_size-font-size", "has-$formatted_new_size-font-size", $content);
+				$formatted_old_size = preg_replace( '/([a-zA-Z])(\d)/', '$1-$2', $old_size );
+				$formatted_new_size = preg_replace( '/([a-zA-Z])(\d)/', '$1-$2', $new_size );
+				$content = str_replace( "has-$formatted_old_size-font-size", "has-$formatted_new_size-font-size", $content );
 			}
 			break;
 	}

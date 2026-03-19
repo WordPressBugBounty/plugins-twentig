@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Waypoint</title>
+	<link>https:</link>
+	<description></description>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://demo.twentig.com/blog-starter</wp:base_site_url>
+	<wp:base_blog_url>https://demo.twentig.com/blog-starter</wp:base_blog_url>
+	<wp:min_wordpress_version>6.9</wp:min_wordpress_version>
+	<wp:min_twentig_version>2.0</wp:min_twentig_version>	
+	<wp:theme>twentig-one</wp:theme>
+
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[Admin]]></wp:author_login><wp:author_email><![CDATA[contact@example.com]]></wp:author_email><wp:author_display_name><![CDATA[Admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+
+		<item>
+		<title><![CDATA[About]]></title>
+		<link>https://demo.twentig.com/blog-starter/about/</link>
+		<pubDate>Fri, 09 Jan 2026 19:00:23 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base","layout":{"type":"constrained"}} --> <div class="wp-block-group alignfull has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|65"}}}} --> <h1 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--65)">Every journey has its waypoints. These are mine.</h1> <!-- /wp:heading -->  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"},"margin":{"bottom":"var:preset|spacing|70"}}},"twStack":"md"} --> <div class="wp-block-columns alignwide tw-cols-stack-md" style="margin-bottom:var(--wp--preset--spacing--70)"><!-- wp:column {"width":""} --> <div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} --> <figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1637249805971-59d7b9319df3?q=80&amp;w=1800&amp;h=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.77" alt="" style="aspect-ratio:1;object-fit:cover"/></figure> <!-- /wp:image --></div> <!-- /wp:column -->  <!-- wp:column {"verticalAlignment":"center"} --> <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading --> <h2 class="wp-block-heading">About Waypoint</h2> <!-- /wp:heading -->  <!-- wp:paragraph --> <p>I’m Jack, a product designer. When work ends, I travel. I walk through cities, eat in small local places, and look for what makes each place feel alive. Waypoint is where I keep those moments. It’s the meals I remember, the streets I get lost in, and the views I stop to take in.</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns -->  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"}}},"twStack":"md"} --> <div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center"} --> <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading --> <h2 class="wp-block-heading">Get in touch</h2> <!-- /wp:heading -->  <!-- wp:paragraph --> <p>Have a travel tip or a great place I should try? Want to share your own story? Send me an email at <a href="mailto:contact@example.com">contact@example.com</a>.</p> <!-- /wp:paragraph --></div> <!-- /wp:column -->  <!-- wp:column {"width":"","className":"tw-md-order-first"} --> <div class="wp-block-column tw-md-order-first"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large"} --> <figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1553166273-c8430e6838af?q=80&amp;w=1800&amp;h=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.4" alt="" style="aspect-ratio:1;object-fit:cover"/></figure> <!-- /wp:image --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div> <!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:00:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:00:23]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://demo.twentig.com/blog-starter/wp-global-styles-twentig-one/</link>
+		<pubDate>Fri, 09 Jan 2026 19:02:20 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-global-styles-twentig-one/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:02:20]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:02:20]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-twentig-one]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						</item>
+					<item>
+		<title><![CDATA[Gallery]]></title>
+		<link>https://demo.twentig.com/blog-starter/gallery/</link>
+		<pubDate>Fri, 09 Jan 2026 19:03:16 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?page_id=8</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Gallery</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.35"}},"fontSize":"medium"} -->
+<p class="has-text-align-center tw-text-balance has-medium-font-size" style="line-height:1.35">Straight from the camera. A rolling collection of moments, unedited and unfiltered.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"lightbox","aspectRatio":"3/2","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|65"}}},"twLayout":"justified","twRowHeight":320} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-default is-cropped tw-gallery-justified" style="margin-top:var(--wp--preset--spacing--65)"><!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1578880711168-af090bacce15?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728327511297-948650da8ed9?q=80&amp;w=1280&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1699608512482-2a60bb2d1ef5?q=80&amp;w=1800&amp;h=1350&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.41" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1652834683398-e82493e73d43?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1632153604500-3b11a79da8de?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=0" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1750064996994-237693ac2799?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742268351423-6d04402e9090?q=80&amp;w=1800&amp;h=1350&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1632642719941-369fc5daa3fe?q=80&amp;w=1067&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1632845616893-4ebdc22c640d?q=80&amp;w=1800&amp;h=1013&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=1" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1545984929-f28d9e323a00?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=0.16" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742317402098-f748e1ddeb01?q=80&amp;w=1800&amp;h=1350&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"aspectRatio":"3/2","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1632153604396-ad76486836fb?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:03:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:03:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://demo.twentig.com/blog-starter/navigation/</link>
+		<pubDate>Fri, 09 Jan 2026 19:03:47 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:home-link {"label":"Blog"} /-->
+
+<!-- wp:navigation-link {"label":"About","type":"page","id":2,"url":"https://demo.twentig.com/blog-starter/about/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Gallery","type":"page","id":8,"url":"https://demo.twentig.com/blog-starter/gallery/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:03:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:03:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Header]]></title>
+		<link>https://demo.twentig.com/blog-starter/header/</link>
+		<pubDate>Fri, 09 Jan 2026 19:04:23 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/header/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|15","bottom":"var:preset|spacing|15"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--15);padding-bottom:var(--wp--preset--spacing--15)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
+
+<!-- wp:navigation {"ref":10,"overlayBackgroundColor":"base","overlayTextColor":"contrast","style":{"spacing":{"blockGap":"var:preset|spacing|25"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"layout":{"type":"flex","setCascadingProperties":true}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:04:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:04:23]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[header]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Index]]></title>
+		<link>https://demo.twentig.com/blog-starter/index/</link>
+		<pubDate>Fri, 09 Jan 2026 19:04:48 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/index/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+		<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)">
+	<!-- wp:heading {"textAlign":"center","level":1} --><h1 class="wp-block-heading has-text-align-center">Stories</h1><!-- /wp:heading -->
+	</div><!-- /wp:group -->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Used as a fallback template for all pages when a more specific template is not defined.]]></excerpt:encoded>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:04:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:04:48]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[index]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[All Archives]]></title>
+		<link>https://demo.twentig.com/blog-starter/archive/</link>
+		<pubDate>Fri, 09 Jan 2026 19:04:57 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/archive/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-archive-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:04:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:04:57]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[archive]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Single Posts]]></title>
+		<link>https://demo.twentig.com/blog-starter/single/</link>
+		<pubDate>Fri, 09 Jan 2026 19:05:05 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/single/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:pattern {"slug":"twentigone/template-single-post-default"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:05:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:05:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[single]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The unspoken language of generosity all across Georgia]]></title>
+		<link>https://demo.twentig.com/blog-starter/the-unspoken-language-of-generosity-all-across-georgia/</link>
+		<pubDate>Thu, 01 Jan 2026 07:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?p=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>When you travel, you learn to expect a certain rhythm. You arrive in a new place, you observe, and you try to understand the local customs. But in Georgia, I found something that I did not expect. It was a kindness that didn't need words. From the moment I arrived, people were open and giving in a way that felt completely natural.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This generosity showed up in small moments. A shopkeeper would offer a piece of fruit. A stranger on the street would walk me to my destination instead of just pointing the way. At dinner, my hosts would fill my plate again and again, insisting I eat more. Each time, there was no expectation for something in return. It was simply a genuine gift, offered from the heart.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This spirit is part of the country itself. It is in the busy markets of Tbilisi and the quiet streets of smaller towns. It is a language of hospitality that everyone seems to understand. It connects people, both locals and visitors, in a very simple and human way that feels truly welcoming.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1730131195219-c604ec60c1f2?q=80&amp;w=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Seeing this every day changed how I traveled. It made me slow down and appreciate the interactions I was having. In Batumi, I walked along the Black Sea and felt a real sense of peace. The city was beautiful, but the warmth of the people was what made it feel special. It was a reminder that connection is what makes a place truly memorable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The generosity I found in Georgia is something I will carry with me. It was a quiet, constant presence that made my journey feel less like a trip and more like I was a welcome guest. It’s a powerful reminder that the best parts of travel are often the simple human moments you share along the way.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-01 07:06:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-01 07:06:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-unspoken-language-of-generosity-all-across-georgia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[19]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[georgia]]></title>
+		<link>https://demo.twentig.com/blog-starter/the-unspoken-language-of-generosity-all-across-georgia/georgia/</link>
+		<pubDate>Fri, 09 Jan 2026 19:09:41 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/georgia.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:09:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:09:41]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[georgia]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>18</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/georgia.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/georgia.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:20:"2026/01/georgia.webp";s:8:"filesize";i:134760;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:20:"georgia-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:11782;}s:5:"large";a:5:{s:4:"file";s:21:"georgia-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:79994;}s:9:"thumbnail";a:5:{s:4:"file";s:20:"georgia-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5570;}s:12:"medium_large";a:5:{s:4:"file";s:20:"georgia-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:50190;}s:9:"1536x1536";a:5:{s:4:"file";s:22:"georgia-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:149874;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[A collection of songs for a gentle moment of peace and reflection]]></title>
+		<link>https://demo.twentig.com/blog-starter/a-collection-of-songs-for-a-gentle-moment-of-peace-and-reflection/</link>
+		<pubDate>Fri, 02 Jan 2026 09:43:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?p=21</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:embed {"url":"https://open.spotify.com/playlist/37i9dQZF1DX0x3hhpH7R9I","type":"rich","providerNameSlug":"spotify","allowResponsive":false,"responsive":true,"className":""} -->
+<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify"><div class="wp-block-embed__wrapper">
+https://open.spotify.com/playlist/37i9dQZF1DX0x3hhpH7R9I
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>My mind often feels like a busy room with too many conversations happening at once. To find a sense of calm, I have a simple ritual. I make a cup of tea, find a quiet corner, and put on a specific kind of music. It is a way for me to turn down the volume on my own thoughts and create a space just for myself, even if only for a little while. This practice has become an important part of my day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Recently, I found this playlist, and it has become the perfect soundtrack for these quiet moments. It is called "Japanese Garden," but it is not what you might expect. The songs are from artists all over the world, not just Japan. What ties them together is a shared feeling. The music is gentle and has a sense of space that reminds me of the harmony and stillness I have felt in actual Japanese gardens. It is music that invites you to be still and listen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is the kind of music that works as a companion to simple, focused activities. It is perfect for reading, sketching, or just sitting with a cup of tea. The experience reminds me of the quiet stillness of a tea ceremony I attended in Kyoto. The act of preparing tea is its own small ceremony, a moment to slow down and focus on the details. This music complements that feeling perfectly, adding another layer of calm without being distracting, helping to create a truly peaceful atmosphere.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I wanted to share this collection of songs with you because it has been such a helpful discovery for me. It is a tool I use to find a bit of peace and clarity. If you are looking for something to help you focus, relax, or just find a quiet moment for reflection, I hope you will give it a listen. Press play and see if it helps you find your own peaceful space.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 09:43:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 09:43:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[a-collection-of-songs-for-a-gentle-moment-of-peace-and-reflection]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_format" nicename="post-format-audio"><![CDATA[Audio]]></category>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[22]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_cae3f092ac44f8b08dbaf04fc5ba5078]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="Spotify Embed: Japanese Garden" style="border-radius: 12px" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0x3hhpH7R9I?utm_source=oembed"></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_cae3f092ac44f8b08dbaf04fc5ba5078]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1767985860]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[tea]]></title>
+		<link>https://demo.twentig.com/blog-starter/a-collection-of-songs-for-a-gentle-moment-of-peace-and-reflection/tea/</link>
+		<pubDate>Fri, 09 Jan 2026 19:10:38 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/tea.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:10:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:10:38]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tea]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>21</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/tea.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/tea.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:16:"2026/01/tea.webp";s:8:"filesize";i:68454;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:16:"tea-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8202;}s:5:"large";a:5:{s:4:"file";s:17:"tea-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:43066;}s:9:"thumbnail";a:5:{s:4:"file";s:16:"tea-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4020;}s:12:"medium_large";a:5:{s:4:"file";s:16:"tea-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:28476;}s:9:"1536x1536";a:5:{s:4:"file";s:18:"tea-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:73768;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[My conversation with a classic car on a long and lonely road]]></title>
+		<link>https://demo.twentig.com/blog-starter/my-conversation-with-a-classic-car-on-a-long-and-lonely-road/</link>
+		<pubDate>Sun, 04 Jan 2026 15:08:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?p=24</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>There is a certain clarity that can only be found on the road. When you are focused on the simple act of driving, the noise of daily life seems to fade away. During a recent trip to Vancouver, I had the chance to spend a day with a classic Porsche 911 SC. The plan was simple: to find a quiet road and just drive. The forests of British Columbia are vast and silent, and as I settled into the driver's seat, I felt like I was about to have a conversation with the past.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Modern cars are designed to be quiet and comfortable. They insulate you from the road, the engine, and the world outside. This car was different. It was an analog machine in a digital age, and it demanded my full attention. The steering wheel communicated every detail of the road surface. The sound of the air-cooled engine behind me was a constant, mechanical presence. Every gear change was a satisfying, physical act. This was the conversation. The car wasn't speaking in words, but in feelings, vibrations, and sounds.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In this dialogue, the car told a story about a different era of design. There were no screens, no complicated menus, just a set of simple, functional gauges. Every button and switch had a clear purpose. It was a design philosophy that valued the connection between the driver and the machine above all else. As a product designer, I found this incredibly inspiring. The car was a reminder that the most rewarding experiences are often the ones that are the most direct and unfiltered.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1727162334438-d84d10daa8f8?q=80&amp;w=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The road itself was a silent partner in this conversation. It curved and climbed through a forest of giant, moss-covered trees. The tall pines created a canopy that filtered the afternoon light, casting long shadows on the pavement. Driving through this immense, quiet landscape felt like a form of meditation. The car was a small, mechanical object moving through a vast, natural world. The solitude of the lonely road was essential. It created the space for this reflective experience to unfold.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>By the end of the day, I felt like I understood something new. The conversation I had with this classic car was about more than just driving. It was about the value of simplicity, the importance of being present, and the joy of interacting with something that is beautifully and honestly designed. It was a waypoint that offered a new perspective. It left me with a sense of clarity that only comes from disconnecting completely from the digital world.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-04 15:08:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-04 15:08:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[my-conversation-with-a-classic-car-on-a-long-and-lonely-road]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[25]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[classic-car]]></title>
+		<link>https://demo.twentig.com/blog-starter/my-conversation-with-a-classic-car-on-a-long-and-lonely-road/classic-car/</link>
+		<pubDate>Fri, 09 Jan 2026 19:11:58 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/classic-car.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>25</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:11:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:11:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[classic-car]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>24</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/classic-car.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/classic-car.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:24:"2026/01/classic-car.webp";s:8:"filesize";i:133668;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:24:"classic-car-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:10876;}s:5:"large";a:5:{s:4:"file";s:25:"classic-car-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:86106;}s:9:"thumbnail";a:5:{s:4:"file";s:24:"classic-car-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4388;}s:12:"medium_large";a:5:{s:4:"file";s:24:"classic-car-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:53910;}s:9:"1536x1536";a:5:{s:4:"file";s:26:"classic-car-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:157608;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Good vibes and great waves on the coast of Portugal]]></title>
+		<link>https://demo.twentig.com/blog-starter/good-vibes-and-great-waves-on-the-coast-of-portugal/</link>
+		<pubDate>Tue, 06 Jan 2026 17:26:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?p=27</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:embed {"url":"https://youtu.be/ZKsbpEoTyLM","type":"video","providerNameSlug":"youtube","responsive":true,"align":"wide","className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/ZKsbpEoTyLM
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>I came to the Algarve coast in Portugal ready for an adventure. The plan was simple: find good waves and have a good time. The energy of the coast hits you right away. The cliffs are huge, the Atlantic is powerful, and you can feel the excitement in the air. This is not a place for standing still. It is a place that calls you to get in the water and be a part of the action.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Every day was a new mission to find the best waves. We were a small crew, driving up and down the coast, music playing, boards strapped to the roof. The waves were perfect. They had enough power to be fun but were forgiving enough to let you try new things. The feeling of dropping into a clean wave and riding it all the way in is pure adrenaline. It’s a rush that never gets old.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The fun did not stop when we left the water. The days were full of energy, with everyone sharing stories of their best rides and funniest wipeouts. We were a group of people from all over, brought together by a shared love for surfing. We spent our evenings around a campfire, with live music and plans for the next day's surf. The vibe was electric.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This trip was all about good people, good music, and great waves. It was a week of pure fun, pushing my limits in the water and making friends for life. The Algarve delivered exactly what I was looking for: an unforgettable adventure. It was a high-energy escape that left me feeling completely recharged.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-06 17:26:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-06 17:26:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[good-vibes-and-great-waves-on-the-coast-of-portugal]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_format" nicename="post-format-video"><![CDATA[Video]]></category>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[28]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_a1207d9ef9dab626cf0af754e49780b0]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="Surf in the Algarve" width="500" height="281" src="https://www.youtube.com/embed/ZKsbpEoTyLM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_a1207d9ef9dab626cf0af754e49780b0]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1767985975]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[portugal]]></title>
+		<link>https://demo.twentig.com/blog-starter/good-vibes-and-great-waves-on-the-coast-of-portugal/portugal/</link>
+		<pubDate>Fri, 09 Jan 2026 19:12:38 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/portugal.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:12:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:12:38]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[portugal]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>27</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/portugal.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/portugal.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:21:"2026/01/portugal.webp";s:8:"filesize";i:117782;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:21:"portugal-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8830;}s:5:"large";a:5:{s:4:"file";s:22:"portugal-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:67058;}s:9:"thumbnail";a:5:{s:4:"file";s:21:"portugal-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3994;}s:12:"medium_large";a:5:{s:4:"file";s:21:"portugal-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:41334;}s:9:"1536x1536";a:5:{s:4:"file";s:23:"portugal-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:127916;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Rediscovering the simple joy of pizza made with a wood fire]]></title>
+		<link>https://demo.twentig.com/blog-starter/rediscovering-the-simple-joy-of-pizza-made-with-a-wood-fire/</link>
+		<pubDate>Thu, 08 Jan 2026 10:12:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?p=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>New York is a city of a million destinations. You can spend weeks here and feel like you have only scratched the surface. My plan was to see as much as I could. But the moment I will remember most from my trip happened by accident, on a side street in Brooklyn. I walked past a small pizzeria and the smell of woodsmoke stopped me. I went inside and found a reminder that the best things are often the most simple.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The pizza arrived with a crust that was charred and bubbled from the intense heat. It had a slight crispness on the outside but was soft and light when I bit into it. This was a perfect base for the simple, fresh toppings. Nothing was complicated, yet everything tasted exactly as it should. It was the kind of food that forces you to slow down. In a city that is always moving, this meal felt like a quiet, necessary pause.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A man worked behind the counter with a calm focus. He stretched the dough and added the toppings with an easy rhythm that you only get from doing something a thousand times. There was no wasted motion. It was a craft, a skill honed over years. He worked with a quiet confidence. He let the quality of his ingredients and the heat of his oven do the talking.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1564936281403-f92f66f89ee0?q=80&amp;w=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The oven was the heart of the restaurant. Its warmth seemed to reach every corner and made the whole place feel welcoming. Looking at the fire inside, I understood that it does more than just cook. The flame is an ingredient. It is what gives the pizza its smoky flavor and its unique, leopard-spotted char. No other way of cooking can do what fire does. It is honest and it is powerful.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For me, this pizzeria was more than just a place to eat. It was a connection to the real, everyday life of the city, away from the famous sights. It proved that a simple meal, made with care and with fire, can be the most memorable part of any journey. That is a joy worth looking for, especially in a city as big as New York.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-08 10:12:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-08 10:12:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[rediscovering-the-simple-joy-of-pizza-made-with-a-wood-fire]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[31]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[pizza]]></title>
+		<link>https://demo.twentig.com/blog-starter/rediscovering-the-simple-joy-of-pizza-made-with-a-wood-fire/pizza/</link>
+		<pubDate>Fri, 09 Jan 2026 19:13:24 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/pizza.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:13:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:13:24]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pizza]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>30</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/pizza.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/pizza.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:18:"2026/01/pizza.webp";s:8:"filesize";i:123448;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:18:"pizza-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:15760;}s:5:"large";a:5:{s:4:"file";s:19:"pizza-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:86330;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"pizza-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6740;}s:12:"medium_large";a:5:{s:4:"file";s:18:"pizza-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:58094;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"pizza-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:147656;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Getting lost in the back alleys was how I truly found Japan]]></title>
+		<link>https://demo.twentig.com/blog-starter/getting-lost-in-the-back-alleys-was-how-i-truly-found-japan/</link>
+		<pubDate>Fri, 09 Jan 2026 19:14:37 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/?p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Every trip starts with a list of places to see. My list for Japan was full of famous temples and busy intersections. I saw those places, and they were impressive. But the real trip began when I put the map away. The moments that stayed with me happened in the small, quiet streets that connect the major roads. It was in those alleys, away from the crowds, that I started to get a real sense of the country.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These narrow streets have a life of their own. You can hear the city, but it sounds different, more distant. The constant roar of traffic softens to a low hum, replaced by smaller, closer sounds. A bicycle bell rings gently, and you can hear the sizzle of food from a tiny restaurant with only a few seats. Wires hang in complex webs above your head, tracing paths from one building to the next. Residents place potted plants outside their doors, adding touches of green to the concrete. It felt like I had stepped behind a curtain, into the real, everyday rhythm of the city.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In these spaces, I found my waypoints. A small shop selling grilled squid. An old vending machine humming in the afternoon sun. A cat sleeping on a warm wall. These were not destinations on a map. They were small moments of discovery that made the whole experience feel personal. This is where people live their lives, and I was grateful to walk through it, even for just a moment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1742317402163-e4309d0aa9cd?q=80&amp;w=1800&amp;h=1350&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742268351443-e6c2c475e1f1?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742317402143-449e8b4cbf91?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1742268350537-c5b0fb98f8c3?q=80&amp;w=1800&amp;h=1350&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742268582642-c28247e00a1d?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742268351241-b1b2ccae70c5?q=80&amp;w=1200&amp;h=1600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The feeling was different in each city. In Tokyo, the alleys felt like secret passages in a giant, modern machine. You could turn a corner from a street with towering glass buildings and find yourself in a place that felt a generation older. In Kyoto, the alleys were quieter and seemed to hold on to history. They led to peaceful gardens or homes with traditional wooden walls, making the city’s past feel very present.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is what I will remember most about my time in Japan. Not the famous landmarks, but the feeling of being on foot with no destination. It taught me that sometimes the best way to see a place is to get a little lost in it. You find things a guidebook can never show you. You find the simple, human details that make a place feel alive.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:14:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:14:37]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[getting-lost-in-the-back-alleys-was-how-i-truly-found-japan]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_format" nicename="post-format-gallery"><![CDATA[Gallery]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[34]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[John Wapuu]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[contact@example.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[90.79.21.148]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2026-01-09 19:16:30]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2026-01-09 19:16:30]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[japan]]></title>
+		<link>https://demo.twentig.com/blog-starter/getting-lost-in-the-back-alleys-was-how-i-truly-found-japan/japan/</link>
+		<pubDate>Fri, 09 Jan 2026 19:14:22 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/japan.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:14:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:14:22]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[japan]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>33</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/blog-starter/wp-content/uploads/sites/29/2026/01/japan.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/japan.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:18:"2026/01/japan.webp";s:8:"filesize";i:134490;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:18:"japan-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:16538;}s:5:"large";a:5:{s:4:"file";s:19:"japan-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:97504;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"japan-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7724;}s:12:"medium_large";a:5:{s:4:"file";s:18:"japan-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:67110;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"japan-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:169942;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>https://demo.twentig.com/blog-starter/footer/</link>
+		<pubDate>Fri, 09 Jan 2026 19:04:32 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/blog-starter/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.4"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="line-height:1.4">
+		© 2026 Waypoint. Made with <a href="https://twentig.com">Twentig</a>.		</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"className":"is-style-logos-only footer-social"} -->
+<ul class="wp-block-social-links is-style-logos-only footer-social"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 19:04:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 19:04:32]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+				</channel>
+</rss>
+	

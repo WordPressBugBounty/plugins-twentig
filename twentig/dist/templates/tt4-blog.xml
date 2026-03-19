@@ -234,8 +234,8 @@
 
 <!-- wp:navigation-link {"label":"About","type":"page","id":2,"url":"https://demo.twentig.com/tt4-blog/about/","kind":"post-type"} /-->
 
-<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"16px"}}},"className":"is-style-logos-only","twHover":"opacity-down"} -->
-<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only tw-hover-opacity-down"><!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
+<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","style":{"spacing":{"blockGap":{"left":"16px"}}},"className":"is-style-logos-only","twHover":"opacity-down"} -->
+<ul class="wp-block-social-links has-icon-color is-style-logos-only tw-hover-opacity-down"><!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
 
 <!-- wp:social-link {"url":"mailto:email@example.com","service":"mail"} /--></ul>
 <!-- /wp:social-links -->]]></content:encoded>

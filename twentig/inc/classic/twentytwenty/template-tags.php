@@ -25,7 +25,7 @@ add_filter( 'excerpt_more', 'twentig_excerpt_more' );
  */
 function twentig_add_more_to_excerpt( $post_excerpt, $post ) {
 	if ( 'summary' === get_theme_mod( 'blog_content', 'full' ) && get_theme_mod( 'twentig_blog_excerpt_more', false ) && 'post' === $post->post_type && ! is_singular() && ! is_search() ) {
-		return $post_excerpt . '<a href="' . get_permalink( $post->ID ) . '" class="more-link"><span>' . esc_html__( 'Continue reading', 'twentytwenty' ) . '</span><span class="screen-reader-text">' . $post->post_title . '</span></a>'; // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
+		return $post_excerpt . '<a href="' . esc_url( get_permalink( $post->ID ) ) . '" class="more-link"><span>' . esc_html__( 'Continue reading', 'twentytwenty' ) . '</span><span class="screen-reader-text">' . $post->post_title . '</span></a>'; // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
 	}
 	return $post_excerpt;
 }
@@ -381,94 +381,6 @@ function twentig_twentytwenty_post_nav_background() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'twentig_twentytwenty_post_nav_background', 13 );
-
-/**
- * Filters the content of the latest posts block to change the image sizes attribute.
- *
- * @param string $block_content The block content about to be appended.
- * @param array  $block         The full block, including name and attribute.
- */
-function twentig_twentytwenty_change_latest_posts_image_sizes( $block_content, $block ) {
-	if ( 'core/latest-posts' === $block['blockName'] ) {
-		$image = $block['attrs'] && isset( $block['attrs']['displayFeaturedImage'] ) ? $block['attrs']['displayFeaturedImage'] : 0;
-
-		if ( $image ) {
-			$image_width = $block['attrs'] && isset( $block['attrs']['featuredImageSizeWidth'] ) ? $block['attrs']['featuredImageSizeWidth'] : '';
-			$sizes       = '';
-
-			if ( '' === $image_width ) {
-				$layout        = $block['attrs'] && isset( $block['attrs']['postLayout'] ) ? $block['attrs']['postLayout'] : '';
-				$block_align   = $block['attrs'] && isset( $block['attrs']['align'] ) ? $block['attrs']['align'] : '';
-				$image_align   = $block['attrs'] && isset( $block['attrs']['featuredImageAlign'] ) ? $block['attrs']['featuredImageAlign'] : '';
-				$content_width = get_theme_mod( 'twentig_text_width' );
-
-				if ( 'grid' === $layout ) {
-					$columns      = $block['attrs'] && isset( $block['attrs']['columns'] ) ? $block['attrs']['columns'] : 3;
-					$medium_sizes = '(min-width: 700px) calc(50vw - 56px), calc(100vw - 40px)';
-
-					if ( 'left' === $image_align || 'right' === $image_align ) {
-						if ( '' === $block_align ) {
-							$sizes = '(min-width: 700px) 96px, calc(25vw - 10px)';
-						} elseif ( 'wide' === $block_align ) {
-							$sizes = '(min-width: 1280px) 146px, (min-width: 700px) calc(12.5vw - 14px), calc(25vw - 10px)';
-						}
-					} else {
-						if ( 'wide' === $block_align ) {
-							$sizes = '(min-width: 1280px) 276px, (min-width: 1024px) calc(25vw - 44px),' . $medium_sizes;
-							if ( 2 === $columns ) {
-								$sizes = '(min-width: 1280px) 584px,' . $medium_sizes;
-							} elseif ( 3 === $columns ) {
-								$sizes = '(min-width: 1280px) 378px, (min-width: 1024px) calc(33.33vw - 48px), ' . $medium_sizes;
-							}
-						} elseif ( 'full' === $block_align ) {
-							$sizes = '(min-width: 1024px) calc(25vw - 44px),' . $medium_sizes;
-							if ( 2 === $columns ) {
-								$sizes = $medium_sizes;
-							} elseif ( 3 === $columns ) {
-								$sizes = '(min-width: 1024px) calc(33.33vw - 48px),' . $medium_sizes;
-							}
-						} else {
-							if ( 'wide' === $content_width ) {
-								$sizes = '(min-width: 1024px) 245px, (min-width: 880px) 384px, ' . $medium_sizes;
-								if ( 2 === $columns ) {
-									$sizes = '(min-width: 880px) 384px,' . $medium_sizes;
-								}
-							} elseif ( 'medium' === $content_width ) {
-								$sizes = '(min-width: 1024px) 212px, (min-width: 780px) 334px, ' . $medium_sizes;
-								if ( 2 === $columns ) {
-									$sizes = '(min-width: 780px) 334px, ' . $medium_sizes;
-								}
-							} else {
-								$sizes = '(min-width: 700px) 274px, (min-width: 620px) 580px, calc(100vw - 40px)';
-							}
-						}
-					}
-				} else {
-					if ( 'left' === $image_align || 'right' === $image_align ) {
-						if ( '' === $block_align ) {
-							$sizes = '(min-width: 620px) 145px, calc(25vw - 10px)';
-							if ( 'wide' === $content_width ) {
-								$sizes = '(min-width: 880px) 200px, (min-width: 700px) calc(25vw - 20px), calc(25vw - 10px)';
-							} elseif ( 'medium' === $content_width ) {
-								$sizes = '(min-width: 780px) 175px, (min-width: 700px) calc(25vw - 20px), calc(25vw - 10px)';
-							}
-						} else {
-							$sizes = '(min-width: 1280px) 300px, (min-width: 700px) calc(25vw - 20px), calc(25vw - 10px)';
-						}
-					}
-				}
-			} else {
-				$sizes = $image_width . 'px';
-			}
-			if ( $sizes ) {
-				return preg_replace( '/sizes="([^>]+?)"/', 'sizes="' . $sizes . '"', $block_content );
-			}
-		}
-	}
-	return $block_content;
-}
-add_filter( 'render_block', 'twentig_twentytwenty_change_latest_posts_image_sizes', 10, 2 );
-
 
 /**
  * Displays transparent logo on Cover & Transparent Header templates.

@@ -24,26 +24,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 		public function render_content() {
 			$starters = twentig_get_starter_library();
 			?>
-			<p class="twentig-customizer-starter-description">
-			<?php
-				printf(
-					wp_kses(
-						/* translators: link to external demos site */
-						__( 'Choose a starting point to set up your site. <br><a href="%s" class="external-link" target="_blank" rel="noopener noreferrer">Preview demos</a>', 'twentig' ),
-						array(
-							'br' => array(),
-							'a'  => array(
-								'href'   => array(),
-								'class'  => array(),
-								'target' => array(),
-								'rel'    => array(),
-							),
-						)
-					),
-					esc_url( 'https://twentig.com/starter-sites/#previous-themes' )
-				);
-			?>
-			</p>
+			<p class="twentig-customizer-starter-description"><?php esc_html_e( 'Choose a starting point to set up your site.', 'twentig' ); ?></p>
 
 			<label for="twentig-customize-starter-content"><?php esc_html_e( 'Starter Website', 'twentig' ); ?></label>
 			<select id="twentig-customize-starter-content">

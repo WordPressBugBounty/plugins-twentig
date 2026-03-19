@@ -1372,8 +1372,8 @@
 <p class="has-small-font-size">© 2026. Made with Twentig.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"20px"}}},"className":"is-style-logos-only","twHover":"opacity-down"} -->
-<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only tw-hover-opacity-down"><!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
+<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","style":{"spacing":{"blockGap":{"left":"20px"}}},"className":"is-style-logos-only","twHover":"opacity-down"} -->
+<ul class="wp-block-social-links has-icon-color is-style-logos-only tw-hover-opacity-down"><!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
 
 <!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /--></ul>
 <!-- /wp:social-links --></div>

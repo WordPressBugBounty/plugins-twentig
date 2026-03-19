@@ -17,7 +17,13 @@ defined( 'ABSPATH' ) || exit;
 function twentig_render_shape_support( $block_content, $block ) {
 
 	if ( ! empty( $block['attrs']['twShape'] ) ) {
-		$shape            = $block['attrs']['twShape'];
+		$shape  = $block['attrs']['twShape'];
+		$shapes = twentig_get_shapes();
+
+		if ( ! isset( $shapes[ $shape ] ) ) {
+			return $block_content;
+		}
+
 		$action_hook_name = wp_is_block_theme() ? 'wp_body_open' : 'wp_footer';
 
 		add_action(
@@ -35,7 +41,7 @@ function twentig_render_shape_support( $block_content, $block ) {
 		$style      = "--shape: url(#tw-shape-$shape);";
 		$style     .= $style_attr;
 
-		$tag_processor->set_attribute( 'style', esc_attr( $style ) );
+		$tag_processor->set_attribute( 'style', $style );
 
 		$block_content = $tag_processor->get_updated_html();
 	}

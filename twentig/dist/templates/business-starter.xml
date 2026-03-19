@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Vendome</title>
+	<link>https:</link>
+	<description></description>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://demo.twentig.com/business-starter</wp:base_site_url>
+	<wp:base_blog_url>https://demo.twentig.com/business-starter</wp:base_blog_url>
+	<wp:min_wordpress_version>6.9</wp:min_wordpress_version>
+	<wp:min_twentig_version>2.0</wp:min_twentig_version>	
+	<wp:theme>twentig-one</wp:theme>
+
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[Admin]]></wp:author_login><wp:author_email><![CDATA[contact@example.com]]></wp:author_email><wp:author_display_name><![CDATA[Admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+
+		<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://demo.twentig.com/business-starter/</link>
+		<pubDate>Thu, 01 Jan 2026 11:46:01 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80\u0026amp;w=2400\u0026amp;h=1000\u0026amp;auto=format\u0026amp;fit=crop\u0026amp;ixlib=rb-4.1.0\u0026amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\u0026amp;fp-y=.67\u0026blend= 33000000\u0026blend-mode=normal","dimRatio":50,"isUserOverlayColor":true,"minHeight":75,"minHeightUnit":"vh","sizeSlug":"large","align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="padding-bottom:var(--wp--preset--spacing--70);min-height:75vh"><img class="wp-block-cover__image-background size-large" alt="" src="https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80&amp;w=2400&amp;h=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.67&amp;blend= 33000000&amp;blend-mode=normal" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">We elevate your business to the next level</h1>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">Expert guidance for lasting success</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We understand the journey of a small business. At Vendome, we bring our deep experience in strategy, marketing, project management, and sales to help you navigate challenges and seize valuable opportunities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/services/">See our offerings</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739989934321-fadbccc56265?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.8" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1621570168205-c93ccd501004?q=80&amp;w=1800&amp;h=1440&amp;fp-x=0&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">A team dedicated to achieving your vision</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We’re a small team with broad expertise. Each of us focuses on what we do best, and together we bring diverse skills, shared values, and a unified vision that truly shapes the way we work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/about/">Learn more about us</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">Our impact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twStack":"md-2"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md-2"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">75</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Clients</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">500+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Goals achieved</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">10k+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Hours of consulting</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">98%</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Client satisfaction rate</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1731341711971-dc38777a69e0?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.2" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:quote {"className":"is-style-plain"} -->
+<blockquote class="wp-block-quote is-style-plain"><!-- wp:paragraph {"className":"tw-text-pretty","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"x-large"} -->
+<p class="tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">"Working with Vendome was a turning point for my company. Their insights were invaluable. Our growth since then has been amazing."</p>
+<!-- /wp:paragraph --><cite>David Wilmotte, Founder of Nordlys</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|65"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","left":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--50);margin-left:var(--wp--preset--spacing--60)">Latest articles</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--20)"><!-- wp:post-featured-image {"aspectRatio":"3/2","sizeSlug":"large"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:cover {"url":"https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80\u0026w=1800\u0026h=800\u0026fp-y=.9\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","dimRatio":50,"isUserOverlayColor":true,"minHeight":520,"sizeSlug":"full","align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignwide" style="min-height:520px"><img class="wp-block-cover__image-background size-full" alt="" src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80&amp;w=1800&amp;h=800&amp;fp-y=.9&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","className":"tw-text-balance"} -->
+<h2 class="wp-block-heading has-text-align-center tw-text-balance">Let's build a stronger future for your business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"fontSize":"small","twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-small-font-size has-custom-font-size wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-01 11:46:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-01 11:46:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+				</item>
+					<item>
+		<title><![CDATA[Services]]></title>
+		<link>https://demo.twentig.com/business-starter/services/</link>
+		<pubDate>Fri, 02 Jan 2026 14:20:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Services that drive results</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} -->
+<p class="has-text-align-center tw-text-balance has-large-font-size" style="line-height:1.35">We offer specialized consulting designed to unlock your business's full potential.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading -->
+<h2 class="wp-block-heading">New perspectives for your business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Every small business faces unique challenges. Our services bring fresh perspectives, providing the clarity and direction you need to not only address obstacles but to turn them into stepping stones for growth.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%","className":"tw-md-order-first"} -->
+<div class="wp-block-column tw-md-order-first" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1648737966282-b193f74a1503?q=80&amp;w=1800&amp;h=1440&amp;fp-y=.49&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1671726203388-1ea3259b8ec4?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.21&amp;fp-x=0&amp;fp-y=0.6" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading -->
+<h2 class="wp-block-heading">A partnership built on expertise and results</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our commitment is to deliver practical, effective advice that you can implement. We don't believe in one-size-fits-all solutions. Instead, we leverage our specialized knowledge to craft strategies and processes that are aligned with your goals.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide"} -->
+<h2 class="wp-block-heading alignwide">Our core consulting services</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1585399058947-f68f9db58e5f?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Strategy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We help you develop business strategies that define your vision and outline the critical steps to achieve it. From market analysis to forecasting, we provide the framework for sustainable growth and decision-making.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1621184078903-6bfe9482d935?q=80&amp;w=1800&amp;fp-y=0.36&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Marketing</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our marketing consultants guide you in creating impactful campaigns that resonate with your target audience. Whether it's digital marketing, content creation, or social media strategy, we help you build brand awareness.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1640622307877-1e40352b9a48?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Project management</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We offer expertise to manage your critical projects from initiation to completion. This includes planning, scheduling, resource allocation, risk management, and ensuring deliverables meet your objectives, on time and within budget.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739989934305-f91a77aae334?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Sales</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our consulting focuses on optimizing your sales processes and empowering your team. We assist with developing effective sales strategies, establishing pricing models, and identifying new avenues for revenue generation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide"} -->
+<h2 class="wp-block-heading alignwide">How we deliver value</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1621570274959-83e254246c07?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Deep-dive discovery</h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
+<p>We start by listening. Our initial consultations and assessments are designed to thoroughly understand your business, your goals, your current operations, and the specific challenges you face.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-separator alignwide has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Custom solution design</h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
+<p>Based on our findings, we develop customized recommendations and actionable plans. These aren't generic templates but solutions specifically crafted to fit your business needs and resources.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-separator alignwide has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|55"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-x-large-font-size">Implementation</h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
+<p>We don't just hand over a report. We can work with you to implement the recommended changes, monitor progress, and make adjustments as needed, ensuring strategies translate into real-world success.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739133783212-e1c93795d9c7?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:quote {"className":"is-style-plain"} -->
+<blockquote class="wp-block-quote is-style-plain"><!-- wp:paragraph {"className":"tw-text-pretty","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"x-large"} -->
+<p class="tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">"The team helped us streamline our entire project management process. What used to be chaotic and stressful is now organized and efficient."</p>
+<!-- /wp:paragraph --><cite>Julia Kenin, Founder of Echelon</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:20:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:20:00]]></wp:post_date_gmt>		
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[About]]></title>
+		<link>https://demo.twentig.com/business-starter/about/</link>
+		<pubDate>Fri, 02 Jan 2026 14:21:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=11</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?q=80\u0026w=2400\u0026h=1000\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","dimRatio":50,"isUserOverlayColor":true,"minHeight":75,"minHeightUnit":"vh","align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="padding-bottom:var(--wp--preset--spacing--70);min-height:75vh"><img class="wp-block-cover__image-background" alt="" src="https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?q=80&amp;w=2400&amp;h=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Who we are</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} -->
+<p class="has-text-align-center tw-text-balance has-large-font-size" style="line-height:1.35">Vendome is a collective of experienced consultants passionate about empowering small businesses.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading -->
+<h2 class="wp-block-heading">Our story</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Vendome was born from a desire to make high-level business consulting accessible and effective for small enterprises. With decades of collective experience across diverse industries, our founders saw an opportunity to provide practical, results-driven advice that truly makes a difference.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%","className":"tw-md-order-first"} -->
+<div class="wp-block-column tw-md-order-first" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&amp;w=1800&amp;h=1440&amp;fp-x=1&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading -->
+<h2 class="wp-block-heading">Our philosophy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We believe that the heart of successful consulting lies in genuine partnership. Our philosophy is built on understanding your unique business, providing clear and actionable strategies, and working collaboratively to achieve your goals.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|65"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">Meet the team</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|15"}},"layout":{"type":"grid","minimumColumnWidth":"340px"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--30)"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1690671514802-266fa79d2151?q=80&amp;w=908&amp;h=908&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.79&amp;fp-y=.546&amp;fp-x=0.49" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">George Walton</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|5"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--5)">Lead Strategist &amp; Founder</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|15"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--15)"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1648484622077-0ccc70a62640?q=80&amp;w=908&amp;h=908&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=2.07&amp;fp-y=.518&amp;fp-x=.525" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Anna Goffin</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|5"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--5)">Marketing Consultant</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|15"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--15)"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?q=80&amp;w=908&amp;h=908&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.14&amp;fp-y=0.57&amp;fp-x=.562" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Stan Watanuki</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|5"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--5)">Project Management Specialist</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|15"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--15)"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?q=80&amp;w=908&amp;h=908&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.388&amp;fp-y=.484&amp;fp-x=.424" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Marie Grenier</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|5"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--5)">Head of Sales Development</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|15"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--15)"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1548213238-0da7521bd6e0?q=80&amp;w=908&amp;h=908&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=1" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Mark Clark</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|5"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--5)">Business Analyst</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|15"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--15)"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1549925399-f86a57857352?q=80&amp;w=908&amp;h=908&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;crop=focalpoint&amp;fp-z=1.39&amp;fp-y=.558&amp;fp-x=.47" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Sofia Holmgren</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|5"}}},"textColor":"secondary","fontSize":"small"} -->
+<p class="has-secondary-color has-text-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--5)">Client Relations Manager</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">Key figures</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twStack":"md-2"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md-2"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">6</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Expert consultants</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">2018</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Year founded</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">20+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Coffees daily</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">126</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Books on our shelves</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
+<h2 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--50)">Our values are in everything we do</h2>
+<!-- /wp:heading -->
+
+<!-- wp:accordion {"autoclose":true,"style":{"border":{"top":{"color":"var:preset|color|tertiary","width":"1px"},"right":[],"bottom":[],"left":[]}},"twIcon":"arrow"} -->
+<div role="group" class="wp-block-accordion" style="border-top-color:var(--wp--preset--color--tertiary);border-top-width:1px"><!-- wp:accordion-item {"style":{"border":{"bottom":{"color":"var:preset|color|tertiary","width":"1px"},"top":[],"right":[],"left":[]}}} -->
+<div class="wp-block-accordion-item" style="border-bottom-color:var(--wp--preset--color--tertiary);border-bottom-width:1px"><!-- wp:accordion-heading {"className":"tw-no-underline","fontSize":"normal"} -->
+<h3 class="wp-block-accordion-heading tw-no-underline has-normal-font-size"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">Collaboration is key</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- /wp:accordion-heading -->
+
+<!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20"}}}} -->
+<div role="region" class="wp-block-accordion-panel" style="padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph -->
+<p>We believe great minds don't just think alike they think closely together. Our culture fosters open collaboration, both within our diverse team and with you, ensuring we co-create the most effective solutions.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:accordion-panel --></div>
+<!-- /wp:accordion-item -->
+
+<!-- wp:accordion-item {"style":{"border":{"bottom":{"color":"var:preset|color|tertiary","width":"1px"},"top":[],"right":[],"left":[]}}} -->
+<div class="wp-block-accordion-item" style="border-bottom-color:var(--wp--preset--color--tertiary);border-bottom-width:1px"><!-- wp:accordion-heading {"className":"tw-no-underline","fontSize":"normal"} -->
+<h3 class="wp-block-accordion-heading tw-no-underline has-normal-font-size"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">Always learning, always growing</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- /wp:accordion-heading -->
+
+<!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20"}}}} -->
+<div role="region" class="wp-block-accordion-panel" style="padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph -->
+<p>Curiosity drives us. We cultivate a vibrant learning environment where staying ahead of industry trends and continuously honing our skills is part of our DNA. This means we bring you the freshest insights and strategies.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:accordion-panel --></div>
+<!-- /wp:accordion-item -->
+
+<!-- wp:accordion-item {"style":{"border":{"bottom":{"color":"var:preset|color|tertiary","width":"1px"},"top":[],"right":[],"left":[]}}} -->
+<div class="wp-block-accordion-item" style="border-bottom-color:var(--wp--preset--color--tertiary);border-bottom-width:1px"><!-- wp:accordion-heading {"className":"tw-no-underline","fontSize":"normal"} -->
+<h3 class="wp-block-accordion-heading tw-no-underline has-normal-font-size"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">Empowered to make an impact</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- /wp:accordion-heading -->
+
+<!-- wp:accordion-panel {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20"}}}} -->
+<div role="region" class="wp-block-accordion-panel" style="padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph -->
+<p>Every member of our team is encouraged to take initiative and real ownership. We're deeply passionate about making a tangible, positive impact, and we celebrate every success we help your business achieve.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:accordion-panel --></div>
+<!-- /wp:accordion-item -->
+
+<!-- wp:accordion-item -->
+<div class="wp-block-accordion-item"><!-- wp:accordion-heading {"className":"tw-no-underline","fontSize":"normal"} -->
+<h3 class="wp-block-accordion-heading tw-no-underline has-normal-font-size"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">People first, always</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+<!-- /wp:accordion-heading -->
+
+<!-- wp:accordion-panel {"isSelected":true,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20"}}}} -->
+<div role="region" class="wp-block-accordion-panel" style="padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph -->
+<p>At Vendome, we're building more than just a business; we're fostering a true community. Respect, empathy, and genuine partnership clearly define our approach, placing our team and our clients at the heart of everything we do.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:accordion-panel --></div>
+<!-- /wp:accordion-item --></div>
+<!-- /wp:accordion --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"tw-md-order-first"} -->
+<div class="wp-block-column tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1737067304108-472b135f00e6?q=80&amp;w=1600&amp;h=1600&amp;fp-y=.55&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:21:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:21:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Blog]]></title>
+		<link>https://demo.twentig.com/business-starter/blog/</link>
+		<pubDate>Fri, 02 Jan 2026 14:31:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=15</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:31:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:31:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Contact]]></title>
+		<link>https://demo.twentig.com/business-starter/contact/</link>
+		<pubDate>Fri, 02 Jan 2026 14:31:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=17</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Get in touch</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.35"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"large"} -->
+<p class="has-text-align-center tw-text-balance has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--40);line-height:1.35">Have a question or a project in mind? Reach out, and let's explore how we can work together to grow your business.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">123 Main Street<br>New York, NY 10001</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">(212) 555-0150<br><a href="mailto:contact@example.com">contact@example.com</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1755389521304-51d55cec52d6?q=80&amp;w=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:31:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:31:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 2]]></title>
+		<link>https://demo.twentig.com/business-starter/home-2/</link>
+		<pubDate>Fri, 02 Jan 2026 14:38:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=26</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70","top":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">We elevate your business to the next level</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"tw-text-balance","style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} -->
+<p class="has-text-align-center tw-text-balance has-large-font-size" style="line-height:1.35">Unlock your business potential through expert consulting in strategy, marketing, sales, and project management.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+<figure class="wp-block-image alignwide size-large" style="margin-top:var(--wp--preset--spacing--60)"><img src="https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">Expert guidance for lasting success</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We understand the journey of a small business. At Vendome, we bring our deep experience in strategy, marketing, project management, and sales to help you navigate challenges and seize valuable opportunities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/services/">See our offerings</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739989934321-fadbccc56265?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.8" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1621570168205-c93ccd501004?q=80&amp;w=1800&amp;h=1440&amp;fp-x=0&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">A team dedicated to achieving your vision</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We’re a small team with broad expertise. Each of us focuses on what we do best, and together we bring diverse skills, shared values, and a unified vision that truly shapes the way we work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/about/">Learn more about us</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">Our impact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twStack":"md-2"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md-2"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">75</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Clients</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">500+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Goals achieved</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">10k+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Hours of consulting</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">98%</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Client satisfaction rate</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1731341711971-dc38777a69e0?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.2" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:quote {"className":"is-style-plain"} -->
+<blockquote class="wp-block-quote is-style-plain"><!-- wp:paragraph {"className":"tw-text-pretty","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"x-large"} -->
+<p class="tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">"Working with Vendome was a turning point for my company. Their insights were invaluable. Our growth since then has been amazing."</p>
+<!-- /wp:paragraph --><cite>David Wilmotte, Founder of Nordlys</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|65"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","left":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--50);margin-left:var(--wp--preset--spacing--60)">Latest articles</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--20)"><!-- wp:post-featured-image {"aspectRatio":"3/2","sizeSlug":"large"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:cover {"url":"https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80\u0026w=1800\u0026h=800\u0026fp-y=.9\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","dimRatio":50,"isUserOverlayColor":true,"minHeight":520,"sizeSlug":"full","align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignwide" style="min-height:520px"><img class="wp-block-cover__image-background size-full" alt="" src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80&amp;w=1800&amp;h=800&amp;fp-y=.9&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","className":"tw-text-balance"} -->
+<h2 class="wp-block-heading has-text-align-center tw-text-balance">Let's build a stronger future for your business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"fontSize":"small","twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-small-font-size has-custom-font-size wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>26</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:38:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:38:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 3]]></title>
+		<link>https://demo.twentig.com/business-starter/home-3/</link>
+		<pubDate>Fri, 02 Jan 2026 14:40:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=28</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70","top":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1,"className":"tw-md-text-center"} -->
+<h1 class="wp-block-heading tw-md-text-center">We elevate your business to the next level</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tw-md-text-center tw-text-balance","style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} -->
+<p class="tw-md-text-center tw-text-balance has-large-font-size" style="line-height:1.35">Unlock your business potential through expert consulting in strategy, marketing, sales, and project management.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"className":"tw-md-justify-center","style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons tw-md-justify-center" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide"} -->
+<figure class="wp-block-image alignwide size-large"><img src="https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80&amp;w=1800&amp;h=1800&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-x=.04" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739989934321-fadbccc56265?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.8" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">Expert guidance for lasting success</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We understand the journey of a small business. At Vendome, we bring our deep experience in strategy, marketing, project management, and sales to help you navigate challenges and seize valuable opportunities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/services/">See our offerings</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">A team dedicated to achieving your vision</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We’re a small team with broad expertise. Each of us focuses on what we do best, and together we bring diverse skills, shared values, and a unified vision that truly shapes the way we work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/about/">Learn more about us</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1621570168205-c93ccd501004?q=80&amp;w=1800&amp;h=1440&amp;fp-x=0&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">Our impact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twStack":"md-2"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md-2"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">75</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Clients</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">500+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Goals achieved</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">10k+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Hours of consulting</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base-2"} -->
+<div class="wp-block-column has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">98%</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Client satisfaction rate</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1731341711971-dc38777a69e0?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.2" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:quote {"className":"is-style-plain"} -->
+<blockquote class="wp-block-quote is-style-plain"><!-- wp:paragraph {"className":"tw-text-pretty","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"x-large"} -->
+<p class="tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">"Working with Vendome was a turning point for my company. Their insights were invaluable. Our growth since then has been amazing."</p>
+<!-- /wp:paragraph --><cite>David Wilmotte, Founder of Nordlys</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","left":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--50);margin-left:var(--wp--preset--spacing--60)">Latest articles</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--20)"><!-- wp:post-featured-image {"aspectRatio":"3/2","sizeSlug":"large"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:cover {"url":"https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80\u0026w=1800\u0026h=800\u0026fp-y=.9\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","dimRatio":50,"isUserOverlayColor":true,"minHeight":520,"sizeSlug":"full","align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignwide" style="min-height:520px"><img class="wp-block-cover__image-background size-full" alt="" src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80&amp;w=1800&amp;h=800&amp;fp-y=.9&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","className":"tw-text-balance"} -->
+<h2 class="wp-block-heading has-text-align-center tw-text-balance">Let's build a stronger future for your business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"fontSize":"small","twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-small-font-size has-custom-font-size wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:40:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:40:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 4]]></title>
+		<link>https://demo.twentig.com/business-starter/home-4/</link>
+		<pubDate>Fri, 02 Jan 2026 14:41:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?page_id=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80\u0026amp;w=2400\u0026amp;h=1300\u0026amp;auto=format\u0026amp;fit=crop\u0026amp;ixlib=rb-4.1.0\u0026amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\u0026amp;fp-y=.995\u0026amp;blend=33000000\u0026amp;blend-mode=normal","dimRatio":50,"isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","sizeSlug":"large","align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center" style="min-height:100vh"><img class="wp-block-cover__image-background size-large" alt="" src="https://images.unsplash.com/photo-1648747067101-55dfb609864b?q=80&amp;w=2400&amp;h=1300&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=.995&amp;blend=33000000&amp;blend-mode=normal" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">We elevate your business to the next level</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">Expert guidance for lasting success</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We understand the journey of a small business. At Vendome, we bring our deep experience in strategy, marketing, project management, and sales to help you navigate challenges and seize valuable opportunities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/services/">See our offerings</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739989934321-fadbccc56265?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.8" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1621570168205-c93ccd501004?q=80&amp;w=1800&amp;h=1440&amp;fp-x=0&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">A team dedicated to achieving your vision</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We’re a small team with broad expertise. Each of us focuses on what we do best, and together we bring diverse skills, shared values, and a unified vision that truly shapes the way we work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://demo.twentig.com/business-starter/about/">Learn more about us</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">Our impact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|15","left":"var:preset|spacing|15"}}},"twStack":"md-2"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md-2"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">75</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Clients</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">500+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Goals achieved</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">10k+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Hours of consulting</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|25","bottom":"var:preset|spacing|40","left":"var:preset|spacing|25"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--25);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--25)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1","fontStyle":"normal","fontWeight":"500"}},"fontSize":"3-x-large"} -->
+<p class="has-3-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.1">98%</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}},"typography":{"lineHeight":"1.4"}}} -->
+<p style="margin-top:var(--wp--preset--spacing--10);line-height:1.4">Client satisfaction rate</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|55"}}},"twStack":"md"} -->
+<div class="wp-block-columns alignwide tw-cols-stack-md"><!-- wp:column {"verticalAlignment":"top","className":"tw-md-order-first"} -->
+<div class="wp-block-column is-vertically-aligned-top tw-md-order-first"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1731341711971-dc38777a69e0?q=80&amp;w=1800&amp;h=1440&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fp-y=0.2" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:quote {"className":"is-style-plain"} -->
+<blockquote class="wp-block-quote is-style-plain"><!-- wp:paragraph {"className":"tw-text-pretty","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"fontSize":"x-large"} -->
+<p class="tw-text-pretty has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">"Working with Vendome was a turning point for my company. Their insights were invaluable. Our growth since then has been amazing."</p>
+<!-- /wp:paragraph --><cite>David Wilmotte, Founder of Nordlys</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|65"}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","left":"var:preset|spacing|60"}}}} -->
+<h2 class="wp-block-heading alignwide" style="margin-bottom:var(--wp--preset--spacing--50);margin-left:var(--wp--preset--spacing--60)">Latest articles</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|35"}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"twStretchedLink":true} -->
+<div class="wp-block-group tw-stretched-link" style="margin-bottom:var(--wp--preset--spacing--20)"><!-- wp:post-featured-image {"aspectRatio":"3/2","sizeSlug":"large"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:cover {"url":"https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80\u0026w=1800\u0026h=800\u0026fp-y=.9\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","dimRatio":50,"isUserOverlayColor":true,"minHeight":520,"sizeSlug":"full","align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignwide" style="min-height:520px"><img class="wp-block-cover__image-background size-full" alt="" src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80&amp;w=1800&amp;h=800&amp;fp-y=.9&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","className":"tw-text-balance"} -->
+<h2 class="wp-block-heading has-text-align-center tw-text-balance">Let's build a stronger future for your business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)"><!-- wp:button {"fontSize":"small","twIcon":"arrow-alt-right"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-small-font-size has-custom-font-size wp-element-button" href="https://demo.twentig.com/business-starter/contact/">Get in touch</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 14:41:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 14:41:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[What to expect from your first consultation]]></title>
+		<link>https://demo.twentig.com/business-starter/what-to-expect-from-your-first-consultation/</link>
+		<pubDate>Thu, 01 Jan 2026 09:44:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Deciding to seek outside help for your business is a significant step forward. Your first consultation is a crucial meeting, but it is natural to feel a bit uncertain about what the process involves. This meeting is not a sales pitch. It is a working session designed to lay the foundation for a successful partnership. The main goal is for us to understand your business on a deeper level and for you to see how we can help you move forward.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Think of this first conversation as the beginning of a collaboration. It is an opportunity for you to share your vision, your goals, and the specific challenges you are currently facing. We are there to listen and ask questions, not to offer instant solutions. A productive consultation is built on open and honest communication. It is a dedicated time to focus on your business and explore the potential for growth with an experienced guide.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">It all starts with your story</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The first consultation is centered around you and your business. You are the expert in your field, and our primary role is to listen and learn from your experience. We will invite you to share your story: how you started, where you are now, and where you want to go. This is your time to talk about your successes, your frustrations, and the opportunities you see ahead.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>There is no need to prepare a formal presentation. The conversation is most effective when it is open and honest. We want to understand your vision in your own words. The more we learn about your specific situation and your goals, the better we can assess how to help. This initial discussion is the foundation for any potential work we might do together in the future.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Our role is to listen and clarify</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>During this first meeting, our main job is to ask thoughtful questions. We are not there to judge your decisions or provide quick fixes. Instead, we aim to guide the conversation to uncover the root of your challenges and clarify your objectives. Our questions are designed to help you articulate your thoughts and to ensure we have a shared understanding of the situation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>By the end of the consultation, our goal is for you to feel heard and understood. You should leave the meeting with a clearer perspective on your own business and a sense of the potential path forward. This first step is all about establishing a connection and determining if we are the right fit to help you on your journey. It is a conversation, not a commitment.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-01 09:44:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-01 09:44:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[what-to-expect-from-your-first-consultation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[34]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[consultation]]></title>
+		<link>https://demo.twentig.com/business-starter/what-to-expect-from-your-first-consultation/consultation/</link>
+		<pubDate>Fri, 09 Jan 2026 14:45:26 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/consultation.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:45:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:45:26]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[consultation]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>33</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/consultation.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/consultation.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:25:"2026/01/consultation.webp";s:8:"filesize";i:35992;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:25:"consultation-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5832;}s:5:"large";a:5:{s:4:"file";s:26:"consultation-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:25164;}s:9:"thumbnail";a:5:{s:4:"file";s:25:"consultation-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3252;}s:12:"medium_large";a:5:{s:4:"file";s:25:"consultation-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:17798;}s:9:"1536x1536";a:5:{s:4:"file";s:27:"consultation-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:41056;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Why a motivated team is your greatest asset]]></title>
+		<link>https://demo.twentig.com/business-starter/why-a-motivated-team-is-your-greatest-asset/</link>
+		<pubDate>Fri, 02 Jan 2026 20:53:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?p=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>In any business, you can have a great product and a solid strategy, but your success ultimately depends on the people who execute the work. A motivated team is the engine that drives your company forward. They do more than just complete tasks. They innovate, solve problems, and care about the quality of their work. This level of engagement is what separates a good company from a great one.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>True motivation is not about offering temporary perks or bonuses. It comes from creating a work environment where people feel valued, respected, and connected to a larger purpose. When your team members understand how their contributions make a difference, they become invested in the company's success. This deep, internal drive leads to higher productivity, lower turnover, and a culture of excellence that benefits everyone.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Motivation fuels innovation and problem solving</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A motivated team is a creative team. When people are engaged and passionate about their work, they are more likely to think outside the box and suggest new ideas. They do not just wait for instructions, they actively look for opportunities to improve processes and find better ways to serve customers. This proactive mindset is a powerful source of innovation that can give your business a significant competitive edge.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This same energy helps your team face challenges with confidence. Business is full of unexpected obstacles, and a motivated team is far more resilient. Instead of getting discouraged by setbacks, they come together to find solutions. Their collective drive and positive attitude turn difficult situations into opportunities for growth. This ability to adapt and overcome is essential for long term stability and continued business success.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">How to build and sustain motivation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Building a motivated team starts with clear and consistent communication. It is vital that every team member understands the company's vision and the goals you are working towards. When people see the bigger picture and know how their specific role fits into it, their work feels more meaningful. This sense of purpose is a powerful and lasting motivator that inspires commitment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Trust is the foundation of a motivated team. Empower your employees by giving them the autonomy to manage their own work and make decisions. When you show that you trust their judgment, it builds their confidence and sense of ownership. Acknowledging their hard work and celebrating their achievements, both big and small, reinforces that their contributions are valued. This culture of recognition and respect is key to keeping your team engaged and performing at their best.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-02 20:53:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-02 20:53:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[why-a-motivated-team-is-your-greatest-asset]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[37]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[employee]]></title>
+		<link>https://demo.twentig.com/business-starter/why-a-motivated-team-is-your-greatest-asset/employee/</link>
+		<pubDate>Fri, 09 Jan 2026 14:47:28 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/employee.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:47:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:47:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[employee]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>36</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/employee.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/employee.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:21:"2026/01/employee.webp";s:8:"filesize";i:113236;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:21:"employee-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7512;}s:5:"large";a:5:{s:4:"file";s:22:"employee-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:52772;}s:9:"thumbnail";a:5:{s:4:"file";s:21:"employee-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4188;}s:12:"medium_large";a:5:{s:4:"file";s:21:"employee-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:30644;}s:9:"1536x1536";a:5:{s:4:"file";s:23:"employee-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:111346;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[How our reading culture drives results]]></title>
+		<link>https://demo.twentig.com/business-starter/how-our-reading-culture-drives-results/</link>
+		<pubDate>Sun, 04 Jan 2026 10:17:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?p=39</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>At Vendome, we see books as essential tools for our work. Our bookshelves are not just for decoration; they are an active part of our company's culture. We encourage everyone on our team to read regularly, from business strategy books to novels. This habit of reading helps us stay curious and sharp. It is a simple practice that brings powerful results, shaping how we think, collaborate, and solve problems for our clients every day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A commitment to learning is one of our core values, and our reading culture is how we bring that value to life. It is not about assigning books or tracking pages. Instead, we foster an environment where sharing ideas from what we read happens naturally. This continuous learning keeps our minds active and open to new possibilities. It ensures that the advice we give is not just based on our past experiences but also informed by the latest thinking and diverse perspectives from around the world.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">New ideas for better solutions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Reading widely gives our team a constant stream of fresh ideas. When we encounter a difficult challenge for a client, the solution is often inspired by a concept we discovered in a book. This could be a new marketing framework, a project management technique, or a different way to think about sales. Books allow us to learn from the successes and failures of others, which helps us provide more effective and innovative strategies for the businesses we support.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This culture of learning directly benefits our clients. Because we are always exploring new ideas, we do not rely on one size fits all answers. We bring a creative and flexible mindset to every project. Our ability to draw on a wide range of knowledge means we can develop custom solutions that truly fit a client's unique situation. This approach helps us deliver practical advice that leads to real, measurable growth and lasting success.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">A shared language for our team</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When we read and discuss books together, we build a shared understanding and a common language. This makes our internal collaboration much stronger and more efficient. A concept from a book can become a shorthand for a complex idea, allowing us to communicate more clearly and work together seamlessly. This shared knowledge base helps align our efforts and ensures that everyone on the team is working towards the same goals with a unified approach.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This collaborative spirit extends to our client relationships. When our team is aligned, we present a united and confident front. We can explain our strategies more clearly because we have a deep, shared foundation for our recommendations. This builds trust and shows our clients that we are not just a group of individuals, but a cohesive team dedicated to their success. Ultimately, our reading culture helps us build stronger partnerships and achieve better results together.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-04 10:17:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-04 10:17:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[how-our-reading-culture-drives-results]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky><wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[40]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[books]]></title>
+		<link>https://demo.twentig.com/business-starter/how-our-reading-culture-drives-results/books/</link>
+		<pubDate>Fri, 09 Jan 2026 14:48:46 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/books.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:48:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:48:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[books]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>39</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/books.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/books.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:18:"2026/01/books.webp";s:8:"filesize";i:49554;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:18:"books-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8204;}s:5:"large";a:5:{s:4:"file";s:19:"books-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:36558;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"books-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4014;}s:12:"medium_large";a:5:{s:4:"file";s:18:"books-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:25540;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"books-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:58216;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[The blueprint for artisan entrepreneurs]]></title>
+		<link>https://demo.twentig.com/business-starter/the-blueprint-for-artisan-entrepreneurs/</link>
+		<pubDate>Tue, 06 Jan 2026 15:50:27 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?p=42</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>As an artisan, you have a unique talent for creating beautiful, high quality products with your hands. Your passion and skill are poured into every item you make. But turning that craft into a successful business requires a different set of skills. The journey from maker to entrepreneur can feel like a big leap, as it involves moving from the workshop to the marketplace. It is about learning to think like a business owner without losing the creative spirit that makes your work special.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Building a business around your craft is entirely possible with the right plan. It does not mean you have to become a corporate expert overnight. Instead, it is about adding new tools to your skill set, from understanding your customers to pricing your work fairly. This blueprint is designed to help you navigate that transition smoothly. It provides a clear path to follow so you can grow your passion into a profitable and sustainable business.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Build your business foundation</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Every strong business starts with a solid foundation. For an artisan, this means defining your brand. Your brand is the story you tell about your work. It includes your unique style, the values you stand for, and what makes your products different from others. A clear brand identity helps customers connect with you and understand the value of what you create. It guides your decisions on everything from packaging to marketing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Next, you need to identify your ideal customer. Who are the people that will love and appreciate your work the most? Understanding your target audience helps you focus your efforts and resources effectively. Instead of trying to appeal to everyone, you can tailor your products and your message to a specific group. This focused approach makes it easier to build a loyal customer base that will support your business as it grows.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Price your work and reach customers</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Pricing your handmade products can be one of the biggest challenges. It is important to value your time, skill, and the cost of your materials. Many artisans underprice their work, but this can make it difficult to run a profitable business. A good pricing strategy ensures that you cover your costs and earn a fair wage for your expertise. It reflects the true value of your craft and allows you to invest back into your business.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once you have your pricing, you need to find the best way to sell your products. This could be through an online store, at local craft markets, or by partnering with retail shops. The right sales channels will connect you with your ideal customers. Building an online presence through social media can also be a powerful way to share your story and showcase your work. Consistent marketing helps you reach a wider audience and build a strong, recognizable brand over time.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-06 15:50:27]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-06 15:50:27]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-blueprint-for-artisan-entrepreneurs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky><wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[43]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[artisan]]></title>
+		<link>https://demo.twentig.com/business-starter/the-blueprint-for-artisan-entrepreneurs/artisan/</link>
+		<pubDate>Fri, 09 Jan 2026 14:49:51 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/artisan.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:49:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:49:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[artisan]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>42</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/artisan.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/artisan.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:20:"2026/01/artisan.webp";s:8:"filesize";i:110784;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:20:"artisan-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:12754;}s:5:"large";a:5:{s:4:"file";s:21:"artisan-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:70578;}s:9:"thumbnail";a:5:{s:4:"file";s:20:"artisan-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6172;}s:12:"medium_large";a:5:{s:4:"file";s:20:"artisan-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:48736;}s:9:"1536x1536";a:5:{s:4:"file";s:22:"artisan-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:122754;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Launching your successful business journey]]></title>
+		<link>https://demo.twentig.com/business-starter/launching-your-successful-business-journey/</link>
+		<pubDate>Thu, 08 Jan 2026 20:25:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?p=45</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Every successful business begins with a single idea. You might see a problem that needs a solution or a way to make something better. This initial spark is exciting, but turning it into a real business can feel overwhelming. Many people have great ideas but never act on them because the path forward seems unclear or too difficult. The journey from idea to launch is a process of taking small, manageable steps, not one giant leap.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The key is to start where you are and with what you have. You do not need a perfect plan or a large amount of money to begin. What you need is a clear vision and the willingness to take the first step. This journey is about learning and adapting as you go. It involves testing your assumptions, listening to feedback, and making adjustments along the way. Every step forward, no matter how small, builds momentum and brings you closer to your goal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Create a simple roadmap</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Before you start your journey, you need a map. A business plan is that map. It does not have to be a long or complicated document. A simple plan that outlines your goals, your target customers, and how your business will make money is enough to get started. This process forces you to think through the important details and identify potential challenges before they arise. It gives you a clear direction and helps you stay focused.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Understanding your customers is the most important part of your plan. Who are they, and what do they need? Answering this question will shape everything from your product design to your marketing message. Research your market to see what competitors are doing and find a unique space for your business. This knowledge helps you create something that people actually want to buy. A clear understanding of your customers and market turns your idea into a viable business concept.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Take the first small steps</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The best way to see if your idea works is to test it. You can start small without building a full product or opening a big store. Create a basic version of your product, often called a minimum viable product, or MVP. This allows you to get your idea into the hands of real customers quickly. Their feedback is incredibly valuable. It tells you what is working, what is not, and what you need to change.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Launching your business is not the end of the journey; it is the beginning. Use the feedback you receive to improve your product and your processes. This cycle of launching, learning, and improving is how you build a strong and resilient business. Do not be afraid to make mistakes, because they are often the best learning opportunities. Stay flexible and be ready to adapt as your business and the market evolve. This approach reduces risk and increases your chances of long term success and sustainable growth.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>45</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-08 20:25:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-08 20:25:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[launching-your-successful-business-journey]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[46]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[street]]></title>
+		<link>https://demo.twentig.com/business-starter/launching-your-successful-business-journey/street/</link>
+		<pubDate>Fri, 09 Jan 2026 14:51:05 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/street.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:51:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:51:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[street]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/street.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/street.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:19:"2026/01/street.webp";s:8:"filesize";i:106924;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:19:"street-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8112;}s:5:"large";a:5:{s:4:"file";s:20:"street-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:61494;}s:9:"thumbnail";a:5:{s:4:"file";s:19:"street-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3402;}s:12:"medium_large";a:5:{s:4:"file";s:19:"street-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:37384;}s:9:"1536x1536";a:5:{s:4:"file";s:21:"street-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:115724;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[How to start a food business with limited financial capital]]></title>
+		<link>https://demo.twentig.com/business-starter/how-to-start-a-food-business-with-limited-financial-capital/</link>
+		<pubDate>Fri, 09 Jan 2026 07:44:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/?p=48</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Starting a food business can feel like a huge challenge, especially when you do not have a lot of money. Many people dream of opening a restaurant or a small food stand but worry about the high costs. The good news is that you can begin with a small budget. Success depends on careful planning and smart decisions, not on having a large amount of cash from the start. It requires creativity and a solid understanding of what your customers want.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Your passion for food is the most important ingredient, but it needs a good plan to grow into a successful business. This means you have to be resourceful and focus your spending where it matters most. You can avoid many of the traditional startup costs by starting small, perhaps from your home kitchen or a local market. This approach lets you test your ideas and build a customer base without taking big financial risks. It is about making progress one step at a time.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Focus on your menu and costs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A simple menu is your best friend when you have limited funds. Instead of offering dozens of items, concentrate on a few dishes that you make exceptionally well. This focus helps you perfect your recipes and reduces waste. It also makes buying ingredients much easier and cheaper since you can buy in larger quantities from fewer suppliers. A smaller menu allows for faster service and ensures that every dish you serve is high quality, which is key to building a good reputation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Managing your costs is critical to your survival and growth. Look for affordable equipment, even if it is secondhand, as long as it is in good condition. Compare prices from different suppliers to get the best deals on ingredients. You can also form relationships with local producers, which can sometimes lead to better prices and fresher products. Track every expense carefully so you always know where your money is going. This financial discipline will help you stay in business and plan for future expansion.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Build your brand and find customers</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Creating a strong brand does not have to be expensive. Start with a clear name and a simple logo that reflects the food you make. You can use free online tools to design something professional. Social media is a powerful and low-cost way to reach people. Share photos of your food, tell the story behind your business, and engage with your followers. Consistent posts will help you build an online community around your brand and attract new customers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Getting your first customers is about being visible in your local area. Consider selling at farmers' markets, food festivals, or community events. These places let you interact with customers directly and get immediate feedback on your food. Word-of-mouth is your most effective marketing tool, so always provide great food and friendly service. Happy customers will tell their friends and family about you, which helps your business grow naturally without a large marketing budget.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>48</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 07:44:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 07:44:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[how-to-start-a-food-business-with-limited-financial-capital]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[49]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[John Wapuu]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[contact@example.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[90.79.21.148]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2026-01-09 19:19:15]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2026-01-09 19:19:15]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[food]]></title>
+		<link>https://demo.twentig.com/business-starter/how-to-start-a-food-business-with-limited-financial-capital/food/</link>
+		<pubDate>Fri, 09 Jan 2026 14:51:50 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/food.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>49</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:51:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:51:50]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[food]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>48</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/business-starter/wp-content/uploads/sites/25/2026/01/food.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/01/food.webp]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1200;s:4:"file";s:17:"2026/01/food.webp";s:8:"filesize";i:91912;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:17:"food-300x200.webp";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:9366;}s:5:"large";a:5:{s:4:"file";s:18:"food-1024x683.webp";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:56826;}s:9:"thumbnail";a:5:{s:4:"file";s:17:"food-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5164;}s:12:"medium_large";a:5:{s:4:"file";s:17:"food-768x512.webp";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:37598;}s:9:"1536x1536";a:5:{s:4:"file";s:19:"food-1536x1024.webp";s:5:"width";i:1536;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:97208;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://demo.twentig.com/business-starter/navigation/</link>
+		<pubDate>Fri, 09 Jan 2026 11:46:43 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/2026/01/09/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Services","type":"page","id":9,"url":"https://demo.twentig.com/business-starter/services/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"About","type":"page","id":11,"url":"https://demo.twentig.com/business-starter/about/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Blog","type":"page","id":15,"url":"https://demo.twentig.com/business-starter/blog/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Contact","type":"page","id":17,"url":"https://demo.twentig.com/business-starter/contact/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 11:46:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 11:46:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://demo.twentig.com/business-starter/wp-global-styles-twentig-one/</link>
+		<pubDate>Fri, 09 Jan 2026 14:16:19 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/2026/01/09/wp-global-styles-twentig-one/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:16:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:16:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-twentig-one]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						</item>
+					<item>
+		<title><![CDATA[Header]]></title>
+		<link>https://demo.twentig.com/business-starter/header/</link>
+		<pubDate>Fri, 09 Jan 2026 14:34:14 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/header/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|15","bottom":"var:preset|spacing|15"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--15);padding-bottom:var(--wp--preset--spacing--15)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
+
+<!-- wp:navigation {"ref":4,"overlayBackgroundColor":"base","overlayTextColor":"contrast","style":{"spacing":{"blockGap":"var:preset|spacing|25"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"layout":{"type":"flex","setCascadingProperties":true}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:34:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:34:14]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[header]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>https://demo.twentig.com/business-starter/footer/</link>
+		<pubDate>Fri, 09 Jan 2026 14:34:43 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.4"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="line-height:1.4">
+		© 2026 Vendome. Made with <a href="https://twentig.com">Twentig</a>.		</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"className":"is-style-logos-only footer-social"} -->
+<ul class="wp-block-social-links is-style-logos-only footer-social"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:34:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:34:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Index]]></title>
+		<link>https://demo.twentig.com/business-starter/index/</link>
+		<pubDate>Fri, 09 Jan 2026 14:35:33 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/index/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-blog-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:35:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:35:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[index]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[All Archives]]></title>
+		<link>https://demo.twentig.com/business-starter/archive/</link>
+		<pubDate>Fri, 09 Jan 2026 14:35:40 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/archive/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-archive-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:35:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:35:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[archive]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Single Posts]]></title>
+		<link>https://demo.twentig.com/business-starter/single/</link>
+		<pubDate>Fri, 09 Jan 2026 14:37:33 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/business-starter/single/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"twentig-one","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"metadata":{"name":"Hero"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65"},"margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-bottom:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--65)"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:post-title {"textAlign":"center","level":1} /-->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"},"typography":{"lineHeight":"1.3"}},"textColor":"secondary","fontSize":"small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<div class="wp-block-group has-secondary-color has-text-color has-small-font-size" style="line-height:1.3"><!-- wp:post-terms {"term":"category"} /-->
+
+<!-- wp:paragraph -->
+<p>·</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-featured-image {"align":"wide","className":"has-format-media","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
+
+<!-- wp:post-terms {"term":"post_tag","className":"is-style-tw-outline-pill","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"textColor":"secondary","fontSize":"x-small"} /-->
+
+<!-- wp:comments {"style":{"border":{"top":{"color":"var:preset|color|tertiary","width":"1px"}},"spacing":{"margin":{"top":"var:preset|spacing|65"},"padding":{"top":"var:preset|spacing|65"}}}} -->
+<div class="wp-block-comments" style="border-top-color:var(--wp--preset--color--tertiary);border-top-width:1px;margin-top:var(--wp--preset--spacing--65);padding-top:var(--wp--preset--spacing--65)"><!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"},"blockGap":"6px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group tw-align-baseline" style="margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Comments</h2>
+<!-- /wp:heading -->
+
+<!-- wp:comments-title {"showPostTitle":false,"level":3,"className":"has-parenthesis","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"normal"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:comment-template -->
+<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|tertiary","width":"1px"},"top":[],"right":[],"left":[]},"spacing":{"padding":{"bottom":"28px"},"margin":{"bottom":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--tertiary);border-bottom-width:1px;margin-bottom:var(--wp--preset--spacing--20);padding-bottom:28px"><!-- wp:group {"className":"tw-align-baseline","style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group tw-align-baseline"><!-- wp:comment-author-name {"className":"tw-active-author"} /-->
+
+<!-- wp:comment-date /-->
+
+<!-- wp:comment-edit-link /--></div>
+<!-- /wp:group -->
+
+<!-- wp:comment-content /-->
+
+<!-- wp:comment-reply-link /--></div>
+<!-- /wp:group -->
+<!-- /wp:comment-template -->
+
+<!-- wp:comments-pagination -->
+<!-- wp:comments-pagination-previous /-->
+
+<!-- wp:comments-pagination-numbers /-->
+
+<!-- wp:comments-pagination-next /-->
+<!-- /wp:comments-pagination -->
+
+<!-- wp:post-comments-form {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} /--></div>
+<!-- /wp:comments -->
+
+<!-- wp:group {"tagName":"nav","align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|65"}}},"layout":{"type":"constrained"},"ariaLabel":"Post navigation"} -->
+<nav class="wp-block-group alignfull" aria-label="Post navigation" style="margin-top:var(--wp--preset--spacing--65)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"20px","left":"var:preset|spacing|35"},"padding":{"top":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|tertiary","width":"1px"},"right":[],"bottom":[],"left":[]}}} -->
+<div class="wp-block-columns" style="border-top-color:var(--wp--preset--color--tertiary);border-top-width:1px;padding-top:var(--wp--preset--spacing--40)"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:post-navigation-link {"type":"previous","label":"←\u0026nbsp; Previous","showTitle":true,"linkLabel":true,"className":"is-style-tw-nav-stack"} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:post-navigation-link {"textAlign":"right","label":"Next \u0026nbsp;→","showTitle":true,"linkLabel":true,"className":"is-style-tw-nav-stack tw-sm-text-left","fontSize":"normal"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></nav>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"twentig-one","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>25</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-09 14:37:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-09 14:37:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[single]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+				</channel>
+</rss>
+	

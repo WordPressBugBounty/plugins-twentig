@@ -49,7 +49,7 @@ class Twentig_Portfolio {
 	/**
 	 * Registers post type and taxonomies.
 	 */
-	function register_post_type_and_taxonomies() {
+	public function register_post_type_and_taxonomies() {
 		if ( post_type_exists( 'portfolio' ) ) {
 			return;
 		}
@@ -152,7 +152,7 @@ class Twentig_Portfolio {
 	 * @param array $columns Existing columns.
 	 * @return array Modified columns array.
 	 */
-	function edit_columns( $columns ) {
+	public function edit_columns( $columns ) {
 		$column_thumbnail = array( 'thumbnail' => esc_html__( 'Featured Image', 'twentig' ) );
 		return array_slice( $columns, 0, 2, true ) + $column_thumbnail + array_slice( $columns, 1, null, true );
 	}
@@ -162,7 +162,7 @@ class Twentig_Portfolio {
 	 *
 	 * @param string $column Column name.
 	 */
-	function custom_columns( $column ) {
+	public function custom_columns( $column ) {
 		if ( 'thumbnail' === $column ) {
 			echo get_the_post_thumbnail( get_the_ID(), array( 60, 60 ) );
 		}
