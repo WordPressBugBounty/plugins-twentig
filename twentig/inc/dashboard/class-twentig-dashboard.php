@@ -51,6 +51,7 @@ class TwentigDashboard {
 			'comments',
 			'single_navigation',
 			'color_palette',
+			'custom_color_palette',
 			'typography',
 		);
 	}

@@ -56,7 +56,7 @@ function twentig_get_block_css_classes() {
 			'tw-text-wrap'            => __( 'Reset text wrapping to default.', 'twentig' ),
 			'tw-link-hover-underline' => __( 'Underline link only on hover.', 'twentig' ),
 			'tw-link-no-underline'    => __( 'Remove underline from link.', 'twentig' ),
-			'tw-link-hover-fade'      => __( 'Fade link on hover', 'twentig' ),
+			'tw-link-hover-fade'      => __( 'Fade link on hover.', 'twentig' ),
 			'tw-text-shadow'          => __( 'Add shadow to text.', 'twentig' ),
 			'tw-text-gradient'        => __( 'Apply background gradient to text.', 'twentig' ),
 			'tw-md-text-left'         => __( 'Align text left on tablet and mobile.', 'twentig' ),
@@ -67,10 +67,10 @@ function twentig_get_block_css_classes() {
 			'tw-sm-text-right'        => __( 'Align text right on mobile.', 'twentig' ),
 		),
 		'core/pullquote'            => array(
-			'tw-text-balance' => __( 'Apply balance text wrapping.', 'twentig' ),
+			'tw-text-balance' => __( 'Apply balanced text wrapping.', 'twentig' ),
 		),
 		'core/quote'                => array(
-			'tw-text-balance' => __( 'Apply balance text wrapping.', 'twentig' ),
+			'tw-text-balance' => __( 'Apply balanced text wrapping.', 'twentig' ),
 		),
 		'core/list'                  => array(
 			'has-text-align-center'   => __( 'Align text center.', 'twentig' ),

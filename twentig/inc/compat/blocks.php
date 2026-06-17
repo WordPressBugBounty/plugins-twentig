@@ -17,7 +17,6 @@ defined( 'ABSPATH' ) || exit;
 function twentig_filter_compat_columns_block( $block_content, $block ) {
 
 	$attributes     = $block['attrs'] ?? array();
-	$classnames     = $attributes['className'] ?? '';
 	$gap            = $attributes['style']['spacing']['blockGap'] ?? null;
 	$horizontal_gap = is_array( $gap ) ? ( $gap['left'] ?? null ) : $gap;
 
@@ -128,6 +127,7 @@ function twentig_filter_compat_query_block( $block_content, $block ) {
 	if ( $style || $class_names ) {
 		$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 		$tag_processor->next_tag( array( 'class_name' => 'wp-block-post-template' ) );
+
 		if ( $style ) {
 			$style_attr = $tag_processor->get_attribute( 'style' );
 			$style     .= $style_attr;

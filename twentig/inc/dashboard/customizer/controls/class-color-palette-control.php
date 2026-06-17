@@ -145,6 +145,37 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 					}
 					?>
 				</div>
+				<div class="twentig-paste-palette-panel is-collapsed">
+					<button
+						type="button"
+						class="twentig-paste-palette-toggle"
+						aria-expanded="false"
+						aria-controls="twentig-palette-actions-color_palette"
+					>
+						<span><?php esc_html_e( 'More palettes', 'twentig' ); ?></span>
+						<svg class="twentig-panel-toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z"></path></svg>
+					</button>
+					<div id="twentig-palette-actions-color_palette" class="twentig-palette-actions">
+						<button
+							type="button"
+							class="button twentig-paste-palette-button"
+						>
+							<?php esc_html_e( 'Paste color palette', 'twentig' ); ?>
+						</button>
+						<a
+							class="twentig-browse-palettes-link"
+							href="<?php echo esc_url( 'https://twentig.com/wordpress-color-palettes/?utm_source=twentig-plugin&utm_medium=customizer&utm_campaign=color-palette' ); ?>"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span><?php esc_html_e( 'Browse the Twentig palette library', 'twentig' ); ?></span>
+							<svg class="twentig-external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+								<path d="M19.5 4.5h-7V6h4.44l-5.97 5.97 1.06 1.06L18 7.06v4.44h1.5v-7Zm-13 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3H17v3a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h3V5.5h-3Z"/>
+							</svg>
+						</a>
+						<p class="description twentig-paste-palette-feedback" aria-live="polite"></p>
+					</div>
+				</div>
 			</div>
 			<?php
 		}

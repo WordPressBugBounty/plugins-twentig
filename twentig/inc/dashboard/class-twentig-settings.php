@@ -67,6 +67,7 @@ class TwentigSettings {
 			'twentig_widgets_block_editor',
 			'twentig_core_block_patterns',
 			'patterns',
+			'patterns_content_only',
 			'openverse',
 			'predefined_spacing',
 			'portfolio',
@@ -87,6 +88,7 @@ class TwentigSettings {
 				case 'twentig_widgets_block_editor':
 				case 'twentig_core_block_patterns':
 				case 'patterns':
+				case 'patterns_content_only':
 				case 'openverse':
 				case 'predefined_spacing':
 				case 'portfolio':
@@ -158,8 +160,16 @@ class TwentigSettings {
 				function( $settings ) {
 					$settings['enableOpenverseMediaCategory'] = false;
 					return $settings;
-				},
-				10
+				}
+			);
+		}
+		if ( ! twentig_is_option_enabled( 'patterns_content_only' ) ) {
+			add_filter(
+				'block_editor_settings_all',
+				function( $settings ) {
+					$settings['disableContentOnlyForUnsyncedPatterns'] = true;
+					return $settings;
+				}
 			);
 		}
 	}

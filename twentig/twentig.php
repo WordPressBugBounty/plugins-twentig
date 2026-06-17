@@ -5,7 +5,7 @@
  * Description: Supercharge the WordPress block editor with enhanced core blocks, hundreds of block patterns, professional starter sites, and portfolio tools.
  * Author: Twentig.com
  * Author URI: https://twentig.com
- * Version: 2.0
+ * Version: 2.0.2
  * Requires at least: 6.8
  * Requires PHP: 7.4
  * Text Domain: twentig
@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Setup plugin constants.
  */
-define( 'TWENTIG_VERSION', '2.0' );
+define( 'TWENTIG_VERSION', '2.0.2' );
 define( 'TWENTIG_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'TWENTIG_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 define( 'TWENTIG_ASSETS_URI', TWENTIG_URI . 'dist' );

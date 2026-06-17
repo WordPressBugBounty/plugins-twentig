@@ -44,6 +44,7 @@ class Twentig_Portfolio {
 
 		add_filter( 'manage_portfolio_posts_columns', array( $this, 'edit_columns' ) );
 		add_action( 'manage_portfolio_posts_custom_column', array( $this, 'custom_columns' ) );
+		add_filter( 'taxonomy_template_hierarchy', array( $this, 'add_archive_template_taxonomy_fallback' ), 1 );
 	}
 
 	/**
@@ -167,6 +168,41 @@ class Twentig_Portfolio {
 			echo get_the_post_thumbnail( get_the_ID(), array( 60, 60 ) );
 		}
 	}
+
+	/**
+	 * Adds archive-portfolio as a fallback for portfolio taxonomy templates.
+	 *
+	 * This lets one archive-portfolio.html template handle portfolio category
+	 * and portfolio tag archives when taxonomy-specific templates are absent.
+	 *
+	 * @param array $templates Template hierarchy.
+	 * @return array Modified template hierarchy.
+	 */
+	public function add_archive_template_taxonomy_fallback( $templates ) {
+		if ( ! is_tax( array( 'portfolio_category', 'portfolio_tag' ) ) ) {
+			return $templates;
+		}
+
+		$fallback = 'archive-portfolio.php';
+		$slugs    = array(
+			'taxonomy-portfolio_category',
+			'taxonomy-portfolio_tag',
+		);
+
+		foreach ( $slugs as $slug ) {
+			$index = array_search( $slug . '.php', $templates, true );
+
+			if ( false !== $index ) {
+				if ( ! in_array( $fallback, $templates, true ) ) {
+					array_splice( $templates, $index + 1, 0, $fallback );
+				}
+
+				break;
+			}
+		}
+
+		return $templates;
+	}
 }
 add_action( 'init', array( 'Twentig_Portfolio', 'init' ), 9 );
 
@@ -182,6 +218,11 @@ function twentig_default_portfolio_templates_types( $default_template_types ) {
 		$default_template_types[ 'single-portfolio' ] = array(
 			'title'       => esc_html_x( 'Single Projects', 'Template name', 'twentig' ),
 			'description' => esc_html__( 'Displays a single project on your website.', 'twentig' ),
+		);
+		
+		$default_template_types[ 'archive-portfolio' ] = array(
+			'title'       => esc_html_x( 'Project Archives', 'Template name', 'twentig' ),
+			'description' => esc_html__( 'Displays any project archive, including project categories and tags. This template will serve as a fallback when more specific templates (e.g. Project Category or Tag) cannot be found.', 'twentig' ),
 		);
 
 		$default_template_types[ 'taxonomy-portfolio_category' ] = array(

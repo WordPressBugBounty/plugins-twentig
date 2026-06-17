@@ -807,6 +807,15 @@ class Twentig_Customizer_Controls {
 			)
 		);
 
+		$wp_customize->add_setting(
+			'custom_color_palette',
+			array(
+				'default'           => '',
+				'capability'        => 'edit_theme_options',
+				'sanitize_callback' => array( $this, 'sanitize_custom_palette_json' ),
+			)
+		);
+
 		$wp_customize->add_control(
 			new Twentig_Customizer_Color_Palette_Control(
 				$wp_customize,
@@ -926,6 +935,17 @@ class Twentig_Customizer_Controls {
 	}
 
 	/**
+	 * Sanitize a custom palette JSON string.
+	 *
+	 * @param mixed $value Value to sanitize.
+	 * @return string Sanitized value.
+	 */
+	public function sanitize_custom_palette_json( $value ) {
+		$palette = Twentig_Customizer_Updater::normalize_custom_palette_json( $value );
+		return $palette ? wp_json_encode( $palette ) : '';
+	}
+
+	/**
 	 * Sanitize a select/radio setting value against its allowed choices.
 	 *
 	 * @param string              $input   The value to sanitize.
@@ -992,15 +1012,19 @@ class Twentig_Customizer_Controls {
 		wp_add_inline_script(
 			'twentig-customizer-controls',
 			'var twentigCustomizer = ' . wp_json_encode( array(
-				'nonce'           => wp_create_nonce( 'twentig_update_templates' ),
-				'finishText'      => esc_html__( 'Finish', 'twentig' ),
-				'homeUrl'         => esc_url( home_url( '/' ) ),
-				'blogUrl'         => esc_url( $blog_url ),
-				'firstPostUrl'    => esc_url( $post_url ),
-				'portfolioUrl'    => esc_url( $portfolio_url ),
-				'firstProjectUrl' => esc_url( $project_url ),
-				'defaultSettings' => $presets[ $default_preset ] ?? null,
-				'presets'         => $presets,
+				'nonce'                    => wp_create_nonce( 'twentig_update_templates' ),
+				'finishText'               => __( 'Finish', 'twentig' ),
+				'homeUrl'                  => esc_url( home_url( '/' ) ),
+				'blogUrl'                  => esc_url( $blog_url ),
+				'firstPostUrl'             => esc_url( $post_url ),
+				'portfolioUrl'             => esc_url( $portfolio_url ),
+				'firstProjectUrl'          => esc_url( $project_url ),
+				'defaultSettings'          => $presets[ $default_preset ] ?? null,
+				'presets'                  => $presets,
+				'emptyClipboardText'       => __( 'Your clipboard is empty.', 'twentig' ),
+				'invalidPaletteText'       => __( 'Invalid color palette. Paste a valid color palette JSON.', 'twentig' ),
+				'clipboardUnavailableText' => __( 'Unable to paste the color palette. This feature is only available on secure (HTTPS) sites in supported browsers.', 'twentig' ),
+				'clipboardPermissionText'  => __( 'Unable to paste color palette. Please allow browser clipboard permissions before continuing.', 'twentig' ),
 			) ) . ';',
 			'before'
 		);

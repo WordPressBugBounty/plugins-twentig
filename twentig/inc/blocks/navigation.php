@@ -67,3 +67,34 @@ function twentig_filter_navigation_block( $block_content, $block ) {
 	return $block_content;
 }
 add_filter( 'render_block_core/navigation', 'twentig_filter_navigation_block', 10, 2 );
+
+/**
+ * Keeps the item font-size class when Core prints both parent and item sizes.
+ *
+ * @param string $block_content Rendered block content.
+ * @return string Filtered block content.
+ */
+function twentig_fix_navigation_item_font_size_classes( $block_content ) {
+	if ( ! preg_match( '/\bhas-[\w-]+-font-size\b.*\bhas-[\w-]+-font-size\b/s', $block_content ) ) {
+		return $block_content;
+	}
+
+	$processor = new WP_HTML_Tag_Processor( $block_content );
+
+	while ( $processor->next_tag( array( 'class_name' => 'wp-block-navigation-item' ) ) ) {
+		$class = $processor->get_attribute( 'class' );
+
+		if ( ! is_string( $class ) ) {
+			continue;
+		}
+
+		preg_match_all( '/\bhas-[\w-]+-font-size\b/', $class, $matches );
+
+		if ( count( $matches[0] ) > 1 ) {
+			$processor->remove_class( $matches[0][0] );
+		}
+	}
+
+	return $processor->get_updated_html();
+}
+add_filter( 'render_block_core/navigation', 'twentig_fix_navigation_item_font_size_classes', 20 );

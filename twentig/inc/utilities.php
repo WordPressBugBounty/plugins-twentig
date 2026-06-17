@@ -21,6 +21,7 @@ function twentig_get_options() {
 		'twentig_core_block_patterns'  => 1,
 		'twentig_widgets_block_editor' => 1,
 		'patterns'                     => 1,
+		'patterns_content_only'        => 1,
 		'openverse'                    => 1,
 		'portfolio'                    => 0,
 		'predefined_spacing'           => get_option( 'twentig_global_spacing', $is_default_theme ),

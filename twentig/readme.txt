@@ -5,7 +5,7 @@ Tags: block editor, blocks, wordpress blocks, patterns, portfolio
 Requires at least: 6.8
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.0
+Stable tag: 2.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -182,6 +182,7 @@ If you prefer classic themes over block themes, Twentig offers advanced customiz
 
 * [See our quickstart guide](https://twentig.com/quickstart-guide/?utm_source=wp-repo&utm_medium=link&utm_campaign=guide) to learn the basics of using Twentig.
 * [Visit our blog](https://twentig.com/blog/) for tutorials on building professional sites with the WordPress block editor.
+* [Browse curated color palettes](https://twentig.com/wordpress-color-palettes/?utm_source=wp-repo&utm_medium=link&utm_campaign=color-palettes) to find beautiful color combinations for your site.
 * [Subscribe to our newsletter](https://twentig.com/newsletter?utm_source=wp-repo&utm_medium=link&utm_campaign=newsletter) to receive exclusive starter sites, tips, and updates.
 * [Subscribe to our YouTube channel](https://www.youtube.com/channel/UCHZglgs5eTxkpRFl2r5RsGA?sub_confirmation=1) for video tutorials.
 * [Explore the best WordPress websites](https://wp.gallery) built with the block editor for inspiration.
@@ -280,6 +281,24 @@ No, we do not recommend using the Gutenberg plugin on a production site, as it i
 9. **Personalize your buttons.** Add icons to make your buttons more engaging and open videos in a lightbox.
 
 == Changelog ==
+
+= 2.0.2 =
+Release date: June 17, 2026
+
+* New: Adds chat, location, event, shopping bag, and store icons to the Button block.
+* New: Adds a setting to disable content-only pattern editing on WordPress 7.0+.
+* New: Adds new Gallery patterns.
+* Enhancement: Updates patterns to use the Grid block instead of the Columns block where appropriate.
+
+= 2.0.1 =
+Release date: May 19, 2026
+
+* New: Adds a color palette paste feature for the Twentig One theme in the Site Editor and Onboarding Customizer.
+* Enhancement: Improves Customizer previews by opening the relevant Blog or Portfolio page when those sections are expanded.
+* Enhancement: On WordPress 7.0+, migrates Twentig's visibility controls to the core viewport-based block visibility option.
+* Enhancement: Hides the core Gallery Aspect Ratio setting when using the justified layout.
+* Enhancement: Preserves custom font sizes on Navigation submenu links when the parent Navigation block also has a font size.
+* Fix: Adjusts CSS selectors for Navigation hover and active styles to make them work with custom navigation overlays.
 
 = 2.0 =
 Release date: March 19, 2026

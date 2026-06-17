@@ -24,19 +24,29 @@ function twentig_filter_post_template_block( $block_content, $block ) {
 		return $block_content;
 	}
 
-	$columns_count = $attributes['layout']['columnCount'] ?? 3;
+	$columns_count            = $attributes['layout']['columnCount'] ?? 3;
+	$has_minimum_column_width = ! empty( $attributes['layout']['minimumColumnWidth'] );
+
 	if ( 1 !== $columns_count ) {
 		if ( isset( $attributes['twVerticalAlignment'] ) ) {
 			$class_names[] = 'tw-valign-' . $attributes['twVerticalAlignment'];
 		}
-		if ( isset( $attributes['twColumnWidth'] ) ) {
+		if ( ! empty( $attributes['twColumnWidth'] ) && ! $has_minimum_column_width ) {
 			$class_names[] = 'tw-cols-' . $attributes['twColumnWidth'];
 		}
+		if ( $has_minimum_column_width ) {
+			$class_names[] = 'tw-is-responsive';
+		}
 	}
-	
-	if ( ! empty( $class_names ) ) {
+
+	if ( $has_minimum_column_width || ! empty( $class_names ) ) {
 		$tag_processor = new WP_HTML_Tag_Processor( $block_content );
 		$tag_processor->next_tag();
+
+		if ( $has_minimum_column_width ) {
+			$tag_processor->remove_class( 'tw-cols-small' );
+			$tag_processor->remove_class( 'tw-cols-large' );
+		}
 
 		foreach ( $class_names as $class_name ) {
 			$tag_processor->add_class( sanitize_html_class( $class_name ) );

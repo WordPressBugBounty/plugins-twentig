@@ -278,7 +278,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 12px;
-	margin-top: 12px;
+	margin: 12px 0 24px;
 }
 
 .twentig-palette-option {
@@ -326,6 +326,80 @@
 	border: 0;
 }
 
+.twentig-paste-palette-panel {
+	margin-top: 32px;
+	padding-top: 24px;
+	border-top: 1px solid #dcdcde;
+}
+
+.twentig-paste-palette-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	font-size: 11px;
+	font-weight: 500;
+	color: #50575e;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.twentig-panel-toggle-icon {
+	fill: currentColor;
+	flex: 0 0 auto;
+}
+
+.twentig-paste-palette-panel.is-expanded .twentig-panel-toggle-icon {
+	transform: rotate(180deg);
+}
+
+.twentig-palette-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 8px;
+}
+
+.twentig-paste-palette-panel.is-collapsed .twentig-palette-actions {
+	display: none;
+}
+
+.twentig-browse-palettes-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	color: #50575e;
+	font-size: 12px;
+}
+
+.twentig-browse-palettes-link:is(:hover,:focus) {
+	text-decoration: underline;
+}
+
+.twentig-external-link-icon {
+	width: 16px;
+	height: 16px;
+	fill: currentColor;
+	flex: 0 0 auto;
+}
+
+p.twentig-paste-palette-feedback {
+	display: none;
+	padding: 12px;
+	font-size: 12px;
+	margin: 0;
+}
+
+#customize-controls p.twentig-paste-palette-feedback.is-error {
+	display: block;
+	background-color: #f4a2a2;
+	border-left: 4px solid #cc1818;
+	color: #1e1e1e;
+}
+
 .customize-control :is(input[type=text], input[type=number], select):focus {
 	border-color: var(--wp-components-color-accent);
 	box-shadow: 0 0 0 1px var(--wp-components-color-accent);
@@ -338,12 +412,12 @@
 	border-radius: 2px;
 }
 
-.customize-control .actions .button:hover{
+.customize-control .actions .button:hover {
 	background: var(--wp-components-color-accent);
 	color: #fff;
 }
 
-.customize-control .actions .button:focus{
+.customize-control .actions .button:focus {
 	box-shadow: 0 0 0 1px var(--wp-components-color-accent);
 }
 
@@ -430,7 +504,7 @@
 
 .wp-full-overlay-sidebar-content {
 	top: 0 !important;
-	bottom: 118px !important; 
+	bottom: 118px !important;
 }
 
 .expanded .wp-full-overlay-footer {
@@ -455,7 +529,7 @@
 	border-radius: 2px;
 	cursor: pointer;
 	font-size: 13px;
-	font-weight: 400;	
+	font-weight: 400;
 	line-height: 2.1;
 	min-height: 40px;
 	border: none;
@@ -479,7 +553,6 @@
 	animation: components-button__busy-animation 2.5s linear infinite;
 	pointer-events: none;
 }
-
 
 @keyframes components-button__busy-animation {
 	0% {
@@ -604,7 +677,7 @@
 }
 
 #customize-controls .customize-info .customize-help-toggle::before {
-	content : '';
+	content: '';
 	top: 8px;
 	left: 8px;
 	padding: 0;

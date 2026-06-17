@@ -49,13 +49,14 @@ function twentig_block_assets() {
 	);
 
 	$config = array(
-		'theme'          => get_template(),
-		'isBlockTheme'   => wp_is_block_theme(),
-		'isTwentigTheme' => current_theme_supports( 'twentig-theme' ),
-		'spacingSizes'   => function_exists( 'twentig_get_spacing_sizes' ) ? twentig_get_spacing_sizes() : array(),
-		'cssClasses'     => twentig_get_block_css_classes(),
-		'portfolioType'  => post_type_exists( 'portfolio' ) ? 'portfolio' : '',
-		'buttonIcons'    => twentig_get_icons(),
+		'theme'                     => get_template(),
+		'isBlockTheme'              => wp_is_block_theme(),
+		'isTwentigTheme'            => current_theme_supports( 'twentig-theme' ),
+		'supportViewportVisibility' => version_compare( get_bloginfo( 'version' ), '7.0', '>=' ),
+		'spacingSizes'              => function_exists( 'twentig_get_spacing_sizes' ) ? twentig_get_spacing_sizes() : array(),
+		'cssClasses'                => twentig_get_block_css_classes(),
+		'portfolioType'             => post_type_exists( 'portfolio' ) ? 'portfolio' : '',
+		'buttonIcons'               => twentig_get_icons(),
 	);
 
 	wp_add_inline_script(
@@ -97,6 +98,123 @@ function twentig_enqueue_class_styles() {
 
 	wp_add_inline_style( 'twentig-blocks', $css );
 }
+
+/**
+ * Overrides core block visibility rendering to use Twentig breakpoints.
+ *
+ * This mirrors wp_render_block_visibility_support(), except viewport media
+ * queries are generated from the twentig_breakpoints filter.
+ */
+function twentig_render_block_visibility_support( $block_content, $block ) {
+	$block_type = WP_Block_Type_Registry::get_instance()->get_registered( $block['blockName'] );
+
+	if ( ! $block_type || ! block_has_support( $block_type, 'visibility', true ) ) {
+		return $block_content;
+	}
+
+	$block_visibility = $block['attrs']['metadata']['blockVisibility'] ?? null;
+
+	if ( false === $block_visibility ) {
+		return '';
+	}
+
+	if ( is_array( $block_visibility ) && ! empty( $block_visibility ) ) {
+		$viewport_config = $block_visibility['viewport'] ?? null;
+
+		if ( ! is_array( $viewport_config ) || empty( $viewport_config ) ) {
+			return $block_content;
+		}
+
+		$breakpoints = apply_filters( 'twentig_breakpoints', array( 'mobile' => 768, 'tablet' => 1024 ) );
+		$mobile      = (int) ( $breakpoints['mobile'] ?? 768 );
+		$tablet      = (int) ( $breakpoints['tablet'] ?? 1024 );
+
+		$viewport_sizes = array(
+			array(
+				'name' => 'Mobile',
+				'slug' => 'mobile',
+				'size' => ( $mobile - 1 ) . 'px',
+			),
+			array(
+				'name' => 'Tablet',
+				'slug' => 'tablet',
+				'size' => ( $tablet - 1 ) . 'px',
+			),
+			array(
+				'name' => 'Desktop',
+				'slug' => 'desktop',
+			),
+		);
+
+		$viewport_media_queries = array();
+		$previous_size          = null;
+		foreach ( $viewport_sizes as $index => $viewport_size ) {
+			if ( 0 === $index ) {
+				$viewport_media_queries[ $viewport_size['slug'] ] = "@media (width <= {$viewport_size['size']})";
+			} elseif ( count( $viewport_sizes ) - 1 === $index && $previous_size ) {
+				$viewport_media_queries[ $viewport_size['slug'] ] = "@media (width > $previous_size)";
+			} else {
+				$viewport_media_queries[ $viewport_size['slug'] ] = "@media ({$previous_size} < width <= {$viewport_size['size']})";
+			}
+
+			$previous_size = $viewport_size['size'] ?? null;
+		}
+
+		$hidden_on = array();
+
+		foreach ( $viewport_config as $viewport_config_size => $is_visible ) {
+			if ( false === $is_visible && isset( $viewport_media_queries[ $viewport_config_size ] ) ) {
+				$hidden_on[] = $viewport_config_size;
+			}
+		}
+
+		if ( empty( $hidden_on ) ) {
+			return $block_content;
+		}
+
+		sort( $hidden_on );
+
+		$css_rules   = array();
+		$class_names = array();
+
+		foreach ( $hidden_on as $hidden_viewport_size ) {
+			$visibility_class = 'wp-block-hidden-' . $hidden_viewport_size;
+			$class_names[]    = $visibility_class;
+			$css_rules[]      = array(
+				'selector'     => '.' . $visibility_class,
+				'declarations' => array(
+					'display' => 'none !important',
+				),
+				'rules_group'  => $viewport_media_queries[ $hidden_viewport_size ],
+			);
+		}
+
+		wp_style_engine_get_stylesheet_from_css_rules(
+			$css_rules,
+			array(
+				'context'  => 'block-supports',
+				'prettify' => false,
+			)
+		);
+
+		if ( ! empty( $block_content ) ) {
+			$processor = new WP_HTML_Tag_Processor( $block_content );
+			if ( $processor->next_tag() ) {
+				$processor->add_class( implode( ' ', $class_names ) );
+				do {
+					if ( 'IMG' === $processor->get_tag() ) {
+						$processor->set_attribute( 'fetchpriority', 'auto' );
+					}
+				} while ( $processor->next_tag() );
+				$block_content = $processor->get_updated_html();
+			}
+		}
+	}
+
+	return $block_content;
+}
+add_filter( 'render_block', 'twentig_render_block_visibility_support', 10, 2 );
+remove_filter( 'render_block', 'wp_render_block_visibility_support' );
 
 /**
  * Override block styles.

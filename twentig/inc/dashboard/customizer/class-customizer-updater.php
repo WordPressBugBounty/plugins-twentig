@@ -207,11 +207,15 @@ class Twentig_Customizer_Updater {
 			$this->update_template_post( $page->ID, $portfolio_content );
 		}
 
-		foreach ( array( 'taxonomy-portfolio_category', 'taxonomy-portfolio_tag' ) as $name ) {
+		$has_archive_portfolio_template = null !== get_block_file_template( get_stylesheet() . '//archive-portfolio', 'wp_template' );
+		$template_names                 = $has_archive_portfolio_template ? array( 'archive-portfolio' ) : array( 'taxonomy-portfolio_category', 'taxonomy-portfolio_tag' );
+
+		foreach ( $template_names as $name ) {
 			$id = $this->get_or_create_template( $name );
 			if ( ! $id ) {
 				continue;
 			}
+
 			$portfolio_content = get_post_field( 'post_content', $id );
 
 			if ( empty( $portfolio_content ) ) {
@@ -446,17 +450,151 @@ class Twentig_Customizer_Updater {
 	}
 
 	/**
-	 * Builds updated global styles content from style variations.
+	 * Returns the expected Twentig One palette schema.
+	 *
+	 * @return array[]
+	 */
+	private static function get_palette_schema() {
+		$theme_data     = WP_Theme_JSON_Resolver::get_theme_data()->get_data();
+		$theme_palette  = $theme_data['settings']['color']['palette'] ?? array();
+		$names_by_slug  = array();
+
+		if ( is_array( $theme_palette ) ) {
+			foreach ( $theme_palette as $item ) {
+				if ( is_array( $item ) && isset( $item['slug'], $item['name'] ) && is_string( $item['slug'] ) && is_string( $item['name'] ) ) {
+					$names_by_slug[ $item['slug'] ] = $item['name'];
+				}
+			}
+		}
+
+		$slugs = array(
+			'base',
+			'base-2',
+			'base-3',
+			'contrast',
+			'contrast-2',
+			'accent',
+			'secondary',
+			'tertiary',
+		);
+
+		return array_map(
+			function ( $slug ) use ( $names_by_slug ) {
+				return array(
+					'slug' => $slug,
+					'name' => $names_by_slug[ $slug ] ?? ucwords( str_replace( '-', ' ', $slug ) ),
+				);
+			},
+			$slugs
+		);
+	}
+
+	/**
+	 * Validates whether a pasted value is safe to use as a CSS color.
+	 *
+	 * @param mixed $value Color value.
+	 * @return bool
+	 */
+	private static function is_safe_palette_color( $value ) {
+		if ( ! is_string( $value ) ) {
+			return false;
+		}
+
+		$normalized = trim( $value );
+
+		if ( '' === $normalized ) {
+			return false;
+		}
+
+		if ( preg_match( '/url\s*\(|expression\s*\(|javascript:|@import|-moz-binding|behavior\s*:/i', $normalized ) ) {
+			return false;
+		}
+
+		if ( preg_match( '/^#([0-9a-f]{3,4}|[0-9a-f]{6}|[0-9a-f]{8})$/i', $normalized ) ) {
+			return true;
+		}
+
+		if ( 'transparent' === strtolower( $normalized ) ) {
+			return true;
+		}
+
+		if ( preg_match( '/^(rgba?|hsla?|oklch|oklab|lab|lch|hwb|color-mix|color|var)\s*\(/i', $normalized ) ) {
+			return (bool) preg_match( '/^[a-z0-9\s(),.\-#%\/]+$/i', $normalized );
+		}
+
+		return false;
+	}
+
+	/**
+	 * Normalizes a custom palette JSON string into the Twentig palette schema.
+	 *
+	 * @param mixed $value Palette JSON string.
+	 * @return array[]|null
+	 */
+	public static function normalize_custom_palette_json( $value ) {
+		if ( ! is_string( $value ) || '' === trim( $value ) ) {
+			return null;
+		}
+
+		$palette = json_decode( trim( wp_unslash( $value ) ), true );
+		$schema  = self::get_palette_schema();
+
+		if ( ! is_array( $palette ) || count( $palette ) !== count( $schema ) ) {
+			return null;
+		}
+
+		$allowed_slugs = wp_list_pluck( $schema, 'slug' );
+		$by_slug       = array();
+
+		foreach ( $palette as $item ) {
+			if ( ! is_array( $item ) || ! isset( $item['slug'], $item['color'] ) ) {
+				return null;
+			}
+
+			$slug  = is_string( $item['slug'] ) ? trim( $item['slug'] ) : '';
+			$color = is_string( $item['color'] ) ? trim( $item['color'] ) : '';
+
+			if ( ! in_array( $slug, $allowed_slugs, true ) || isset( $by_slug[ $slug ] ) || ! self::is_safe_palette_color( $color ) ) {
+				return null;
+			}
+
+			$by_slug[ $slug ] = $color;
+		}
+
+		$normalized_palette = array();
+
+		foreach ( $schema as $schema_item ) {
+			if ( ! isset( $by_slug[ $schema_item['slug'] ] ) ) {
+				return null;
+			}
+
+			$normalized_palette[] = array(
+				'color' => $by_slug[ $schema_item['slug'] ],
+				'name'  => $schema_item['name'],
+				'slug'  => $schema_item['slug'],
+			);
+		}
+
+		return $normalized_palette;
+	}
+
+	/**
+	 * Builds updated global styles content from style variations or a custom palette.
 	 *
 	 * @param array $content Existing global styles data.
 	 * @return array|null Updated content or null if no changes needed.
 	 */
 	private function get_updated_global_styles_content( $content ) {
 		$selected_palette    = get_theme_mod( 'color_palette' );
+		$custom_palette      = self::normalize_custom_palette_json( get_theme_mod( 'custom_color_palette' ) );
 		$selected_typography = get_theme_mod( 'typography' );
 
-		if ( empty( $selected_palette ) && empty( $selected_typography ) ) {
+		if ( empty( $selected_palette ) && empty( $custom_palette ) && empty( $selected_typography ) ) {
 			return null;
+		}
+
+		if ( ! isset( $content['settings'] ) ) {
+			$content['settings'] = array();
 		}
 
 		if ( ! isset( $content['styles'] ) ) {
@@ -465,7 +603,7 @@ class Twentig_Customizer_Updater {
 
 		$variations = WP_Theme_JSON_Resolver::get_style_variations();
 
-		if ( $selected_palette ) {
+		if ( $selected_palette && ! $custom_palette ) {
 			$variation = current( array_filter( $variations, function( $var ) use ( $selected_palette ) {
 				return isset( $var['title'] ) && $var['title'] === $selected_palette;
 			} ) );
@@ -477,6 +615,20 @@ class Twentig_Customizer_Updater {
 			if ( isset( $variation['styles'] ) ) {
 				$content['styles'] = array_replace_recursive( $content['styles'], $variation['styles'] );
 			}
+		}
+
+		if ( $custom_palette ) {
+			$content['settings']['color']['palette']['theme'] = $custom_palette;
+
+			$button_color = $content['styles']['elements']['button']['color'] ?? array();
+
+			$content['styles']['elements']['button']['color'] = array_merge(
+				is_array( $button_color ) ? $button_color : array(),
+				array(
+					'background' => 'var:preset|color|accent',
+					'text'       => 'var:preset|color|base',
+				)
+			);
 		}
 
 		if ( $selected_typography ) {
