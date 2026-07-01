@@ -5,7 +5,7 @@ Tags: block editor, blocks, wordpress blocks, patterns, portfolio
 Requires at least: 6.8
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -281,6 +281,11 @@ No, we do not recommend using the Gutenberg plugin on a production site, as it i
 9. **Personalize your buttons.** Add icons to make your buttons more engaging and open videos in a lightbox.
 
 == Changelog ==
+
+= 2.0.3 =
+Release date: July 2, 2026
+
+* Fix: Prevents unnecessary re-renders related to shadow presets in the block editor (props @ateliercommodore).
 
 = 2.0.2 =
 Release date: June 17, 2026
