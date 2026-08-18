@@ -10,6 +10,10 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Filter Query Loop block to handle current post filters.
  *
+ * The `exclude-current` filter is deprecated in favor of the core `excludeCurrent`
+ * query attribute (WP 7.1+); it is still handled here for content saved before the
+ * editor migrated it.
+ *
  * @param array    $query The query arguments.
  * @param WP_Block $block Block instance.
  * @return array Modified query arguments.

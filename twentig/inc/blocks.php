@@ -15,7 +15,7 @@ foreach ( (array) glob( wp_normalize_path( TWENTIG_PATH . 'inc/blocks/*.php' ) )
  * Enqueues block assets for frontend and backend editor.
  */
 function twentig_block_assets() {
-	
+
 	// Front end.
 	$asset_file             = include TWENTIG_PATH . 'dist/index.asset.php';
 	$block_library_filename = wp_should_load_separate_core_block_assets() && wp_is_block_theme() ? 'blocks/common' : 'style-index';
@@ -48,15 +48,19 @@ function twentig_block_assets() {
 		array( 'in_footer' => false )
 	);
 
+	$query_block_type = WP_Block_Type_Registry::get_instance()->get_registered( 'core/query' );
+	$query_defaults   = isset( $query_block_type->attributes['query']['default'] ) ? $query_block_type->attributes['query']['default'] : array();
+
 	$config = array(
-		'theme'                     => get_template(),
-		'isBlockTheme'              => wp_is_block_theme(),
-		'isTwentigTheme'            => current_theme_supports( 'twentig-theme' ),
-		'supportViewportVisibility' => version_compare( get_bloginfo( 'version' ), '7.0', '>=' ),
-		'spacingSizes'              => function_exists( 'twentig_get_spacing_sizes' ) ? twentig_get_spacing_sizes() : array(),
-		'cssClasses'                => twentig_get_block_css_classes(),
-		'portfolioType'             => post_type_exists( 'portfolio' ) ? 'portfolio' : '',
-		'buttonIcons'               => twentig_get_icons(),
+		'theme'                      => get_template(),
+		'isBlockTheme'               => wp_is_block_theme(),
+		'isTwentigTheme'             => current_theme_supports( 'twentig-theme' ),
+		'supportViewportVisibility'  => version_compare( get_bloginfo( 'version' ), '7.0', '>=' ),
+		'supportQueryExcludeCurrent' => array_key_exists( 'excludeCurrent', $query_defaults ),
+		'spacingSizes'               => function_exists( 'twentig_get_spacing_sizes' ) ? twentig_get_spacing_sizes() : array(),
+		'cssClasses'                 => twentig_get_block_css_classes(),
+		'portfolioType'              => post_type_exists( 'portfolio' ) ? 'portfolio' : '',
+		'buttonIcons'                => twentig_get_icons(),
 	);
 
 	wp_add_inline_script(
@@ -81,9 +85,69 @@ function twentig_block_assets() {
 add_action( 'enqueue_block_assets', 'twentig_block_assets' );
 
 /**
+ * Adds Twentig viewport defaults when the theme does not define them.
+ *
+ * @param WP_Theme_JSON_Data $theme_json Theme JSON data.
+ * @return WP_Theme_JSON_Data Filtered theme JSON data.
+ */
+function twentig_add_default_viewport_settings( $theme_json ) {
+	$theme_data = $theme_json->get_data();
+
+	if ( isset( $theme_data['settings']['viewport'] ) ) {
+		return $theme_json;
+	}
+
+	$breakpoints = apply_filters( 'twentig_breakpoints', array( 'mobile' => 768, 'tablet' => 1024 ) );
+	$mobile      = (int) ( $breakpoints['mobile'] ?? 768 );
+	$tablet      = (int) ( $breakpoints['tablet'] ?? 1024 );
+
+	return $theme_json->update_with(
+		array(
+			'version'  => 3,
+			'settings' => array(
+				'viewport' => array(
+					'mobile' => ( $mobile - 1 ) . 'px',
+					'tablet' => ( $tablet - 1 ) . 'px',
+				),
+			),
+		)
+	);
+}
+
+if ( method_exists( 'WP_Theme_JSON', 'get_viewport_media_queries' ) ) {
+	add_filter( 'wp_theme_json_data_theme', 'twentig_add_default_viewport_settings' );
+}
+
+/**
  * Adds visibility classes to the global styles.
  */
 function twentig_enqueue_class_styles() {
+	if ( method_exists( 'WP_Theme_JSON', 'get_viewport_media_queries' ) ) {
+		$viewport_settings      = wp_get_global_settings( array( 'viewport' ) );
+		$viewport_media_queries = WP_Theme_JSON::get_viewport_media_queries(
+			$viewport_settings,
+			array(
+				'include_desktop' => true,
+			)
+		);
+
+		$viewport_classes = array(
+			'@mobile'  => '.tw-sm-hidden',
+			'@tablet'  => '.tw-md-hidden',
+			'@desktop' => '.tw-lg-hidden',
+		);
+
+		$css = '';
+		foreach ( $viewport_classes as $viewport_state => $class_name ) {
+			if ( isset( $viewport_media_queries[ $viewport_state ] ) ) {
+				$css .= "{$viewport_media_queries[ $viewport_state ]} { {$class_name} { display: none !important; }}";
+			}
+		}
+
+		wp_add_inline_style( 'twentig-blocks', $css );
+		return;
+	}
+
 	$breakpoints = apply_filters( 'twentig_breakpoints', array( 'mobile' => 768, 'tablet' => 1024 ) );
 	$mobile      = (int) ( $breakpoints['mobile'] ?? 768 );
 	$tablet      = (int) ( $breakpoints['tablet'] ?? 1024 );
@@ -108,7 +172,7 @@ function twentig_enqueue_class_styles() {
 function twentig_render_block_visibility_support( $block_content, $block ) {
 	$block_type = WP_Block_Type_Registry::get_instance()->get_registered( $block['blockName'] );
 
-	if ( ! $block_type || ! block_has_support( $block_type, 'visibility', true ) ) {
+	if ( ! $block_type ) {
 		return $block_content;
 	}
 
@@ -116,6 +180,10 @@ function twentig_render_block_visibility_support( $block_content, $block ) {
 
 	if ( false === $block_visibility ) {
 		return '';
+	}
+
+	if ( ! block_has_support( $block_type, 'visibility', true ) ) {
+		return $block_content;
 	}
 
 	if ( is_array( $block_visibility ) && ! empty( $block_visibility ) ) {
@@ -213,8 +281,16 @@ function twentig_render_block_visibility_support( $block_content, $block ) {
 
 	return $block_content;
 }
-add_filter( 'render_block', 'twentig_render_block_visibility_support', 10, 2 );
-remove_filter( 'render_block', 'wp_render_block_visibility_support' );
+
+/*
+ * WordPress 7.1 reads viewport breakpoints from settings.viewport. Keep the
+ * compatibility override for earlier versions, which do not expose Core's
+ * viewport media-query generator.
+ */
+if ( ! method_exists( 'WP_Theme_JSON', 'get_viewport_media_queries' ) ) {
+	add_filter( 'render_block', 'twentig_render_block_visibility_support', 10, 2 );
+	remove_filter( 'render_block', 'wp_render_block_visibility_support' );
+}
 
 /**
  * Override block styles.

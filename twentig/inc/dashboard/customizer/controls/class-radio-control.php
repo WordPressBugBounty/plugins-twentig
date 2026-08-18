@@ -5,6 +5,8 @@
  * @package twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 if ( class_exists( 'WP_Customize_Control' ) ) {
 	/**
 	 * Radio control with visual selector.

@@ -71,6 +71,11 @@ add_filter( 'render_block_core/navigation', 'twentig_filter_navigation_block', 1
 /**
  * Keeps the item font-size class when Core prints both parent and item sizes.
  *
+ * Only needed on WP < 7.1, which propagated the parent navigation font size
+ * onto each item. Remove once the minimum supported version is 7.1.
+ *
+ * @see https://github.com/WordPress/gutenberg/pull/77419
+ *
  * @param string $block_content Rendered block content.
  * @return string Filtered block content.
  */

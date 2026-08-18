@@ -690,17 +690,19 @@ class TwentigWebsiteImporter {
 
 			$page_types       = $this->get_page_types();
 			$front_page       = sanitize_title( $this->site_options['front_page'] ?? 'Home' );
-			$front_page_title = isset( $page_types[ $front_page ] ) ? $page_types[ $front_page ]['title'] : $front_page;
+			$front_page_title = sanitize_title( $page_types[ $front_page ]['title'] ?? $front_page );
 			$blog_page        = sanitize_title( $this->site_options['blog_page'] ?? 'Blog' );
-			$blog_page_title  = isset( $page_types[ $blog_page ] ) ? $page_types[ $blog_page ]['title'] : $blog_page;
+			$blog_page_title  = sanitize_title( $page_types[ $blog_page ]['title'] ?? $blog_page );
 
-			foreach ( $this->processed_ids as $old => $new ) {
-				$page_title = get_the_title( $new );
+			foreach ( $this->processed_ids as $new ) {
+				if ( 'page' !== get_post_type( $new ) ) {
+					continue;
+				}
+
+				$page_title = sanitize_title( get_the_title( $new ) );
 				if ( $front_page_title === $page_title ) {
-					if ( 'page' === get_post_type( $new ) ) {
-						update_option( 'show_on_front', 'page' );
-						update_option( 'page_on_front', $new );
-					}
+					update_option( 'show_on_front', 'page' );
+					update_option( 'page_on_front', $new );
 				} elseif ( $blog_page_title === $page_title ) {
 					update_option( 'page_for_posts', $new );
 				}

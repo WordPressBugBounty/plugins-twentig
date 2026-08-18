@@ -570,6 +570,10 @@ p.twentig-paste-palette-feedback {
 	margin: 0;
 }
 
+.wp-full-overlay-footer .devices .devices__preview-label {
+	display: none;
+}
+
 .wp-full-overlay-footer .devices button:before {
 	content: "" !important;
 	width: 24px;

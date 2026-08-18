@@ -5,6 +5,8 @@
  * @package Twentig
  */
 
+defined( 'ABSPATH' ) || exit;
+
 if ( class_exists( 'WP_Customize_Control' ) ) {
 
 	/**

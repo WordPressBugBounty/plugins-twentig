@@ -2,10 +2,10 @@
 Contributors: twentig
 Donate link: https://twentig.com/donate/
 Tags: block editor, blocks, wordpress blocks, patterns, portfolio
-Requires at least: 6.8
-Tested up to: 7.0
+Requires at least: 6.9
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -281,6 +281,14 @@ No, we do not recommend using the Gutenberg plugin on a production site, as it i
 9. **Personalize your buttons.** Add icons to make your buttons more engaging and open videos in a lightbox.
 
 == Changelog ==
+
+= 2.0.4 =
+Release date: August 18, 2026
+
+* Enhancement: Makes Twentig’s Gallery options compatible with Gallery blocks that display images attached to the current post.
+* Enhancement: Supports theme-defined viewport breakpoints for block visibility in WordPress 7.1.
+* Enhancement: Deprecates Twentig’s Query Loop option for excluding the current post in favor of the new WordPress core option when available.
+* Fix: Improves the rendering of justified Gallery blocks in the editor.
 
 = 2.0.3 =
 Release date: July 2, 2026
