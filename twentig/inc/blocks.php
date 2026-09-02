@@ -50,12 +50,15 @@ function twentig_block_assets() {
 
 	$query_block_type = WP_Block_Type_Registry::get_instance()->get_registered( 'core/query' );
 	$query_defaults   = isset( $query_block_type->attributes['query']['default'] ) ? $query_block_type->attributes['query']['default'] : array();
+	$use_legacy_visibility_controls = (bool) apply_filters( 'twentig_use_legacy_visibility_controls', false );
+	$support_viewport_visibility    = version_compare( get_bloginfo( 'version' ), '7.0', '>=' )
+		&& ! $use_legacy_visibility_controls;
 
 	$config = array(
 		'theme'                      => get_template(),
 		'isBlockTheme'               => wp_is_block_theme(),
 		'isTwentigTheme'             => current_theme_supports( 'twentig-theme' ),
-		'supportViewportVisibility'  => version_compare( get_bloginfo( 'version' ), '7.0', '>=' ),
+		'supportViewportVisibility'  => $support_viewport_visibility,
 		'supportQueryExcludeCurrent' => array_key_exists( 'excludeCurrent', $query_defaults ),
 		'spacingSizes'               => function_exists( 'twentig_get_spacing_sizes' ) ? twentig_get_spacing_sizes() : array(),
 		'cssClasses'                 => twentig_get_block_css_classes(),

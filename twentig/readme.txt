@@ -5,7 +5,7 @@ Tags: block editor, blocks, wordpress blocks, patterns, portfolio
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -281,6 +281,13 @@ No, we do not recommend using the Gutenberg plugin on a production site, as it i
 9. **Personalize your buttons.** Add icons to make your buttons more engaging and open videos in a lightbox.
 
 == Changelog ==
+
+= 2.0.5 =
+Release date: September 2, 2026
+
+* New: Adds a curated collection of Material Symbols to the Icon block (WordPress 7.1+).
+* Enhancement: Adds the `twentig_use_legacy_visibility_controls` filter to restore Twentig's original visibility controls on WordPress 7.0+.
+* Fix: Adjusts the Latest Posts block styles for compatibility with the new grid layout in WordPress 7.1.
 
 = 2.0.4 =
 Release date: August 18, 2026

@@ -14,6 +14,7 @@ require TWENTIG_PATH . 'inc/blocks.php';
 require TWENTIG_PATH . 'inc/block-styles.php';
 require TWENTIG_PATH . 'inc/block-presets.php';
 require TWENTIG_PATH . 'inc/block-patterns.php';
+require TWENTIG_PATH . 'inc/icon-library.php';
 require TWENTIG_PATH . 'inc/twentig_portfolio.php';
 
 /**
