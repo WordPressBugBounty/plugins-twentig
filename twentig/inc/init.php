@@ -8,7 +8,7 @@
 defined( 'ABSPATH' ) || exit;
 
 require TWENTIG_PATH . 'inc/dashboard/class-twentig-dashboard.php';
-require TWENTIG_PATH . 'inc/dashboard/theme-notice.php';
+require TWENTIG_PATH . 'inc/dashboard/notice.php';
 require TWENTIG_PATH . 'inc/utilities.php';
 require TWENTIG_PATH . 'inc/blocks.php';
 require TWENTIG_PATH . 'inc/block-styles.php';

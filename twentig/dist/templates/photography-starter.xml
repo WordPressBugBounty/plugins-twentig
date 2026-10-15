@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Mario Santi</title>
+	<link>https://</link>
+	<description></description>
+	<pubDate>Fri, 07 Aug 2026 15:56:38 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://demo.twentig.com/photography-starter</wp:base_site_url>
+	<wp:base_blog_url>https://demo.twentig.com/photography-starter</wp:base_blog_url>
+	<wp:min_wordpress_version>7.1</wp:min_wordpress_version>
+	<wp:min_twentig_version>2.0</wp:min_twentig_version>	
+	<wp:theme>twentig-one</wp:theme>
+
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[Admin]]></wp:author_login><wp:author_email><![CDATA[contact@example.com]]></wp:author_email><wp:author_display_name><![CDATA[Admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+
+		<item>
+		<title><![CDATA[Home]]></title>
+		<link>https://demo.twentig.com/photography-starter/</link>
+		<pubDate>Fri, 07 Aug 2026 14:34:03 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center">Capturing people and places around the world</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":360} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1711473537783-908b0112f384?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1609412058473-c199497c3c5d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1683138166837-8405d8b680fd?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTR8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1730759214655-2b078867c99a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1772702776925-e0fa174b2966?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1676557060416-1418aefb165d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1668194645738-ef8dbb426086?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728408828574-70a460530093?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1692186484223-4a49480c6fe9?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1659944975073-453265ccf3a6?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1662387955680-198d5fd551bc?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782295506377-5319cc5062d1?q=80&amp;w=1500&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1714418903796-addc2facacd3?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1773070784326-461cca3a4db8?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1727324358652-e82abf20aad2?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1761872936306-cede97eb846d?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1777993325982-d0e9e0f61cfb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1778343303047-374a3231bc75?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1521401415461-83e7162b8e64?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1679058276153-548ef0211d8d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjV8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1729180253305-23990aee8705?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1541261248870-4a12b1b68308?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1770839012299-fb0130e5ec67?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1522582451902-3545817f6046?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1543485444-d06ae776fddb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1753952969735-9be9feb9a217?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1682687220305-ce8a9ab237b1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1576863555995-5cad6274b5f3?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1769470292463-2808d373c35a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782179283322-8875ae7944e7?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1604325099517-d9ff3c837c3c?q=80&amp;w=1800&amp;h=1080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWVtZW58ZW58MHx8MHx8fDA%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1580637400709-77d4b4afd10b?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1488048924544-c818a467dacd?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1619092108191-e9dd8d7c3433?q=80&amp;w=675&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 14:34:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 14:34:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Commissions]]></title>
+		<link>https://demo.twentig.com/photography-starter/commissions/</link>
+		<pubDate>Fri, 07 Aug 2026 15:08:54 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=10</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center">Commissioned work</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":360} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1623263704614-a3feeeceb9c7?q=80&amp;w=1660&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742201603561-3c8bfe21a7db?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTQyfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1725885024673-9712b9052bac?q=80&amp;w=806&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1778174739838-8f154a589ed4?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTMxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1711473537783-908b0112f384?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1737124520382-77d5a870916d?q=80&amp;w=1758&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTI2fDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1737562963380-3a7e45c0bf31?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAyfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1634622484002-617ab0c40444?q=80&amp;w=1014&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1602306070464-543816559b21?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjR8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1609412058473-c199497c3c5d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1683138166837-8405d8b680fd?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTR8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1676557060416-1418aefb165d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1692186484223-4a49480c6fe9?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782295506377-5319cc5062d1?q=80&amp;w=1500&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1659944975073-453265ccf3a6?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1781428269435-06550e27ea7a?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzV8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1774575902298-564503f168a7?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTMwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1746311372686-e164b0bcb333?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTE5fDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1727324358652-e82abf20aad2?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1722199663886-31249c6b5efb?q=80&amp;w=1742&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTIzfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1714418903796-addc2facacd3?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1466721591366-2d5fba72006d?q=80&amp;w=1700&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTEzfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1729180253305-23990aee8705?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1777993325982-d0e9e0f61cfb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1778343303047-374a3231bc75?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1521401415461-83e7162b8e64?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1739705120861-6669d3f15203?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1541261248870-4a12b1b68308?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1781642349073-3f291b872dd5?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTA5fDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1604325099517-d9ff3c837c3c?q=80&amp;w=1800&amp;h=1080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1682687220305-ce8a9ab237b1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWVtZW58ZW58MHx8MHx8fDA%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1770839012299-fb0130e5ec67?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:08:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:08:54]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[commissions]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Personal]]></title>
+		<link>https://demo.twentig.com/photography-starter/personal/</link>
+		<pubDate>Fri, 07 Aug 2026 15:10:18 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=12</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center">Personal work</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":360} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1746311975982-9a4292756ab9?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTE4fDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1488048924544-c818a467dacd?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1675019062965-0c0c9cfc5dc1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTI4fDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1721332898524-a5e3c447f746?q=80&amp;w=1500&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1722853161518-ccc09b38668c?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTQwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1668194645738-ef8dbb426086?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728408828574-70a460530093?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1730759214655-2b078867c99a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1576863555995-5cad6274b5f3?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1580637400709-77d4b4afd10b?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1772702776925-e0fa174b2966?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1543485444-d06ae776fddb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1773070784326-461cca3a4db8?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782179283322-8875ae7944e7?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1679058276153-548ef0211d8d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjV8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1761872936306-cede97eb846d?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1662387955680-198d5fd551bc?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1769470292463-2808d373c35a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1522582451902-3545817f6046?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1619092108191-e9dd8d7c3433?q=80&amp;w=675&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1750315857352-b261c631d853?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTExfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1753952969735-9be9feb9a217?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1725100805341-d68715de7140?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTI5fDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1565340076637-825894a74ca6?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1725610588109-71d0def86e19?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782179284262-ee6d12e2163f?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782520789078-97933c5c9487?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTIyfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1574095203563-aa3b2519ab33?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1764893216840-5869b52de5c5?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTIxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1783003530180-eb8c99a80334?q=80&amp;w=796&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTEyfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1501917018566-8186ec861d99?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1588776873617-51922b5885f8?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1737625776369-dd2ff99abd90?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1742205334853-ab8166eed40d?q=80&amp;w=1800&amp;h=1014&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Nnw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1768898822470-8910ddea6378?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:10:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:10:18]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[personal]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Blog]]></title>
+		<link>https://demo.twentig.com/photography-starter/blog/</link>
+		<pubDate>Fri, 07 Aug 2026 15:10:43 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:10:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:10:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[About]]></title>
+		<link>https://demo.twentig.com/photography-starter/about/</link>
+		<pubDate>Fri, 07 Aug 2026 15:21:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=16</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"twStack":"md"} -->
+<div class="wp-block-columns tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":1,"className":"tw-md-text-center"} -->
+<h1 class="wp-block-heading tw-md-text-center">Independent photographer working worldwide</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1563206748-a8d1142ea31c?q=80&amp;w=1800&amp;h=1200&amp;fp-y=0.18&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--65);margin-bottom:var(--wp--preset--spacing--60)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|60"}}},"twStack":"md"} -->
+<div class="wp-block-columns tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Biography</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p>Mario Santi is an independent photographer based in Italy. A long first trip through Southeast Asia, made with one camera and no assignment, set the pattern for most of the work that followed. He travels alone, usually for weeks at a time, and returns to the same regions across several trips rather than moving on to new ones. He tends to stay longer than he means to.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>His work moves between commissioned assignments and personal projects that develop over years, sometimes without a clear end. Much of it is made in ordinary circumstances: markets before they fill up, roads between towns, people at work early or late in the day. What holds it together is an interest in how people spend their days rather than in the places themselves, and a willingness to wait for the part of the day that matters.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|60"}}},"twStack":"md"} -->
+<div class="wp-block-columns tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Exhibitions</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Ordinary Hours, Galerie Vandenhove, Brussels (2025)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Early and Late, solo show, Casa Bertolli, Bologna (2024)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Twelve Roads, group show, Fotohuis Noord, Rotterdam (2023)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>People at Work, Galerie Saint-Roch, Arles (2022)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>The Long Way Round, solo show, Fondazione Rivalta, Modena (2020)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Between Trips, group show, Kunstraum Lettau, Berlin (2018)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|60"}}},"twStack":"md"} -->
+<div class="wp-block-columns tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Publications</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:list {"className":"is-style-tw-no-bullet tw-list-spacing-medium"} -->
+<ul class="wp-block-list is-style-tw-no-bullet tw-list-spacing-medium"><!-- wp:list-item -->
+<li>The New York Times Magazine (2025)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Internazionale, cover story (2024)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>National Geographic Traveller (2023)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>The Guardian Weekend (2023)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>De Volkskrant Magazine (2022)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Le Monde Magazine (2021)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Courrier International (2020)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Il Venerdi di Repubblica (2018)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|60"}}},"twStack":"md"} -->
+<div class="wp-block-columns tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Selected clients</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:list {"className":"is-style-tw-inline tw-list-spacing-medium","style":{"spacing":{"margin":{"top":"-8px"}}}} -->
+<ul style="margin-top:-8px" class="wp-block-list is-style-tw-inline tw-list-spacing-medium"><!-- wp:list-item -->
+<li>Alba Editrice</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Fondazione Terre Alte</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Nord Atlantic Hotels</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Verso Publishing</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Meridiana Coffee</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Altura Outdoor</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Compagnia del Sale</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Lumen Travel</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Casa Marini</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Vento Nord</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Studio Belvedere</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Riva Hotels Group</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Atlas Guides</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Terra Ferma</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Kilim Textiles</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Fondazione Passaggi</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Nordkust Rail</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Slow Roads</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ostuni Olive</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Casa Lorenzi</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Hoekstra Reizen</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ardenne Editions</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"tagName":"div","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"></div>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|60"}}},"twStack":"md"} -->
+<div class="wp-block-columns tw-cols-stack-md"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Contact</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p>Email<br><a href="mailto:mariosanti@example.com">mariosanti@example.com</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Instagram<br><a href="HASHURL:#">@username</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Phone<br>+39 02 1234 5678</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:21:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:21:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 2]]></title>
+		<link>https://demo.twentig.com/photography-starter/home-2/</link>
+		<pubDate>Fri, 07 Aug 2026 15:27:02 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:heading {"level":1,"align":"wide","className":"screen-reader-text","style":{"typography":{"textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center alignwide screen-reader-text">Capturing people and places around the world</h1>
+<!-- /wp:heading -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70","top":"var:preset|spacing|65"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":360} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1711473537783-908b0112f384?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1609412058473-c199497c3c5d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1683138166837-8405d8b680fd?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTR8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1730759214655-2b078867c99a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1772702776925-e0fa174b2966?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1676557060416-1418aefb165d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1668194645738-ef8dbb426086?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728408828574-70a460530093?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1692186484223-4a49480c6fe9?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1659944975073-453265ccf3a6?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1662387955680-198d5fd551bc?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782295506377-5319cc5062d1?q=80&amp;w=1500&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1714418903796-addc2facacd3?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1773070784326-461cca3a4db8?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1727324358652-e82abf20aad2?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1761872936306-cede97eb846d?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1777993325982-d0e9e0f61cfb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1778343303047-374a3231bc75?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1521401415461-83e7162b8e64?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1679058276153-548ef0211d8d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjV8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1729180253305-23990aee8705?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1541261248870-4a12b1b68308?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1770839012299-fb0130e5ec67?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1522582451902-3545817f6046?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1543485444-d06ae776fddb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1753952969735-9be9feb9a217?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1682687220305-ce8a9ab237b1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1576863555995-5cad6274b5f3?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1769470292463-2808d373c35a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782179283322-8875ae7944e7?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1604325099517-d9ff3c837c3c?q=80&amp;w=1800&amp;h=1080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWVtZW58ZW58MHx8MHx8fDA%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1580637400709-77d4b4afd10b?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1488048924544-c818a467dacd?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1619092108191-e9dd8d7c3433?q=80&amp;w=675&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:27:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:27:02]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Home 3]]></title>
+		<link>https://demo.twentig.com/photography-starter/home-3/</link>
+		<pubDate>Fri, 07 Aug 2026 15:29:22 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=20</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?q=60\u0026w=2000\u0026h=1500\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTQxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D","dimRatio":50,"isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.24},"minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","sizeSlug":"full","align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="min-height:100vh"><img class="wp-block-cover__image-background size-full" alt="" src="https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?q=60&amp;w=2000&amp;h=1500&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTQxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" style="object-position:50% 24%" data-object-fit="cover" data-object-position="50% 24%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center">Capturing people and places around the world</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70","top":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":360} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1711473537783-908b0112f384?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1609412058473-c199497c3c5d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1683138166837-8405d8b680fd?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTR8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1730759214655-2b078867c99a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1772702776925-e0fa174b2966?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1676557060416-1418aefb165d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1668194645738-ef8dbb426086?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728408828574-70a460530093?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1692186484223-4a49480c6fe9?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1659944975073-453265ccf3a6?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1662387955680-198d5fd551bc?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782295506377-5319cc5062d1?q=80&amp;w=1500&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1714418903796-addc2facacd3?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1773070784326-461cca3a4db8?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1727324358652-e82abf20aad2?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1761872936306-cede97eb846d?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1777993325982-d0e9e0f61cfb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1778343303047-374a3231bc75?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1521401415461-83e7162b8e64?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1679058276153-548ef0211d8d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjV8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1729180253305-23990aee8705?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1541261248870-4a12b1b68308?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1770839012299-fb0130e5ec67?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1522582451902-3545817f6046?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1543485444-d06ae776fddb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1753952969735-9be9feb9a217?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1682687220305-ce8a9ab237b1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1576863555995-5cad6274b5f3?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1769470292463-2808d373c35a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782179283322-8875ae7944e7?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1604325099517-d9ff3c837c3c?q=80&amp;w=1800&amp;h=1080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWVtZW58ZW58MHx8MHx8fDA%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1580637400709-77d4b4afd10b?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1488048924544-c818a467dacd?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1619092108191-e9dd8d7c3433?q=80&amp;w=675&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:29:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:29:22]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page-transparent-header]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home 4]]></title>
+		<link>https://demo.twentig.com/photography-starter/home-4/</link>
+		<pubDate>Fri, 07 Aug 2026 15:33:06 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?page_id=22</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?q=60\u0026w=2000\u0026h=1500\u0026auto=format\u0026fit=crop\u0026ixlib=rb-4.1.0\u0026ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTQxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D","dimRatio":0,"focalPoint":{"x":0.5,"y":0.24},"minHeight":70,"minHeightUnit":"vh","isDark":false,"align":"full"} -->
+<div class="wp-block-cover alignfull is-light" style="min-height:70vh"><img class="wp-block-cover__image-background" alt="" src="https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?q=60&amp;w=2000&amp;h=1500&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTQxfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" style="object-position:50% 24%" data-object-fit="cover" data-object-position="50% 24%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}},"fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size"></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|65","bottom":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--65)"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center"}}} -->
+<h1 class="wp-block-heading has-text-align-center">Capturing people and places around the world</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"},"margin":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--0);margin-bottom:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:gallery {"linkTo":"lightbox","twLayout":"justified","twFixedWidthCols":true,"twRowHeight":360} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped tw-gallery-justified tw-fixed-cols"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1711473537783-908b0112f384?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTAwfDYxZl9qZDA2V284fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1609412058473-c199497c3c5d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1683138166837-8405d8b680fd?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTR8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1730759214655-2b078867c99a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1772702776925-e0fa174b2966?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1676557060416-1418aefb165d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1668194645738-ef8dbb426086?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728408828574-70a460530093?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1692186484223-4a49480c6fe9?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1659944975073-453265ccf3a6?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1662387955680-198d5fd551bc?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782295506377-5319cc5062d1?q=80&amp;w=1500&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1714418903796-addc2facacd3?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1773070784326-461cca3a4db8?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjN8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1727324358652-e82abf20aad2?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1761872936306-cede97eb846d?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1777993325982-d0e9e0f61cfb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1778343303047-374a3231bc75?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1521401415461-83e7162b8e64?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8ODl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1679058276153-548ef0211d8d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NjV8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1729180253305-23990aee8705?q=80&amp;w=1200&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1541261248870-4a12b1b68308?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1770839012299-fb0130e5ec67?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Njl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1522582451902-3545817f6046?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1543485444-d06ae776fddb?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1753952969735-9be9feb9a217?q=80&amp;w=1600&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NzF8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1682687220305-ce8a9ab237b1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1576863555995-5cad6274b5f3?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1769470292463-2808d373c35a?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzZ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1782179283322-8875ae7944e7?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1604325099517-d9ff3c837c3c?q=80&amp;w=1800&amp;h=1080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1642425149556-b6f90e946859?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eWVtZW58ZW58MHx8MHx8fDA%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1580637400709-77d4b4afd10b?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1488048924544-c818a467dacd?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1619092108191-e9dd8d7c3433?q=80&amp;w=675&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NjFmX2pkMDZXbzh8fGVufDB8fHx8fA%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:33:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:33:06]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Everyday life in Indonesia]]></title>
+		<link>https://demo.twentig.com/photography-starter/everyday-life-in-indonesia/</link>
+		<pubDate>Wed, 28 Jan 2026 15:43:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?p=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>There are no cars on Gili Air, so a bicycle is the usual way around. I went out most evenings after the heat dropped and came back near sundown. The full circuit took a little under an hour, longer whenever I stopped, which was often.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Bali was busier than I thought it would be, but easier to move through. I went up to Tegallalang early one morning, north of Ubud, mostly to avoid the crowd. That worked, though I was clearly not the only one with the idea.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1619092108191-e9dd8d7c3433?q=80&amp;w=675&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":""} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1728019352830-eab1242cc806?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGluZG9uZXNpYXxlbnwwfHw0fHx8MA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGluZG9uZXNpYXxlbnwwfDB8MHx8fDI%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":""} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1727341392733-c2646fe7987d?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGluZG9uZXNpYXxlbnwwfHw0fHx8MA%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1593332484894-216598b8eb11?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTM5fHxJbmRvbmVzaWF8ZW58MHx8NHx8fDA%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>Semarang and Samarinda were not places I chose. The routes I took led through them, and both turned out fine. Some of my better days began on mornings when I felt like staying in and had to talk myself out of it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In Kusamba I met a woman who farms salt on the coast. We talked for a few minutes, mostly about the weather that week, and then she went back to work. I did not want to take up her afternoon.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2026-01-28 15:43:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-01-28 15:43:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[everyday-life-in-indonesia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[37]]></wp:meta_value>
+		</wp:postmeta>							
+							</item>
+					<item>
+		<title><![CDATA[indonesia]]></title>
+		<link>https://demo.twentig.com/photography-starter/everyday-life-in-indonesia/indonesia/</link>
+		<pubDate>Fri, 07 Aug 2026 15:44:25 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/indonesia.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:44:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:44:25]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[indonesia]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>36</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/indonesia.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/08/indonesia.webp]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Volcanic landscapes of Hawaii]]></title>
+		<link>https://demo.twentig.com/photography-starter/volcanic-landscapes-of-hawaii/</link>
+		<pubDate>Thu, 19 Feb 2026 15:45:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?p=39</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>We took a boat for about half an hour along the coast near Kalapana. The trip is short on paper. On the water, with everyone quiet and holding on to something, it felt considerably longer than that.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Heat comes off a lava flow in a way you feel before you understand it. We kept our distance the whole time. Nobody on board asked to get closer. That surprised me then. It does not now.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1489914023688-f41499faec3f?q=80&amp;w=900&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":""} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1649147735150-dd77ff9a3d47?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzI3fHxoYXdhaWl8ZW58MHwxfDB8fHww" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The rest of the trip moved at another speed entirely. I based myself near Kailua-Kona and did very little for several days, mostly driving and stopping. The weather changed from one side of a valley to the next.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","align":"wide","className":"tw-width-100"} -->
+<figure class="wp-block-image alignwide size-large tw-width-100"><img src="https://images.unsplash.com/photo-1479947119049-7342c14b8122?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>I had expected the volcano to be the whole story of the trip. It was only a part of it. What I remember is the time between places, and how quiet the coast was a few miles further along.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2026-02-19 15:45:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-02-19 15:45:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[volcanic-landscapes-of-hawaii]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[40]]></wp:meta_value>
+		</wp:postmeta>						
+							</item>
+					<item>
+		<title><![CDATA[hawaii]]></title>
+		<link>https://demo.twentig.com/photography-starter/volcanic-landscapes-of-hawaii/hawaii/</link>
+		<pubDate>Fri, 07 Aug 2026 15:45:55 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/hawaii.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:45:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:45:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[hawaii]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>39</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/hawaii.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/08/hawaii.webp]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Hills and pastures in England]]></title>
+		<link>https://demo.twentig.com/photography-starter/hills-and-pastures-in-england/</link>
+		<pubDate>Thu, 05 Mar 2026 15:47:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?p=42</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>I went up to Honister in winter, which people had warned me about. The weather there turned several times in an hour, and then turned back. I stopped checking the forecast after the first morning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The passes are narrow and steep, and driving them takes real attention. Hardknott in particular. I pulled over more than once to let cars come down. On my second visit, I left the car at the bottom.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1474475519954-0b0cd898ecd8?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTYzfHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1538138444617-84a25248f7a3?q=80&amp;w=888&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTd8fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1538138351794-9f847ea63014?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTh8fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1487605436447-5c6f03361e9e?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTI1fHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The walls on those hillsides were built to divide grazing land, not to be looked at. They have outlasted most of what was around them. Someone still keeps them standing, though I never saw the work being done.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Highclere and Mam Tor came from other trips, at other times of year. Different parts of England, similar weather. I came home from all of them with wet boots and a short list of places to return to.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-05 15:47:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-05 15:47:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[hills-and-pastures-in-england]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+			<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[43]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[england]]></title>
+		<link>https://demo.twentig.com/photography-starter/hills-and-pastures-in-england/england/</link>
+		<pubDate>Fri, 07 Aug 2026 15:48:07 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/england.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:48:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:48:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[england]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>42</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/england.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/08/england.webp]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Mountains and villages in Nepal]]></title>
+		<link>https://demo.twentig.com/photography-starter/mountains-and-villages-in-nepal/</link>
+		<pubDate>Fri, 22 May 2026 15:48:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?p=45</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Kathmandu came first. I stayed two days near Boudhanath before going anywhere else, and it is a good place to lose track of time. I walked the same circle every evening and never got tired of it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>On the trail the day starts in the dark and the cold. Above Narchyang, in the Annapurna region, you wait for the sun with real impatience. Once it reaches you, everything else about the morning improves.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVwYWx8ZW58MHx8MHx8fDI%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1551973730-39ba713c13af?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1549874682-13ffd26ee224?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw2MWZfamQwNldvOHx8ZW58MHx8fHx8" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1612031326777-1391836af889?q=80&amp;w=798&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fG5lcGFsfGVufDB8fDB8fHwy" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":""} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1628128502571-d890a5974f61?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxuZXBhbHxlbnwwfHwwfHx8Mg%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The route toward Everest is not one landscape. Mud one day, rain the next, snow after that. On the narrow sections you learn quickly which side of the path to stand on, and you do not argue.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Gokyo Ri was the high point and I remember very little of the climb itself. Later, in Dhulikhel, everything was easier to hold onto. It was lower, warmer, and the first place where I slept properly in weeks.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>45</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-22 15:48:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-22 15:48:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[mountains-and-villages-in-nepal]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[46]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[nepal]]></title>
+		<link>https://demo.twentig.com/photography-starter/mountains-and-villages-in-nepal/nepal/</link>
+		<pubDate>Fri, 07 Aug 2026 15:49:47 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/nepal.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:49:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:49:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[nepal]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/nepal.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/08/nepal.webp]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Markets and rice fields in Vietnam]]></title>
+		<link>https://demo.twentig.com/photography-starter/markets-and-rice-fields-in-vietnam/</link>
+		<pubDate>Thu, 30 Jul 2026 15:50:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?p=48</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Hue was my first stop. I got to Dong Ba market early because I could not sleep. There was no better reason than that. Most of the setting up was finished by the time I arrived and found somewhere for coffee.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In Da Lat the mornings were colder than I expected. The town wakes up in stages, and the first hour belongs to whoever is already working. I bought coffee there too, then stood out of the way.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1472141439690-eadcf4a62267?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTE0fGdHY1gwejk5ZlA4fHxlbnwwfHx8fHw%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1675019062965-0c0c9cfc5dc1?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc1fHx2aWV0bmFtfGVufDB8fDB8fHwy" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1609412058473-c199497c3c5d?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dmlldG5hbXxlbnwwfHwwfHx8Mg%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1604325099517-d9ff3c837c3c?q=80&amp;w=1800&amp;h=1080&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHZpZXRuYW18ZW58MHx8MHx8fDI%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1616438096679-620332ede3a2?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHZpZXRuYW18ZW58MHx8MHx8fDI%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":""} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1580534510745-5c753903769c?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU5fHx2aWV0bmFtfGVufDB8fDB8fHwy" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>The ride out of Mu Cang Chai was about fifteen kilometers and it was freezing the whole way. I reached the top just before sunrise. That was luck more than anything I did, and I never managed the same timing again.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Further south, near Hoi An, the fields sit flat and close to the road. The work there runs on its own schedule and has nothing to do with people passing through. I kept to the edge of the field.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>48</wp:post_id>
+		<wp:post_date><![CDATA[2026-07-30 15:50:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-07-30 15:50:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[markets-and-rice-fields-in-vietnam]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+				<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[49]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[vietnam]]></title>
+		<link>https://demo.twentig.com/photography-starter/markets-and-rice-fields-in-vietnam/vietnam/</link>
+		<pubDate>Fri, 07 Aug 2026 15:50:42 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/vietnam.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>49</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:50:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:50:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[vietnam]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>48</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/vietnam.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/08/vietnam.webp]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Island life in the Philippines]]></title>
+		<link>https://demo.twentig.com/photography-starter/island-life-in-the-philippines/</link>
+		<pubDate>Fri, 07 Aug 2026 15:52:06 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/?p=51</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>I spent most of that trip moving by water. Ferries in the morning, something smaller later in the day, and long waits in between. At Corong Corong the day ends before you are ready for it, and the work carries on for a while after that.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Siargao felt built for riding. I found the roads easy to follow and hard to hurry on, so I stayed out later than I meant to. I stopped often, usually for no good reason. That habit stayed with me for the rest of the trip.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":2,"linkTo":"none","align":"wide"} -->
+<figure class="wp-block-gallery alignwide has-nested-images columns-2 is-cropped"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1588688893917-0ba9a9b36019?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEzfHxwaGlsaXBwaW5lc3xlbnwwfHwwfHx8Mg%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1517971053567-8bde93bc6a58?q=80&amp;w=900&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBoaWxpcHBpbmVzfGVufDB8fDB8fHwy" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1565340076637-825894a74ca6?q=80&amp;w=960&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBoaWxpcHBpbmVzfGVufDB8fDB8fHwy" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"tw-width-100"} -->
+<figure class="wp-block-image size-large tw-width-100"><img src="https://images.unsplash.com/photo-1646369128737-8430fde341f8?q=80&amp;w=1800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjc1fHxwaGlsaXBwaW5lc3xlbnwwfHwwfHx8Mg%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1746311693925-ad34d703ce6d?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzAzfHxwaGlsaXBwaW5lc3xlbnwwfHwwfHx8Mg%3D%3D" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":""} -->
+<figure class="wp-block-image size-large"><img src="https://images.unsplash.com/photo-1714572877801-45d84c511a1e?q=80&amp;w=800&amp;h=1200&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEyfHxwaGlsaXBwaW5lc3xlbnwwfHwwfHx8Mg%3D%3D" alt=""/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>Sibulan was a change of pace. The road up toward Lake Balinsasayao climbs away from the coast, and the air cools as you go. It takes longer than the distance suggests. I sat at the viewing deck for a long time and spoke to no one.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>None of this was planned well. I booked things late and moved too often, and lost a day to a ferry I did not need to take. If I go again I will stay longer in fewer places, which is advice I have been given before and ignored.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>51</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:52:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:52:06]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[island-life-in-the-philippines]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[52]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[John Wapuu]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[contact@example.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2026-08-07 15:54:31]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2026-08-07 15:54:31]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					</item>
+					<item>
+		<title><![CDATA[philippines]]></title>
+		<link>https://demo.twentig.com/photography-starter/island-life-in-the-philippines/philippines/</link>
+		<pubDate>Fri, 07 Aug 2026 15:51:28 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/philippines.webp</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>52</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:51:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:51:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[philippines]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>51</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://demo.twentig.com/photography-starter/wp-content/uploads/sites/33/2026/08/philippines.webp]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/08/philippines.webp]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>https://demo.twentig.com/photography-starter/wp-global-styles-twentig-one/</link>
+		<pubDate>Fri, 07 Aug 2026 14:52:31 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/wp-global-styles-twentig-one/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"styles":{"spacing":{"padding":{"top":"0px","right":"var:preset|spacing|20","bottom":"0px","left":"var:preset|spacing|20"}}},"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 14:52:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 14:52:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-twentig-one]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://demo.twentig.com/photography-starter/navigation/</link>
+		<pubDate>Fri, 07 Aug 2026 15:06:31 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:home-link {"label":"Overview"} /-->
+
+<!-- wp:navigation-link {"label":"Commissions","type":"page","id":10,"url":"https://demo.twentig.com/photography-starter/commissions/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Personal","type":"page","id":12,"url":"https://demo.twentig.com/photography-starter/personal/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Blog","type":"page","id":14,"url":"https://demo.twentig.com/photography-starter/blog/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"About","type":"page","id":16,"url":"https://demo.twentig.com/photography-starter/about/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:06:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:06:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Header]]></title>
+		<link>https://demo.twentig.com/photography-starter/header/</link>
+		<pubDate>Fri, 07 Aug 2026 15:39:03 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/header/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|15","bottom":"var:preset|spacing|15"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--15);padding-bottom:var(--wp--preset--spacing--15)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0} /-->
+
+<!-- wp:navigation {"ref":9,"overlayBackgroundColor":"base","overlayTextColor":"contrast","style":{"spacing":{"blockGap":"var:preset|spacing|25"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"layout":{"type":"flex","setCascadingProperties":true},"twBreakpoint":"tablet"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:39:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:39:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[header]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>https://demo.twentig.com/photography-starter/footer/</link>
+		<pubDate>Fri, 07 Aug 2026 15:39:49 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"base"} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.4"}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="line-height:1.4">
+		© 2026 Mario Santi. Made with <a href="https://twentig.com">Twentig</a>.		</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"className":"is-style-logos-only footer-social"} -->
+<ul class="wp-block-social-links is-style-logos-only footer-social"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>32</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:39:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:39:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_template_part_area" nicename="footer"><![CDATA[footer]]></category>
+		<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Index]]></title>
+		<link>https://demo.twentig.com/photography-starter/index/</link>
+		<pubDate>Fri, 07 Aug 2026 15:40:01 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/index/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-blog-heading"} /--> 
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"metadata":{"id":"blog-section"},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:40:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:40:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[index]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[All Archives]]></title>
+		<link>https://demo.twentig.com/photography-starter/archive/</link>
+		<pubDate>Fri, 07 Aug 2026 15:40:23 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/archive/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+	<!-- wp:pattern {"slug":"twentigone/hidden-archive-heading"} /-->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"metadata":{"id":"blog-section"},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull" style="padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:pattern {"slug":"twentigone/post-loop-default"} /-->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+	
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:40:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:40:23]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[archive]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Single Posts]]></title>
+		<link>https://demo.twentig.com/photography-starter/single/</link>
+		<pubDate>Fri, 07 Aug 2026 15:41:16 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">https://demo.twentig.com/photography-starter/single/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:pattern {"slug":"twentigone/template-single-post-default"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>35</wp:post_id>
+		<wp:post_date><![CDATA[2026-08-07 15:41:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-08-07 15:41:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[single]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentig-one"><![CDATA[twentig-one]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+				</channel>
+</rss>
+	

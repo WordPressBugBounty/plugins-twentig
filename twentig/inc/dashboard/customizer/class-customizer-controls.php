@@ -16,8 +16,8 @@ class Twentig_Customizer_Controls {
 	 * Constructor.
 	 */
 	public function __construct() {
-		$starter_type = get_option( 'twentig-customize-starter' );
-		if ( 'custom' === $starter_type ) {
+		$starter_type = Twentig_Starter_Config::get_type();
+		if ( 'custom' === $starter_type && empty( Twentig_Starter_Config::get()['presets'] ) ) {
 			add_action( 'customize_register', array( $this, 'register_light_customizer_options' ) );
 		} else {
 			add_action( 'customize_register', array( $this, 'register_customizer_options' ) );
@@ -137,7 +137,7 @@ class Twentig_Customizer_Controls {
 
 		$wp_customize->get_setting( 'blogname' )->transport = 'postMessage';
 
-		$starter_type = get_option( 'twentig-customize-starter' );
+		$starter_type = Twentig_Starter_Config::get_type();
 
 		$wp_customize->add_section(
 			'presets',
@@ -156,12 +156,18 @@ class Twentig_Customizer_Controls {
 			)
 		);
 
-		$presets = $this->get_default_settings();
-		$choices = array();
+		$presets      = $this->get_default_settings();
+		$choices      = array();
+		$preset_title = ucfirst( $starter_type );
+
+		if ( 'custom' === $starter_type ) {
+			$config       = Twentig_Starter_Config::get();
+			$preset_title = $config['title'] ?? $preset_title;
+		}
 
 		if ( is_array( $presets ) ) {
 			foreach ( array_keys( $presets ) as $index => $preset_key ) {
-				$choices[ $preset_key ] = ucfirst( $starter_type ) . ' ' . ( $index + 1 );
+				$choices[ $preset_key ] = $preset_title . ' ' . ( $index + 1 );
 			}
 		}
 
@@ -260,7 +266,7 @@ class Twentig_Customizer_Controls {
 				$setting_id,
 				array(
 					'default'           => in_array( $network, array( 'instagram', 'linkedin' ), true ) ? '#' : '',
-					'sanitize_callback' => $network === 'mail' ? 'sanitize_email' : 'esc_url_raw',
+					'sanitize_callback' => 'mail' === $network ? 'sanitize_email' : 'esc_url_raw',
 					'capability'        => 'edit_theme_options',
 					'transport'         => 'postMessage',
 				)
@@ -271,7 +277,7 @@ class Twentig_Customizer_Controls {
 				array(
 					'label'       => $label,
 					'section'     => 'navigation',
-					'type'        => $network === 'mail' ? 'email' : 'url',
+					'type'        => 'mail' === $network ? 'email' : 'url',
 					'input_attrs' => array(
 						'placeholder' => esc_html__( 'Enter social link', 'default' ),
 					),
@@ -439,10 +445,10 @@ class Twentig_Customizer_Controls {
 		$wp_customize->add_control(
 			'footer_layout',
 			array(
-				'label'       => __( 'Layout', 'twentig' ),
-				'section'     => 'footer',
-				'type'        => 'select',
-				'choices'     => array(
+				'label'   => __( 'Layout', 'twentig' ),
+				'section' => 'footer',
+				'type'    => 'select',
+				'choices' => $this->maybe_add_starter_default_choice( array(
 					'default'                      => __( 'Simple with social icons', 'twentig' ),
 					'simple-navigation'            => __( 'Simple with navigation', 'twentig' ),
 					'copyright'                    => __( 'Copyright only', 'twentig' ),
@@ -451,7 +457,7 @@ class Twentig_Customizer_Controls {
 					'2-column-navigation-headings' => __( '2-column navigation with headings', 'twentig' ),
 					'3-column'                     => __( '3-column navigation', 'twentig' ),
 					'4-column'                     => __( '4-column with headings', 'twentig' ),
-				),
+				), $presets, 'footer_layout' ),
 			)
 		);
 
@@ -507,7 +513,7 @@ class Twentig_Customizer_Controls {
 			array(
 				'title'           => __( 'Homepage', 'twentig' ),
 				'active_callback' => function() {
-					return get_option( 'show_on_front' ) === 'page' && get_option( 'page_on_front' );
+					return 'page' === get_option( 'show_on_front' ) && get_option( 'page_on_front' );
 				},
 			)
 		);
@@ -564,7 +570,7 @@ class Twentig_Customizer_Controls {
 			array(
 				'title'           => __( 'Portfolio', 'twentig' ),
 				'active_callback' => function() {
-					return ( post_type_exists( 'portfolio' ) && 'portfolio' === get_option( 'twentig-customize-starter' ) );
+					return post_type_exists( 'portfolio' ) && Twentig_Starter_Config::supports_portfolio();
 				},
 			)
 		);
@@ -584,7 +590,7 @@ class Twentig_Customizer_Controls {
 				'label'   => __( 'Portfolio Layout', 'twentig' ),
 				'section' => 'portfolio',
 				'type'    => 'select',
-				'choices' => array(
+				'choices' => $this->maybe_add_starter_default_choice( array(
 					'default'          => __( '2-column', 'twentig' ),
 					'2-column-covers'  => __( '2-column covers', 'twentig' ),
 					'offset'           => __( '2-column offset', 'twentig' ),
@@ -594,7 +600,7 @@ class Twentig_Customizer_Controls {
 					'1-column-cover'   => __( 'Single-column covers', 'twentig' ),
 					'1-2-column'       => __( 'Single-column 2-column', 'twentig' ),
 					'alt-side-by-side' => __( 'Alternating side-by-side', 'twentig' ),
-				),
+				), $presets, 'portfolio_layout' ),
 			)
 		);
 
@@ -637,7 +643,7 @@ class Twentig_Customizer_Controls {
 				'label'   => __( 'Project Hero', 'twentig' ),
 				'section' => 'portfolio',
 				'type'    => 'select',
-				'choices' => array(
+				'choices' => $this->maybe_add_starter_default_choice( array(
 					'default'          => __( 'Wide image', 'twentig' ),
 					'overlap'          => __( 'Overlap image', 'twentig' ),
 					'fullwidth-image'  => __( 'Full-width image', 'twentig' ),
@@ -647,7 +653,7 @@ class Twentig_Customizer_Controls {
 					'split'            => __( 'Split', 'twentig' ),
 					'fullwidth-split'  => __( 'Full-width split', 'twentig' ),
 					'title-only'       => __( 'Title only', 'twentig' ),
-				),
+				), $presets, 'portfolio_single_layout' ),
 			)
 		);
 
@@ -669,9 +675,9 @@ class Twentig_Customizer_Controls {
 				'type'    => 'select',
 				'choices' => array(
 					'default' => __( 'Previous/Next', 'twentig' ),
+					'next'    => __( 'Next', 'twentig' ),
 					'related' => __( 'Related projects', 'twentig' ),
 					'none'    => _x( 'None', 'Navigation option', 'twentig' ),
-					
 				),
 			)
 		);
@@ -698,17 +704,18 @@ class Twentig_Customizer_Controls {
 				'label'   => __( 'Blog Layout', 'twentig' ),
 				'section' => 'blog',
 				'type'    => 'select',
-				'choices' => array(
+				'choices' => $this->maybe_add_starter_default_choice( array(
 					'default'          => __( '2-column', 'twentig' ),
 					'2-column-covers'  => __( '2-column covers', 'twentig' ),
 					'2-column-text'    => __( '2-column text-only', 'twentig' ),
 					'3-column'         => __( '3-column', 'twentig' ),
+					'3-column-full'    => __( '3-column full-width', 'twentig' ),
 					'3-column-cards'   => __( '3-column cards', 'twentig' ),
 					'1-column'         => __( 'Single-column', 'twentig' ),
 					'1-column-sidebar' => __( 'Single-column with sidebar', 'twentig' ),
 					'side-by-side'     => __( 'Side-by-side', 'twentig' ),
 					'editorial-list'   => __( 'Editorial list', 'twentig' ),
-				),
+				), $presets, 'blog_layout' ),
 			)
 		);
 
@@ -728,7 +735,7 @@ class Twentig_Customizer_Controls {
 				'label'   => __( 'Post Hero', 'twentig' ),
 				'section' => 'blog',
 				'type'    => 'select',
-				'choices' => array(
+				'choices' => $this->maybe_add_starter_default_choice( array(
 					'narrow'           => __( 'Narrow image', 'twentig' ),
 					'default'          => __( 'Wide image', 'twentig' ),
 					'overlap'          => __( 'Overlap image', 'twentig' ),
@@ -737,9 +744,10 @@ class Twentig_Customizer_Controls {
 					'fullscreen-cover' => __( 'Fullscreen cover', 'twentig' ),
 					'split'            => __( 'Split', 'twentig' ),
 					'fullwidth-split'  => __( 'Full-width split', 'twentig' ),
-					'sidebar'          => __( 'With sidebar', 'twentig' ),
+					'sidebar'          => __( 'With sidebar', 'twentig' ),					
+					'title-only'       => __( 'Title only', 'twentig' ),
 					'title-banner'     => __( 'Title banner', 'twentig' ),
-				),
+				), $presets, 'single_layout' ),
 			)
 		);
 
@@ -807,14 +815,16 @@ class Twentig_Customizer_Controls {
 			)
 		);
 
-		$wp_customize->add_setting(
-			'custom_color_palette',
-			array(
-				'default'           => '',
-				'capability'        => 'edit_theme_options',
-				'sanitize_callback' => array( $this, 'sanitize_custom_palette_json' ),
-			)
-		);
+		if ( 'twentig-one' === get_template() ) {
+			$wp_customize->add_setting(
+				'custom_color_palette',
+				array(
+					'default'           => '',
+					'capability'        => 'edit_theme_options',
+					'sanitize_callback' => array( $this, 'sanitize_custom_palette_json' ),
+				)
+			);
+		}
 
 		$wp_customize->add_control(
 			new Twentig_Customizer_Color_Palette_Control(
@@ -907,9 +917,9 @@ class Twentig_Customizer_Controls {
 			if ( $nav_post ) {
 				$blocks = parse_blocks( $nav_post->post_content );
 				foreach ( $blocks as $block ) {
-					if ( $block['blockName'] === 'core/home-link' ) {
+					if ( 'core/home-link' === $block['blockName'] ) {
 						$menu_items['home'] = $block['attrs']['label'] ?? __( 'Home', 'default' );
-					} elseif ( $block['blockName'] === 'core/navigation-link' ) {
+					} elseif ( 'core/navigation-link' === $block['blockName'] ) {
 						$id = $block['attrs']['id'] ?? 0;
 						if ( $id ) {
 							$menu_items[ $id ] = $block['attrs']['label'] ?? '';
@@ -943,6 +953,24 @@ class Twentig_Customizer_Controls {
 	public function sanitize_custom_palette_json( $value ) {
 		$palette = Twentig_Customizer_Updater::normalize_custom_palette_json( $value );
 		return $palette ? wp_json_encode( $palette ) : '';
+	}
+
+	/**
+	 * Adds the Starter default choice when a preset uses a custom setting value.
+	 *
+	 * @param array  $choices    Existing control choices.
+	 * @param array  $presets    Starter preset settings.
+	 * @param string $setting_id Setting identifier.
+	 * @return array Control choices.
+	 */
+	private function maybe_add_starter_default_choice( $choices, $presets, $setting_id ) {
+		foreach ( (array) $presets as $preset ) {
+			if ( 'custom' === ( $preset[ $setting_id ] ?? '' ) ) {
+				return array( 'custom' => __( 'Starter', 'twentig' ) ) + $choices;
+			}
+		}
+
+		return $choices;
 	}
 
 	/**
@@ -981,7 +1009,7 @@ class Twentig_Customizer_Controls {
 		);
 
 		// Get the blog page URL
-		$blog_url = get_option( 'show_on_front' ) === 'posts' ? home_url( '/' ) : get_permalink( get_option( 'page_for_posts' ) );
+		$blog_url = 'posts' === get_option( 'show_on_front' ) ? home_url( '/' ) : get_permalink( get_option( 'page_for_posts' ) );
 
 		// Get the first post URL
 		$first_post = get_posts(
@@ -1038,8 +1066,14 @@ class Twentig_Customizer_Controls {
 	 */
 	private function get_default_settings() {
 		$presets      = array();
-		$starter_type = get_option( 'twentig-customize-starter', 'portfolio' );
+		$starter_type = Twentig_Starter_Config::get_type();
 		$latin        = $this->is_latin_language();
+		if ( 'custom' === $starter_type ) {
+			$imported = Twentig_Starter_Config::presets( $latin );
+			if ( $imported ) {
+				return $imported;
+			}
+		}
 
 		switch ( $starter_type ) {
 			case 'business':
@@ -1393,6 +1427,91 @@ class Twentig_Customizer_Controls {
 				);
 				break;
 
+			case 'photography':
+				$presets = array(
+					'default'       => array(
+						'social_instagram'  => '#',
+						'social_linkedin'   => '',
+						'social_mail'       => 'contact@example.com',
+						'header_elements'   => array( 'social' ),
+						'header_layout'     => 'default',
+						'header_width'      => 'full',
+						'header_style'      => 'default',
+						'header_position'   => 'sticky-scroll-up',
+						'footer_layout'     => 'default',
+						'footer_width'      => 'full',
+						'footer_style'      => 'default',
+						'home_layout'       => get_option( 'page_on_front' ),
+						'blog_layout'       => '3-column-full',
+						'single_layout'     => 'fullwidth-image',
+						'comments'          => 'none',
+						'single_navigation' => 'default',
+						'color_palette'     => '',
+						'typography'        => $latin ? 'TikTok Sans' : '',
+					),
+					'photography-2' => array(
+						'social_instagram'  => '#',
+						'social_linkedin'   => '',
+						'social_mail'       => 'contact@example.com',
+						'header_elements'   => array(),
+						'header_layout'     => 'default',
+						'header_width'      => 'full',
+						'header_style'      => 'default',
+						'header_position'   => 'sticky-scroll-up',
+						'footer_layout'     => 'default',
+						'footer_width'      => 'full',
+						'footer_style'      => 'default',
+						'home_layout'       => get_page_by_path( 'home-2' )->ID ?? 0,
+						'blog_layout'       => '2-column-covers',
+						'single_layout'     => 'fullscreen-cover',
+						'comments'          => 'none',
+						'single_navigation' => 'related',
+						'color_palette'     => esc_html_x( 'Black', 'Style variation name', 'twentig-one' ), // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
+						'typography'        => $latin ? 'Google Sans' : '',
+					),
+					'photography-3' => array(
+						'social_instagram'  => '#',
+						'social_linkedin'   => '',
+						'social_mail'       => 'contact@example.com',
+						'header_elements'   => array(),
+						'header_layout'     => 'hamburger',
+						'header_width'      => 'full',
+						'header_style'      => 'default',
+						'header_position'   => 'sticky-scroll-up',
+						'footer_layout'     => 'default',
+						'footer_width'      => 'full',
+						'footer_style'      => 'default',
+						'home_layout'       => get_page_by_path( 'home-3' )->ID ?? 0,
+						'blog_layout'       => '3-column-full',
+						'single_layout'     => 'fullwidth-split',
+						'comments'          => 'none',
+						'single_navigation' => 'related',
+						'color_palette'     => '',
+						'typography'        => $latin ? 'Literata' : '',
+					),
+					'photography-4' => array(
+						'social_instagram'  => '#',
+						'social_linkedin'   => '',
+						'social_mail'       => 'contact@example.com',
+						'header_elements'   => array( 'social' ),
+						'header_layout'     => 'left-navigation',
+						'header_width'      => 'full',
+						'header_style'      => 'default',
+						'header_position'   => 'sticky-scroll-up',
+						'footer_layout'     => 'simple-navigation',
+						'footer_width'      => 'full',
+						'footer_style'      => 'default',
+						'home_layout'       => get_page_by_path( 'home-4' )->ID ?? 0,
+						'blog_layout'       => 'default',
+						'single_layout'     => 'default',
+						'comments'          => 'none',
+						'single_navigation' => 'default',
+						'color_palette'     => esc_html_x( 'Off-White', 'Style variation name', 'twentig-one' ), // phpcs:ignore WordPress.WP.I18n.TextDomainMismatch
+						'typography'        => $latin ? 'Instrument Serif · Instrument Sans' : '',
+					),
+				);
+				break;
+
 		}
 		return $presets;
 	}
@@ -1428,7 +1547,7 @@ class Twentig_Customizer_Controls {
 		global $submenu;
 		if ( isset( $submenu['themes.php'] ) ) {
 			foreach ( $submenu['themes.php'] as $key => $item ) {
-				if ( $item[1] === 'customize' ) {
+				if ( 'customize' === $item[1] ) {
 					unset( $submenu['themes.php'][$key] );
 					break;
 				}

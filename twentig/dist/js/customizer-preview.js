@@ -8,6 +8,19 @@
 		value.bind( onChange );
 	} );
 
+	api( 'blog_layout', function( value ) {
+		var onChange = function( to ) {
+			if ( to === 'custom' ) {
+				return;
+			}
+			$( 'body.blog main.wp-block-group > .wp-block-group > .wp-block-query, body.archive main.wp-block-group > .wp-block-group > .wp-block-query' )
+				.parent()
+				.toggleClass( 'is-layout-constrained', ! to.includes( 'full' ) );
+		};
+		onChange( value.get() );
+		value.bind( onChange );
+	} );
+
 	api( 'header_width', function( value ) {	
 		var onChange = function( to ) {
 			$( 'header.wp-block-template-part > .wp-block-group' ).toggleClass( 'is-layout-constrained', to === 'wide' );

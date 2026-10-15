@@ -418,10 +418,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2023/11/tea-cup.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1240;s:6:"height";i:820;s:4:"file";s:20:"2023/11/tea-cup.webp";s:8:"filesize";i:29070;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:20:"tea-cup-300x198.webp";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7202;}s:5:"large";a:5:{s:4:"file";s:21:"tea-cup-1024x677.webp";s:5:"width";i:1024;s:6:"height";i:677;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:31626;}s:9:"thumbnail";a:5:{s:4:"file";s:20:"tea-cup-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3722;}s:12:"medium_large";a:5:{s:4:"file";s:20:"tea-cup-768x508.webp";s:5:"width";i:768;s:6:"height";i:508;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:21836;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Clearing Your Mind: A Path to Inner Peace]]></title>
@@ -520,10 +516,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2023/11/woman-desert.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1240;s:6:"height";i:820;s:4:"file";s:25:"2023/11/woman-desert.webp";s:8:"filesize";i:23036;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:25:"woman-desert-300x198.webp";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3050;}s:5:"large";a:5:{s:4:"file";s:26:"woman-desert-1024x677.webp";s:5:"width";i:1024;s:6:"height";i:677;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:18556;}s:9:"thumbnail";a:5:{s:4:"file";s:25:"woman-desert-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1666;}s:12:"medium_large";a:5:{s:4:"file";s:25:"woman-desert-768x508.webp";s:5:"width";i:768;s:6:"height";i:508;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:12216;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>

@@ -8,16 +8,34 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
+ * Checks whether screen-height fitting applies to the gallery.
+ *
+ * @param array $attributes Gallery block attributes.
+ * @return bool Whether to fit images to screen height.
+ */
+function twentig_gallery_fits_screen( $attributes ) {
+	$layout = $attributes['twLayout'] ?? '';
+
+	return ! empty( $attributes['twFitScreen'] ) &&
+		'justified' !== $layout &&
+		( 'carousel' === $layout || 1 === (int) ( $attributes['columns'] ?? 3 ) );
+}
+
+/**
  * Sets the lightbox scale attribute to "contain" for images inside a gallery
- * that has an aspect ratio with image crop disabled.
+ * with image crop disabled and using Fit Height or an aspect ratio.
  *
  * @param string $block_content The block content.
  * @param array  $block         The full block, including name and attributes.
  * @return string The unmodified block content.
  */
 function twentig_gallery_image_scale_attr( $block_content, $block ) {
-	$attributes    = $block['attrs'] ?? array();
-	$scale_contain = isset( $attributes['aspectRatio'] ) && false === ( $attributes['imageCrop'] ?? true );
+	$attributes = $block['attrs'] ?? array();
+
+	$scale_contain = false === ( $attributes['imageCrop'] ?? true ) && (
+		twentig_gallery_fits_screen( $attributes ) || isset( $attributes['aspectRatio'] )
+	);
+
 	if ( ! $scale_contain ) {
 		return $block_content;
 	}
@@ -56,6 +74,10 @@ function twentig_get_gallery_classes( $attributes ) {
 
 	if ( $layout ) {
 		$classes[] = 'tw-gallery-' . sanitize_html_class( $layout );
+	}
+
+	if ( twentig_gallery_fits_screen( $attributes ) ) {
+		$classes[] = 'tw-fit-screen';
 	}
 
 	if ( ! empty( $attributes['twFixedWidthCols'] ) ) {

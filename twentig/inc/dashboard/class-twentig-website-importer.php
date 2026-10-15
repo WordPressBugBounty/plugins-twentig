@@ -31,8 +31,22 @@ class TwentigWebsiteImporter {
 				'methods'             => \WP_REST_Server::EDITABLE,
 				'callback'            => array( $this, 'import_starter_site_callback' ),
 				'permission_callback' => function () {
-					return current_user_can( 'import' ) && current_user_can( 'delete_posts' );
+					return current_user_can( 'import' )
+						&& current_user_can( 'delete_posts' )
+						&& current_user_can( 'edit_theme_options' );
 				},
+				'args'                => array(
+					'starter_index'           => array(
+						'required' => true,
+						'type'     => 'integer',
+						'minimum'  => 0,
+						'maximum'  => 99,
+					),
+					'delete_previous_content' => array(
+						'type'    => 'boolean',
+						'default' => false,
+					),
+				),
 			)
 		);
 
@@ -43,8 +57,19 @@ class TwentigWebsiteImporter {
 				'methods'             => \WP_REST_Server::EDITABLE,
 				'callback'            => array( $this, 'upload_starter_file_callback' ),
 				'permission_callback' => function () {
-					return current_user_can( 'import' ) && current_user_can( 'delete_posts' );
+					return current_user_can( 'import' )
+						&& current_user_can( 'delete_posts' )
+						&& current_user_can( 'edit_theme_options' );
 				},
+				'args'                => array(
+					'delete_previous_content' => array(
+						'type'    => 'boolean',
+						'default' => false,
+					),
+					'options'                 => array(
+						'type' => 'string',
+					),
+				),
 			)
 		);
 
@@ -75,15 +100,11 @@ class TwentigWebsiteImporter {
 		require_once ABSPATH . 'wp-admin/includes/taxonomy.php';
 
 		$starters                = $this->get_starter_sites();
-		$starter_id              = absint( $request->get_param( 'starter_index' ) );
+		$starter_id              = $request->get_param( 'starter_index' );
 		$delete_previous_content = wp_validate_boolean( $request->get_param( 'delete_previous_content' ) );
 
-		if ( ! isset( $starters[ $starter_id ] ) ) {
+		if ( ! is_int( $starter_id ) || ! isset( $starters[ $starter_id ] ) ) {
 			return new WP_Error( 'invalid_starter_index', 'Invalid starter index specified.', array( 'status' => 400 ) );
-		}
-
-		if ( $delete_previous_content ) {
-			$this->delete_previous_content();
 		}
 
 		$starter             = $starters[ $starter_id ];
@@ -96,14 +117,15 @@ class TwentigWebsiteImporter {
 			return new WP_Error( 'starter_file_missing', esc_html__( 'Starter file not found.', 'twentig' ), array( 'status' => 500 ) );
 		}
 
-		$result = $this->import_and_update_site( $file );
+		$result = $this->import_and_update_site( $file, $delete_previous_content );
 
 		if ( is_wp_error( $result ) ) {
 			return $result;
 		}
 
-		if ( isset( $starter['type'] ) ) {
-			update_option( 'twentig-customize-starter', $starter['type'] );
+		$saved = Twentig_Starter_Config::save( array(), $starter );
+		if ( is_wp_error( $saved ) ) {
+			return $saved;
 		}
 
 		return new WP_REST_Response(
@@ -165,38 +187,55 @@ class TwentigWebsiteImporter {
 			);
 		}
 
-		// Validate JSON options if provided.
-		$options_param = $request->get_param( 'options' );
-		if ( ! empty( $options_param ) ) {
-			$this->site_options = json_decode( $options_param, true );
-			if ( json_last_error() !== JSON_ERROR_NONE ) {
-				wp_delete_file( $uploaded_file['file'] );
-				return new WP_Error( 'invalid_json', esc_html__( 'Invalid JSON data in options parameter.', 'twentig' ), array( 'status' => 400 ) );
+		// The importer can exit directly, bypassing finally blocks.
+		$upload_path    = $uploaded_file['file'];
+		$cleanup_upload = static function () use ( &$upload_path ) {
+			if ( null === $upload_path ) {
+				return;
 			}
-		} else {
-			$this->site_options = array();
-		}
-
-		$this->has_portfolio     = wp_validate_boolean( $this->site_options['portfolio'] ?? false );
-		$delete_previous_content = wp_validate_boolean( $request->get_param( 'delete_previous_content' ) );
-
-		if ( $delete_previous_content ) {
-			$this->delete_previous_content();
-		}
+			if ( file_exists( $upload_path ) ) {
+				wp_delete_file( $upload_path );
+			}
+			if ( ! file_exists( $upload_path ) ) {
+				// Avoid deleting a later upload that reuses the same filename.
+				$upload_path = null;
+			}
+		};
+		register_shutdown_function( $cleanup_upload );
 
 		try {
-			$result = $this->import_and_update_site( $uploaded_file['file'] );
-		} finally {
-			if ( file_exists( $uploaded_file['file'] ) ) {
-				wp_delete_file( $uploaded_file['file'] );
+			// Validate XML options before importing content.
+			$options_param = $request->get_param( 'options' );
+			if ( null !== $options_param && '' !== $options_param ) {
+				$decoded = is_string( $options_param ) ? json_decode( $options_param ) : null;
+				if ( ! is_object( $decoded ) ) {
+					return new WP_Error( 'invalid_json', esc_html__( 'Invalid JSON data in options parameter.', 'twentig' ), array( 'status' => 400 ) );
+				}
+				$this->site_options = json_decode( $options_param, true );
+			} else {
+				$this->site_options = array();
 			}
+			$this->site_options = Twentig_Starter_Config::validate_uploaded_options( $this->site_options );
+			if ( is_wp_error( $this->site_options ) ) {
+				$this->site_options->add_data( array( 'status' => 400 ) );
+				return $this->site_options;
+			}
+
+			$this->has_portfolio     = wp_validate_boolean( $this->site_options['portfolio'] ?? false );
+			$delete_previous_content = wp_validate_boolean( $request->get_param( 'delete_previous_content' ) );
+			$result                  = $this->import_and_update_site( $uploaded_file['file'], $delete_previous_content );
+		} finally {
+			$cleanup_upload();
 		}
 
 		if ( is_wp_error( $result ) ) {
 			return $result;
 		}
 
-		update_option( 'twentig-customize-starter', 'custom' );
+		$saved = Twentig_Starter_Config::save_from_upload( $this->site_options, $this->processed_ids );
+		if ( is_wp_error( $saved ) ) {
+			return $saved;
+		}
 
 		return new WP_REST_Response(
 			array(
@@ -284,19 +323,15 @@ class TwentigWebsiteImporter {
 	/**
 	 * Imports the website template and updates the site options.
 	 *
-	 * @param string $file Path to the XML import file.
+	 * @param string $file                    Path to the XML import file.
+	 * @param bool   $delete_previous_content Whether to delete previously imported content.
 	 * @return bool|WP_Error True on success, WP_Error on failure.
 	 */
-	public function import_and_update_site( $file ) {
+	public function import_and_update_site( $file, $delete_previous_content = false ) {
 
 		$this->import_started = false;
-
-		add_action( 'import_start', array( $this, 'mark_import_started' ) );
-		add_action( 'import_start', array( $this, 'delete_custom_files' ) );
-		add_action( 'wp_import_insert_post', array( $this, 'match_post_id' ), 10, 4 );
-		add_filter( 'wp_import_existing_post', array( $this, 'import_existing_post' ), 10, 2 );
-		add_filter( 'wp_import_post_data_processed', array( $this, 'import_post_data_processed' ), 10, 2 );
-		add_filter( 'wp_import_term_meta', array( $this, 'add_starter_term_meta' ), 10, 3 );
+		$this->processed_ids  = array();
+		$this->nav_ids        = array();
 
 		// Load WordPress Importer plugin if not already loaded.
 		if ( ! class_exists( 'WP_Import' ) ) {
@@ -305,13 +340,48 @@ class TwentigWebsiteImporter {
 
 		// Check if WordPress Importer is available.
 		if ( ! class_exists( 'WP_Import' ) ) {
-			$this->remove_import_hooks();
 			return new WP_Error( 'wp_import_missing', __( 'WordPress Importer plugin is required to import starter sites.', 'twentig' ) );
+		}
+
+		if ( ! is_file( $file ) || ! is_readable( $file ) ) {
+			return new WP_Error( 'import_file_missing', __( 'The import file could not be read.', 'twentig' ), array( 'status' => 400 ) );
 		}
 
 		// Use WordPress Importer plugin class.
 		$this->importer                    = new WP_Import();
 		$this->importer->fetch_attachments = true;
+
+		// Reject unusable exports before changing any content, templates, or options.
+		ob_start();
+		try {
+			$import_data = $this->importer->parse( $file );
+		} finally {
+			ob_end_clean();
+		}
+
+		if ( is_wp_error( $import_data ) ) {
+			return new WP_Error(
+				'import_parse_failed',
+				__( 'Failed to parse the import file. Please upload a valid WordPress XML export.', 'twentig' ),
+				array( 'status' => 400 )
+			);
+		}
+
+		if ( empty( $import_data['posts'] ) ) {
+			return new WP_Error( 'import_no_content', __( 'The import file does not contain any content.', 'twentig' ), array( 'status' => 400 ) );
+		}
+		unset( $import_data );
+
+		add_action( 'import_start', array( $this, 'mark_import_started' ) );
+		if ( $delete_previous_content ) {
+			// This hook runs only after the importer has parsed the file successfully.
+			add_action( 'import_start', array( $this, 'delete_previous_content' ) );
+		}
+		add_action( 'import_start', array( $this, 'delete_custom_files' ) );
+		add_action( 'wp_import_insert_post', array( $this, 'match_post_id' ), 10, 4 );
+		add_filter( 'wp_import_existing_post', array( $this, 'import_existing_post' ), 10, 2 );
+		add_filter( 'wp_import_post_data_processed', array( $this, 'import_post_data_processed' ), 10, 2 );
+		add_filter( 'wp_import_term_meta', array( $this, 'add_starter_term_meta' ), 10, 3 );
 
 		if ( $this->has_portfolio ) {
 			$options              = twentig_get_options();
@@ -320,14 +390,17 @@ class TwentigWebsiteImporter {
 		}
 
 		ob_start();
-		$this->importer->import(
-			$file,
-			array(
-				'rewrite_urls' => current_theme_supports( 'twentig-theme' ),
-			)
-		);
-		ob_end_clean();
-		$this->remove_import_hooks();
+		try {
+			$this->importer->import(
+				$file,
+				array(
+					'rewrite_urls' => current_theme_supports( 'twentig-theme' ),
+				)
+			);
+		} finally {
+			ob_end_clean();
+			$this->remove_import_hooks();
+		}
 
 		if ( ! $this->import_started ) {
 			return new WP_Error(
@@ -368,6 +441,7 @@ class TwentigWebsiteImporter {
 	 */
 	private function remove_import_hooks() {
 		remove_action( 'import_start', array( $this, 'mark_import_started' ) );
+		remove_action( 'import_start', array( $this, 'delete_previous_content' ) );
 		remove_action( 'import_start', array( $this, 'delete_custom_files' ) );
 		remove_action( 'wp_import_insert_post', array( $this, 'match_post_id' ), 10 );
 		remove_filter( 'wp_import_existing_post', array( $this, 'import_existing_post' ), 10 );
@@ -464,6 +538,10 @@ class TwentigWebsiteImporter {
 	 * @param array  $post             Raw post array.
 	 */
 	public function match_post_id( $post_id, $original_post_id, $postdata, $post ) {
+		if ( is_wp_error( $post_id ) || ! is_int( $post_id ) || 1 > $post_id ) {
+			return;
+		}
+
 		$this->processed_ids[ (int) $original_post_id ] = (int) $post_id;
 		if ( 'wp_navigation' === $post['post_type'] ) {
 			$this->nav_ids[ (int) $original_post_id ] = (int) $post_id;
@@ -478,7 +556,7 @@ class TwentigWebsiteImporter {
 	 * @return int Modified post exists value.
 	 */
 	public function import_existing_post( $post_exists, $post ) {
-		if ( $post_exists && in_array( $post['post_type'], array( 'page', 'post', 'portfolio', 'wp_navigation', 'wp_global_styles' ), true ) ) {
+		if ( $post_exists && in_array( $post['post_type'], array( 'page', 'post', 'portfolio', 'wp_navigation', 'wp_global_styles', 'wp_block' ), true ) ) {
 			$post_exists = 0;
 		}
 		return $post_exists;
@@ -526,6 +604,7 @@ class TwentigWebsiteImporter {
 		if ( in_array( $postdata['post_type'], array( 'page', 'wp_template', 'wp_template_part', 'wp_navigation' ), true ) ) {
 			$postdata['post_content'] = str_replace( 'SITE_URL', get_site_url(), $postdata['post_content'] );
 			$postdata['post_content'] = str_replace( 'THEME_URL', get_template_directory_uri(), $postdata['post_content'] );
+			$postdata['post_content'] = str_replace( 'HASHURL:', '', $postdata['post_content'] );
 
 			if ( 'page' === $postdata['post_type'] ) {
 				$page_types = $this->get_page_types();
@@ -562,7 +641,7 @@ class TwentigWebsiteImporter {
 		}
 
 		// Add meta to identify post as an import
-		if ( in_array( $postdata['post_type'], array( 'page', 'post', 'portfolio', 'attachment', 'wp_navigation' ), true ) ) {
+		if ( in_array( $postdata['post_type'], array( 'page', 'post', 'portfolio', 'attachment', 'wp_navigation', 'wp_block' ), true ) ) {
 			if ( ! isset( $postdata['meta_input'] ) ) {
 				$postdata['meta_input'] = array();
 			}
@@ -676,7 +755,7 @@ class TwentigWebsiteImporter {
 
 		if ( isset( $this->site_options['spacing'] ) ) {
 			$options                       = twentig_get_options();
-			$options['predefined_spacing'] = true;
+			$options['predefined_spacing'] = wp_validate_boolean( $this->site_options['spacing'] );
 			update_option( 'twentig-options', $options );
 		}
 
@@ -721,14 +800,20 @@ class TwentigWebsiteImporter {
 					$val = array_values( array_map( 'strval', (array) $mod_value ) );
 					set_theme_mod( $mod_key, $val );
 				} elseif ( 'menu' === $mod_key ) {
-					$val = array_values( array_filter( (array) $mod_value, 'is_scalar' ) );
+					$val = array_filter( (array) $mod_value, 'is_scalar' );
 					$val = array_map(
 						function( $item ) {
-							return 'home' === $item ? 'home' : absint( $item );
+							return 'home' === $item ? 'home' : ( $this->processed_ids[ absint( $item ) ] ?? 0 );
 						},
 						$val
 					);
-					set_theme_mod( $mod_key, $val );
+					$val = array_values( $val );
+
+					if ( ! $val || in_array( 0, $val, true ) ) {
+						remove_theme_mod( $mod_key );
+					} else {
+						set_theme_mod( $mod_key, $val );
+					}
 				} elseif ( is_scalar( $mod_value ) ) {
 					if ( in_array( $mod_key, array( 'social_instagram', 'social_linkedin', 'social_x', 'social_facebook', 'social_youtube' ), true ) ) {
 						$mod_value = esc_url_raw( (string) $mod_value );
@@ -756,10 +841,11 @@ class TwentigWebsiteImporter {
 		}
 
 		$navigation_args = array(
-			'post_type'     => 'wp_navigation',
-			'no_found_rows' => true,
-			'post_status'   => 'publish',
-			'post__in'      => array_values( $this->nav_ids ),
+			'post_type'      => 'wp_navigation',
+			'posts_per_page' => -1,
+			'no_found_rows'  => true,
+			'post_status'    => 'publish',
+			'post__in'       => array_values( $this->nav_ids ),
 		);
 
 		$navigation_posts = new WP_Query( $navigation_args );
@@ -777,9 +863,13 @@ class TwentigWebsiteImporter {
 					continue;
 				}
 
-				if ( isset( $block['attrs']['id'] ) ) {
+				if (
+					isset( $block['attrs']['id'] )
+					&& 'taxonomy' !== ( $block['attrs']['kind'] ?? null )
+					&& isset( $this->processed_ids[ $block['attrs']['id'] ] )
+				) {
 					$old_id              = $block['attrs']['id'];
-					$page_id             = $this->processed_ids[ $old_id ] ?? $old_id;
+					$page_id             = $this->processed_ids[ $old_id ];
 					$block['attrs']['id']  = $page_id;
 					$block['attrs']['url'] = get_permalink( $page_id );
 
@@ -788,8 +878,18 @@ class TwentigWebsiteImporter {
 						$block['attrs']['label'] = $page_types[ $nav_label ]['title'];
 					}
 				} elseif ( ( $block['attrs']['kind'] ?? null ) === 'taxonomy' ) {
+					$old_term_id = $block['attrs']['id'] ?? 0;
+
+					if ( isset( $this->importer->processed_terms[ $old_term_id ] ) ) {
+						$block['attrs']['id'] = (int) $this->importer->processed_terms[ $old_term_id ];
+					}
+
+					$url = $block['attrs']['url'] ?? '';
+					if ( ! is_string( $url ) || '' === $url ) {
+						continue;
+					}
 					$type = $block['attrs']['type'] ?? 'category';
-					$slug = basename( rtrim( $block['attrs']['url'], '/' ) );
+					$slug = basename( rtrim( $url, '/' ) );
 					if ( 'post_format' === $type ) {
 						$link = get_post_format_link( $slug );
 						if ( $link ) {
@@ -813,7 +913,7 @@ class TwentigWebsiteImporter {
 			wp_update_post(
 				array(
 					'ID'           => $navigation_post->ID,
-					'post_content' => serialize_blocks( $navigation_blocks ),
+					'post_content' => wp_slash( serialize_blocks( $navigation_blocks ) ),
 				)
 			);
 		}
@@ -871,7 +971,7 @@ class TwentigWebsiteImporter {
 			wp_update_post(
 				array(
 					'ID'           => $post->ID,
-					'post_content' => $new_content,
+					'post_content' => wp_slash( $new_content ),
 				)
 			);
 		}
@@ -978,6 +1078,19 @@ class TwentigWebsiteImporter {
 					),
 					'type'       => 'personal',
 				),
+				array(
+					'title'      => __( 'Photography', 'twentig' ),
+					'screenshot' => esc_url( $template_uri . 'photography-starter.webp' ),
+					'file'       => $template_path . 'photography-starter.xml',
+					'url'        => 'https://demo.twentig.com/photography-starter/',
+					'options'    => array(
+						'front_page'     => 'Home',
+						'blog_page'      => 'Blog',
+						'posts_per_page' => 12,
+					),
+					'type'       => 'photography',
+				),
+
 			);
 		}
 

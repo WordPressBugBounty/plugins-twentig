@@ -61,8 +61,10 @@ class Twentig_Customizer_Updater {
 
 		$this->save_blog_templates();
 		$this->save_single_post_template();
-		$this->save_portfolio_templates();
-		$this->save_single_portfolio_template();
+		if ( Twentig_Starter_Config::supports_portfolio() ) {
+			$this->save_portfolio_templates();
+			$this->save_single_portfolio_template();
+		}
 		$this->save_home_template();
 		$this->save_header_template();
 		$this->save_footer_template();
@@ -76,11 +78,15 @@ class Twentig_Customizer_Updater {
 	 * Saves blog index and archive templates.
 	 */
 	private function save_blog_templates() {
-		$blog_layout = get_theme_mod( 'blog_layout', 'default' );
+		$blog_layout = get_theme_mod( 'blog_layout' );
 
-		if ( $blog_layout === 'default' ) {
+		// An explicit default selection must replace an imported loop too.
+		if ( false === $blog_layout || 'custom' === $blog_layout ) {
 			return;
 		}
+
+		$blog_width  = str_contains( $blog_layout, '-full' ) ? 'full' : 'wide';
+		$blog_layout = str_replace( '-full', '', $blog_layout );
 
 		$query_search    = '#<!--\s*wp:query(?!-)\b[^>]*-->.*?<!--\s*/wp:query\s*-->#is';
 		$pattern_content = $this->get_pattern_content( 'post-loop-' . $blog_layout );
@@ -103,6 +109,20 @@ class Twentig_Customizer_Updater {
 			}
 			$post_content = str_replace( $default_pattern, $pattern_content, $post_content );
 
+			if ( 'full' === $blog_width ) {
+				$post_content = str_replace(
+					'"metadata":{"id":"blog-section"},"layout":{"type":"constrained"}}',
+					'"metadata":{"id":"blog-section"}}',
+					$post_content
+				);
+			} else {
+				$post_content = str_replace(
+					'"metadata":{"id":"blog-section"}}',
+					'"metadata":{"id":"blog-section"},"layout":{"type":"constrained"}}',
+					$post_content
+				);
+			}
+
 			$this->update_template_post( $id, $post_content );
 		}
 	}
@@ -115,12 +135,17 @@ class Twentig_Customizer_Updater {
 		$comments      = get_theme_mod( 'comments', 'default' );
 		$navigation    = get_theme_mod( 'single_navigation', 'default' );
 
-		if ( $single_layout === 'default' && $comments === 'default' && $navigation === 'default' ) {
+		if ( 'default' === $single_layout && 'default' === $comments && 'default' === $navigation ) {
 			return;
 		}
 
-		$id              = $this->get_or_create_template( 'single' );
-		$pattern_content = $this->build_single_post_content();
+		$id = $this->get_or_create_template( 'single' );
+		if ( ! $id ) {
+			return;
+		}
+
+		$custom_content  = get_post_field( 'post_content', $id );
+		$pattern_content = $this->build_single_post_content( $custom_content );
 
 		$this->update_template_post( $id, $pattern_content );
 	}
@@ -128,37 +153,54 @@ class Twentig_Customizer_Updater {
 	/**
 	 * Builds single post template content with comments and navigation adjustments.
 	 *
+	 * @param string $custom_content Imported starter template content.
 	 * @return string The assembled template content.
 	 */
-	private function build_single_post_content() {
+	private function build_single_post_content( $custom_content = '' ) {
 		$layout          = get_theme_mod( 'single_layout', 'default' );
 		$comments        = get_theme_mod( 'comments', 'default' );
 		$navigation      = get_theme_mod( 'single_navigation', 'default' );
 		$blog_layout     = get_theme_mod( 'blog_layout', 'default' );
+		$blog_width      = str_contains( $blog_layout, '-full' ) ? 'full' : 'wide';
+		$blog_layout     = str_replace( '-full', '', $blog_layout );
 
-		$pattern_content = $this->get_pattern_content( 'template-single-post-' . $layout );
+		if ( 'custom' !== $layout ) {
+			$registry = WP_Block_Patterns_Registry::get_instance();
+			if ( ! $registry->is_registered( $this->get_pattern_slug( 'template-single-post-' . $layout ) ) ) {
+				$layout = 'default';
+			}
+		}
 
-		if ( $comments === 'none' ) {
+		$pattern_content = 'custom' === $layout ? $custom_content : $this->get_pattern_content( 'template-single-post-' . $layout );
+
+		if ( 'none' === $comments ) {
 			$pattern_content = str_replace( $this->get_selected_pattern( 'comments-default' ), '', $pattern_content );
-		} elseif ( $comments === 'comments-avatar' ) {
+		} elseif ( 'comments-avatar' === $comments ) {
 			$pattern_content = str_replace( $this->get_selected_pattern( 'comments-default' ), $this->get_selected_pattern( 'comments-avatar' ), $pattern_content );
 		}
 
-		if ( $navigation === 'none' ) {
-			if ( $layout === 'sidebar' ) {
+		if ( 'none' === $navigation ) {
+			if ( 'sidebar' === $layout ) {
 				$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation-narrow' ), '', $pattern_content );
 			} else {
 				$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), '', $pattern_content );
 			}
-		} elseif ( $navigation === 'related' ) {
-			if ( $layout === 'sidebar' ) {
+		} elseif ( 'related' === $navigation ) {
+			if ( 'sidebar' === $layout ) {
 				$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation-narrow' ), $this->get_selected_pattern( 'related-posts-sidebar' ), $pattern_content );
-			} elseif ( $blog_layout === 'editorial-list' ) {
+			} elseif ( 'editorial-list' === $blog_layout ) {
 				$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), $this->get_selected_pattern( 'related-posts-default' ), $pattern_content );
 			} else {
 				$registry        = WP_Block_Patterns_Registry::get_instance();
-				$related_pattern = $registry->is_registered( 'twentigone/related-posts-' . $blog_layout ) ? 'related-posts-' . $blog_layout : 'related-posts';
-				$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), $this->get_selected_pattern( $related_pattern ), $pattern_content );
+				$related_pattern = $registry->is_registered( $this->get_pattern_slug( 'related-posts-' . $blog_layout ) ) ? 'related-posts-' . $blog_layout : 'related-posts';
+				$related_content = $this->get_selected_pattern( $related_pattern );
+
+				if ( 'full' === $blog_width ) {
+					$related_content = $this->get_pattern_content( $related_pattern );
+					$related_content = $this->replace_first_occurrence( ',"layout":{"type":"constrained"}', '', $related_content );
+				}
+
+				$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), $related_content, $pattern_content );
 			}
 		}
 
@@ -169,16 +211,20 @@ class Twentig_Customizer_Updater {
 	 * Saves portfolio archive templates and the portfolio page.
 	 */
 	private function save_portfolio_templates() {
-		$portfolio_layout = get_theme_mod( 'portfolio_layout', 'default' );
+		$portfolio_layout = get_theme_mod( 'portfolio_layout' );
 		$portfolio_width  = get_theme_mod( 'portfolio_width', 'wide' );
 
-		if ( $portfolio_layout === 'default' && $portfolio_width === 'wide' ) {
+		// Preserve unselected layouts, but apply an explicitly selected default.
+		if ( false === $portfolio_layout && 'wide' === $portfolio_width ) {
 			return;
 		}
 
+		$portfolio_layout = false === $portfolio_layout ? 'default' : $portfolio_layout;
+		$is_custom        = 'custom' === $portfolio_layout;
+
 		$query_search    = '#<!--\s*wp:query(?!-)\b[^>]*-->.*?<!--\s*/wp:query\s*-->#is';
-		$pattern_content = $this->get_pattern_content( 'portfolio-loop-' . $portfolio_layout );
-		$default_pattern = $this->get_selected_pattern( 'portfolio-loop-default' );
+		$pattern_content = $is_custom ? '' : $this->get_pattern_content( 'portfolio-loop-' . $portfolio_layout );
+		$default_pattern = $is_custom ? '' : $this->get_selected_pattern( 'portfolio-loop-default' );
 
 		$page = get_page_by_path( 'portfolio' );
 		if ( ! $page ) {
@@ -190,16 +236,24 @@ class Twentig_Customizer_Updater {
 
 		if ( $page ) {
 			$portfolio_content = $page->post_content;
-			$result            = preg_replace( $query_search, $pattern_content, $portfolio_content, 1 );
-			if ( null !== $result ) {
-				$portfolio_content = $result;
+			if ( ! $is_custom ) {
+				$result = preg_replace( $query_search, $pattern_content, $portfolio_content, 1 );
+				if ( null !== $result ) {
+					$portfolio_content = $result;
+				}
+				$portfolio_content = str_replace( '"inherit":true', '"inherit":false', $portfolio_content );
 			}
-			$portfolio_content = str_replace( '"inherit":true', '"inherit":false', $portfolio_content );
 
 			if ( 'full' === $portfolio_width ) {
 				$portfolio_content = str_replace(
 					'"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"}',
 					'"metadata":{"id":"portfolio-section"}',
+					$portfolio_content
+				);
+			} elseif ( ! str_contains( $portfolio_content, '"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"}' ) ) {
+				$portfolio_content = str_replace(
+					'"metadata":{"id":"portfolio-section"}',
+					'"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"}',
 					$portfolio_content
 				);
 			}
@@ -222,16 +276,24 @@ class Twentig_Customizer_Updater {
 				$portfolio_content = $this->get_pattern_content( 'template-archive-portfolio' );
 			}
 
-			$result = preg_replace( $query_search, $pattern_content, $portfolio_content, 1 );
-			if ( null !== $result ) {
-				$portfolio_content = $result;
+			if ( ! $is_custom ) {
+				$result = preg_replace( $query_search, $pattern_content, $portfolio_content, 1 );
+				if ( null !== $result ) {
+					$portfolio_content = $result;
+				}
+				$portfolio_content = str_replace( $default_pattern, $pattern_content, $portfolio_content );
 			}
-			$portfolio_content = str_replace( $default_pattern, $pattern_content, $portfolio_content );
 
 			if ( 'full' === $portfolio_width ) {
 				$portfolio_content = str_replace(
 					'"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"}',
 					'"metadata":{"id":"portfolio-section"}',
+					$portfolio_content
+				);
+			} elseif ( ! str_contains( $portfolio_content, '"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"}' ) ) {
+				$portfolio_content = str_replace(
+					'"metadata":{"id":"portfolio-section"}',
+					'"metadata":{"id":"portfolio-section"},"layout":{"type":"constrained"}',
 					$portfolio_content
 				);
 			}
@@ -247,12 +309,17 @@ class Twentig_Customizer_Updater {
 		$portfolio_single = get_theme_mod( 'portfolio_single_layout', 'default' );
 		$portfolio_nav    = get_theme_mod( 'portfolio_single_navigation', 'default' );
 
-		if ( $portfolio_single === 'default' && $portfolio_nav === 'default' ) {
+		if ( 'default' === $portfolio_single && 'default' === $portfolio_nav ) {
 			return;
 		}
 
-		$id              = $this->get_or_create_template( 'single-portfolio' );
-		$pattern_content = $this->build_single_portfolio_content();
+		$id = $this->get_or_create_template( 'single-portfolio' );
+		if ( ! $id ) {
+			return;
+		}
+
+		$custom_content  = get_post_field( 'post_content', $id );
+		$pattern_content = $this->build_single_portfolio_content( $custom_content );
 
 		$this->update_template_post( $id, $pattern_content );
 	}
@@ -260,20 +327,26 @@ class Twentig_Customizer_Updater {
 	/**
 	 * Builds single portfolio template content with navigation adjustments.
 	 *
+	 * @param string $custom_content Imported starter template content.
 	 * @return string The assembled template content.
 	 */
-	private function build_single_portfolio_content() {
+	private function build_single_portfolio_content( $custom_content = '' ) {
 		$layout           = get_theme_mod( 'portfolio_single_layout', 'default' );
 		$navigation       = get_theme_mod( 'portfolio_single_navigation', 'default' );
-		$pattern_content  = $this->get_pattern_content( 'template-single-portfolio-' . $layout );
+		$registry         = WP_Block_Patterns_Registry::get_instance();
 
-		if ( $navigation === 'none' ) {
+		if ( 'custom' !== $layout && ! $registry->is_registered( $this->get_pattern_slug( 'template-single-portfolio-' . $layout ) ) ) {
+			$layout = 'default';
+		}
+
+		$pattern_content  = 'custom' === $layout ? $custom_content : $this->get_pattern_content( 'template-single-portfolio-' . $layout );
+
+		if ( 'none' === $navigation ) {
 			$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), '', $pattern_content );
-		} elseif ( $navigation === 'related' ) {
+		} elseif ( 'related' === $navigation ) {
 			$portfolio_layout = get_theme_mod( 'portfolio_layout', 'default' );
 			$portfolio_width  = get_theme_mod( 'portfolio_width', 'wide' );
-			$registry         = WP_Block_Patterns_Registry::get_instance();
-			$related_pattern  = $registry->is_registered( 'twentigone/related-projects-' . $portfolio_layout ) ? 'related-projects-' . $portfolio_layout : 'related-projects';
+			$related_pattern  = $registry->is_registered( $this->get_pattern_slug( 'related-projects-' . $portfolio_layout ) ) ? 'related-projects-' . $portfolio_layout : 'related-projects';
 			$related_content  = $this->get_selected_pattern( $related_pattern );
 
 			if ( 'full' === $portfolio_width ) {
@@ -282,6 +355,8 @@ class Twentig_Customizer_Updater {
 			}
 
 			$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), $related_content, $pattern_content );
+		} elseif ( 'next' === $navigation && $registry->is_registered( $this->get_pattern_slug( 'post-navigation-next' ) ) ) {
+			$pattern_content = str_replace( $this->get_selected_pattern( 'post-navigation' ), $this->get_selected_pattern( 'post-navigation-' . $navigation ), $pattern_content );
 		}
 
 		return $pattern_content;
@@ -346,7 +421,12 @@ class Twentig_Customizer_Updater {
 	private function save_footer_template() {
 		$footer_layout  = get_theme_mod( 'footer_layout', 'default' );
 		$footer_id      = $this->get_or_create_template( 'footer', 'wp_template_part' );
-		$footer_content = $this->get_selected_pattern( 'footer-' . $footer_layout );
+
+		if ( ! $footer_id ) {
+			return;
+		}
+
+		$footer_content = 'custom' === $footer_layout ? get_post_field( 'post_content', $footer_id ) : $this->get_selected_pattern( 'footer-' . $footer_layout );
 		$footer_content = $this->modify_footer_template( $footer_content );
 
 		$this->update_template_post( $footer_id, $footer_content );
@@ -360,7 +440,7 @@ class Twentig_Customizer_Updater {
 			remove_theme_mod( $mod_key );
 		}
 
-		delete_option( 'twentig-customize-starter' );
+		Twentig_Starter_Config::clear();
 	}
 
 	/**
@@ -401,7 +481,7 @@ class Twentig_Customizer_Updater {
 			),
 			'tax_input'    => array_merge(
 				array( 'wp_theme' => array( $stylesheet ) ),
-				$template_type === 'wp_template_part' ? array( 'wp_template_part_area' => array( $template_name ) ) : array()
+				'wp_template_part' === $template_type ? array( 'wp_template_part_area' => array( $template_name ) ) : array()
 			),
 		);
 
@@ -586,8 +666,11 @@ class Twentig_Customizer_Updater {
 	 */
 	private function get_updated_global_styles_content( $content ) {
 		$selected_palette    = get_theme_mod( 'color_palette' );
-		$custom_palette      = self::normalize_custom_palette_json( get_theme_mod( 'custom_color_palette' ) );
+		$custom_palette      = array();
 		$selected_typography = get_theme_mod( 'typography' );
+		if ( 'twentig-one' === get_template() ) {
+			$custom_palette = self::normalize_custom_palette_json( get_theme_mod( 'custom_color_palette' ) );
+		}
 
 		if ( empty( $selected_palette ) && empty( $custom_palette ) && empty( $selected_typography ) ) {
 			return null;
@@ -604,8 +687,11 @@ class Twentig_Customizer_Updater {
 		$variations = WP_Theme_JSON_Resolver::get_style_variations();
 
 		if ( $selected_palette && ! $custom_palette ) {
-			$variation = current( array_filter( $variations, function( $var ) use ( $selected_palette ) {
-				return isset( $var['title'] ) && $var['title'] === $selected_palette;
+			// Look up the theme's translation of its dynamic style variation name.
+			// phpcs:ignore WordPress.WP.I18n.NonSingularStringLiteralText, WordPress.WP.I18n.NonSingularStringLiteralDomain
+			$palette_title = _x( $selected_palette, 'Style variation name', wp_get_theme()->get( 'TextDomain' ) );
+			$variation = current( array_filter( $variations, function( $var ) use ( $palette_title ) {
+				return isset( $var['title'] ) && $var['title'] === $palette_title;
 			} ) );
 
 			if ( isset( $variation['settings']['color'] ) ) {
@@ -613,7 +699,11 @@ class Twentig_Customizer_Updater {
 			}
 
 			if ( isset( $variation['styles'] ) ) {
-				$content['styles'] = array_replace_recursive( $content['styles'], $variation['styles'] );
+				/** Filters the selected color variation's styles for preview and save. */
+				$variation_styles = apply_filters( 'twentig_starter_color_variation_styles', $variation['styles'], $variation );
+				if ( is_array( $variation_styles ) ) {
+					$content['styles'] = array_replace_recursive( $content['styles'], $variation_styles );
+				}
 			}
 		}
 
@@ -696,7 +786,14 @@ class Twentig_Customizer_Updater {
 	 * @return string Pattern block markup.
 	 */
 	private function get_selected_pattern( $pattern_name ) {
-		return '<!-- wp:pattern {"slug":"twentigone/' . $pattern_name . '"} /-->';
+		return '<!-- wp:pattern {"slug":"' . $this->get_pattern_slug( $pattern_name ) . '"} /-->';
+	}
+
+	/** Returns the selected pattern slug, defaulting to Twentig One's namespace. */
+	private function get_pattern_slug( $pattern_name ) {
+		/** Filters the namespace used for onboarding layout patterns. */
+		$namespace = apply_filters( 'twentig_starter_pattern_namespace', 'twentigone' );
+		return $namespace . '/' . $pattern_name;
 	}
 
 	/**
@@ -710,7 +807,7 @@ class Twentig_Customizer_Updater {
 			return '';
 		}
 
-		$pattern_name = 'twentigone/' . $pattern_name;
+		$pattern_name = $this->get_pattern_slug( $pattern_name );
 		$registry     = WP_Block_Patterns_Registry::get_instance();
 
 		if ( $registry->is_registered( $pattern_name ) ) {
@@ -732,14 +829,16 @@ class Twentig_Customizer_Updater {
 		foreach ( $templates as $key => $template ) {
 			switch ( $template->slug ) {
 				case 'single':
-					$template->content = $this->build_single_post_content();
+					$template->content = $this->build_single_post_content( $template->content );
 					$templates[ $key ] = $template;
 
 					break;
 
 				case 'single-portfolio':
-					$template->content = $this->build_single_portfolio_content();
-					$templates[ $key ] = $template;
+					if ( Twentig_Starter_Config::supports_portfolio() ) {
+						$template->content = $this->build_single_portfolio_content( $template->content );
+						$templates[ $key ] = $template;
+					}
 
 					break;
 			}
@@ -756,10 +855,16 @@ class Twentig_Customizer_Updater {
 	 * @return string Modified block content.
 	 */
 	public function customize_query_block( $block_content, $block ) {
-		if ( ( is_page() && ( $block['attrs']['namespace'] ?? '' ) === 'twentig/portfolio-list' )
-			|| is_tax( array( 'portfolio_category', 'portfolio_tag' ) )
+		if ( Twentig_Starter_Config::supports_portfolio()
+			&& (
+				( is_page() && 'twentig/portfolio-list' === ( $block['attrs']['namespace'] ?? '' ) )
+				|| is_tax( array( 'portfolio_category', 'portfolio_tag' ) )
+			)
 		) {
 			$portfolio_layout  = get_theme_mod( 'portfolio_layout', 'default' );
+			if ( 'custom' === $portfolio_layout ) {
+				return $block_content;
+			}
 			$portfolio_content = $this->get_pattern_content( 'portfolio-loop-' . $portfolio_layout );
 			if ( is_page() ) {
 				$portfolio_content = str_replace( '"inherit":true', '"inherit":false', $portfolio_content );
@@ -768,6 +873,10 @@ class Twentig_Customizer_Updater {
 			return do_blocks( $portfolio_content );
 		} elseif ( is_home() || is_archive() ) {
 			$blog_layout  = get_theme_mod( 'blog_layout', 'default' );
+			if ( 'custom' === $blog_layout ) {
+				return $block_content;
+			}
+			$blog_layout  = str_replace( '-full', '', $blog_layout );
 			$blog_content = $this->get_pattern_content( 'post-loop-' . $blog_layout );
 			remove_filter( 'render_block_core/query', array( $this, 'customize_query_block' ) );
 			return do_blocks( $blog_content );
@@ -848,11 +957,11 @@ class Twentig_Customizer_Updater {
 			}
 
 			foreach ( $blocks as $key => $block ) {
-				if ( $block['blockName'] === 'core/home-link' ) {
+				if ( 'core/home-link' === $block['blockName'] ) {
 					if ( ! in_array( 'home', $menu_items, true ) ) {
 						unset( $blocks[ $key ] );
 					}
-				} elseif ( $block['blockName'] === 'core/navigation-link' ) {
+				} elseif ( 'core/navigation-link' === $block['blockName'] ) {
 					$id = (int) ( $block['attrs']['id'] ?? 0 );
 					if ( $id && ! in_array( $id, $menu_ids, true ) ) {
 						if ( $delete_pages && $id !== $blog_page && $id !== $front_page ) {
@@ -951,9 +1060,9 @@ class Twentig_Customizer_Updater {
 	public function modify_template_part( $block_content, $block ) {
 		$slug = $block['attrs']['slug'] ?? '';
 
-		if ( $slug === 'header' ) {
+		if ( 'header' === $slug ) {
 			return $this->modify_header_template( $block_content, false );
-		} elseif ( $slug === 'footer' ) {
+		} elseif ( 'footer' === $slug ) {
 			return $this->modify_footer_template( $block_content, false );
 		}
 
@@ -990,11 +1099,11 @@ class Twentig_Customizer_Updater {
 
 		$nav_ref         = $this->get_navigation_ref( $default_header );
 		$selected_header = get_theme_mod( 'header_layout', 'default' );
-		$pattern_content = $selected_header === 'default' ? $default_header : $this->get_pattern_content( 'header-' . $selected_header );
+		$pattern_content = 'default' === $selected_header ? $default_header : $this->get_pattern_content( 'header-' . $selected_header );
 
 		if ( $pattern_content ) {
 			$pattern_content = $this->replace_header_content( $pattern_content, $nav_ref );
-
+			
 			if ( $raw_content ) {
 				return $pattern_content;
 			}
@@ -1060,7 +1169,7 @@ class Twentig_Customizer_Updater {
 		$header_style    = get_theme_mod( 'header_style', 'default' );
 		$header_position = get_theme_mod( 'header_position', 'sticky' );
 
-		if ( $header_position !== 'sticky' ) {
+		if ( 'sticky' !== $header_position ) {
 			$replacements = array();
 			switch ( $header_position ) {
 				case 'static':
@@ -1089,7 +1198,7 @@ class Twentig_Customizer_Updater {
 			);
 		}
 
-		if ( $header_style !== 'default' ) {
+		if ( 'default' !== $header_style ) {
 			$replacements = array();
 			switch ( $header_style ) {
 				case 'subtle':
@@ -1131,10 +1240,30 @@ class Twentig_Customizer_Updater {
 	 * @return int|null Navigation post ID or null.
 	 */
 	public static function get_navigation_ref( $content ) {
-		$regex = '/<!-- wp:navigation\s+{[^}]*"ref":\s*(\d+)/';
+		return self::get_navigation_ref_from_blocks( parse_blocks( $content ) );
+	}
 
-		if ( preg_match( $regex, $content, $matches ) ) {
-			return (int) $matches[1];
+	/**
+	 * Finds a navigation ref in parsed blocks.
+	 *
+	 * @param array[] $blocks Parsed blocks.
+	 * @return int|null Navigation post ID or null.
+	 */
+	private static function get_navigation_ref_from_blocks( $blocks ) {
+		foreach ( $blocks as $block ) {
+			if ( 'core/navigation' === ( $block['blockName'] ?? '' ) ) {
+				$ref = $block['attrs']['ref'] ?? null;
+				if ( is_int( $ref ) && 0 < $ref ) {
+					return $ref;
+				}
+			}
+
+			if ( ! empty( $block['innerBlocks'] ) ) {
+				$ref = self::get_navigation_ref_from_blocks( $block['innerBlocks'] );
+				if ( null !== $ref ) {
+					return $ref;
+				}
+			}
 		}
 
 		return null;
@@ -1149,7 +1278,12 @@ class Twentig_Customizer_Updater {
 	 */
 	private function modify_footer_template( $block_content, $raw_content = true ) {
 		$selected_footer = get_theme_mod( 'footer_layout', 'default' );
-		$pattern_content = $this->get_pattern_content( 'footer-' . $selected_footer );
+
+		if ( 'custom' === $selected_footer && ! $raw_content ) {
+			return $block_content;
+		}
+
+		$pattern_content = 'custom' === $selected_footer ? $block_content : $this->get_pattern_content( 'footer-' . $selected_footer );
 		$pattern_content = $this->replace_footer_content( $pattern_content );
 
 		if ( $raw_content ) {
@@ -1181,15 +1315,23 @@ class Twentig_Customizer_Updater {
 		$footer_style = get_theme_mod( 'footer_style', 'default' );
 		$footer_width = get_theme_mod( 'footer_width', 'full' );
 
-		if ( 'wide' === $footer_width ) {
+		$constrained_footer = '"backgroundColor":"base","layout":{"type":"constrained"}';
+
+		if ( 'wide' === $footer_width && ! str_contains( $content, $constrained_footer ) ) {
 			$content = $this->replace_first_occurrence(
 				'"backgroundColor":"base"',
-				'"backgroundColor":"base","layout":{"type":"constrained"}',
+				$constrained_footer,
+				$content
+			);
+		} elseif ( 'full' === $footer_width ) {
+			$content = $this->replace_first_occurrence(
+				$constrained_footer,
+				'"backgroundColor":"base"',
 				$content
 			);
 		}
 
-		if ( $footer_style !== 'default' ) {
+		if ( 'default' !== $footer_style ) {
 			$replacements = array();
 
 			switch ( $footer_style ) {
@@ -1315,13 +1457,13 @@ class Twentig_Customizer_Updater {
 	 * @return string The modified string.
 	 */
 	private function replace_first_occurrence( $needle, $replacement, $haystack ) {
-		if ( $needle === '' ) {
+		if ( '' === $needle ) {
 			return $haystack;
 		}
 
 		$pos = strpos( $haystack, $needle );
 
-		if ( $pos === false ) {
+		if ( false === $pos ) {
 			return $haystack;
 		}
 

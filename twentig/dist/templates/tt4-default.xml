@@ -1390,10 +1390,6 @@ This is just an example of how modern staircase design can use light and shadow 
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2023/11/headshot.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:690;s:6:"height";i:690;s:4:"file";s:21:"2023/11/headshot.webp";s:8:"filesize";i:9706;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:21:"headshot-300x300.webp";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2232;}s:9:"thumbnail";a:5:{s:4:"file";s:21:"headshot-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1108;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[spiral-staircase]]></title>
@@ -1419,10 +1415,6 @@ This is just an example of how modern staircase design can use light and shadow 
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2023/11/spiral-staircase.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1240;s:6:"height";i:820;s:4:"file";s:29:"2023/11/spiral-staircase.webp";s:8:"filesize";i:25612;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:29:"spiral-staircase-300x198.webp";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4748;}s:5:"large";a:5:{s:4:"file";s:30:"spiral-staircase-1024x677.webp";s:5:"width";i:1024;s:6:"height";i:677;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:24672;}s:9:"thumbnail";a:5:{s:4:"file";s:29:"spiral-staircase-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2404;}s:12:"medium_large";a:5:{s:4:"file";s:29:"spiral-staircase-768x508.webp";s:5:"width";i:768;s:6:"height";i:508;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:16862;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 				</item>
 					<item>
@@ -1488,10 +1480,6 @@ This is just an example of how modern staircase design can use light and shadow 
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2023/11/modern-architecture.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1240;s:6:"height";i:820;s:4:"file";s:32:"2023/11/modern-architecture.webp";s:8:"filesize";i:29140;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:32:"modern-architecture-300x198.webp";s:5:"width";i:300;s:6:"height";i:198;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5336;}s:5:"large";a:5:{s:4:"file";s:33:"modern-architecture-1024x677.webp";s:5:"width";i:1024;s:6:"height";i:677;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:29120;}s:9:"thumbnail";a:5:{s:4:"file";s:32:"modern-architecture-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2626;}s:12:"medium_large";a:5:{s:4:"file";s:32:"modern-architecture-768x508.webp";s:5:"width";i:768;s:6:"height";i:508;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:19774;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 			</item>
 				</channel>

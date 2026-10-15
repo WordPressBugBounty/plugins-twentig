@@ -90,6 +90,51 @@ function twentig_register_block_patterns() {
 add_action( 'init', 'twentig_register_block_patterns' );
 
 /**
+ * Makes marked imported patterns available in the starter content chooser.
+ */
+function twentig_register_imported_starter_page_patterns() {
+	$patterns = get_posts(
+		array(
+			'post_type'      => 'wp_block',
+			'post_status'    => 'publish',
+			'posts_per_page' => -1,
+			'meta_key'       => '_twentig_starter_page_pattern',
+			'meta_value'     => '1',
+		)
+	);
+
+	foreach ( $patterns as $pattern ) {
+		$post_type  = get_post_meta( $pattern->ID, '_twentig_starter_post_type', true );
+		$post_type  = is_string( $post_type ) ? sanitize_key( $post_type ) : '';
+		$post_type  = $post_type ? $post_type : 'page';
+		$categories = array();
+		$terms      = wp_get_object_terms( $pattern->ID, 'wp_pattern_category' );
+
+		if ( ! is_wp_error( $terms ) ) {
+			foreach ( $terms as $term ) {
+				if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $term->slug ) ) {
+					register_block_pattern_category( $term->slug, array( 'label' => $term->name ) );
+				}
+				$categories[] = $term->slug;
+			}
+		}
+
+		register_block_pattern(
+			'twentig/starter-page-' . $pattern->ID,
+			array(
+				'title'         => $pattern->post_title,
+				'content'       => $pattern->post_content,
+				'categories'    => $categories,
+				'blockTypes'    => array( 'core/post-content' ),
+				'postTypes'     => array( $post_type ),
+				'viewportWidth' => 1366,
+			)
+		);
+	}
+}
+add_action( 'init', 'twentig_register_imported_starter_page_patterns', 11 );
+
+/**
  * Registers a block pattern.
  *
  * @param string $pattern_name       Pattern name including namespace.

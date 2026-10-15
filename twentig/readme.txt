@@ -5,7 +5,7 @@ Tags: block editor, blocks, wordpress blocks, patterns, portfolio
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.5
+Stable tag: 2.0.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,20 +25,26 @@ For the best experience, pair the Twentig plugin with [Twentig One](https://twen
 
 ### Starter sites
 
-Start with a professionally designed website, not a blank canvas. Import a ready-made [starter site](https://twentig.com/starter-sites/?utm_source=wp-repo&utm_medium=link&utm_campaign=starter) from our growing library and make it your own.
+Start with a professionally designed website, not a blank canvas. Choose a ready-made [starter site](https://twentig.com/starter-sites/?utm_source=wp-repo&utm_medium=link&utm_campaign=starter) from our growing library and make it your own.
 
-Twentig includes starter sites for the Twentig One theme directly in your WordPress dashboard. Import a starter site with one click, then customize the header, footer, homepage, blog, colors, and typography with our Onboarding Customizer.
+Twentig includes built-in starter sites for the Twentig One theme directly in your WordPress dashboard. Import a starter site with one click, then customize the header, footer, homepage, blog, colors, and typography with our Onboarding Customizer.
 
 https://youtu.be/604lIiUruWI
 
-From there, use the block editor to easily replace the content with your own text and images.
+Then use the block editor to replace the content with your own text and images.
 
 Built-in starter sites for Twentig One:
 
 * [Business Starter](https://twentig.com/starter-site/business-starter/)
 * [Portfolio Starter](https://twentig.com/starter-site/portfolio-starter/)
 * [Blog Starter](https://twentig.com/starter-site/blog-starter/)
-* [Personal Starter](https://demo.twentig.com/personal-starter/)
+* [Personal Starter](https://twentig.com/starter-site/personal-starter/)
+* [Photography Starter](https://twentig.com/starter-site/photography-starter/)
+
+Additional starter sites for Twentig One are available to download from our website:
+
+* [Cambon](https://twentig.com/starter-site/cambon/) — Photography portfolio
+* [Sagan](https://twentig.com/starter-site/sagan/) — Personal & CV
 
 Twentig also includes starter sites for the Twenty Twenty-Five and Twenty Twenty-Four themes.
 
@@ -68,6 +74,7 @@ Twentig extends the following WordPress blocks:
 * **Cover:** stretched link (make the cover fully clickable), shape, hover effect
 * **Media & Text:** styles (shadow, overlap, hard shadow), responsive layout, stretched link, full height
 * **Video:** autoplay when in view, minimal controls
+* **Icon:** 1,000+ curated Material Symbols.
 
 #### Text blocks
 
@@ -281,6 +288,20 @@ No, we do not recommend using the Gutenberg plugin on a production site, as it i
 9. **Personalize your buttons.** Add icons to make your buttons more engaging and open videos in a lightbox.
 
 == Changelog ==
+
+= 2.0.6 =
+Release date: October 15, 2026
+
+Twentig 2.0.6 adds a Photography starter site, a new Gallery option, and more icons. [Cambon](https://twentig.com/starter-site/cambon/) and [Sagan](https://twentig.com/starter-site/sagan/), two new starter sites for Twentig One, are also available to download from our website.
+
+* New: Adds an option to fit images to the screen height in Gallery blocks.
+* New: Adds more icons to the curated collection for the Icon block.
+* New: Adds a Photography starter site for the Twentig One theme.
+* New: Adds a dismissible donation notice.
+* Enhancement: Allows custom starter sites to provide presets and default layouts in the Onboarding Customizer.
+* Enhancement: Improves starter site importing and customization.
+* Enhancement: Adds empty-results messages to Posts patterns.
+* Fix: Improves block animation behavior.
 
 = 2.0.5 =
 Release date: September 2, 2026

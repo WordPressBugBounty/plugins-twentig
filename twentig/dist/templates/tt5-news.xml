@@ -383,10 +383,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/sponsor.png]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:300;s:6:"height";i:224;s:4:"file";s:19:"2024/11/sponsor.png";s:8:"filesize";i:1536;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:19:"sponsor-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2059;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[About]]></title>
@@ -579,10 +575,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/gull.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:17:"2024/11/gull.webp";s:8:"filesize";i:13128;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:17:"gull-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2922;}s:5:"large";a:5:{s:4:"file";s:18:"gull-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:12870;}s:9:"thumbnail";a:5:{s:4:"file";s:17:"gull-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1526;}s:12:"medium_large";a:5:{s:4:"file";s:17:"gull-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8828;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Embracing the small miracles in everyday bloom]]></title>
@@ -644,10 +636,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/aster.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:18:"2024/11/aster.webp";s:8:"filesize";i:17908;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:18:"aster-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4306;}s:5:"large";a:5:{s:4:"file";s:19:"aster-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:18370;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"aster-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2816;}s:12:"medium_large";a:5:{s:4:"file";s:18:"aster-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:13054;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -711,10 +699,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/deer.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:17:"2024/11/deer.webp";s:8:"filesize";i:19096;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:17:"deer-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3908;}s:5:"large";a:5:{s:4:"file";s:18:"deer-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:18630;}s:9:"thumbnail";a:5:{s:4:"file";s:17:"deer-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1996;}s:12:"medium_large";a:5:{s:4:"file";s:17:"deer-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:13268;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[The lasting connections that shape a neighborhood]]></title>
@@ -777,10 +761,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/woman.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:18:"2024/11/woman.webp";s:8:"filesize";i:23860;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:18:"woman-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6160;}s:5:"large";a:5:{s:4:"file";s:19:"woman-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:26162;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"woman-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3440;}s:12:"medium_large";a:5:{s:4:"file";s:18:"woman-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:18550;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[The calm emergence of growth and resilience]]></title>
@@ -816,12 +796,7 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[48]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[3]]></wp:meta_value>
-		</wp:postmeta>
-							
+		</wp:postmeta>							
 							</item>
 					<item>
 		<title><![CDATA[bloodwort]]></title>
@@ -847,10 +822,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/bloodwort.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:22:"2024/11/bloodwort.webp";s:8:"filesize";i:15366;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:22:"bloodwort-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3598;}s:5:"large";a:5:{s:4:"file";s:23:"bloodwort-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:15260;}s:9:"thumbnail";a:5:{s:4:"file";s:22:"bloodwort-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2014;}s:12:"medium_large";a:5:{s:4:"file";s:22:"bloodwort-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:10942;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -914,10 +885,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/lake.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:17:"2024/11/lake.webp";s:8:"filesize";i:18702;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:17:"lake-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3904;}s:5:"large";a:5:{s:4:"file";s:18:"lake-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:17674;}s:9:"thumbnail";a:5:{s:4:"file";s:17:"lake-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1752;}s:12:"medium_large";a:5:{s:4:"file";s:17:"lake-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:12626;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[birds]]></title>
@@ -943,10 +910,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/birds.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1340;s:6:"height";i:890;s:4:"file";s:18:"2024/11/birds.webp";s:8:"filesize";i:14132;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:18:"birds-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3096;}s:5:"large";a:5:{s:4:"file";s:19:"birds-1024x680.webp";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:14076;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"birds-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:1530;}s:12:"medium_large";a:5:{s:4:"file";s:18:"birds-768x510.webp";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:9520;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>

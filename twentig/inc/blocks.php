@@ -357,6 +357,7 @@ function twentig_enqueue_block_styles() {
 			array(
 				'handle' => "tw-block-$block_name",
 				'src'    => TWENTIG_ASSETS_URI . "/blocks/{$block_name}/style.css",
+				'ver'    => TWENTIG_VERSION,
 				'path'   => $path,
 			)
 		);

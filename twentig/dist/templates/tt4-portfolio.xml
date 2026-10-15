@@ -337,10 +337,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/canyonrise-01.png]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2304;s:6:"height";i:1296;s:4:"file";s:25:"2024/01/canyonrise-01.png";s:8:"filesize";i:23041;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:25:"canyonrise-01-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:15721;}s:5:"large";a:5:{s:4:"file";s:26:"canyonrise-01-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:70097;}s:9:"thumbnail";a:5:{s:4:"file";s:25:"canyonrise-01-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:13099;}s:12:"medium_large";a:5:{s:4:"file";s:25:"canyonrise-01-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:46077;}s:9:"1536x1536";a:5:{s:4:"file";s:26:"canyonrise-01-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:105198;}s:9:"2048x2048";a:5:{s:4:"file";s:27:"canyonrise-01-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:148041;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[canyonrise-02]]></title>
@@ -366,10 +362,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/canyonrise-02.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2304;s:6:"height";i:1296;s:4:"file";s:25:"2024/01/canyonrise-02.png";s:8:"filesize";i:17400;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:25:"canyonrise-02-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:13918;}s:5:"large";a:5:{s:4:"file";s:26:"canyonrise-02-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:58090;}s:9:"thumbnail";a:5:{s:4:"file";s:25:"canyonrise-02-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:11747;}s:12:"medium_large";a:5:{s:4:"file";s:25:"canyonrise-02-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:38916;}s:9:"1536x1536";a:5:{s:4:"file";s:26:"canyonrise-02-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:85800;}s:9:"2048x2048";a:5:{s:4:"file";s:27:"canyonrise-02-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:118366;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -397,10 +389,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/canyonrise-03.png]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2304;s:6:"height";i:1296;s:4:"file";s:25:"2024/01/canyonrise-03.png";s:8:"filesize";i:14162;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:25:"canyonrise-03-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:11000;}s:5:"large";a:5:{s:4:"file";s:26:"canyonrise-03-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:49459;}s:9:"thumbnail";a:5:{s:4:"file";s:25:"canyonrise-03-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:9190;}s:12:"medium_large";a:5:{s:4:"file";s:25:"canyonrise-03-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:32208;}s:9:"1536x1536";a:5:{s:4:"file";s:26:"canyonrise-03-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:71052;}s:9:"2048x2048";a:5:{s:4:"file";s:27:"canyonrise-03-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:99895;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[shoppermail-01]]></title>
@@ -426,10 +414,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/shoppermail-01.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2304;s:6:"height";i:1296;s:4:"file";s:26:"2024/01/shoppermail-01.png";s:8:"filesize";i:24039;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:26:"shoppermail-01-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:17528;}s:5:"large";a:5:{s:4:"file";s:27:"shoppermail-01-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:74536;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"shoppermail-01-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:14700;}s:12:"medium_large";a:5:{s:4:"file";s:26:"shoppermail-01-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:50111;}s:9:"1536x1536";a:5:{s:4:"file";s:27:"shoppermail-01-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:112546;}s:9:"2048x2048";a:5:{s:4:"file";s:28:"shoppermail-01-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:155478;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -457,10 +441,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/shoppermail-02.png]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2304;s:6:"height";i:1296;s:4:"file";s:26:"2024/01/shoppermail-02.png";s:8:"filesize";i:20284;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:26:"shoppermail-02-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:14606;}s:5:"large";a:5:{s:4:"file";s:27:"shoppermail-02-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:62544;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"shoppermail-02-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:12198;}s:12:"medium_large";a:5:{s:4:"file";s:26:"shoppermail-02-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:42248;}s:9:"1536x1536";a:5:{s:4:"file";s:27:"shoppermail-02-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:93731;}s:9:"2048x2048";a:5:{s:4:"file";s:28:"shoppermail-02-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:128436;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[shoppermail-03]]></title>
@@ -487,10 +467,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/shoppermail-03.png]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2304;s:6:"height";i:1296;s:4:"file";s:26:"2024/01/shoppermail-03.png";s:8:"filesize";i:22597;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:26:"shoppermail-03-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:14393;}s:5:"large";a:5:{s:4:"file";s:27:"shoppermail-03-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:64393;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"shoppermail-03-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:12121;}s:12:"medium_large";a:5:{s:4:"file";s:26:"shoppermail-03-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:43821;}s:9:"1536x1536";a:5:{s:4:"file";s:27:"shoppermail-03-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:98632;}s:9:"2048x2048";a:5:{s:4:"file";s:28:"shoppermail-03-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:134557;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[tea]]></title>
@@ -516,10 +492,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/tea.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1384;s:6:"height";i:920;s:4:"file";s:16:"2024/01/tea.webp";s:8:"filesize";i:31610;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:16:"tea-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6996;}s:5:"large";a:5:{s:4:"file";s:17:"tea-1024x681.webp";s:5:"width";i:1024;s:6:"height";i:681;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:31132;}s:9:"thumbnail";a:5:{s:4:"file";s:16:"tea-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3580;}s:12:"medium_large";a:5:{s:4:"file";s:16:"tea-768x511.webp";s:5:"width";i:768;s:6:"height";i:511;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:21568;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -586,10 +558,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/colors.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1384;s:6:"height";i:920;s:4:"file";s:19:"2024/01/colors.webp";s:8:"filesize";i:24286;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:19:"colors-300x199.webp";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5526;}s:5:"large";a:5:{s:4:"file";s:20:"colors-1024x681.webp";s:5:"width";i:1024;s:6:"height";i:681;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:22308;}s:9:"thumbnail";a:5:{s:4:"file";s:19:"colors-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3042;}s:12:"medium_large";a:5:{s:4:"file";s:19:"colors-768x511.webp";s:5:"width";i:768;s:6:"height";i:511;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:15940;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[about-sofia]]></title>
@@ -615,10 +583,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/01/about-sofia.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1048;s:6:"height";i:1396;s:4:"file";s:24:"2024/01/about-sofia.webp";s:8:"filesize";i:40178;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:24:"about-sofia-225x300.webp";s:5:"width";i:225;s:6:"height";i:300;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7028;}s:5:"large";a:5:{s:4:"file";s:25:"about-sofia-769x1024.webp";s:5:"width";i:769;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:38076;}s:9:"thumbnail";a:5:{s:4:"file";s:24:"about-sofia-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3476;}s:12:"medium_large";a:5:{s:4:"file";s:25:"about-sofia-768x1023.webp";s:5:"width";i:768;s:6:"height";i:1023;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:37544;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>

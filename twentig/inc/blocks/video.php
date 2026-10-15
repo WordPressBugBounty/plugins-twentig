@@ -80,17 +80,17 @@ function twentig_filter_video_block( $block_content, $block ) {
 
 			$button_html  = '<button class="'. $button_classes . '" data-wp-on--click="actions.playVideo" aria-label="'. esc_html_x( 'Play video', 'video control', 'twentig' ) .'" data-wp-bind--hidden="context.isVideoStarted">
 				<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-					<path d="M8 19V5l11 7z" class="control-visible"/>
+					<path d="M8 19V5l11 7z" class="control-play"/>
 				</svg></button>';
 		} else {
-			$button_html  = '<button class="'. $button_classes . '" data-wp-on--click="actions.playPauseVideo" data-wp-bind--aria-label="state.ariaLabel" data-wp-class--playing="context.isVideoPlaying">
+			$button_html  = '<button class="'. $button_classes . '" data-wp-on--click="actions.playPauseVideo" data-wp-bind--aria-label="state.ariaLabel" data-wp-class--playing="context.isVideoPlaying" data-wp-class--ended="context.isVideoEnded">
 				<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-					<path data-wp-class--control-visible="context.isVideoPaused" d="M8 19V5l11 7z"/>
-					<path data-wp-class--control-visible="context.isVideoPlaying" d="M10.5 18H7V6h3.5zm6.5 0h-3.5V6H17z"/>
+					<path class="control-play" d="M8 19V5l11 7z"/>
+					<path class="control-pause" d="M10.5 18H7V6h3.5zm6.5 0h-3.5V6H17z"/>
 				';
 				
 			if ( $loop === null ) {
-				$button_html  .= '<path data-wp-class--control-visible="context.isVideoEnded" d="M12 5.333c-.175 0-.35.017-.517.034l1.525-1.525-1.175-1.175-3.508 3.5 3.508 3.508L13.008 8.5 11.55 7.042C11.7 7.025 11.842 7 12 7a5.84 5.84 0 0 1 5.833 5.833A5.84 5.84 0 0 1 12 18.667a5.84 5.84 0 0 1-5.833-5.834H4.5a7.5 7.5 0 1 0 7.5-7.5" />';
+				$button_html  .= '<path class="control-replay" d="M12 5.333c-.175 0-.35.017-.517.034l1.525-1.525-1.175-1.175-3.508 3.5 3.508 3.508L13.008 8.5 11.55 7.042C11.7 7.025 11.842 7 12 7a5.84 5.84 0 0 1 5.833 5.833A5.84 5.84 0 0 1 12 18.667a5.84 5.84 0 0 1-5.833-5.834H4.5a7.5 7.5 0 1 0 7.5-7.5" />';
 			}
 			$button_html  .= '</svg></button>';
 		}

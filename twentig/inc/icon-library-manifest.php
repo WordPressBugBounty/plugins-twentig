@@ -1070,6 +1070,10 @@ return array(
 		'label'    => 'Discover Tune',
 		'filePath' => 'discover_tune.svg',
 	),
+	'display_group' => array(
+		'label'    => 'Display Group',
+		'filePath' => 'display_group.svg',
+	),
 	'diversity_1' => array(
 		'label'    => 'Diversity 1',
 		'filePath' => 'diversity_1.svg',
@@ -2214,6 +2218,46 @@ return array(
 		'label'    => 'Looks',
 		'filePath' => 'looks.svg',
 	),
+	'looks_0' => array(
+		'label'    => 'Looks 0',
+		'filePath' => 'looks_0.svg',
+	),
+	'looks_1' => array(
+		'label'    => 'Looks 1',
+		'filePath' => 'looks_1.svg',
+	),
+	'looks_2' => array(
+		'label'    => 'Looks 2',
+		'filePath' => 'looks_2.svg',
+	),
+	'looks_3' => array(
+		'label'    => 'Looks 3',
+		'filePath' => 'looks_3.svg',
+	),
+	'looks_4' => array(
+		'label'    => 'Looks 4',
+		'filePath' => 'looks_4.svg',
+	),
+	'looks_5' => array(
+		'label'    => 'Looks 5',
+		'filePath' => 'looks_5.svg',
+	),
+	'looks_6' => array(
+		'label'    => 'Looks 6',
+		'filePath' => 'looks_6.svg',
+	),
+	'looks_7' => array(
+		'label'    => 'Looks 7',
+		'filePath' => 'looks_7.svg',
+	),
+	'looks_8' => array(
+		'label'    => 'Looks 8',
+		'filePath' => 'looks_8.svg',
+	),
+	'looks_9' => array(
+		'label'    => 'Looks 9',
+		'filePath' => 'looks_9.svg',
+	),
 	'loupe' => array(
 		'label'    => 'Loupe',
 		'filePath' => 'loupe.svg',
@@ -2645,6 +2689,14 @@ return array(
 	'pentagon' => array(
 		'label'    => 'Pentagon',
 		'filePath' => 'pentagon.svg',
+	),
+	'people_size_decrease' => array(
+		'label'    => 'People Size Decrease',
+		'filePath' => 'people_size_decrease.svg',
+	),
+	'people_size_increase' => array(
+		'label'    => 'People Size Increase',
+		'filePath' => 'people_size_increase.svg',
 	),
 	'percent' => array(
 		'label'    => 'Percent',
@@ -3378,6 +3430,10 @@ return array(
 		'label'    => 'Space Dashboard',
 		'filePath' => 'space_dashboard.svg',
 	),
+	'spatial_gallery' => array(
+		'label'    => 'Spatial Gallery',
+		'filePath' => 'spatial_gallery.svg',
+	),
 	'speaker' => array(
 		'label'    => 'Speaker',
 		'filePath' => 'speaker.svg',
@@ -3705,6 +3761,10 @@ return array(
 	'target' => array(
 		'label'    => 'Target',
 		'filePath' => 'target.svg',
+	),
+	'target_check' => array(
+		'label'    => 'Target Check',
+		'filePath' => 'target_check.svg',
 	),
 	'task' => array(
 		'label'    => 'Task',

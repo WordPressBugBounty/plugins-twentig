@@ -392,10 +392,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/01/georgia.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:20:"2026/01/georgia.webp";s:8:"filesize";i:134760;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:20:"georgia-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:11782;}s:5:"large";a:5:{s:4:"file";s:21:"georgia-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:79994;}s:9:"thumbnail";a:5:{s:4:"file";s:20:"georgia-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5570;}s:12:"medium_large";a:5:{s:4:"file";s:20:"georgia-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:50190;}s:9:"1536x1536";a:5:{s:4:"file";s:22:"georgia-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:149874;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[A collection of songs for a gentle moment of peace and reflection]]></title>
@@ -478,10 +474,6 @@ https://open.spotify.com/playlist/37i9dQZF1DX0x3hhpH7R9I
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/01/tea.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:16:"2026/01/tea.webp";s:8:"filesize";i:68454;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:16:"tea-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8202;}s:5:"large";a:5:{s:4:"file";s:17:"tea-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:43066;}s:9:"thumbnail";a:5:{s:4:"file";s:16:"tea-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4020;}s:12:"medium_large";a:5:{s:4:"file";s:16:"tea-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:28476;}s:9:"1536x1536";a:5:{s:4:"file";s:18:"tea-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:73768;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[My conversation with a classic car on a long and lonely road]]></title>
@@ -556,10 +548,6 @@ https://open.spotify.com/playlist/37i9dQZF1DX0x3hhpH7R9I
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/01/classic-car.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:24:"2026/01/classic-car.webp";s:8:"filesize";i:133668;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:24:"classic-car-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:10876;}s:5:"large";a:5:{s:4:"file";s:25:"classic-car-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:86106;}s:9:"thumbnail";a:5:{s:4:"file";s:24:"classic-car-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:4388;}s:12:"medium_large";a:5:{s:4:"file";s:24:"classic-car-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:53910;}s:9:"1536x1536";a:5:{s:4:"file";s:26:"classic-car-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:157608;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -643,10 +631,6 @@ https://youtu.be/ZKsbpEoTyLM
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/01/portugal.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:21:"2026/01/portugal.webp";s:8:"filesize";i:117782;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:21:"portugal-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:8830;}s:5:"large";a:5:{s:4:"file";s:22:"portugal-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:67058;}s:9:"thumbnail";a:5:{s:4:"file";s:21:"portugal-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3994;}s:12:"medium_large";a:5:{s:4:"file";s:21:"portugal-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:41334;}s:9:"1536x1536";a:5:{s:4:"file";s:23:"portugal-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:127916;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Rediscovering the simple joy of pizza made with a wood fire]]></title>
@@ -721,10 +705,6 @@ https://youtu.be/ZKsbpEoTyLM
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/01/pizza.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:18:"2026/01/pizza.webp";s:8:"filesize";i:123448;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:18:"pizza-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:15760;}s:5:"large";a:5:{s:4:"file";s:19:"pizza-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:86330;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"pizza-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:6740;}s:12:"medium_large";a:5:{s:4:"file";s:18:"pizza-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:58094;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"pizza-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:147656;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -802,7 +782,7 @@ https://youtu.be/ZKsbpEoTyLM
 			<wp:comment_author><![CDATA[John Wapuu]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[contact@example.com]]></wp:comment_author_email>
 			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[90.79.21.148]]></wp:comment_author_IP>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2026-01-09 19:16:30]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2026-01-09 19:16:30]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard. Commenter avatars come from Gravatar.]]></wp:comment_content>
@@ -837,10 +817,6 @@ https://youtu.be/ZKsbpEoTyLM
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2026/01/japan.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1800;s:6:"height";i:1350;s:4:"file";s:18:"2026/01/japan.webp";s:8:"filesize";i:134490;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:18:"japan-300x225.webp";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:16538;}s:5:"large";a:5:{s:4:"file";s:19:"japan-1024x768.webp";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:97504;}s:9:"thumbnail";a:5:{s:4:"file";s:18:"japan-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:7724;}s:12:"medium_large";a:5:{s:4:"file";s:18:"japan-768x576.webp";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:67110;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"japan-1536x1152.webp";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:169942;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>

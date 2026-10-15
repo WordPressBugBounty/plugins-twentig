@@ -617,10 +617,6 @@
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/bloodwort.webp]]></wp:meta_value>
 		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1290;s:6:"height";i:800;s:4:"file";s:22:"2024/11/bloodwort.webp";s:8:"filesize";i:14702;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:22:"bloodwort-300x186.webp";s:5:"width";i:300;s:6:"height";i:186;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:3432;}s:5:"large";a:5:{s:4:"file";s:23:"bloodwort-1024x635.webp";s:5:"width";i:1024;s:6:"height";i:635;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:14890;}s:9:"thumbnail";a:5:{s:4:"file";s:22:"bloodwort-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2076;}s:12:"medium_large";a:5:{s:4:"file";s:22:"bloodwort-768x476.webp";s:5:"width";i:768;s:6:"height";i:476;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:10686;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[The story of sunflowers and their little visitors]]></title>
@@ -677,10 +673,6 @@
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2024/11/sunflower.webp]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1290;s:6:"height";i:800;s:4:"file";s:22:"2024/11/sunflower.webp";s:8:"filesize";i:24116;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:22:"sunflower-300x186.webp";s:5:"width";i:300;s:6:"height";i:186;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:5854;}s:5:"large";a:5:{s:4:"file";s:23:"sunflower-1024x635.webp";s:5:"width";i:1024;s:6:"height";i:635;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:25408;}s:9:"thumbnail";a:5:{s:4:"file";s:22:"sunflower-150x150.webp";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2790;}s:12:"medium_large";a:5:{s:4:"file";s:22:"sunflower-768x476.webp";s:5:"width";i:768;s:6:"height";i:476;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:17974;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					

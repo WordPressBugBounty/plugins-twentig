@@ -97,7 +97,9 @@ class TwentigSettings {
 				case 'portfolio_slug':
 				case 'portfolio_category_slug':
 				case 'portfolio_tag_slug':
-					$sanitized[ $key ] = sanitize_title( $value );
+					if ( is_string( $value ) ) {
+						$sanitized[ $key ] = sanitize_title( $value );
+					}
 					break;
 			}
 		}
@@ -116,6 +118,7 @@ class TwentigSettings {
 		$settings           = $request->get_param( 'settings' );
 		$sanitized_settings = $this->sanitize_options( is_array( $settings ) ? $settings : array() );
 		$existing           = get_option( 'twentig-options', array() );
+		$existing           = is_array( $existing ) ? $existing : array();
 
 		$portfolio_changed = false;
 		foreach ( array( 'portfolio', 'portfolio_slug', 'portfolio_category_slug', 'portfolio_tag_slug' ) as $key ) {

@@ -20,28 +20,31 @@ function twentig_add_block_animation( $block_content, $block ) {
 		return $block_content;
 	}
 
-	static $script_enqueued = false;
-	if ( ! $script_enqueued ) {
-		wp_enqueue_script(
-			'tw-block-animation',
-			TWENTIG_ASSETS_URI . '/js/block-animation.js',
-			array(),
-			TWENTIG_VERSION,
-			array(
-				'in_footer' => false,
-				'strategy'  => 'defer',
-			)
-		);
-		$script_enqueued = true;
-	}
-
 	$attributes = $block['attrs'];
 	$animation  = $attributes['twAnimation'];
 	$duration   = $attributes['twAnimationDuration'] ?? '';
-	$delay      = $attributes['twAnimationDelay'] ?? 0;
+	$raw_delay  = $attributes['twAnimationDelay'] ?? 0;
+	$delay      = is_numeric( $raw_delay ) ? (float) $raw_delay : 0;
+	if ( ! is_finite( $delay ) ) {
+		$delay = 0;
+	}
 
 	$tag_processor = new WP_HTML_Tag_Processor( $block_content );
-	$tag_processor->next_tag();
+	if ( ! $tag_processor->next_tag() ) {
+		return $block_content;
+	}
+
+	wp_enqueue_script(
+		'tw-block-animation',
+		TWENTIG_ASSETS_URI . '/js/block-animation.js',
+		array(),
+		TWENTIG_VERSION,
+		array(
+			'in_footer' => false,
+			'strategy'  => 'defer',
+		)
+	);
+
 	$tag_processor->add_class( 'tw-block-animation' );
 	$tag_processor->add_class( sanitize_html_class( 'tw-animation-' . $animation ) );
 
@@ -51,7 +54,8 @@ function twentig_add_block_animation( $block_content, $block ) {
 
 	if ( $delay ) {
 		$style_attr = $tag_processor->get_attribute( 'style' );
-		$style      = '--tw-animation-delay:' . esc_attr( $delay ) . 's;' . $style_attr;
+		$style      = '--tw-animation-delay:' . $delay . 's;';
+		$style     .= is_string( $style_attr ) ? $style_attr : '';
 		$tag_processor->set_attribute( 'style', $style );
 	}
 
@@ -64,6 +68,6 @@ add_filter( 'render_block', 'twentig_add_block_animation', 10, 2 );
  * Adds a style tag element when no JavaScript is detected.
  */
 function twentig_support_no_script() {
-	echo "<noscript><style>.tw-block-animation{opacity:1;transform:none;clip-path:none;}</style></noscript>\n";
+	echo "<noscript><style>.tw-block-animation{opacity:1!important;}</style></noscript>\n";
 }
 add_action( 'wp_head', 'twentig_support_no_script' );

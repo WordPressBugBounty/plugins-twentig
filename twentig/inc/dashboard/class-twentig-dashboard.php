@@ -85,6 +85,7 @@ class TwentigDashboard {
 	 * Loads the required dependencies for the Twentig dashboard.
 	 */
 	private function load_dependencies() {
+		require_once TWENTIG_PATH . 'inc/dashboard/class-twentig-starter-config.php';
 		require_once TWENTIG_PATH . 'inc/dashboard/class-twentig-website-importer.php';
 		require_once TWENTIG_PATH . 'inc/dashboard/class-twentig-settings.php';
 		require_once TWENTIG_PATH . 'inc/dashboard/class-twentig-customizer.php';
@@ -92,7 +93,17 @@ class TwentigDashboard {
 		$this->website_importer = new TwentigWebsiteImporter();
 		$this->settings_manager = new TwentigSettings();
 
-		if ( get_template() === self::THEME ) {
+		add_action( 'after_setup_theme', array( $this, 'maybe_load_starter_customizer' ), 30 );
+	}
+
+	/** Whether this theme supports Twentig's starter-site Customizer. */
+	public static function supports_starter_customizer() {
+		return self::THEME === get_template() || current_theme_supports( 'twentig-starter-customizer' );
+	}
+
+	/** Boots the Customizer after themes and extensions have registered support. */
+	public function maybe_load_starter_customizer() {
+		if ( self::supports_starter_customizer() ) {
 			$this->customizer = new Twentig_Customizer();
 		}
 	}
@@ -214,24 +225,25 @@ class TwentigDashboard {
 				'twentig-homescreen',
 				'var twentigDashboardConfig = ' . wp_json_encode(
 					array(
-						'siteUrl'            => esc_url( get_home_url() ),
-						'editorUrl'          => esc_url( admin_url( 'site-editor.php' ) ),
-						'customizerUrl'      => esc_url( admin_url( 'customize.php?startersite=1' ) ),
-						'assetsUrl'          => TWENTIG_ASSETS_URI . '/images/',
-						'theme'              => get_template(),
-						'isBlockTheme'       => wp_is_block_theme(),
-						'isTwentigTheme'     => current_theme_supports( 'twentig-theme' ),
-						'supportsSpacing'    => current_theme_supports( 'tw-spacing' ),
-						'blogTemplate'       => $blog_template,
-						'wpVersion'          => get_bloginfo( 'version' ),
-						'updateWordPressUrl' => current_user_can( 'update_core' ) ? network_admin_url( 'update-core.php' ) : '',
-						'twentigVersion'     => TWENTIG_VERSION,
-						'updateTwentigUrl'   => current_user_can( 'update_plugins' ) ? esc_url( $plugin_update_url ) : '',
-						'deletePrevious'     => $this->website_importer->has_imported_posts(),
-						'isFreshSite'        => get_option( 'fresh_site' ) ? true : false,
-						'twentigOptions'     => twentig_get_options(),
-						'starterSites'       => $starter_sites,
-						'isImporterActive'   => is_plugin_active( 'wordpress-importer/wordpress-importer.php' ),
+						'siteUrl'                   => esc_url( get_home_url() ),
+						'editorUrl'                 => esc_url( admin_url( 'site-editor.php' ) ),
+						'customizerUrl'             => esc_url( admin_url( 'customize.php?startersite=1' ) ),
+						'assetsUrl'                 => TWENTIG_ASSETS_URI . '/images/',
+						'theme'                     => get_template(),
+						'isBlockTheme'              => wp_is_block_theme(),
+						'isTwentigTheme'            => current_theme_supports( 'twentig-theme' ),
+						'supportsStarterCustomizer' => self::supports_starter_customizer(),
+						'supportsSpacing'           => current_theme_supports( 'tw-spacing' ),
+						'blogTemplate'              => $blog_template,
+						'wpVersion'                 => get_bloginfo( 'version' ),
+						'updateWordPressUrl'        => current_user_can( 'update_core' ) ? network_admin_url( 'update-core.php' ) : '',
+						'twentigVersion'            => TWENTIG_VERSION,
+						'updateTwentigUrl'          => current_user_can( 'update_plugins' ) ? esc_url_raw( html_entity_decode( $plugin_update_url, ENT_QUOTES, 'UTF-8' ) ) : '',
+						'deletePrevious'            => $this->website_importer->has_imported_posts(),
+						'isFreshSite'               => get_option( 'fresh_site' ) ? true : false,
+						'twentigOptions'            => twentig_get_options(),
+						'starterSites'              => $starter_sites,
+						'isImporterActive'          => is_plugin_active( 'wordpress-importer/wordpress-importer.php' ),
 					)
 				) . ';',
 				'before'

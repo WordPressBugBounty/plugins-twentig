@@ -12,9 +12,9 @@ class Twentig_Customizer {
 	 * Constructor.
 	 */
 	public function __construct() {
-		if ( get_option( 'twentig-customize-starter' ) ) {
+		if ( Twentig_Starter_Config::get_type() ) {
 			add_action( 'init', array( $this, 'load_dependencies' ) );
-			add_action( 'after_setup_theme', array( $this, 'theme_support' ) );
+			$this->theme_support();
 		}
 	}
 
